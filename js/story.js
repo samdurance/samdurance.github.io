@@ -303,7 +303,7 @@ var squiffy = {};
         var sectionCount = squiffy.get('_section-count') + 1;
         squiffy.set('_section-count', sectionCount);
         var id = 'squiffy-section-' + sectionCount;
-        currentSection = jQuery('<div class="section" />', {
+        currentSection = jQuery('<div/>', {
             id: id,
         }).appendTo(squiffy.ui.output);
         squiffy.set('_output-section', id);
@@ -312,7 +312,7 @@ var squiffy = {};
     squiffy.ui.write = function(text) {
         screenIsClear = false;
         scrollPosition = squiffy.ui.output.height();
-        currentSection.append(jQuery('<div class="inner-section" />').html(squiffy.ui.processText(text)));
+        currentSection.append(jQuery('<div/>').html(squiffy.ui.processText(text)));
         squiffy.ui.scrollToEnd();
     };
 
@@ -610,7 +610,7 @@ var set = squiffy.set;
 
 
 squiffy.story.start = 'start';
-squiffy.story.id = '56fa602ffb';
+squiffy.story.id = '03cfcc415d';
 squiffy.story.sections = {
 	'_default': {
 		'text': "",
@@ -628,7 +628,7 @@ squiffy.story.sections = {
 		'attributes': ["carkiss"],
 		'passages': {
 			'Bildlink': {
-				'text': "<img src=\"http://placekitten.com/500/200\" class=\"img-responsive render\" />",
+				'text': "<p><img src=\"http://placekitten.com/500/200\" class=\"img-responsive\" /></p>",
 			},
 		},
 	},
@@ -636,7 +636,7 @@ squiffy.story.sections = {
 		'text': "<p>Carkisstext NO mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p>{Carkiss more}</p>",
 		'passages': {
 			'Bildlink': {
-				'text': "<p><img src=\"http://placekitten.com/200/300\" class=\"img-responsive render\" /></p>",
+				'text': "<p><img src=\"http://placekitten.com/200/300\" class=\"img-responsive\" /></p>",
 			},
 		},
 	},
@@ -650,7 +650,7 @@ squiffy.story.sections = {
 		'attributes': ["greetingfail"],
 		'passages': {
 			'Bildlink': {
-				'text': "<p><img src=\"http://placekitten.com/250/300\" class=\"img-responsive render\" /></p>",
+				'text': "<p><img src=\"http://placekitten.com/250/300\" class=\"img-responsive\" /></p>",
 			},
 		},
 	},
@@ -658,7 +658,7 @@ squiffy.story.sections = {
 		'text': "<p>Greetingfailtext NO mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p>{Greetingfail more}</p>",
 		'passages': {
 			'Bildlink': {
-				'text': "<p><img src=\"http://placekitten.com/623/300\" class=\"img-responsive render\" /></p>",
+				'text': "<p><img src=\"http://placekitten.com/623/300\" class=\"img-responsive\" /></p>",
 			},
 		},
 	},
@@ -771,27 +771,27 @@ squiffy.story.sections = {
 		},
 	},
 	'ResultA_101': {
-		'text': "<p>{Samstory more}</p>\n<p>Sam scheucht A aus der Kammer<br/>\nmürrisch wegen As Kritik an Sams Wahl<br/>\naber <3 Lara im Kleid<br/>\nredet Lara gut zu</p>",
+		'text': "<p>{Samstory more}</p>\n<p>Sam scheucht A aus der Kammer<br/>\nmürrisch wegen As Kritik an Sams Wahl<br/>\naber <3 Lara im Kleid<br/>\nredet Lara gut zu <br/></p>\n<p>{Punsch transition}</p>",
 		'passages': {
 		},
 	},
 	'ResultA_100': {
-		'text': "<p>{Samstory more}</p>\n<p>Sam und A diskutieren wegen Laras Kleidung<br/>\nLara : Do I have a say in this?<br/>\nA + Sam : No</p>",
+		'text': "<p>{Samstory more}</p>\n<p>Sam und A diskutieren wegen Laras Kleidung<br/>\nLara : Do I have a say in this?<br/>\nA + Sam : No<br/></p>\n<p>{Punsch transition}</p>",
 		'passages': {
 		},
 	},
 	'ResultA_011': {
-		'text': "<p>{Samstory more}</p>\n<p>Sam überzeugt A, Lara Privatspähre zu geben<br/>\nmacht Lara in Kleid Kompliment<br/>\nküsst sie ohne dass A es sieht</p>",
+		'text': "<p>{Samstory more}</p>\n<p>Sam überzeugt A, Lara Privatspähre zu geben<br/>\nmacht Lara in Kleid Kompliment<br/>\nküsst sie ohne dass A es sieht<br/></p>\n<p>{Punsch transition}</p>",
 		'passages': {
 		},
 	},
 	'ResultA_010': {
-		'text': "<p>{Samstory more}</p>\n<p>Sam zieht Lara BH aus und steckt sie in Kleid während A beschäftigt ist<br/>\nStichelei: wenigstens hat Lara jetzt was passendes an<br/></p>",
+		'text': "<p>{Samstory more}</p>\n<p>Sam zieht Lara BH aus und steckt sie in Kleid während A beschäftigt ist<br/>\nStichelei: wenigstens hat Lara jetzt was passendes an<br/></p>\n<p>{Punsch transition}</p>",
 		'passages': {
 		},
 	},
 	'ResultA_001': {
-		'text': "<p>{Samstory more}</p>\n<p>Sam überzeugt A, Lara Privatspähre zu geben<br/>\nStichelei: Lara mag As Kleider eh mehr als was Sam anbot</p>",
+		'text': "<p>{Samstory more}</p>\n<p>Sam überzeugt A, Lara Privatspähre zu geben<br/>\nStichelei: Lara mag As Kleider eh mehr als was Sam anbot<br/></p>\n<p>{Punsch transition}</p>",
 		'passages': {
 		},
 	},
@@ -801,12 +801,27 @@ squiffy.story.sections = {
 		},
 	},
 	'ResultA_11': {
-		'text': "<p>ComplimenttextNO und Übergang zur nächsten Szene</p>",
+		'text': "<p>ComplimenttextNO und Übergang zur nächsten Szene<br/></p>\n<p>{Punsch transition}</p>",
+		'passages': {
+		},
+	},
+	'Punsch transition': {
+		'text': "<p>Punsch Einleitungs text bis zur Interrupt Entscheidung</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Interrupt yes\" role=\"link\" tabindex=\"0\">Interrupt yes</a> <a class=\"squiffy-link link-section\" data-section=\"Interrupt no\" role=\"link\" tabindex=\"0\">Interrupt no</a> </p>",
+		'passages': {
+		},
+	},
+	'Interrupt yes': {
+		'text': "<p>Lara verlangt mehr Punsch zum Ablenken, und wie toll der doch ist, trinkt erste Fuhre auf Ex, und noch mehr und dann wird ihr schlecht, was die Runde abbricht </br></br></br>\nÜbergang zur Fluffrunde und letztlich Dinner</p>",
+		'passages': {
+		},
+	},
+	'Interrupt no': {
+		'text': "<p>Vielleicht verschluckt sie sich dann ja auf dem &quot;not&quot; Weg, weil da halt dann die gemeinere Frage kommt</br></br></br>\nÜbergang zur Fluffrunde und letztlich Dinner</p>",
 		'passages': {
 		},
 	},
 	'Hisao': {
-		'text': "<p>Hisaotext bis zur teaseEntscheidung mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p>{Hisao more}</p>",
+		'text': "<p>Hisaotext bis zur ersten Entscheidung mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p>{Hisao more}</p>",
 		'attributes': ["hisao"],
 		'passages': {
 			'Bildlink': {
@@ -815,7 +830,7 @@ squiffy.story.sections = {
 		},
 	},
 	'Hisao more': {
-		'text': "<p>Lara bietet sich sogleich an beim Vorhaben zu helfen <br>\nH geht mit Salara raus um Beleuchtung abzunehmen <br>\nSalara zieht sich wieder an/oder ist noch angezogen?, Sam ist whiny </p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Tease yes\" role=\"link\" tabindex=\"0\">Tease yes</a> <a class=\"squiffy-link link-section\" data-section=\"Tease no\" role=\"link\" tabindex=\"0\">Tease no</a></p>",
+		'text': "<p>Lara bietet sich sogleich an beim Vorhaben zu helfen <br>H geht mit Salara raus um Beleuchtung abzunehmen <br>Salara zieht sich wieder an/oder ist noch angezogen?, Sam ist whiny </p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Tease yes\" role=\"link\" tabindex=\"0\">Tease yes</a> <a class=\"squiffy-link link-section\" data-section=\"Tease no\" role=\"link\" tabindex=\"0\">Tease no</a></p>",
 		'passages': {
 		},
 	},
@@ -849,7 +864,7 @@ squiffy.story.sections = {
 			}
 			else {
 			    squiffy.story.go("Roof more");
-			}    
+			}
 		},
 		'passages': {
 		},
@@ -872,10 +887,10 @@ squiffy.story.sections = {
 		},
 	},
 	'Roof more': {
-		'text': "<p>{if roof: LARA steigt aufs Dach</p>\n<p>RooftextLARA bis zur ToolEntscheidung mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Tool yes\" role=\"link\" tabindex=\"0\">Tool yes</a> <a class=\"squiffy-link link-section\" data-section=\"Tool no\" role=\"link\" tabindex=\"0\">Tool no</a>}</p>\n<p>{else: SAM steigt aufs Dach</p>\n<p>RooftextSAM bis zur HelpEntscheidung mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Help Sam\" role=\"link\" tabindex=\"0\">Help Sam</a> <a class=\"squiffy-link link-section\" data-section=\"Help Hisao\" role=\"link\" tabindex=\"0\">Help Hisao</a>}</p>",
+		'text': "<p>{if roof: \nLARA steigt aufs Dach<br>\nRooftextLARA bis zur ToolEntscheidung mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Tool yes\" role=\"link\" tabindex=\"0\">Tool yes</a> <a class=\"squiffy-link link-section\" data-section=\"Tool no\" role=\"link\" tabindex=\"0\">Tool no</a>}\n{else: \nSAM steigt aufs Dach<br>\nRooftextSAM bis zur HelpEntscheidung mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Help Sam\" role=\"link\" tabindex=\"0\">Help Sam</a> <a class=\"squiffy-link link-section\" data-section=\"Help Hisao\" role=\"link\" tabindex=\"0\">Help Hisao</a>}</p>",
 		'passages': {
 			'Bildlink': {
-				'text': "<p><img src=\"http://placekitten.com/123/300\" class=\"img-responsive\" /></p>",
+				'text': "<p><img src=\"http://placekitten.com/645/300\" class=\"img-responsive\" /></p>",
 			},
 		},
 	},
@@ -927,65 +942,75 @@ squiffy.story.sections = {
 			var nr3 = squiffy.get("number3");
 			var res = "ResultH_" + nr1 + nr2 + nr3;
 			squiffy.story.go(res);
+			
 		},
 		'passages': {
 		},
 	},
 	'ResultH_10': {
-		'text': "<p>Sam steigt aufs Dach<br>\nSam fühlt sich unterstützt<br>\nSams Schnur steckt fest &amp; H braucht ganz kurz Hilfe mit Schnur bei sich<br>\nIst selbe Schnur, wenn sie H hilft, passiert was mit Sam und umgekehrt<br>\nWenn Schnur hakt bei Sam und H, verlangt Sam, dass ihr erst der Hammer gegeben wird, damit’s da oben vorangeht<br>\nwährend Lara H hilft danach, wirft Sam Schneeball, wenn sie schon fertig ist<br>\nSam: &quot;Lara!&quot;<br>\nLara dreht sich um &quot;Huh?&quot; klatsch<br>\nH: &quot;Sam, that&#39;s not nic-&quot; klatsch</p>\n<p><strong>H lädt zu einem Drink ein</strong></p>\n<p>H lobt Sam’s Einsatz<br>\nSam hält eine “I’m awesome” Anstoßrede<br>\nsüffeln ihren Drink</p>\n<p><strong>H bietet zweiten Drink an</strong></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Drink yes\" role=\"link\" tabindex=\"0\">Drink yes</a> <a class=\"squiffy-link link-section\" data-section=\"Drink no\" role=\"link\" tabindex=\"0\">Drink no</a></p>",
-		'attributes': ["drinkResult = DrinkH_10"],
+		'text': "<p>Sam steigt aufs Dach<br>\nSam fühlt sich unterstützt<br>\nSams Schnur steckt fest &amp; H braucht ganz kurz Hilfe mit Schnur bei sich<br>\nIst selbe Schnur, wenn sie H hilft, passiert was mit Sam und umgekehrt<br>\nWenn Schnur hakt bei Sam und H, verlangt Sam, dass ihr erst der Hammer gegeben wird, damit’s da oben vorangeht<br>\nwährend Lara H hilft danach, wirft Sam Schneeball, wenn sie schon fertig ist<br>\nSam: &quot;Lara!&quot;<br>\nLara dreht sich um &quot;Huh?&quot;klatsch<br>\nH: &quot;Sam, that&#39;s not nic-&quot; klatsch<br></p>\n<p><strong>H lädt zu einem Drink ein</strong></p>\n\n<p>H lobt Sam’s Einsatz<br>\nSam hält eine “I’m awesome” Anstoßrede<br>\nsüffeln ihren Drink</p>\n<p><strong>H bietet zweiten Drink an</strong></p>\n\n<p><a class=\"squiffy-link link-section\" data-section=\"Drink yes\" role=\"link\" tabindex=\"0\">Drink yes</a> <a class=\"squiffy-link link-section\" data-section=\"Drink no\" role=\"link\" tabindex=\"0\">Drink no</a></p>",
+		'attributes': ["endResult = EndSzenarioH_10"],
 		'passages': {
 		},
 	},
 	'ResultH_01': {
-		'text': "<p>Lara steigt aufs Dach<br>\nSam ist froh, wollte ohnehin nicht aufs Dach<br>\nSam is bissl besorgt um Lara<br>\nlara sagt, Schnur steckt fest<br>\nH sagt sie soll Hammer nehmen<br>\nSam will Hammer bringen<br>\nsteigt über Leiter auf  Vordach um ihn Lara zu geben, damit Lara sich nicht mehr als notwendig oben bewegen muss<br>\nLeiter rutscht weg wenn Sam auf Vordach steigt<br>\nSam taumelt auf rutschigem Vordach aber fängt sich<br>\nLara tritt auf losen Ziegel, wenn sie den Hammer abholen will<br>\nVerliert Halt, fällt<br>\nSam fängt sie, verliert dabei Balance wegen rutschigen Dach<br>\nfallen um, rutschen Vordach runter, landen im Schnee, Lara unten<br>\nSam haut eine cheesy pickup-line raus</p>\n<p><strong>H lädt zu einem Drink ein</strong></p>\n<p>H ist erfreut von Lara’s Einsatz bzgl. Hilfe &amp; Sam verteidigen<br>\nerwähnt was er schon so gehört hat von ihr<br>\nH macht “dadjokes”<br>\nsome booze for the bruise<br>\nSam facepalm =__=</p>\n<p><strong>H bietet zweiten Drink an</strong></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Drink yes\" role=\"link\" tabindex=\"0\">Drink yes</a> <a class=\"squiffy-link link-section\" data-section=\"Drink no\" role=\"link\" tabindex=\"0\">Drink no</a></p>",
-		'attributes': ["drinkResult = DrinkH_01"],
+		'text': "<p>Lara steigt aufs Dach<br>\nSam ist froh, wollte ohnehin nicht aufs Dach<br>\nSam is bissl besorgt um Lara<br>\nlara sagt, Schnur steckt fest<br>\nH sagt sie soll Hammer nehmen<br>\nSam will Hammer bringen<br>\nsteigt über Leiter auf  Vordach um ihn Lara zu geben, damit Lara sich nicht mehr als notwendig oben bewegen muss<br>\nLeiter rutscht weg wenn Sam auf Vordach steigt<br>\nSam taumelt auf rutschigem Vordach aber fängt sich<br>\nLara tritt auf losen Ziegel, wenn sie den Hammer abholen will<br>\nVerliert Halt, fällt<br>\nSam fängt sie, verliert dabei Balance wegen rutschigen Dach<br>\nfallen um, rutschen Vordach runter, landen im Schnee, Lara unten<br>\nSam haut eine cheesy pickup-line raus</p>\n<p><strong>H lädt zu einem Drink ein</strong></p>\n\n<p>H ist erfreut von Lara’s Einsatz bzgl. Hilfe &amp; Sam verteidigen<br>\nerwähnt was er schon so gehört hat von ihr<br>\nH macht “dadjokes”<br>\nsome booze for the bruise<br>\nSam facepalm =__=</p>\n<p><strong>H bietet zweiten Drink an</strong></p>\n\n<p><a class=\"squiffy-link link-section\" data-section=\"Drink yes\" role=\"link\" tabindex=\"0\">Drink yes</a> <a class=\"squiffy-link link-section\" data-section=\"Drink no\" role=\"link\" tabindex=\"0\">Drink no</a></p>",
+		'attributes': ["endResult = EndSzenarioH_01"],
 		'passages': {
 		},
 	},
 	'ResultH_000': {
-		'text': "<p>Sam jammert oben rum, setzt sich hin während sie auf Lara wartet<br>\nNachdem Lara H geholfen hat, steigt sie mit Hammer leiter hoch<br>\nLeiter rutscht weg, Sam steht nicht parat<br>\nLara greift nach Schnur, zieht Beleuchtung mit sich nach unten<br>\nSam tritt beim Nachgucken Ziegel los<br>\nZiegel fällt auf Lara</p>",
+		'text': "<p>Sam jammert oben rum, setzt sich hin während sie auf Lara wartet<br>\nNachdem Lara H geholfen hat, steigt sie mit Hammer leiter hoch<br>\nLeiter rutscht weg, Sam steht nicht parat<br>\nLara greift nach Schnur, zieht Beleuchtung mit sich nach unten<br>\nSam tritt beim Nachgucken Ziegel los<br>\nZiegel fällt auf Lara</p>\n<p><strong>ZIMMER/VERARZTEN</strong><br>\nSam: Karma is a bitch, aber aufheiternder Scherz, dass es hätte schlimmer kommen können (Bezug auf andere Szenarien)<br>\nLara: &quot;you think your dad will be angry blabla&quot; <br>\nSam &quot;i think he&#39;s glad the stuff is down</p>\n\n<p><strong>VERARZTEN</strong><br>\nOffene Wunde Kopf (Ziegel)</p>\n\n<p><strong>H PLATZT MIT KATZE UND DRINK REIN</strong><br>\nH beruhigt Lara, dass Beleuchtung nicht so wichtig ist</p>\n\n<p><strong>DUSCHEN</strong><br>\nSam duscht, Lara legt sich zum Ausruhen aufs Bett<br>\nKatze kommt unter Bett hervor und flauscht sich dabei</p>\n\n<p><strong>SCHLAFEN</strong><br>\nLara mit Katze im Bett und Sam kommt vom duschen rein und : O___O NO!<br>\nSam vs Katze, Sam wins!, Sam gets cuddles</p>\n\n<p><strong>UMZIEHEN</strong><br>\nSam überredet Lara zu Outfit<br>\nSam zieht ihr Kleid an</p>\n\n<p><strong>DINNERTIME</strong></p>",
 		'passages': {
 		},
 	},
 	'ResultH_001': {
-		'text': "<p>Sam jammert oben rum (Schnee, windig, rutschig, kalt, und Schnur hängt)<br>\nH sagt Hammer<br>\nLara bringt es hoch aufs Dach<br>\nSam steht bei Leiter<br>\nLeiter rutscht weg<br>\nSam greift nach Hand<br>\nLara zieht sich mit Sam’s Hilfe hoch<br>\nH hilft mit Leiter, sie kommen runter und brechen ab</p>\n<p><strong>H lädt zu einem Drink ein</strong></p>\n<p>H ist erfreut von Lara’s Einsatz bzgl. Hilfe &amp; Sam verteidigen<br>\nerwähnt was er schon so gehört hat von ihr<br>\nH beeindruckt von Laras Geschick<br>\nSam macht nudge-Andeutung<br>\nLara verschluckt sich</p>\n<p><strong>H bietet zweiten Drink an</strong></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Drink yes\" role=\"link\" tabindex=\"0\">Drink yes</a> <a class=\"squiffy-link link-section\" data-section=\"Drink no\" role=\"link\" tabindex=\"0\">Drink no</a></p>",
-		'attributes': ["drinkResult = DrinkH_01"],
+		'text': "<p>Sam jammert oben rum (Schnee, windig, rutschig, kalt, und Schnur hängt)<br>\nH sagt Hammer<br>\nLara bringt es hoch aufs Dach<br>\nSam steht bei Leiter<br>\nLeiter rutscht weg<br>\nSam greift nach Hand<br>\nLara zieht sich mit Sam’s Hilfe hoch<br>\nH hilft mit Leiter, sie kommen runter und brechen ab</p>\n<p><strong>H lädt zu einem Drink ein</strong></p>\n\n<p>H ist erfreut von Lara’s Einsatz bzgl. Hilfe &amp; Sam verteidigen<br>\nerwähnt was er schon so gehört hat von ihr<br>\nH beeindruckt von Laras Geschick<br>\nSam macht nudge-Andeutung<br>\nLara verschluckt sich</p>\n<p><strong>H bietet zweiten Drink an</strong></p>\n\n<p><a class=\"squiffy-link link-section\" data-section=\"Drink yes\" role=\"link\" tabindex=\"0\">Drink yes</a> <a class=\"squiffy-link link-section\" data-section=\"Drink no\" role=\"link\" tabindex=\"0\">Drink no</a></p>",
+		'attributes': ["endResult = EndSzenarioH_001"],
 		'passages': {
 		},
 	},
 	'ResultH_111': {
-		'text': "<p>Sam, genervt, wirft Hammer  hoch<br>\nLara versucht Hammer zu fangen, tritt auf Ziegel, abeglenkt<br>\nHammer trifft Lara am Kopf, fällt auf Vordach runter<br>\nH: “Armes Dach!”<br>\nLara fällt hitnerher<br>\nbricht durch Vordach durch<br>\nlandet auf Auto</p>",
+		'text': "<p>Sam, genervt, wirft Hammer  hoch<br>\nLara versucht Hammer zu fangen, tritt auf Ziegel, abeglenkt<br>\nHammer trifft Lara am Kopf, fällt auf Vordach runter<br>\nH: “Armes Dach!”<br>\nLara fällt hitnerher<br>\nbricht durch Vordach durch<br>\nlandet auf Auto</p>\n<p><strong>ZIMMER/VERARZTEN</strong><br>\nSam betrübt, weil alles schief ging<br>\nSam entschuldigt sich bei Lara für Verhalten<br>\nLara entschuldigt sich auch</p>\n\n<p><strong>VERARZTEN</strong><br>\nOffene Wunde Kopf (Hammer) + Kratzer (durch Vordach brechen)</p>\n\n<p><strong>H PLATZT MIT KATZE UND DRINK REIN</strong><br>\nH beruhigt Lara, dass Auto noch ganz ist<br>\nH entschuldigt sich wegen der Dachsache bei solchen Umständen (Eis, Schnee)</p>\n\n<p><strong>DUSCHEN</strong><br>\nSam duscht, Lara legt sich zum Ausruhen aufs Bett<br>\nKatze kommt unter Bett hervor und flauscht sich dabei</p>\n\n<p><strong>SCHLAFEN</strong><br>\nLara mit Katze im Bett und Sam kommt vom duschen rein und : O___O NO!<br>\nSam vs Katze, Sam wins!, Sam gets cuddles</p>\n\n<p><strong>UMZIEHEN</strong><br>\nSam überredet Lara zu Outfit<br>\nSam zieht ihr Kleid an</p>\n\n<p><strong>DINNERTIME</strong></p>",
 		'passages': {
 		},
 	},
 	'ResultH_110': {
-		'text': "<p>Lara sagt Sam, dass sie’s mit Ziehen versucht<br>\nLara zieht und ROR, fängt sich aber, Schnur hängt an Lara fest<br>\nH zieht an seinem Ende der Schnur<br>\nLara wird zur H hin von Dach gezogen<br>\nfällt auf und bricht durch Vordach<br>\nlandet auf Rentier</p>",
+		'text': "<p>Lara sagt Sam, dass sie’s mit Ziehen versucht<br>\nLara zieht und ROR, fängt sich aber, Schnur hängt an Lara fest<br>\nH zieht an seinem Ende der Schnur<br>\nLara wird zur H hin von Dach gezogen<br>\nfällt auf und bricht durch Vordach<br>\nlandet auf Rentier</p>\n<p><strong>ZIMMER/VERARZTEN</strong><br>\nSam betrübt, weil alles schief ging<br>\nSam entschuldigt sich bei Lara für Verhalten<br>\nLara entschuldigt sich auch<br>\naufheiternder Scherz mit Bezug auf dass H sie vom Dach gezogen hat oder Rentierlandung</p>\n\n<p><strong>VERARZTEN</strong><br>\nKratzer + Armverletzung (von Rentier gepiekst)</p>\n\n<p><strong>H PLATZT MIT KATZE UND DRINK REIN</strong><br>\nH bringt Geweih als “Trophäe” mit und zeigt guten Willen<br>\nH entschuldigt sich wegen der Dachsache bei solchen Umständen (Eis, Schnee)</p>\n\n<p><strong>DUSCHEN</strong><br>\nSam duscht, Lara legt sich zum Ausruhen aufs Bett<br>\nKatze kommt unter Bett hervor und flauscht sich dabei</p>\n\n<p><strong>SCHLAFEN</strong><br>\nLara mit Katze im Bett und Sam kommt vom duschen rein und : O___O NO!<br>\nSam vs Katze, Sam wins!, Sam gets cuddles</p>\n\n<p><strong>UMZIEHEN</strong><br>\nSam überredet Lara zu Outfit<br>\nSam zieht ihr Kleid an</p>\n\n<p><strong>DINNERTIME</strong></p>",
 		'passages': {
 		},
 	},
 	'Drink yes': {
-		'text': "<p>→ Auswirkung auf Punsch Entscheidung<br>\nH bietet dritten Drink an, weil Lara so fröhlich 2. annahm<br>\nSam: “Hoookay, That’s enough…”<br>\nRückkehr zum Zimmer, da Sam duschen will und genug gesüffelt wurde</p>",
+		'text': "",
 		'attributes': ["drink2"],
+		'js': function() {
+			var res = squiffy.get("endResult");
+			squiffy.story.go(res);
+		},
 		'passages': {
 		},
 	},
 	'Drink no': {
 		'text': "",
 		'js': function() {
-			var res = squiffy.get("drinkResult");
-			    squiffy.story.go(res);
+			var res = squiffy.get("endResult");
+			squiffy.story.go(res);
 		},
 		'passages': {
 		},
 	},
-	'DrinkH_01': {
-		'text': "<p>Lara wirft Hilfeblick zu Sam<br>\nSam kommt zu Hilfe<br>\nsagt sie will duschen und Lara sollte trockene Sachen anziehen<br>\nund wie sieht H überhaupt aus, also echt mal<br>\nRückkehr zum Zimmer, da Sam duschen will und genug gesüffelt wurde</p>",
+	'EndSzenarioH_01': {
+		'text': "<p>{if drink2:\nH bietet dritten Drink an, weil Lara so fröhlich 2. annahm<br>\nSam: “Hoookay, That’s enough…”<br>\nRückkehr zum Zimmer, da Sam duschen will und genug gesüffelt wurde}</p>\n<p>{else:\nLara wirft Hilfeblick zu Sam<br>\nSam kommt zu Hilfe<br>\nsagt sie will duschen und Lara sollte trockene Sachen anziehen<br>\nund wie sieht H überhaupt aus, also echt mal<br>\nRückkehr zum Zimmer, da Sam duschen will und genug gesüffelt wurde}</p>\n<p><strong>ZIMMER/BEREIT MACHEN</strong></p>\n\n<p>Sam: “Das fängt ja gut an… Wollt ausnahmsweise einfach ein gesittetes Treffen mit Eltern bei dem sie dich kennen lernen können, aber nein…”<br>\nLara the boob cushion<br><br></p>\n<p>{if drink2:\nLara chill/er (2 Drinks), Sam deswegen besorgt <br>\nLara: ¯_(ツ)_/¯ <br><br></p>\n<p>Bei 2 Drinks (&amp; Sam besorgt):<br>\nLara redet Sam gut zu, versucht sie zu beruhigen, sagt Kosenamen, den H verwendet hat for A.<br>\nSam: Don’t you dare.<br>\nLara: “Don’t like it? How about Samwich.” etc.}\n{else:\nLara chill, Sam deswegen besorgt <br>\n}</p>\n<p><strong>DUSCHEN</strong><br>\n{if drink2:\n2 Drinks: Lara anhänglicher / touchy-feely</p>\n}\n\n{else:\nLara: I’m fine<br>\nSam: Just lemme check on you<br>\nLara: okay...<br>\nbeide duschen + check-up\n</p>\n}\n\n<p><strong>SCHLAFEN</strong><br>\n{if drink2:\nZum Ausnüchtern<br>\nWenn Lara aufwacht, ist Lara breit, und Sam bereit (umgezogen)</p>\n}\n\n{else:\ncuddle and nap</p>\n}\n\n<p><strong>UMZIEHEN</strong><br>\nSam überredet Lara zu Outfit<br>\nSam zieht ihr Kleid an<br></p>\n\n<p><strong>DINNERTIME</strong></p>",
 		'passages': {
 		},
 	},
-	'DrinkH_10': {
-		'text': "<p>Lara wirft Hilfeblick zu Sam<br>\nSam wegen Lara, die zu H gehalten hat<br>\nlässt H ihr 2. Drink aufzwingen bevor sie Lara hilft<br>\nRückkehr zum Zimmer, da Sam duschen will und genug gesüffelt wurde</p>",
+	'EndSzenarioH_001': {
+		'text': "<p>{if drink2:\nH bietet dritten Drink an, weil Lara so fröhlich 2. annahm<br>\nSam: “Hoookay, That’s enough…”<br>\nRückkehr zum Zimmer, da Sam duschen will und genug gesüffelt wurde}</p>\n<p>{else:\nLara wirft Hilfeblick zu Sam<br>\nSam kommt zu Hilfe<br>\nsagt sie will duschen und Lara sollte trockene Sachen anziehen<br>\nund wie sieht H überhaupt aus, also echt mal<br>\nRückkehr zum Zimmer, da Sam duschen will und genug gesüffelt wurde}</p>\n<p><strong>ZIMMER/BEREIT MACHEN</strong></p>\n\n<p>Sam: “Das fängt ja gut an… Wollt ausnahmsweise einfach ein gesittetes Treffen mit Eltern bei dem sie dich kennen lernen können, aber nein…”<br>\nLara the badass<br><br></p>\n<p>{if drink2:\nLara chill/er (2 Drinks), Sam deswegen besorgt <br>\nLara: ¯_(ツ)_/¯ <br><br></p>\n<p>Bei 2 Drinks (&amp; Sam besorgt):<br>\nLara redet Sam gut zu, versucht sie zu beruhigen, sagt Kosenamen, den H verwendet hat for A.<br>\nSam: Don’t you dare.<br>\nLara: “Don’t like it? How about Samwich.” etc.}\n{else:\nLara chill, Sam deswegen besorgt <br>\n}</p>\n<p><strong>DUSCHEN</strong><br>\n{if drink2:\n2 Drinks: Lara lässt sich in Dusche zerren</p>\n}\n\n{else:\nLara geht erst duschen, da Sam sich erst um ihre Sachen kümmern will\nwährend Sam duscht, kratzt Katze an Tür</p>\n}\n\n<p><strong>SCHLAFEN</strong><br>\n{if drink2:\nZum Ausnüchtern<br>\nWenn Lara aufwacht, ist Lara breit, und Sam bereit (umgezogen)</p>\n}\n\n{else:\nLara mit Katze im Bett und Sam kommt vom duschen rein und : O___O NO!</p>\n}\n\n<p><strong>UMZIEHEN</strong><br>\nSam überredet Lara zu Outfit<br>\nSam zieht ihr Kleid an<br></p>\n\n<p><strong>DINNERTIME</strong></p>",
+		'passages': {
+		},
+	},
+	'EndSzenarioH_10': {
+		'text': "<p>{if drink2:\nLara wirft Hilfeblick zu Sam<br>\nSam wegen Lara, die zu H gehalten hat<br>\nlässt H ihr 2. Drink aufzwingen bevor sie Lara hilft<br>\nRückkehr zum Zimmer, da Sam duschen will und genug gesüffelt wurde<br>\n}\n{else:\nH bietet dritten Drink an, weil Lara so fröhlich 2. annahm<br>\nSam: “Hoookay, That’s enough…”<br>\nRückkehr zum Zimmer, da Sam duschen will und genug gesüffelt wurde<br>\n}</p>\n<p><strong>ZIMMER/BEREIT MACHEN</strong></p>\n\n<p>es war doch eine gute Idee von Lara freiwillig zu helfen<br>\nläuft gut mit H<br>\npositiv überrascht und entspannt, weil alles so gut lief irgendwie<br><br></p>\n<p>Bei 2 Drinks (&amp; Sam besorgt):<br>\nLara redet Sam gut zu, versucht sie zu beruhigen, sagt Kosenamen, den H verwendet hat for A.<br>\nSam: Don’t you dare.<br>\nLara: “Don’t like it? How about Samwich.” etc.<br></p>\n<p><strong>DUSCHEN</strong><br>\nZum Aufwärmen</p>\n\n<p><strong>SCHLAFEN</strong><br>\nZum Ausnüchtern<br>\nWenn Lara aufwacht, ist Lara breit, und Sam bereit (umgezogen)</p>\n\n<p><strong>UMZIEHEN</strong><br>\nSam überredet Lara zu Outfit<br>\nSam zieht ihr Kleid an</p>\n\n<p><strong>DINNERTIME</strong></p>",
 		'attributes': ["drink2"],
 		'passages': {
 		},
