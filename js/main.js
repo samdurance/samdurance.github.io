@@ -51,7 +51,7 @@ $(document).ready(function () {
         });
     });
 
-    function notify (thumb, msg) {
+    /*    function notify (thumb, msg) {
 
         $.notify({
             icon: thumb,
@@ -67,7 +67,11 @@ $(document).ready(function () {
             '</div>'
         });
 
-    };
+    };*/
+
+    $('#startstory').on('click', function(e) {
+        e.preventDefault();
+    });
 
 
 
