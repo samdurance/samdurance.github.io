@@ -59,6 +59,10 @@ i {
     font-weight: 400;
 }
 
+.green {
+    color: #42DCA3;
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -212,6 +216,19 @@ i {
     .intro & {
         padding-bottom: 25px;
         vertical-align: bottom;
+        
+         @media (max-width: $screen-tablet) {
+            padding-bottom: 0;
+        }
+    }
+    
+    .contact & {
+        padding-bottom: 55px;
+        vertical-align: bottom;
+        
+        @media (max-width: $screen-tablet) {
+            padding-bottom: 0;
+        }
     }
 }
 

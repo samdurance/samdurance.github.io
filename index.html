@@ -35,7 +35,7 @@
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="navbar-collapse navbar-right navbar-main-collapse collapse in" aria-expanded="true">
+                <div class="navbar-collapse navbar-right navbar-main-collapse collapse" aria-expanded="false">
                     <ul class="nav navbar-nav">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li class="hidden active">
@@ -78,16 +78,22 @@
         </header>
 
         <!-- About Section -->
-        <section id="about" class="content-section">
+        <section id="about" class="content-section about">
             <div class="content-body">
                 <div class="container text-center">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <h2>About</h2>
                             <p>
-                                Sam's parents invited their daughter and her <i>best friend</i> to visit them at one of their residences. <br> Lara loves her Sam dearly, but can she endure more than one Nishimura at a time?
+                                Sam's parents invited their daughter and her <span class="green">best friend</span> to visit them at one of their residences. <br> Lara loves her Sam dearly, but can she endure more than one Nishimura at a time?
                             </p>
                             <p>Find out in <strong>Family Matters</strong> - an interactive S.S. Endurance story</p>
+                            <p>
+                                Team <span class="green"><strong>#BecauseSam</strong></span> is a collaboration between 
+                                <a href="http://burritorat.tumblr.com/" target="_blank">burritorat</a> &
+                                <a href="http://deberzer.tumblr.com/" target="_blank">deberzer</a>, <br>
+                                two shippers in a war against canon.
+                            </p>
                             <div class="btn-wrapper">
                                 <a href="#play" class="btn-circle page-scroll">
                                     <i class="fa fa-angle-double-down animated"></i>
@@ -110,7 +116,7 @@
                         <h2>Play</h2>
                         <p>Press Start and begin the interactive journey.<br> Think about your decicions wisely, consequences might wait around the corner!</p>
                         <div class="btn-wrapper">
-                            <a id="startstory" href="#" class="btn-white">Coming Soon</a>
+                            <a id="startstory" href="#" class="btn-white" onClick="ga('send', 'event', 'Button', 'klick', 'StoryStart' ,1);">Coming Soon</a>
                             <a href="#contact" class="btn-circle page-scroll">
                                 <i class="fa fa-angle-double-down animated"></i>
                             </a>
@@ -122,7 +128,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="content-section">
+        <section id="contact" class="content-section contact">
             <div class="content-body">
                 <div class="container text-center">
                     <div class="row">
@@ -131,7 +137,8 @@
                                 <div class="inner-wrapper">
                                     <h2>Contact</h2>
                                     <p>Curious? Or just excited to play? <br>
-                                        Leave a message in our shoutbox, we'll be happy to answer!</p>
+                                        Leave a message in our shoutbox or on Tumblr.<br>
+                                        We'll be happy to answer!</p>
                                     <!--<ul class="list-inline banner-social-buttons">
 <li>
 <a href="#" class="btn-green">
@@ -170,7 +177,10 @@
         <!-- Footer -->
         <footer>
             <div class="container text-center">
-                <p>&copy; #BecauseSam, <a href="http://burritorat.tumblr.com/" target="_blank">burritorat</a> 2016</p>
+                <p>
+                    &copy; 2016 #BecauseSam, <a href="http://burritorat.tumblr.com/" target="_blank">burritorat</a> &
+                    <a href="http://deberzer.tumblr.com/" target="_blank">deberzer</a>
+                </p>
             </div>
         </footer>
 
