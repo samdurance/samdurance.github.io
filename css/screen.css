@@ -9188,7 +9188,6 @@ i {
 /* line 225, ../sass/_index.scss */
 .contact .content-body {
   padding-bottom: 55px;
-  vertical-align: bottom;
 }
 @media (max-width: 768px) {
   /* line 225, ../sass/_index.scss */
@@ -9197,77 +9196,77 @@ i {
   }
 }
 
-/* line 235, ../sass/_index.scss */
+/* line 234, ../sass/_index.scss */
 .inner-wrapper {
   width: 100%;
   float: left;
 }
-/* line 239, ../sass/_index.scss */
+/* line 238, ../sass/_index.scss */
 .inner-wrapper:last-child {
   margin-top: 20px;
 }
-/* line 242, ../sass/_index.scss */
+/* line 241, ../sass/_index.scss */
 .inner-wrapper:last-child p {
   margin: 0 0 10px;
 }
 
-/* line 248, ../sass/_index.scss */
+/* line 247, ../sass/_index.scss */
 .brand-heading {
   font-size: 40px;
   margin-bottom: 15px;
 }
 @media (min-width: 768px) {
-  /* line 248, ../sass/_index.scss */
+  /* line 247, ../sass/_index.scss */
   .brand-heading {
     font-size: 100px;
   }
 }
 
-/* line 257, ../sass/_index.scss */
+/* line 256, ../sass/_index.scss */
 .brand-subline {
   margin-bottom: 0;
 }
 
-/* line 261, ../sass/_index.scss */
+/* line 260, ../sass/_index.scss */
 .intro-text {
   font-size: 18px;
   margin: 0 0 10px;
 }
 @media (min-width: 768px) {
-  /* line 261, ../sass/_index.scss */
+  /* line 260, ../sass/_index.scss */
   .intro-text {
     font-size: 26px;
   }
 }
 
-/* line 271, ../sass/_index.scss */
+/* line 270, ../sass/_index.scss */
 footer {
   padding: 20px 0;
   border-top: 1px solid #42DCA3;
 }
-/* line 275, ../sass/_index.scss */
+/* line 274, ../sass/_index.scss */
 footer p {
   margin: 0;
 }
 
-/* line 280, ../sass/_index.scss */
+/* line 279, ../sass/_index.scss */
 .back-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
   padding: 1em;
 }
-/* line 286, ../sass/_index.scss */
+/* line 285, ../sass/_index.scss */
 .back-to-top span {
   color: white;
   font-size: 35px;
 }
 
-/* line 292, ../sass/_index.scss */
+/* line 291, ../sass/_index.scss */
 .shariff {
   margin-bottom: 25px;
 }
-/* line 295, ../sass/_index.scss */
+/* line 294, ../sass/_index.scss */
 .shariff .shariff-button {
   display: inline-block;
   width: 50px;
@@ -9276,28 +9275,28 @@ footer p {
   color: #42DCA3;
   margin: 15px 10px;
 }
-/* line 303, ../sass/_index.scss */
+/* line 302, ../sass/_index.scss */
 .shariff .shariff-button a {
   width: 100%;
   height: 100%;
   display: block;
 }
-/* line 308, ../sass/_index.scss */
+/* line 307, ../sass/_index.scss */
 .shariff .shariff-button a:hover {
   background: #42DCA3;
   color: #000000;
 }
-/* line 313, ../sass/_index.scss */
+/* line 312, ../sass/_index.scss */
 .shariff .shariff-button .fa {
   font-size: 35px;
   padding: 7px;
 }
-/* line 318, ../sass/_index.scss */
+/* line 317, ../sass/_index.scss */
 .shariff .share_text {
   display: none !important;
 }
 
-/* line 323, ../sass/_index.scss */
+/* line 322, ../sass/_index.scss */
 .gradient {
   position: absolute;
   bottom: 0;
@@ -9312,7 +9311,7 @@ footer p {
   background: linear-gradient(to bottom, rgba(76, 76, 76, 0) 0%, black 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#000000', GradientType=0 );
 }
-/* line 337, ../sass/_index.scss */
+/* line 336, ../sass/_index.scss */
 .gradient.two {
   top: 0;
   bottom: auto;
