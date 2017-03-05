@@ -11,7 +11,7 @@ $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
+/*$(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -19,7 +19,7 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-});
+});*/
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
@@ -31,6 +31,30 @@ $('.navbar-collapse ul li a').click(function() {
 $(document).ready(function () {
 
 
+
+    // Global scroll with subnavi
+    var scrollSection = function(hash){
+        $('html,body').animate({
+            scrollTop: $(hash).offset().top
+        }, 1500, 'easeInOutExpo');
+    };
+
+    $('.page-scroll').on('click', function (event) {
+        event.preventDefault();
+        var hash = $(this).attr('href');
+        scrollSection(hash);
+    });
+
+
+
+    $(document).on('click', '.ch2', function(e) {
+        $('#squiffy-section-1').fadeOut( "slow" );
+        $('#squiffy-section-2').fadeOut( "slow" );
+        $('#squiffy-section-3').fadeOut( "slow" );
+        $('#squiffy-section-4').fadeOut( "slow" );
+    });
+
+
     $(document).on('click', '.squiffy-link', function(e) {
         var section = $(this).attr('data-section');
 
@@ -40,10 +64,10 @@ $(document).ready(function () {
             dataType: 'json',
             success: function (data) {
 
-                var notifyMsg = data[section].popup.content;
-                var notifyThumb = data[section].popup.thumb;
+                //var notifyMsg = data[section].popup.content;
+                //var notifyThumb = data[section].popup.thumb;
 
-                notify(notifyThumb, notifyMsg);
+                //notify(notifyThumb, notifyMsg);
 
             },
             error: function(error) {
@@ -73,7 +97,35 @@ $(document).ready(function () {
         e.preventDefault();
     });
 
+    $('#chapter1').click(function() {
+        $('#squiffy-section-1').fadeIn( "slow" );
+        $('#squiffy-section-2').fadeIn( "slow" );
+        $('#squiffy-section-3').fadeIn( "slow" );
+        $('#squiffy-section-4').fadeIn( "slow" );
+        
+        $('#squiffy-section-5').fadeOut( "slow" );
+        $('#squiffy-section-6').fadeOut( "slow" );
+        $('#squiffy-section-7').fadeOut( "slow" );
+        $('#squiffy-section-8').fadeOut( "slow" );
+        $('#squiffy-section-9').fadeOut( "slow" );
+        $('#squiffy-section-10').fadeOut( "slow" );
+        $('#squiffy-section-11').fadeOut( "slow" );
+    });
 
+    $('#chapter2').click(function() {
+        $('#squiffy-section-1').fadeOut( "slow" );
+        $('#squiffy-section-2').fadeOut( "slow" );
+        $('#squiffy-section-3').fadeOut( "slow" );
+        $('#squiffy-section-4').fadeOut( "slow" );
+        
+        $('#squiffy-section-5').fadeIn( "slow" );
+        $('#squiffy-section-6').fadeIn( "slow" );
+        $('#squiffy-section-7').fadeIn( "slow" );
+        $('#squiffy-section-8').fadeIn( "slow" );
+        $('#squiffy-section-9').fadeIn( "slow" );
+        $('#squiffy-section-10').fadeIn( "slow" );
+        $('#squiffy-section-11').fadeIn( "slow" );
+    });
 
     // Der Button wird mit JavaScript erzeugt und vor dem Ende des body eingebunden.
     var back_to_top_button = ['<a href="#top" class="back-to-top"><span class="fa fa-chevron-circle-up"></span></a>'].join("");
