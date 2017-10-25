@@ -60,7 +60,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'GET',
-            url: 'https://www.dropbox.com/s/5y9s60wmkib15f1/data.json',
+            url: 'data.json',
             dataType: 'json',
             success: function (data) {
 
