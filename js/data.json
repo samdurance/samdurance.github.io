@@ -1,0 +1,15 @@
+{
+    "Carkiss no": {
+        "popup": {
+            "content": "Sam appreciates this",
+            "thumb": "img/icon.jpg"
+        }
+    },
+ 
+    "Carkiss yes": {
+        "popup": {
+            "content": "Sam appreciates this",
+            "thumb": "img/icon.jpg"
+        }
+    }
+}
