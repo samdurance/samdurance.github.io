@@ -60,14 +60,14 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'GET',
-            url: 'https://dl.dropboxusercontent.com/u/20367844/TRXmas/data.json',
+            url: 'https://www.dropbox.com/s/5y9s60wmkib15f1/data.json',
             dataType: 'json',
             success: function (data) {
 
-                //var notifyMsg = data[section].popup.content;
-                //var notifyThumb = data[section].popup.thumb;
+                var notifyMsg = data[section].popup.content;
+                var notifyThumb = data[section].popup.thumb;
 
-                //notify(notifyThumb, notifyMsg);
+                notify(notifyThumb, notifyMsg);
 
             },
             error: function(error) {
@@ -75,7 +75,7 @@ $(document).ready(function () {
         });
     });
 
-    /*    function notify (thumb, msg) {
+        function notify (thumb, msg) {
 
         $.notify({
             icon: thumb,
@@ -91,7 +91,7 @@ $(document).ready(function () {
             '</div>'
         });
 
-    };*/
+    };
 
     $('#startstory').on('click', function(e) {
         e.preventDefault();
