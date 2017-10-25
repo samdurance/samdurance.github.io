@@ -60,7 +60,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'GET',
-            url: 'data.json',
+            url: 'js/data.json',
             dataType: 'json',
             success: function (data) {
 
