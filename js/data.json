@@ -1,14 +1,14 @@
 {
     "Carkiss no": {
         "popup": {
-            "content": "Sam will remember this",
+            "content": "Kitty will remember this",
             "thumb": "https://placekitten.com/g/120/120"
         }
     },
  
     "Carkiss yes": {
         "popup": {
-            "content": "Sam appreciates this",
+            "content": "Kitty appreciates this",
             "thumb": "https://placekitten.com/g/120/120"
         }
     }
