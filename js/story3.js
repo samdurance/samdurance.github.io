@@ -629,7 +629,7 @@ squiffy.story.sections = {
 		'attributes': ["carkiss"],
 		'passages': {
 			'Bildlink': {
-				'text': "<p><img src=\"http://placekitten.com/500/200\" class=\"img-responsive\" /></p>",
+				'text': "<p><img src=\"http://placekitten.com/g/500/200\" class=\"img-responsive\" /></p>",
 			},
 		},
 	},
@@ -637,7 +637,7 @@ squiffy.story.sections = {
 		'text': "<p>Carkisstext NO mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p>{Carkiss more}</p>",
 		'passages': {
 			'Bildlink': {
-				'text': "<p><img src=\"http://placekitten.com/200/300\" class=\"img-responsive\" /></p>",
+				'text': "<p><img src=\"http://placekitten.com/g/200/300\" class=\"img-responsive\" /></p>",
 			},
 		},
 	},
@@ -673,7 +673,7 @@ squiffy.story.sections = {
 		},
 	},
 	'Antonia': {
-		'text': "<p><h1>Kapitel 2: A</h1>\n<span id=\"ch2\"></span></p>\n<p>Salara gehen auf ihre Zimmer, die verbunden sind<br>\nAkito folgt ihnen und beglotzt alles<br>\nSalara labern über die 2 Zimmer Sache<br>\n<br>\n{if greetingfail:</p>\n<p><p><strong>Sam neckt Lara über den GREETINGFAIL den sie mit H hatte</strong></p>\n}\nSam geht erstmal duschen, Lara packt Tasche aus<br>\nFührt Katzenmonolog über den Ring<br>\nBringt dann Sam Handtuch ins Bad, gehen zusammen zurück ins Zimmer<br>\nSam öffnet ihren Koffer und erstes Katzendrama beginnt<br>\nSam bietet Lara ein Outfit fürs Dinner an.</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Clothes yes\" role=\"link\" tabindex=\"0\">Clothes yes</a> <a class=\"squiffy-link link-section\" data-section=\"Clothes no\" role=\"link\" tabindex=\"0\">Clothes no</a> </p>",
+		'text': "<p><h1>Kapitel 2: A</h1>\n<span id=\"ch2\"></span></p>\n<p>Salara gehen auf ihre Zimmer, die verbunden sind<br>\nAkito folgt ihnen und beglotzt alles<br>\nSalara labern über die 2 Zimmer Sache<br>\n<br>\n{if greetingfail:</p><p><img src=\"http://placekitten.com/g/500/200\" class=\"img-responsive\" /></p>\n<p><p><strong>Sam neckt Lara über den GREETINGFAIL den sie mit H hatte</strong></p>\n}\nSam geht erstmal duschen, Lara packt Tasche aus<br>\nFührt Katzenmonolog über den Ring<br>\nBringt dann Sam Handtuch ins Bad, gehen zusammen zurück ins Zimmer<br>\nSam öffnet ihren Koffer und erstes Katzendrama beginnt<br>\nSam bietet Lara ein Outfit fürs Dinner an.</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Clothes yes\" role=\"link\" tabindex=\"0\">Clothes yes</a> <a class=\"squiffy-link link-section\" data-section=\"Clothes no\" role=\"link\" tabindex=\"0\">Clothes no</a> </p>",
 		'attributes': ["antonia"],
 		'passages': {
 		},
