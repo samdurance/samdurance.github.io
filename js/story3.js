@@ -637,7 +637,7 @@ squiffy.story.sections = {
 		'text': "<p>Carkisstext NO mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p>{Carkiss more}</p>",
 		'passages': {
 			'Bildlink': {
-				'text': "<p><img src=\"http://placekitten.com/g/200/300\" class=\"img-responsive\" /></p>",
+				'text': "<p><img src=\"http://placekitten.com/g/500/200\" class=\"img-responsive\" /></p>",
 			},
 		},
 	},
