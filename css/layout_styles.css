@@ -1,0 +1,148 @@
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+body {
+  font: 16px/1.5 'Raleway', Helvetica, Helvetica Neue, Arial, sans-serif;
+  background-color: #212121; }
+
+
+
+/* Make the body 100% of the browser viewport height */
+
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+  font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-weight: 700; }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* =Header */
+
+
+
+/* =Navigation */
+
+
+/* =Main */
+p {
+  font-size: 16px; }
+
+
+
+
+
+.button {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px rgba(255, 255, 255, 0.7) solid;
+  padding: 8px 15px;
+  margin-top: 15px;
+  display: inline-block;
+  position: relative; }
+  .button:hover {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000; }
+
+
+
+
+
+
+
+#iht_logo {
+  width: 100px;
+  margin-bottom: 30px; }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== 
+@media only screen and (min-width: 768px) {
+  body {
+    font-weight: 100; }
+  h1 {
+    font-size: 3em; }
+  p {
+    font-size: 20px; }
+  /* =Header */
+  .header-container {
+    overflow: hidden;
+    position: relative; }
+    .header-container .wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -120%);
+          -ms-transform: translate(-50%, -120%);
+              transform: translate(-50%, -120%);
+      margin: 0;
+      padding: 0; }
+    .header-container:before {
+      font-size: 70em; }
+  .scroll-hint {
+    font-size: 20px; }
+  .bcg {
+    opacity: 1; }
+  .slide {
+    overflow: hidden;
+    overflow-x: hidden; }
+    .slide section {
+      max-width: 400px; }
+    .slide .wrapper {
+      padding-top: 120px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      text-align: left;
+      width: 100%;
+      margin: 0; }
+    .slide#slide01, .slide#slide02, .slide#slide03 {
+      color: #212121; }
+      .slide#slide01 .wrapper, .slide#slide02 .wrapper, .slide#slide03 .wrapper {
+        top: 20%;
+        text-align: center; }
+      .slide#slide01 section, .slide#slide02 section, .slide#slide03 section {
+        margin: 0 auto; }
+    .slide#slide01 {
+      color: #ffffff; }
+    .slide#slide02 {
+      color: #ffffff; }
+      .slide#slide02 .wrapper {
+        top: auto;
+        bottom: 40%;
+        left: 10%;
+        text-align: left;
+        -webkit-transform: translate(0);
+            -ms-transform: translate(0);
+                transform: translate(0);
+        padding: 0; }
+      .slide#slide02 section {
+        margin: 0; }
+    .slide#slide03 .wrapper {
+      padding: 0;
+      top: 15%;
+      -webkit-transform: translate(-50%, 0);
+          -ms-transform: translate(-50%, 0);
+              transform: translate(-50%, 0); }
+    .slide#slide03 section {
+      margin: 0 auto;
+      max-width: 570px; }
+    .slide#slide03 .button {
+      border-color: rgba(0, 0, 0, 0.7);
+      background-color: transparent;
+      color: #212121; }
+    .slide#slide03 .bcg {
+      opacity: 1; }
+  nav {
+    display: block; }
+  .content-block .wrapper {
+    padding: 120px 0; } }
+*/

@@ -412,10 +412,9 @@ th {
   }
 
   /* line 77, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_print.scss */
-  .btn > .caret, .squiffy-link > .caret, .squiffy-header-link > .caret,
+  .btn > .caret, .squiffy-link > .caret,
   .dropup > .btn > .caret,
-  .dropup > .squiffy-link > .caret,
-  .dropup > .squiffy-header-link > .caret {
+  .dropup > .squiffy-link > .caret {
     border-top-color: #000 !important;
   }
 
@@ -3963,28 +3962,24 @@ input[type="search"] {
   input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control,
   .input-group-sm > input[type="date"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="date"].btn,
-  .input-group-sm > .input-group-btn > input[type="date"].squiffy-link,
-  .input-group-sm > .input-group-btn > input[type="date"].squiffy-header-link, .input-group-sm input[type="date"],
+  .input-group-sm > .input-group-btn > input[type="date"].squiffy-link, .input-group-sm input[type="date"],
   input[type="time"].input-sm,
   .input-group-sm > input[type="time"].form-control,
   .input-group-sm > input[type="time"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="time"].btn,
-  .input-group-sm > .input-group-btn > input[type="time"].squiffy-link,
-  .input-group-sm > .input-group-btn > input[type="time"].squiffy-header-link, .input-group-sm
+  .input-group-sm > .input-group-btn > input[type="time"].squiffy-link, .input-group-sm
   input[type="time"],
   input[type="datetime-local"].input-sm,
   .input-group-sm > input[type="datetime-local"].form-control,
   .input-group-sm > input[type="datetime-local"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="datetime-local"].btn,
-  .input-group-sm > .input-group-btn > input[type="datetime-local"].squiffy-link,
-  .input-group-sm > .input-group-btn > input[type="datetime-local"].squiffy-header-link, .input-group-sm
+  .input-group-sm > .input-group-btn > input[type="datetime-local"].squiffy-link, .input-group-sm
   input[type="datetime-local"],
   input[type="month"].input-sm,
   .input-group-sm > input[type="month"].form-control,
   .input-group-sm > input[type="month"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="month"].btn,
-  .input-group-sm > .input-group-btn > input[type="month"].squiffy-link,
-  .input-group-sm > .input-group-btn > input[type="month"].squiffy-header-link, .input-group-sm
+  .input-group-sm > .input-group-btn > input[type="month"].squiffy-link, .input-group-sm
   input[type="month"] {
     line-height: 30px;
   }
@@ -3992,28 +3987,24 @@ input[type="search"] {
   input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control,
   .input-group-lg > input[type="date"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="date"].btn,
-  .input-group-lg > .input-group-btn > input[type="date"].squiffy-link,
-  .input-group-lg > .input-group-btn > input[type="date"].squiffy-header-link, .input-group-lg input[type="date"],
+  .input-group-lg > .input-group-btn > input[type="date"].squiffy-link, .input-group-lg input[type="date"],
   input[type="time"].input-lg,
   .input-group-lg > input[type="time"].form-control,
   .input-group-lg > input[type="time"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="time"].btn,
-  .input-group-lg > .input-group-btn > input[type="time"].squiffy-link,
-  .input-group-lg > .input-group-btn > input[type="time"].squiffy-header-link, .input-group-lg
+  .input-group-lg > .input-group-btn > input[type="time"].squiffy-link, .input-group-lg
   input[type="time"],
   input[type="datetime-local"].input-lg,
   .input-group-lg > input[type="datetime-local"].form-control,
   .input-group-lg > input[type="datetime-local"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="datetime-local"].btn,
-  .input-group-lg > .input-group-btn > input[type="datetime-local"].squiffy-link,
-  .input-group-lg > .input-group-btn > input[type="datetime-local"].squiffy-header-link, .input-group-lg
+  .input-group-lg > .input-group-btn > input[type="datetime-local"].squiffy-link, .input-group-lg
   input[type="datetime-local"],
   input[type="month"].input-lg,
   .input-group-lg > input[type="month"].form-control,
   .input-group-lg > input[type="month"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="month"].btn,
-  .input-group-lg > .input-group-btn > input[type="month"].squiffy-link,
-  .input-group-lg > .input-group-btn > input[type="month"].squiffy-header-link, .input-group-lg
+  .input-group-lg > .input-group-btn > input[type="month"].squiffy-link, .input-group-lg
   input[type="month"] {
     line-height: 46px;
   }
@@ -4109,12 +4100,10 @@ input[type="checkbox"] {
 .form-control-static.input-lg, .input-group-lg > .form-control-static.form-control,
 .input-group-lg > .form-control-static.input-group-addon,
 .input-group-lg > .input-group-btn > .form-control-static.btn,
-.input-group-lg > .input-group-btn > .form-control-static.squiffy-link,
-.input-group-lg > .input-group-btn > .form-control-static.squiffy-header-link, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
+.input-group-lg > .input-group-btn > .form-control-static.squiffy-link, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
 .input-group-sm > .form-control-static.input-group-addon,
 .input-group-sm > .input-group-btn > .form-control-static.btn,
-.input-group-sm > .input-group-btn > .form-control-static.squiffy-link,
-.input-group-sm > .input-group-btn > .form-control-static.squiffy-header-link {
+.input-group-sm > .input-group-btn > .form-control-static.squiffy-link {
   padding-left: 0;
   padding-right: 0;
 }
@@ -4123,8 +4112,7 @@ input[type="checkbox"] {
 .input-sm, .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn,
-.input-group-sm > .input-group-btn > .squiffy-link,
-.input-group-sm > .input-group-btn > .squiffy-header-link {
+.input-group-sm > .input-group-btn > .squiffy-link {
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
@@ -4136,8 +4124,7 @@ input[type="checkbox"] {
 select.input-sm, .input-group-sm > select.form-control,
 .input-group-sm > select.input-group-addon,
 .input-group-sm > .input-group-btn > select.btn,
-.input-group-sm > .input-group-btn > select.squiffy-link,
-.input-group-sm > .input-group-btn > select.squiffy-header-link {
+.input-group-sm > .input-group-btn > select.squiffy-link {
   height: 30px;
   line-height: 30px;
 }
@@ -4147,13 +4134,11 @@ textarea.input-sm, .input-group-sm > textarea.form-control,
 .input-group-sm > textarea.input-group-addon,
 .input-group-sm > .input-group-btn > textarea.btn,
 .input-group-sm > .input-group-btn > textarea.squiffy-link,
-.input-group-sm > .input-group-btn > textarea.squiffy-header-link,
 select[multiple].input-sm,
 .input-group-sm > select[multiple].form-control,
 .input-group-sm > select[multiple].input-group-addon,
 .input-group-sm > .input-group-btn > select[multiple].btn,
-.input-group-sm > .input-group-btn > select[multiple].squiffy-link,
-.input-group-sm > .input-group-btn > select[multiple].squiffy-header-link {
+.input-group-sm > .input-group-btn > select[multiple].squiffy-link {
   height: auto;
 }
 
@@ -4188,8 +4173,7 @@ select[multiple].input-sm,
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn,
-.input-group-lg > .input-group-btn > .squiffy-link,
-.input-group-lg > .input-group-btn > .squiffy-header-link {
+.input-group-lg > .input-group-btn > .squiffy-link {
   height: 46px;
   padding: 10px 16px;
   font-size: 18px;
@@ -4201,8 +4185,7 @@ select[multiple].input-sm,
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn,
-.input-group-lg > .input-group-btn > select.squiffy-link,
-.input-group-lg > .input-group-btn > select.squiffy-header-link {
+.input-group-lg > .input-group-btn > select.squiffy-link {
   height: 46px;
   line-height: 46px;
 }
@@ -4212,13 +4195,11 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 .input-group-lg > textarea.input-group-addon,
 .input-group-lg > .input-group-btn > textarea.btn,
 .input-group-lg > .input-group-btn > textarea.squiffy-link,
-.input-group-lg > .input-group-btn > textarea.squiffy-header-link,
 select[multiple].input-lg,
 .input-group-lg > select[multiple].form-control,
 .input-group-lg > select[multiple].input-group-addon,
 .input-group-lg > .input-group-btn > select[multiple].btn,
-.input-group-lg > .input-group-btn > select[multiple].squiffy-link,
-.input-group-lg > .input-group-btn > select[multiple].squiffy-header-link {
+.input-group-lg > .input-group-btn > select[multiple].squiffy-link {
   height: auto;
 }
 
@@ -4277,7 +4258,6 @@ select[multiple].input-lg,
 .input-group-lg > .input-group-addon + .form-control-feedback,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback,
 .input-group-lg > .input-group-btn > .squiffy-link + .form-control-feedback,
-.input-group-lg > .input-group-btn > .squiffy-header-link + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
   width: 46px;
@@ -4290,7 +4270,6 @@ select[multiple].input-lg,
 .input-group-sm > .input-group-addon + .form-control-feedback,
 .input-group-sm > .input-group-btn > .btn + .form-control-feedback,
 .input-group-sm > .input-group-btn > .squiffy-link + .form-control-feedback,
-.input-group-sm > .input-group-btn > .squiffy-header-link + .form-control-feedback,
 .input-group-sm + .form-control-feedback,
 .form-group-sm .form-control + .form-control-feedback {
   width: 30px;
@@ -4529,7 +4508,7 @@ select[multiple].input-lg,
 }
 
 /* line 9, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-.btn, .squiffy-link, .squiffy-header-link {
+.btn, .squiffy-link {
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -4550,24 +4529,24 @@ select[multiple].input-lg,
   user-select: none;
 }
 /* line 26, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-.btn:focus, .squiffy-link:focus, .squiffy-header-link:focus, .btn.focus, .focus.squiffy-link, .focus.squiffy-header-link, .btn:active:focus, .squiffy-link:active:focus, .squiffy-header-link:active:focus, .btn:active.focus, .squiffy-link:active.focus, .squiffy-header-link:active.focus, .btn.active:focus, .active.squiffy-link:focus, .active.squiffy-header-link:focus, .btn.active.focus, .active.focus.squiffy-link, .active.focus.squiffy-header-link {
+.btn:focus, .squiffy-link:focus, .btn.focus, .focus.squiffy-link, .btn:active:focus, .squiffy-link:active:focus, .btn:active.focus, .squiffy-link:active.focus, .btn.active:focus, .active.squiffy-link:focus, .btn.active.focus, .active.focus.squiffy-link {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 /* line 32, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-.btn:hover, .squiffy-link:hover, .squiffy-header-link:hover, .btn:focus, .squiffy-link:focus, .squiffy-header-link:focus, .btn.focus, .focus.squiffy-link, .focus.squiffy-header-link {
+.btn:hover, .squiffy-link:hover, .btn:focus, .squiffy-link:focus, .btn.focus, .focus.squiffy-link {
   color: #333;
   text-decoration: none;
 }
 /* line 39, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-.btn:active, .squiffy-link:active, .squiffy-header-link:active, .btn.active, .active.squiffy-link, .active.squiffy-header-link {
+.btn:active, .squiffy-link:active, .btn.active, .active.squiffy-link {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 /* line 46, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-.btn.disabled, .disabled.squiffy-link, .disabled.squiffy-header-link, .btn[disabled], [disabled].squiffy-link, [disabled].squiffy-header-link, fieldset[disabled] .btn, fieldset[disabled] .squiffy-link, fieldset[disabled] .squiffy-header-link {
+.btn.disabled, .disabled.squiffy-link, .btn[disabled], [disabled].squiffy-link, fieldset[disabled] .btn, fieldset[disabled] .squiffy-link {
   cursor: not-allowed;
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -4576,51 +4555,51 @@ select[multiple].input-lg,
 }
 
 /* line 58, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-a.btn.disabled, a.disabled.squiffy-link, a.disabled.squiffy-header-link, fieldset[disabled] a.btn, fieldset[disabled] a.squiffy-link, fieldset[disabled] a.squiffy-header-link {
+a.btn.disabled, a.disabled.squiffy-link, fieldset[disabled] a.btn, fieldset[disabled] a.squiffy-link {
   pointer-events: none;
 }
 
 /* line 68, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-default, .squiffy-link, .squiffy-header-link {
+.btn-default, .squiffy-link {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
 }
 /* line 11, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default:focus, .squiffy-link:focus, .squiffy-header-link:focus, .btn-default.focus, .focus.squiffy-link, .focus.squiffy-header-link {
+.btn-default:focus, .squiffy-link:focus, .btn-default.focus, .focus.squiffy-link {
   color: #333;
   background-color: #e6e6e6;
   border-color: #8c8c8c;
 }
 /* line 17, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default:hover, .squiffy-link:hover, .squiffy-header-link:hover {
+.btn-default:hover, .squiffy-link:hover {
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
 /* line 22, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default:active, .squiffy-link:active, .squiffy-header-link:active, .btn-default.active, .active.squiffy-link, .active.squiffy-header-link, .open > .btn-default.dropdown-toggle, .open > .dropdown-toggle.squiffy-link, .open > .dropdown-toggle.squiffy-header-link {
+.btn-default:active, .squiffy-link:active, .btn-default.active, .active.squiffy-link, .open > .btn-default.dropdown-toggle, .open > .dropdown-toggle.squiffy-link {
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
 /* line 29, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default:active:hover, .squiffy-link:active:hover, .squiffy-header-link:active:hover, .btn-default:active:focus, .squiffy-link:active:focus, .squiffy-header-link:active:focus, .btn-default:active.focus, .squiffy-link:active.focus, .squiffy-header-link:active.focus, .btn-default.active:hover, .active.squiffy-link:hover, .active.squiffy-header-link:hover, .btn-default.active:focus, .active.squiffy-link:focus, .active.squiffy-header-link:focus, .btn-default.active.focus, .active.focus.squiffy-link, .active.focus.squiffy-header-link, .open > .btn-default.dropdown-toggle:hover, .open > .dropdown-toggle.squiffy-link:hover, .open > .dropdown-toggle.squiffy-header-link:hover, .open > .btn-default.dropdown-toggle:focus, .open > .dropdown-toggle.squiffy-link:focus, .open > .dropdown-toggle.squiffy-header-link:focus, .open > .btn-default.dropdown-toggle.focus, .open > .dropdown-toggle.focus.squiffy-link, .open > .dropdown-toggle.focus.squiffy-header-link {
+.btn-default:active:hover, .squiffy-link:active:hover, .btn-default:active:focus, .squiffy-link:active:focus, .btn-default:active.focus, .squiffy-link:active.focus, .btn-default.active:hover, .active.squiffy-link:hover, .btn-default.active:focus, .active.squiffy-link:focus, .btn-default.active.focus, .active.focus.squiffy-link, .open > .btn-default.dropdown-toggle:hover, .open > .dropdown-toggle.squiffy-link:hover, .open > .btn-default.dropdown-toggle:focus, .open > .dropdown-toggle.squiffy-link:focus, .open > .btn-default.dropdown-toggle.focus, .open > .dropdown-toggle.focus.squiffy-link {
   color: #333;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
 /* line 37, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default:active, .squiffy-link:active, .squiffy-header-link:active, .btn-default.active, .active.squiffy-link, .active.squiffy-header-link, .open > .btn-default.dropdown-toggle, .open > .dropdown-toggle.squiffy-link, .open > .dropdown-toggle.squiffy-header-link {
+.btn-default:active, .squiffy-link:active, .btn-default.active, .active.squiffy-link, .open > .btn-default.dropdown-toggle, .open > .dropdown-toggle.squiffy-link {
   background-image: none;
 }
 /* line 45, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default.disabled:hover, .disabled.squiffy-link:hover, .disabled.squiffy-header-link:hover, .btn-default.disabled:focus, .disabled.squiffy-link:focus, .disabled.squiffy-header-link:focus, .btn-default.disabled.focus, .disabled.focus.squiffy-link, .disabled.focus.squiffy-header-link, .btn-default[disabled]:hover, [disabled].squiffy-link:hover, [disabled].squiffy-header-link:hover, .btn-default[disabled]:focus, [disabled].squiffy-link:focus, [disabled].squiffy-header-link:focus, .btn-default[disabled].focus, [disabled].focus.squiffy-link, [disabled].focus.squiffy-header-link, fieldset[disabled] .btn-default:hover, fieldset[disabled] .squiffy-link:hover, fieldset[disabled] .squiffy-header-link:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .squiffy-link:focus, fieldset[disabled] .squiffy-header-link:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .focus.squiffy-link, fieldset[disabled] .focus.squiffy-header-link {
+.btn-default.disabled:hover, .disabled.squiffy-link:hover, .btn-default.disabled:focus, .disabled.squiffy-link:focus, .btn-default.disabled.focus, .disabled.focus.squiffy-link, .btn-default[disabled]:hover, [disabled].squiffy-link:hover, .btn-default[disabled]:focus, [disabled].squiffy-link:focus, .btn-default[disabled].focus, [disabled].focus.squiffy-link, fieldset[disabled] .btn-default:hover, fieldset[disabled] .squiffy-link:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .squiffy-link:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .focus.squiffy-link {
   background-color: #fff;
   border-color: #ccc;
 }
 /* line 53, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-.btn-default .badge, .squiffy-link .badge, .squiffy-header-link .badge {
+.btn-default .badge, .squiffy-link .badge {
   color: #fff;
   background-color: #333;
 }
@@ -4879,7 +4858,7 @@ a.btn.disabled, a.disabled.squiffy-link, a.disabled.squiffy-header-link, fieldse
 }
 
 /* line 135, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .squiffy-link, .btn-group-lg > .squiffy-header-link {
+.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .squiffy-link {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.3333333;
@@ -4887,7 +4866,7 @@ a.btn.disabled, a.disabled.squiffy-link, a.disabled.squiffy-header-link, fieldse
 }
 
 /* line 139, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .squiffy-link, .btn-group-sm > .squiffy-header-link {
+.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .squiffy-link {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
@@ -4895,7 +4874,7 @@ a.btn.disabled, a.disabled.squiffy-link, a.disabled.squiffy-header-link, fieldse
 }
 
 /* line 143, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-xs, .btn-group-xs > .btn, .btn-group-xs > .squiffy-link, .btn-group-xs > .squiffy-header-link {
+.btn-xs, .btn-group-xs > .btn, .btn-group-xs > .squiffy-link {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
@@ -5144,38 +5123,31 @@ tbody.collapse.in {
   vertical-align: middle;
 }
 /* line 11, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn, .btn-group > .squiffy-link, .btn-group > .squiffy-header-link,
+.btn-group > .btn, .btn-group > .squiffy-link,
 .btn-group-vertical > .btn,
-.btn-group-vertical > .squiffy-link,
-.btn-group-vertical > .squiffy-header-link {
+.btn-group-vertical > .squiffy-link {
   position: relative;
   float: left;
 }
 /* line 15, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn:hover, .btn-group > .squiffy-link:hover, .btn-group > .squiffy-header-link:hover, .btn-group > .btn:focus, .btn-group > .squiffy-link:focus, .btn-group > .squiffy-header-link:focus, .btn-group > .btn:active, .btn-group > .squiffy-link:active, .btn-group > .squiffy-header-link:active, .btn-group > .btn.active, .btn-group > .active.squiffy-link, .btn-group > .active.squiffy-header-link,
+.btn-group > .btn:hover, .btn-group > .squiffy-link:hover, .btn-group > .btn:focus, .btn-group > .squiffy-link:focus, .btn-group > .btn:active, .btn-group > .squiffy-link:active, .btn-group > .btn.active, .btn-group > .active.squiffy-link,
 .btn-group-vertical > .btn:hover,
 .btn-group-vertical > .squiffy-link:hover,
-.btn-group-vertical > .squiffy-header-link:hover,
 .btn-group-vertical > .btn:focus,
 .btn-group-vertical > .squiffy-link:focus,
-.btn-group-vertical > .squiffy-header-link:focus,
 .btn-group-vertical > .btn:active,
 .btn-group-vertical > .squiffy-link:active,
-.btn-group-vertical > .squiffy-header-link:active,
 .btn-group-vertical > .btn.active,
-.btn-group-vertical > .active.squiffy-link,
-.btn-group-vertical > .active.squiffy-header-link {
+.btn-group-vertical > .active.squiffy-link {
   z-index: 2;
 }
 
 /* line 26, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group .btn + .btn, .btn-group .squiffy-link + .btn, .btn-group .squiffy-header-link + .btn, .btn-group .btn + .squiffy-link, .btn-group .squiffy-link + .squiffy-link, .btn-group .squiffy-header-link + .squiffy-link, .btn-group .btn + .squiffy-header-link, .btn-group .squiffy-link + .squiffy-header-link, .btn-group .squiffy-header-link + .squiffy-header-link,
+.btn-group .btn + .btn, .btn-group .squiffy-link + .btn, .btn-group .btn + .squiffy-link, .btn-group .squiffy-link + .squiffy-link,
 .btn-group .btn + .btn-group,
 .btn-group .squiffy-link + .btn-group,
-.btn-group .squiffy-header-link + .btn-group,
 .btn-group .btn-group + .btn,
 .btn-group .btn-group + .squiffy-link,
-.btn-group .btn-group + .squiffy-header-link,
 .btn-group .btn-group + .btn-group {
   margin-left: -1px;
 }
@@ -5194,35 +5166,35 @@ tbody.collapse.in {
   clear: both;
 }
 /* line 39, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-toolbar .btn, .btn-toolbar .squiffy-link, .btn-toolbar .squiffy-header-link,
+.btn-toolbar .btn, .btn-toolbar .squiffy-link,
 .btn-toolbar .btn-group,
 .btn-toolbar .input-group {
   float: left;
 }
 /* line 44, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-toolbar > .btn, .btn-toolbar > .squiffy-link, .btn-toolbar > .squiffy-header-link,
+.btn-toolbar > .btn, .btn-toolbar > .squiffy-link,
 .btn-toolbar > .btn-group,
 .btn-toolbar > .input-group {
   margin-left: 5px;
 }
 
 /* line 51, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .btn-group > .squiffy-link:not(:first-child):not(:last-child):not(.dropdown-toggle), .btn-group > .squiffy-header-link:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .btn-group > .squiffy-link:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
 }
 
 /* line 56, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn:first-child, .btn-group > .squiffy-link:first-child, .btn-group > .squiffy-header-link:first-child {
+.btn-group > .btn:first-child, .btn-group > .squiffy-link:first-child {
   margin-left: 0;
 }
 /* line 58, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .btn-group > .squiffy-link:first-child:not(:last-child):not(.dropdown-toggle), .btn-group > .squiffy-header-link:first-child:not(:last-child):not(.dropdown-toggle) {
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .btn-group > .squiffy-link:first-child:not(:last-child):not(.dropdown-toggle) {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
 
 /* line 63, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn:last-child:not(:first-child), .btn-group > .squiffy-link:last-child:not(:first-child), .btn-group > .squiffy-header-link:last-child:not(:first-child),
+.btn-group > .btn:last-child:not(:first-child), .btn-group > .squiffy-link:last-child:not(:first-child),
 .btn-group > .dropdown-toggle:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
@@ -5234,19 +5206,19 @@ tbody.collapse.in {
 }
 
 /* line 72, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .btn-group > .btn-group:not(:first-child):not(:last-child) > .squiffy-link, .btn-group > .btn-group:not(:first-child):not(:last-child) > .squiffy-header-link {
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .btn-group > .btn-group:not(:first-child):not(:last-child) > .squiffy-link {
   border-radius: 0;
 }
 
 /* line 76, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child, .btn-group > .btn-group:first-child:not(:last-child) > .squiffy-link:last-child, .btn-group > .btn-group:first-child:not(:last-child) > .squiffy-header-link:last-child,
+.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child, .btn-group > .btn-group:first-child:not(:last-child) > .squiffy-link:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
 
 /* line 81, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child, .btn-group > .btn-group:last-child:not(:first-child) > .squiffy-link:first-child, .btn-group > .btn-group:last-child:not(:first-child) > .squiffy-header-link:first-child {
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child, .btn-group > .btn-group:last-child:not(:first-child) > .squiffy-link:first-child {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -5258,13 +5230,13 @@ tbody.collapse.in {
 }
 
 /* line 105, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn + .dropdown-toggle, .btn-group > .squiffy-link + .dropdown-toggle, .btn-group > .squiffy-header-link + .dropdown-toggle {
+.btn-group > .btn + .dropdown-toggle, .btn-group > .squiffy-link + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
 }
 
 /* line 109, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, .btn-group-lg.btn-group > .squiffy-link + .dropdown-toggle, .btn-group-lg.btn-group > .squiffy-header-link + .dropdown-toggle {
+.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, .btn-group-lg.btn-group > .squiffy-link + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px;
 }
@@ -5281,27 +5253,26 @@ tbody.collapse.in {
 }
 
 /* line 127, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn .caret, .squiffy-link .caret, .squiffy-header-link .caret {
+.btn .caret, .squiffy-link .caret {
   margin-left: 0;
 }
 
 /* line 131, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-lg .caret, .btn-group-lg > .btn .caret, .btn-group-lg > .squiffy-link .caret, .btn-group-lg > .squiffy-header-link .caret {
+.btn-lg .caret, .btn-group-lg > .btn .caret, .btn-group-lg > .squiffy-link .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0;
 }
 
 /* line 136, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret, .dropup .btn-group-lg > .squiffy-link .caret, .dropup .btn-group-lg > .squiffy-header-link .caret {
+.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret, .dropup .btn-group-lg > .squiffy-link .caret {
   border-width: 0 5px 5px;
 }
 
 /* line 145, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn, .btn-group-vertical > .squiffy-link, .btn-group-vertical > .squiffy-header-link,
+.btn-group-vertical > .btn, .btn-group-vertical > .squiffy-link,
 .btn-group-vertical > .btn-group,
 .btn-group-vertical > .btn-group > .btn,
-.btn-group-vertical > .btn-group > .squiffy-link,
-.btn-group-vertical > .btn-group > .squiffy-header-link {
+.btn-group-vertical > .btn-group > .squiffy-link {
   display: block;
   float: none;
   width: 100%;
@@ -5317,35 +5288,33 @@ tbody.collapse.in {
   clear: both;
 }
 /* line 157, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group > .btn, .btn-group-vertical > .btn-group > .squiffy-link, .btn-group-vertical > .btn-group > .squiffy-header-link {
+.btn-group-vertical > .btn-group > .btn, .btn-group-vertical > .btn-group > .squiffy-link {
   float: none;
 }
 /* line 162, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn + .btn, .btn-group-vertical > .squiffy-link + .btn, .btn-group-vertical > .squiffy-header-link + .btn, .btn-group-vertical > .btn + .squiffy-link, .btn-group-vertical > .squiffy-link + .squiffy-link, .btn-group-vertical > .squiffy-header-link + .squiffy-link, .btn-group-vertical > .btn + .squiffy-header-link, .btn-group-vertical > .squiffy-link + .squiffy-header-link, .btn-group-vertical > .squiffy-header-link + .squiffy-header-link,
+.btn-group-vertical > .btn + .btn, .btn-group-vertical > .squiffy-link + .btn, .btn-group-vertical > .btn + .squiffy-link, .btn-group-vertical > .squiffy-link + .squiffy-link,
 .btn-group-vertical > .btn + .btn-group,
 .btn-group-vertical > .squiffy-link + .btn-group,
-.btn-group-vertical > .squiffy-header-link + .btn-group,
 .btn-group-vertical > .btn-group + .btn,
 .btn-group-vertical > .btn-group + .squiffy-link,
-.btn-group-vertical > .btn-group + .squiffy-header-link,
 .btn-group-vertical > .btn-group + .btn-group {
   margin-top: -1px;
   margin-left: 0;
 }
 
 /* line 172, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn:not(:first-child):not(:last-child), .btn-group-vertical > .squiffy-link:not(:first-child):not(:last-child), .btn-group-vertical > .squiffy-header-link:not(:first-child):not(:last-child) {
+.btn-group-vertical > .btn:not(:first-child):not(:last-child), .btn-group-vertical > .squiffy-link:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
 /* line 175, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn:first-child:not(:last-child), .btn-group-vertical > .squiffy-link:first-child:not(:last-child), .btn-group-vertical > .squiffy-header-link:first-child:not(:last-child) {
+.btn-group-vertical > .btn:first-child:not(:last-child), .btn-group-vertical > .squiffy-link:first-child:not(:last-child) {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 /* line 179, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn:last-child:not(:first-child), .btn-group-vertical > .squiffy-link:last-child:not(:first-child), .btn-group-vertical > .squiffy-header-link:last-child:not(:first-child) {
+.btn-group-vertical > .btn:last-child:not(:first-child), .btn-group-vertical > .squiffy-link:last-child:not(:first-child) {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   border-bottom-right-radius: 4px;
@@ -5353,19 +5322,19 @@ tbody.collapse.in {
 }
 
 /* line 184, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .squiffy-link, .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .squiffy-header-link {
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .squiffy-link {
   border-radius: 0;
 }
 
 /* line 188, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child, .btn-group-vertical > .btn-group:first-child:not(:last-child) > .squiffy-link:last-child, .btn-group-vertical > .btn-group:first-child:not(:last-child) > .squiffy-header-link:last-child,
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child, .btn-group-vertical > .btn-group:first-child:not(:last-child) > .squiffy-link:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
 /* line 193, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .btn-group-vertical > .btn-group:last-child:not(:first-child) > .squiffy-link:first-child, .btn-group-vertical > .btn-group:last-child:not(:first-child) > .squiffy-header-link:first-child {
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .btn-group-vertical > .btn-group:last-child:not(:first-child) > .squiffy-link:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
@@ -5378,14 +5347,14 @@ tbody.collapse.in {
   border-collapse: separate;
 }
 /* line 206, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-justified > .btn, .btn-group-justified > .squiffy-link, .btn-group-justified > .squiffy-header-link,
+.btn-group-justified > .btn, .btn-group-justified > .squiffy-link,
 .btn-group-justified > .btn-group {
   float: none;
   display: table-cell;
   width: 1%;
 }
 /* line 212, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-justified > .btn-group .btn, .btn-group-justified > .btn-group .squiffy-link, .btn-group-justified > .btn-group .squiffy-header-link {
+.btn-group-justified > .btn-group .btn, .btn-group-justified > .btn-group .squiffy-link {
   width: 100%;
 }
 /* line 216, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
@@ -5394,16 +5363,13 @@ tbody.collapse.in {
 }
 
 /* line 237, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_button-groups.scss */
-[data-toggle="buttons"] > .btn input[type="radio"], [data-toggle="buttons"] > .squiffy-link input[type="radio"], [data-toggle="buttons"] > .squiffy-header-link input[type="radio"],
+[data-toggle="buttons"] > .btn input[type="radio"], [data-toggle="buttons"] > .squiffy-link input[type="radio"],
 [data-toggle="buttons"] > .btn input[type="checkbox"],
 [data-toggle="buttons"] > .squiffy-link input[type="checkbox"],
-[data-toggle="buttons"] > .squiffy-header-link input[type="checkbox"],
 [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
 [data-toggle="buttons"] > .btn-group > .squiffy-link input[type="radio"],
-[data-toggle="buttons"] > .btn-group > .squiffy-header-link input[type="radio"],
 [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"],
-[data-toggle="buttons"] > .btn-group > .squiffy-link input[type="checkbox"],
-[data-toggle="buttons"] > .btn-group > .squiffy-header-link input[type="checkbox"] {
+[data-toggle="buttons"] > .btn-group > .squiffy-link input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
@@ -5471,8 +5437,7 @@ tbody.collapse.in {
 .input-group-addon.input-sm,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .input-group-addon.btn,
-.input-group-sm > .input-group-btn > .input-group-addon.squiffy-link,
-.input-group-sm > .input-group-btn > .input-group-addon.squiffy-header-link {
+.input-group-sm > .input-group-btn > .input-group-addon.squiffy-link {
   padding: 5px 10px;
   font-size: 12px;
   border-radius: 3px;
@@ -5481,8 +5446,7 @@ tbody.collapse.in {
 .input-group-addon.input-lg,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .input-group-addon.btn,
-.input-group-lg > .input-group-btn > .input-group-addon.squiffy-link,
-.input-group-lg > .input-group-btn > .input-group-addon.squiffy-header-link {
+.input-group-lg > .input-group-btn > .input-group-addon.squiffy-link {
   padding: 10px 16px;
   font-size: 18px;
   border-radius: 6px;
@@ -5498,17 +5462,13 @@ tbody.collapse.in {
 .input-group-addon:first-child,
 .input-group-btn:first-child > .btn,
 .input-group-btn:first-child > .squiffy-link,
-.input-group-btn:first-child > .squiffy-header-link,
 .input-group-btn:first-child > .btn-group > .btn,
 .input-group-btn:first-child > .btn-group > .squiffy-link,
-.input-group-btn:first-child > .btn-group > .squiffy-header-link,
 .input-group-btn:first-child > .dropdown-toggle,
 .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .squiffy-link:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:last-child > .squiffy-header-link:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .btn,
-.input-group-btn:last-child > .btn-group:not(:last-child) > .squiffy-link,
-.input-group-btn:last-child > .btn-group:not(:last-child) > .squiffy-header-link {
+.input-group-btn:last-child > .btn-group:not(:last-child) > .squiffy-link {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
@@ -5523,17 +5483,13 @@ tbody.collapse.in {
 .input-group-addon:last-child,
 .input-group-btn:last-child > .btn,
 .input-group-btn:last-child > .squiffy-link,
-.input-group-btn:last-child > .squiffy-header-link,
 .input-group-btn:last-child > .btn-group > .btn,
 .input-group-btn:last-child > .btn-group > .squiffy-link,
-.input-group-btn:last-child > .btn-group > .squiffy-header-link,
 .input-group-btn:last-child > .dropdown-toggle,
 .input-group-btn:first-child > .btn:not(:first-child),
 .input-group-btn:first-child > .squiffy-link:not(:first-child),
-.input-group-btn:first-child > .squiffy-header-link:not(:first-child),
 .input-group-btn:first-child > .btn-group:not(:first-child) > .btn,
-.input-group-btn:first-child > .btn-group:not(:first-child) > .squiffy-link,
-.input-group-btn:first-child > .btn-group:not(:first-child) > .squiffy-header-link {
+.input-group-btn:first-child > .btn-group:not(:first-child) > .squiffy-link {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
@@ -5550,24 +5506,24 @@ tbody.collapse.in {
   white-space: nowrap;
 }
 /* line 144, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_input-groups.scss */
-.input-group-btn > .btn, .input-group-btn > .squiffy-link, .input-group-btn > .squiffy-header-link {
+.input-group-btn > .btn, .input-group-btn > .squiffy-link {
   position: relative;
 }
 /* line 146, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_input-groups.scss */
-.input-group-btn > .btn + .btn, .input-group-btn > .squiffy-link + .btn, .input-group-btn > .squiffy-header-link + .btn, .input-group-btn > .btn + .squiffy-link, .input-group-btn > .squiffy-link + .squiffy-link, .input-group-btn > .squiffy-header-link + .squiffy-link, .input-group-btn > .btn + .squiffy-header-link, .input-group-btn > .squiffy-link + .squiffy-header-link, .input-group-btn > .squiffy-header-link + .squiffy-header-link {
+.input-group-btn > .btn + .btn, .input-group-btn > .squiffy-link + .btn, .input-group-btn > .btn + .squiffy-link, .input-group-btn > .squiffy-link + .squiffy-link {
   margin-left: -1px;
 }
 /* line 150, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_input-groups.scss */
-.input-group-btn > .btn:hover, .input-group-btn > .squiffy-link:hover, .input-group-btn > .squiffy-header-link:hover, .input-group-btn > .btn:focus, .input-group-btn > .squiffy-link:focus, .input-group-btn > .squiffy-header-link:focus, .input-group-btn > .btn:active, .input-group-btn > .squiffy-link:active, .input-group-btn > .squiffy-header-link:active {
+.input-group-btn > .btn:hover, .input-group-btn > .squiffy-link:hover, .input-group-btn > .btn:focus, .input-group-btn > .squiffy-link:focus, .input-group-btn > .btn:active, .input-group-btn > .squiffy-link:active {
   z-index: 2;
 }
 /* line 159, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_input-groups.scss */
-.input-group-btn:first-child > .btn, .input-group-btn:first-child > .squiffy-link, .input-group-btn:first-child > .squiffy-header-link,
+.input-group-btn:first-child > .btn, .input-group-btn:first-child > .squiffy-link,
 .input-group-btn:first-child > .btn-group {
   margin-right: -1px;
 }
 /* line 165, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_input-groups.scss */
-.input-group-btn:last-child > .btn, .input-group-btn:last-child > .squiffy-link, .input-group-btn:last-child > .squiffy-header-link,
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .squiffy-link,
 .input-group-btn:last-child > .btn-group {
   z-index: 2;
   margin-left: -1px;
@@ -6156,12 +6112,12 @@ tbody.collapse.in {
   margin-bottom: 8px;
 }
 /* line 346, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .btn-group-sm > .navbar-btn.squiffy-link, .btn-group-sm > .navbar-btn.squiffy-header-link {
+.navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .btn-group-sm > .navbar-btn.squiffy-link {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 /* line 349, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .btn-group-xs > .navbar-btn.squiffy-link, .btn-group-xs > .navbar-btn.squiffy-header-link {
+.navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .btn-group-xs > .navbar-btn.squiffy-link {
   margin-top: 14px;
   margin-bottom: 14px;
 }
@@ -6612,7 +6568,7 @@ tbody.collapse.in {
   display: none;
 }
 /* line 25, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_labels.scss */
-.btn .label, .squiffy-link .label, .squiffy-header-link .label {
+.btn .label, .squiffy-link .label {
   position: relative;
   top: -1px;
 }
@@ -6698,12 +6654,12 @@ a.label:hover, a.label:focus {
   display: none;
 }
 /* line 27, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_badges.scss */
-.btn .badge, .squiffy-link .badge, .squiffy-header-link .badge {
+.btn .badge, .squiffy-link .badge {
   position: relative;
   top: -1px;
 }
 /* line 32, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_badges.scss */
-.btn-xs .badge, .btn-group-xs > .btn .badge, .btn-group-xs > .squiffy-link .badge, .btn-group-xs > .squiffy-header-link .badge, .btn-group-xs > .btn .badge, .btn-group-xs > .squiffy-link .badge, .btn-group-xs > .squiffy-header-link .badge {
+.btn-xs .badge, .btn-group-xs > .btn .badge, .btn-group-xs > .squiffy-link .badge, .btn-group-xs > .btn .badge, .btn-group-xs > .squiffy-link .badge {
   top: 0;
   padding: 1px 5px;
 }
@@ -7987,12 +7943,12 @@ button.close {
   clear: both;
 }
 /* line 110, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_modals.scss */
-.modal-footer .btn + .btn, .modal-footer .squiffy-link + .btn, .modal-footer .squiffy-header-link + .btn, .modal-footer .btn + .squiffy-link, .modal-footer .squiffy-link + .squiffy-link, .modal-footer .squiffy-header-link + .squiffy-link, .modal-footer .btn + .squiffy-header-link, .modal-footer .squiffy-link + .squiffy-header-link, .modal-footer .squiffy-header-link + .squiffy-header-link {
+.modal-footer .btn + .btn, .modal-footer .squiffy-link + .btn, .modal-footer .btn + .squiffy-link, .modal-footer .squiffy-link + .squiffy-link {
   margin-left: 5px;
   margin-bottom: 0;
 }
 /* line 115, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_modals.scss */
-.modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .squiffy-link + .btn, .modal-footer .btn-group .squiffy-header-link + .btn, .modal-footer .btn-group .btn + .squiffy-link, .modal-footer .btn-group .squiffy-link + .squiffy-link, .modal-footer .btn-group .squiffy-header-link + .squiffy-link, .modal-footer .btn-group .btn + .squiffy-header-link, .modal-footer .btn-group .squiffy-link + .squiffy-header-link, .modal-footer .btn-group .squiffy-header-link + .squiffy-header-link {
+.modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .squiffy-link + .btn, .modal-footer .btn-group .btn + .squiffy-link, .modal-footer .btn-group .squiffy-link + .squiffy-link {
   margin-left: -1px;
 }
 /* line 119, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_modals.scss */
@@ -8549,7 +8505,7 @@ button.close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 /* line 229, C:/Ruby22/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_carousel.scss */
-.carousel-caption .btn, .carousel-caption .squiffy-link, .carousel-caption .squiffy-header-link {
+.carousel-caption .btn, .carousel-caption .squiffy-link {
   text-shadow: none;
 }
 
@@ -8957,86 +8913,72 @@ button.close {
 }
 
 /* line 5, ../sass/_index.scss */
-html {
+.tr__index {
   width: 100%;
   height: 100%;
 }
-
 /* line 10, ../sass/_index.scss */
-body {
-  width: 100%;
-  height: 100%;
-  font-family: 'Titillium Web', sans-serif;
-  color: white;
-  background-color: black;
-  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
-}
-
-/* line 19, ../sass/_index.scss */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.tr__index h1,
+.tr__index h2,
+.tr__index h3,
+.tr__index h4,
+.tr__index h5,
+.tr__index h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
   font-weight: 700;
   letter-spacing: 1px;
 }
-
-/* line 32, ../sass/_index.scss */
-p {
+/* line 22, ../sass/_index.scss */
+.tr__index p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
 }
 @media (min-width: 768px) {
-  /* line 32, ../sass/_index.scss */
-  p {
+  /* line 22, ../sass/_index.scss */
+  .tr__index p {
     margin: 0 0 35px;
     font-size: 20px;
     line-height: 1.6;
   }
 }
-
-/* line 44, ../sass/_index.scss */
-a {
+/* line 34, ../sass/_index.scss */
+.tr__index a {
   color: #42DCA3;
 }
-/* line 47, ../sass/_index.scss */
-a:hover, a:focus {
+/* line 37, ../sass/_index.scss */
+.tr__index a:hover, .tr__index a:focus {
   text-decoration: none;
   color: #1d9b6c;
 }
-
-/* line 54, ../sass/_index.scss */
-i {
+/* line 44, ../sass/_index.scss */
+.tr__index i {
   font-style: italic;
 }
-
-/* line 58, ../sass/_index.scss */
-.light {
+/* line 48, ../sass/_index.scss */
+.tr__index .light {
   font-weight: 400;
 }
-
-/* line 62, ../sass/_index.scss */
-.green {
+/* line 52, ../sass/_index.scss */
+.tr__index .green {
   color: #42DCA3;
 }
-
-/* line 66, ../sass/_index.scss */
-.navbar-custom {
+/* line 56, ../sass/_index.scss */
+.tr__index .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   background-color: black;
 }
 @media (min-width: 768px) {
-  /* line 66, ../sass/_index.scss */
-  .navbar-custom {
+  /* line 56, ../sass/_index.scss */
+  .tr__index .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
@@ -9047,70 +8989,69 @@ i {
   }
 }
 @media (min-width: 768px) {
-  /* line 84, ../sass/_index.scss */
-  .navbar-custom.top-nav-collapse {
+  /* line 74, ../sass/_index.scss */
+  .tr__index .navbar-custom.top-nav-collapse {
     padding: 0;
     background: black;
     border-bottom: 1px solid #42DCA3;
   }
 }
-/* line 93, ../sass/_index.scss */
-.navbar-custom .navbar-toggle {
+/* line 83, ../sass/_index.scss */
+.tr__index .navbar-custom .navbar-toggle {
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
-/* line 98, ../sass/_index.scss */
-.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
+/* line 88, ../sass/_index.scss */
+.tr__index .navbar-custom .navbar-toggle:focus, .tr__index .navbar-custom .navbar-toggle:active {
   outline: none;
 }
-/* line 104, ../sass/_index.scss */
-.navbar-custom .navbar-brand {
+/* line 94, ../sass/_index.scss */
+.tr__index .navbar-custom .navbar-brand {
   font-weight: 700;
 }
-/* line 107, ../sass/_index.scss */
-.navbar-custom .navbar-brand:focus {
+/* line 97, ../sass/_index.scss */
+.tr__index .navbar-custom .navbar-brand:focus {
   outline: none;
 }
-/* line 111, ../sass/_index.scss */
-.navbar-custom .navbar-brand:hover {
+/* line 101, ../sass/_index.scss */
+.tr__index .navbar-custom .navbar-brand:hover {
   color: #42DCA3;
 }
-/* line 116, ../sass/_index.scss */
-.navbar-custom a {
+/* line 106, ../sass/_index.scss */
+.tr__index .navbar-custom a {
   color: white;
 }
-/* line 122, ../sass/_index.scss */
-.navbar-custom .nav li a {
+/* line 112, ../sass/_index.scss */
+.tr__index .navbar-custom .nav li a {
   font-size: 18px;
   font-weight: 700;
 }
-/* line 126, ../sass/_index.scss */
-.navbar-custom .nav li a:hover {
+/* line 116, ../sass/_index.scss */
+.tr__index .navbar-custom .nav li a:hover {
   color: #42DCA3;
   outline: none;
   background-color: transparent;
 }
-/* line 132, ../sass/_index.scss */
-.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+/* line 122, ../sass/_index.scss */
+.tr__index .navbar-custom .nav li a:focus, .tr__index .navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
-/* line 139, ../sass/_index.scss */
-.navbar-custom .nav li.active {
+/* line 129, ../sass/_index.scss */
+.tr__index .navbar-custom .nav li.active {
   outline: none;
 }
-/* line 142, ../sass/_index.scss */
-.navbar-custom .nav li.active a {
+/* line 132, ../sass/_index.scss */
+.tr__index .navbar-custom .nav li.active a {
   background-color: #42DCA3;
 }
-/* line 145, ../sass/_index.scss */
-.navbar-custom .nav li.active a:hover {
+/* line 135, ../sass/_index.scss */
+.tr__index .navbar-custom .nav li.active a:hover {
   color: white;
 }
-
-/* line 154, ../sass/_index.scss */
-.overlay {
+/* line 144, ../sass/_index.scss */
+.tr__index .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -9122,32 +9063,31 @@ i {
   left: 0;
   z-index: 0;
 }
-/* line 167, ../sass/_index.scss */
-.intro .overlay {
+/* line 157, ../sass/_index.scss */
+.intro .tr__index .overlay {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 171, ../sass/_index.scss */
-.story .overlay {
+/* line 161, ../sass/_index.scss */
+.story .tr__index .overlay {
   background-color: rgba(0, 0, 0, 0.3);
 }
-
-/* line 176, ../sass/_index.scss */
-.progressbar {
+/* line 166, ../sass/_index.scss */
+.tr__index .progressbar {
   position: relative;
   padding: 30px 0;
   text-align: center;
   border-bottom: 1px solid #42DCA3;
 }
-/* line 182, ../sass/_index.scss */
-.progressbar .subline {
+/* line 172, ../sass/_index.scss */
+.tr__index .progressbar .subline {
   margin-top: 15px;
 }
-/* line 186, ../sass/_index.scss */
-.progressbar img {
+/* line 176, ../sass/_index.scss */
+.tr__index .progressbar img {
   margin: 0 auto;
 }
-/* line 198, ../sass/_index.scss */
-.progressbar .percent {
+/* line 188, ../sass/_index.scss */
+.tr__index .progressbar .percent {
   position: absolute;
   bottom: 20px;
   font-size: 36px;
@@ -9156,13 +9096,12 @@ i {
   opacity: 0;
   transition: all 2s ease;
 }
-/* line 207, ../sass/_index.scss */
-.progressbar .percent.visi {
+/* line 197, ../sass/_index.scss */
+.tr__index .progressbar .percent.visi {
   opacity: 1;
 }
-
-/* line 213, ../sass/_index.scss */
-.reveal {
+/* line 203, ../sass/_index.scss */
+.tr__index .reveal {
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -9170,8 +9109,8 @@ i {
   height: auto;
   z-index: -1;
 }
-/* line 221, ../sass/_index.scss */
-.reveal:after {
+/* line 211, ../sass/_index.scss */
+.tr__index .reveal:after {
   content: " ";
   position: absolute;
   display: block;
@@ -9183,26 +9122,23 @@ i {
   z-index: 1;
   transition: all 2s ease;
 }
-/* line 235, ../sass/_index.scss */
-.reveal.visi:after {
+/* line 225, ../sass/_index.scss */
+.tr__index .reveal.visi:after {
   left: 100%;
 }
-
-/* line 242, ../sass/_index.scss */
-.update__list li {
+/* line 232, ../sass/_index.scss */
+.tr__index .update__list li {
   font-size: 20px;
   line-height: 1.6;
 }
-
-/* line 248, ../sass/_index.scss */
-.progressbar__inner {
+/* line 238, ../sass/_index.scss */
+.tr__index .progressbar__inner {
   position: relative;
   margin: 0 auto;
   width: auto;
 }
-
-/* line 254, ../sass/_index.scss */
-.content-section {
+/* line 244, ../sass/_index.scss */
+.tr__index .content-section {
   display: table;
   width: 100%;
   height: 100vh;
@@ -9210,8 +9146,8 @@ i {
   text-align: center;
   color: white;
 }
-/* line 262, ../sass/_index.scss */
-.content-section.intro {
+/* line 252, ../sass/_index.scss */
+.tr__index .content-section.intro {
   background: url(../img/header.jpg) no-repeat;
   background-color: black;
   -webkit-background-size: cover;
@@ -9220,8 +9156,8 @@ i {
   -o-background-size: cover;
   background-position: center;
 }
-/* line 272, ../sass/_index.scss */
-.content-section.story {
+/* line 262, ../sass/_index.scss */
+.tr__index .content-section.story {
   position: relative;
   background: url(../img/props.jpg) no-repeat;
   background-color: black;
@@ -9232,112 +9168,104 @@ i {
   background-position: center;
 }
 @media (min-width: 768px) {
-  /* line 254, ../sass/_index.scss */
-  .content-section {
+  /* line 244, ../sass/_index.scss */
+  .tr__index .content-section {
     height: 100%;
     padding: 0;
   }
 }
-
-/* line 291, ../sass/_index.scss */
-.content-body {
+/* line 281, ../sass/_index.scss */
+.tr__index .content-body {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 295, ../sass/_index.scss */
-.intro .content-body {
+/* line 285, ../sass/_index.scss */
+.intro .tr__index .content-body {
   padding-bottom: 25px;
   vertical-align: bottom;
 }
 @media (max-width: 768px) {
-  /* line 295, ../sass/_index.scss */
-  .intro .content-body {
+  /* line 285, ../sass/_index.scss */
+  .intro .tr__index .content-body {
     padding-bottom: 0;
   }
 }
-/* line 304, ../sass/_index.scss */
-.contact .content-body {
+/* line 294, ../sass/_index.scss */
+.contact .tr__index .content-body {
   padding-bottom: 55px;
 }
 @media (max-width: 768px) {
-  /* line 304, ../sass/_index.scss */
-  .contact .content-body {
+  /* line 294, ../sass/_index.scss */
+  .contact .tr__index .content-body {
     padding-bottom: 0;
   }
 }
-
-/* line 313, ../sass/_index.scss */
-.inner-wrapper {
+/* line 303, ../sass/_index.scss */
+.tr__index .inner-wrapper {
   width: 100%;
   float: left;
 }
-/* line 317, ../sass/_index.scss */
-.inner-wrapper:last-child {
+/* line 307, ../sass/_index.scss */
+.tr__index .inner-wrapper:last-child {
   margin-top: 20px;
 }
-/* line 320, ../sass/_index.scss */
-.inner-wrapper:last-child p {
+/* line 310, ../sass/_index.scss */
+.tr__index .inner-wrapper:last-child p {
   margin: 0 0 10px;
 }
-
-/* line 326, ../sass/_index.scss */
-.brand-heading {
+/* line 316, ../sass/_index.scss */
+.tr__index .brand-heading {
   font-size: 40px;
   margin-bottom: 15px;
 }
 @media (min-width: 768px) {
-  /* line 326, ../sass/_index.scss */
-  .brand-heading {
+  /* line 316, ../sass/_index.scss */
+  .tr__index .brand-heading {
     font-size: 100px;
   }
 }
-
-/* line 335, ../sass/_index.scss */
-.brand-subline {
+/* line 325, ../sass/_index.scss */
+.tr__index .brand-subline {
   margin-bottom: 0;
 }
-
-/* line 339, ../sass/_index.scss */
-.intro-text {
+/* line 329, ../sass/_index.scss */
+.tr__index .intro-text {
   font-size: 18px;
   margin: 0 0 10px;
 }
 @media (min-width: 768px) {
-  /* line 339, ../sass/_index.scss */
-  .intro-text {
+  /* line 329, ../sass/_index.scss */
+  .tr__index .intro-text {
     font-size: 26px;
   }
 }
-
-/* line 349, ../sass/_index.scss */
-footer {
+/* line 339, ../sass/_index.scss */
+.tr__index footer {
   padding: 20px 0;
   border-top: 1px solid #42DCA3;
 }
-/* line 353, ../sass/_index.scss */
-footer p {
+/* line 343, ../sass/_index.scss */
+.tr__index footer p {
   margin: 0;
 }
-
-/* line 358, ../sass/_index.scss */
-.back-to-top {
+/* line 348, ../sass/_index.scss */
+.tr__index .back-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
   padding: 1em;
 }
-/* line 364, ../sass/_index.scss */
-.back-to-top span {
+/* line 354, ../sass/_index.scss */
+.tr__index .back-to-top span {
   color: white;
   font-size: 35px;
 }
-
-/* line 370, ../sass/_index.scss */
-.shariff {
+/* line 360, ../sass/_index.scss */
+.tr__index .shariff {
   margin-bottom: 25px;
 }
-/* line 373, ../sass/_index.scss */
-.shariff .shariff-button {
+/* line 363, ../sass/_index.scss */
+.tr__index .shariff .shariff-button {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -9345,29 +9273,28 @@ footer p {
   color: #42DCA3;
   margin: 15px 10px;
 }
-/* line 381, ../sass/_index.scss */
-.shariff .shariff-button a {
+/* line 371, ../sass/_index.scss */
+.tr__index .shariff .shariff-button a {
   width: 100%;
   height: 100%;
   display: block;
 }
-/* line 386, ../sass/_index.scss */
-.shariff .shariff-button a:hover {
+/* line 376, ../sass/_index.scss */
+.tr__index .shariff .shariff-button a:hover {
   background: #42DCA3;
   color: #000000;
 }
-/* line 391, ../sass/_index.scss */
-.shariff .shariff-button .fa {
+/* line 381, ../sass/_index.scss */
+.tr__index .shariff .shariff-button .fa {
   font-size: 35px;
   padding: 7px;
 }
-/* line 396, ../sass/_index.scss */
-.shariff .share_text {
+/* line 386, ../sass/_index.scss */
+.tr__index .shariff .share_text {
   display: none !important;
 }
-
-/* line 401, ../sass/_index.scss */
-.gradient {
+/* line 391, ../sass/_index.scss */
+.tr__index .gradient {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -9381,8 +9308,8 @@ footer p {
   background: linear-gradient(to bottom, rgba(76, 76, 76, 0) 0%, black 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#000000', GradientType=0 );
 }
-/* line 415, ../sass/_index.scss */
-.gradient.two {
+/* line 405, ../sass/_index.scss */
+.tr__index .gradient.two {
   top: 0;
   bottom: auto;
   background: black;
@@ -9393,6 +9320,18 @@ footer p {
   background: -ms-linear-gradient(top, black 0%, rgba(76, 76, 76, 0) 100%);
   background: linear-gradient(to bottom, black 0%, rgba(76, 76, 76, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#4c4c4c', GradientType=0 );
+}
+
+/* line 424, ../sass/_index.scss */
+.tr__index body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
 /* line 1, ../sass/_buttons.scss */
@@ -9508,59 +9447,7 @@ footer p {
     transform: scale(1);
   }
 }
-/* line 6, ../sass/_story.scss */
-.squiffy-link.disabled {
-  display: none;
-}
-
-/* line 15, ../sass/_story.scss */
-#squiffy-container {
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 20, ../sass/_story.scss */
-#squiffy-container p {
-  font-size: 18px;
-}
-
-/* line 25, ../sass/_story.scss */
-#squiffy-header {
-  font-size: 14px;
-  text-align: right;
-}
-
-/* line 30, ../sass/_story.scss */
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-/* line 43, ../sass/_story.scss */
-.story-area {
-  padding: 0 0 80px;
-}
-
-/* line 47, ../sass/_story.scss */
-.storysection {
-  padding-top: 130px;
-}
-
-/* line 51, ../sass/_story.scss */
-.wrapper {
-  padding: 0;
-}
-
-/* line 55, ../sass/_story.scss */
-#sidebarnav {
-  top: 150px;
-}
-
-/* line 60, ../sass/_story.scss */
+/* line 1, ../sass/_notification.scss */
 .alert-minimalist {
   background-color: #f1f2f0;
   border-color: rgba(149, 149, 149, 0.3);
@@ -9568,69 +9455,415 @@ hr {
   color: #959595;
   padding: 10px;
 }
-/* line 67, ../sass/_story.scss */
+/* line 8, ../sass/_notification.scss */
 .alert-minimalist > [data-notify="icon"] {
   height: 50px;
   margin-right: 12px;
 }
-/* line 73, ../sass/_story.scss */
+/* line 14, ../sass/_notification.scss */
 .alert-minimalist > [data-notify="title"] {
   color: #333333;
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
-/* line 80, ../sass/_story.scss */
+/* line 21, ../sass/_notification.scss */
 .alert-minimalist > [data-notify="message"] {
   font-size: 20px;
 }
 
-/* line 88, ../sass/_story.scss */
-.render {
-  margin-top: 25px;
-  font-size: 21px;
-  text-align: center;
-  animation: fadein 2s;
-  -moz-animation: fadein 2s;
-  /* Firefox */
-  -webkit-animation: fadein 2s;
-  /* Safari and Chrome */
-  -o-animation: fadein 2s;
-  /* Opera */
+/* line 6, ../sass/_squiffy-elements.scss */
+.squiffy-link.disabled {
+  display: none;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
+/* line 10, ../sass/_squiffy-elements.scss */
+.squiffy-header-link {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  font-size: 18px;
+  background: transparent;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: 1px solid #ffffff;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 8px;
+  cursor: pointer;
+}
+/* line 24, ../sass/_squiffy-elements.scss */
+.squiffy-header-link:hover {
+  color: #212121;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+/* =Simple animation up */
+/* line 5, ../sass/_animations.scss */
+.no-touch .is-active .slideInUp {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 13, ../sass/_animations.scss */
+.no-touch .slideInUp {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  -webkit-transform: translate3d(0, 50px, 0);
+  transform: translate3d(0, 50px, 0);
+}
+/* line 22, ../sass/_animations.scss */
+.slideInUp.slideInUp2 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+/* line 27, ../sass/_animations.scss */
+.slideInUp.slideInUp3 {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+/* line 1, ../sass/_story.scss */
+.tr__story {
+  height: 100%;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  /* line 1, ../sass/_story.scss */
+  .tr__story {
+    font-weight: 100;
   }
-  to {
+}
+/* line 10, ../sass/_story.scss */
+.tr__story h1 {
+  font-size: 3em;
+  margin-top: 0;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 17, ../sass/_story.scss */
+.tr__story p {
+  font-size: 18px;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* =Header */
+/* line 25, ../sass/_story.scss */
+.trs__header-container {
+  text-align: center;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  /* line 25, ../sass/_story.scss */
+  .trs__header-container {
+    overflow: hidden;
+    position: relative;
+  }
+}
+/* line 34, ../sass/_story.scss */
+.trs__header-container.fs {
+  height: 100vh;
+}
+
+/* line 39, ../sass/_story.scss */
+.trs__header-container__wrapper {
+  padding-top: 120px;
+  z-index: 2;
+  position: relative;
+}
+@media (min-width: 768px) {
+  /* line 39, ../sass/_story.scss */
+  .trs__header-container__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -120%);
+    -ms-transform: translate(-50%, -120%);
+    transform: translate(-50%, -120%);
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Parallax Images */
+/* line 57, ../sass/_story.scss */
+.trs__bcg {
+  background: no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.5;
+}
+@media (min-width: 768px) {
+  /* line 57, ../sass/_story.scss */
+  .trs__bcg {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
+/* line 70, ../sass/_story.scss */
+.trs__header-container .trs__bcg {
+  background-image: url(../img/img_mountains01.jpg);
+  background-size: cover;
+}
+/* line 75, ../sass/_story.scss */
+#slide01 .trs__bcg {
+  background: url(../img/img_mountains02.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* line 79, ../sass/_story.scss */
+#slide02 .trs__bcg {
+  background: url(../img/img_mountains03.jpg) no-repeat center center;
+  background-size: cover;
+}
+/* line 83, ../sass/_story.scss */
+#slide03 .trs__bcg {
+  background: url(../img/img_mountains04.jpg) no-repeat center center;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+/* =Navigation */
+/* line 92, ../sass/_story.scss */
+.trs__nav {
+  display: block;
+  position: fixed;
+  left: 30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: right;
+  z-index: 100;
+}
+/* line 103, ../sass/_story.scss */
+.trs__nav .trs__nav__link {
+  display: block;
+  line-height: 25px;
+  position: relative;
+  padding-left: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 112, ../sass/_story.scss */
+.trs__nav .trs__nav__link:hover .trs__nav__label {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 123, ../sass/_story.scss */
+.trs__nav__list {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 128, ../sass/_story.scss */
+.trs__nav__list__item {
+  width: auto;
+  list-style: none;
+}
+
+/* line 133, ../sass/_story.scss */
+.trs__nav__label {
+  display: block;
+  opacity: 0.5;
+  visibility: hidden;
+  -webkit-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  transform: translateX(-10px);
+  -webkit-transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+/* line 144, ../sass/_story.scss */
+.trs__nav__dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+/* line 160, ../sass/_story.scss */
+.active .trs__nav__dot {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 167, ../sass/_story.scss */
+.trs__scroll-hint {
+  font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 5px 15px;
+  border: 3px #ffffff solid;
+  border-radius: 100%;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  z-index: 2;
+}
+
+/* line 185, ../sass/_story.scss */
+.trs__slide {
+  color: #ffffff;
+  position: relative;
+}
+@media (min-width: 768px) {
+  /* line 185, ../sass/_story.scss */
+  .trs__slide {
+    overflow: hidden;
+    overflow-x: hidden;
   }
 }
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
+/* line 194, ../sass/_story.scss */
+.trs__slide.fs {
+  height: 100vh;
+}
+/* line 198, ../sass/_story.scss */
+.trs__slide section {
+  max-width: 400px;
+}
+
+/* line 203, ../sass/_story.scss */
+.trs__image-wrapper {
+  display: inline-block;
+  width: 40%;
+}
+
+/* line 208, ../sass/_story.scss */
+.trs__button-wrapper {
+  width: 50%;
+  margin: 0 5%;
+  display: inline-block;
+}
+
+/* line 215, ../sass/_story.scss */
+.trs__wrapper {
+  width: 50%;
+  margin: 0 5%;
+  display: inline-block;
+}
+/* line 220, ../sass/_story.scss */
+.trs__wrapper.right {
+  text-align: right;
+}
+/* line 224, ../sass/_story.scss */
+.trs__slide .trs__wrapper {
+  padding-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+@media (min-width: 768px) {
+  /* line 224, ../sass/_story.scss */
+  .trs__slide .trs__wrapper {
+    padding-top: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: 0;
   }
 }
-@-o-keyframes fadein {
-  /* Opera */
-  from {
-    opacity: 0;
+/* line 242, ../sass/_story.scss */
+.trs__content-block .trs__wrapper {
+  padding: 30px 0;
+}
+@media (min-width: 768px) {
+  /* line 242, ../sass/_story.scss */
+  .trs__content-block .trs__wrapper {
+    padding: 120px 0;
   }
-  to {
-    opacity: 1;
+}
+/* line 250, ../sass/_story.scss */
+#slide01 .trs__wrapper {
+  position: absolute;
+  top: 10%;
+}
+/* line 254, ../sass/_story.scss */
+#slide02 .trs__wrapper {
+  position: absolute;
+  bottom: 10%;
+}
+@media (min-width: 768px) {
+  /* line 254, ../sass/_story.scss */
+  #slide02 .trs__wrapper {
+    top: auto;
+    bottom: 40%;
+    left: 10%;
+    text-align: left;
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
+    padding: 0;
   }
+}
+/* line 269, ../sass/_story.scss */
+#slide03 .trs__wrapper {
+  padding-top: 100px;
+}
+@media (min-width: 768px) {
+  /* line 269, ../sass/_story.scss */
+  #slide03 .trs__wrapper {
+    padding: 0;
+    top: 15%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+}
+
+/* =Content Block */
+/* line 285, ../sass/_story.scss */
+.trs__content-block {
+  background-color: #212121;
+  color: rgba(255, 255, 255, 0.9);
+}
+/* line 290, ../sass/_story.scss */
+.no-touch .trs__content-block .trs__wrapper {
+  visibility: hidden;
+  opacity: 0;
+}
+/* line 296, ../sass/_story.scss */
+.no-touch .trs__content-block.is-active .trs__wrapper {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 311, ../sass/_story.scss */
+.trs__footer {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  background: #212121;
 }

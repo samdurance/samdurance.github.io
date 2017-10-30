@@ -1,0 +1,29 @@
+.squiffy-link {
+    @extend .btn;
+    @extend .btn-default;
+}
+
+.squiffy-link.disabled {
+    display: none;
+}
+
+.squiffy-header-link {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 1px solid $white;
+    @include tilli-bold;
+    padding: 8px;
+    cursor: pointer;
+    
+    &:hover {
+        color: $anthrazit;
+        background: $white;
+        text-decoration: none;
+    }
+}

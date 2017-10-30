@@ -1,0 +1,31 @@
+/* =Simple animation up */
+.slideInUp {
+
+    .is-active &{
+        .no-touch & {
+            visibility: visible;
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .no-touch & {
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: all 0.7s ease-out;
+        transition: all 0.7s ease-out;
+        -webkit-transform: translate3d(0, 50px, 0);
+        transform: translate3d(0, 50px, 0); 
+    }
+
+    &.slideInUp2 {
+        -webkit-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    &.slideInUp3 {
+        -webkit-transition-delay: 0.4s;
+        transition-delay: 0.4s;
+    }
+}

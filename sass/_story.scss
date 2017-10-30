@@ -1,129 +1,316 @@
-.squiffy-link {
-    @extend .btn;
-    @extend .btn-default;
-}
+.tr__story {
+    height: 100%;
+    margin: 0; 
 
-.squiffy-link.disabled {
-   display: none;
-}
+    @media (min-width: $screen-tablet) {
+        font-weight: 100;
+    }
 
-.squiffy-header-link {
-    @extend .btn;
-    @extend .btn-default;
-}
 
-#squiffy-container {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    h1 {
+        font-size: 3em;
+        margin-top: 0;
+        @include tilli-bold;
+        text-transform: uppercase;
+    }
+
     p {
         font-size: 18px;
+         @include tilli-normal;
     }
 }
 
-#squiffy-header {
-    font-size: 14px;
+
+/* =Header */
+.trs__header-container {
+    text-align: center;
+    color: $white;
+
+    @media (min-width: $screen-tablet) {
+        overflow: hidden;
+        position: relative; 
+    }
+
+    &.fs {
+        height: 100vh;
+    }
+}
+
+.trs__header-container__wrapper {
+    padding-top: 120px;
+    z-index: 2;
+    position: relative;
+
+    @media (min-width: $screen-tablet) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -120%);
+        -ms-transform: translate(-50%, -120%);
+        transform: translate(-50%, -120%);
+        margin: 0;
+        padding: 0; 
+    }
+}
+
+/* Parallax Images */
+.trs__bcg {
+    background: no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+
+    @media (min-width: $screen-tablet) {
+        opacity: 1;
+    }
+
+    .trs__header-container & {
+        background-image: url(../img/img_mountains01.jpg);
+        background-size: cover;
+    }
+
+    #slide01 & {
+        background: url(../img/img_mountains02.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    #slide02 & {
+        background: url(../img/img_mountains03.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    #slide03 & {
+        background: url(../img/img_mountains04.jpg) no-repeat center center;
+        background-size: cover;
+        opacity: 0.7;
+    }
+}
+
+
+/* =Navigation */
+.trs__nav {
+    display: block;
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     text-align: right;
+    z-index: 100; 
+
+    .trs__nav__link {
+        display: block;
+        line-height: 25px;
+        position: relative;
+        padding-left: 20px;
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+            .trs__nav__label {
+                -webkit-transform: translateX(0);
+                -ms-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+                visibility: visible; 
+            }
+        }
+    }
 }
 
-hr {
-    border: 0;
-    height: 0;
-
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    margin-top: 16px; margin-bottom: 16px;
-}
-
-
-
-
-
-.story-area {
-    padding: 0 0 80px;
-}
-
-.storysection {
-    padding-top: 130px;
-}
-
-.wrapper {
+.trs__nav__list {
+    margin: 0;
     padding: 0;
 }
 
-#sidebarnav {
-    top: 150px;
+.trs__nav__list__item {
+    width: auto;
+    list-style: none;
+}
+
+.trs__nav__label {
+    display: block;
+    opacity: 0.5;
+    visibility: hidden;
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+    -webkit-transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+    transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+}
+
+.trs__nav__dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border: 1px solid $white;
+
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear; 
+
+    .active & {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
 }
 
 
-.alert-minimalist {
-    background-color: rgb(241, 242, 240);
-    border-color: rgba(149, 149, 149, 0.3);
-    border-radius: 3px;
-    color: rgb(149, 149, 149);
-    padding: 10px;
 
-    > [data-notify="icon"] {
-        height: 50px;
-        margin-right: 12px;
+.trs__scroll-hint {
+    font-size: 30px;
+    color: $white;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 5px 15px;
+    border: 3px $white solid;
+    border-radius: 100%;
+    @include tilli-bold;
+    z-index: 2; 
+}
+
+
+
+.trs__slide {
+    color: $white;
+    position: relative; 
+
+    @media (min-width: $screen-tablet) {
+        overflow: hidden;
+        overflow-x: hidden;
     }
 
-
-    > [data-notify="title"] {
-        color: rgb(51, 51, 51);
-        display: block;
-        font-weight: bold;
-        margin-bottom: 5px;
+    &.fs {
+        height: 100vh;
     }
 
-    > [data-notify="message"] {
-        font-size: 20px;
+    section {
+        max-width: 400px;
+    }
+}
+
+.trs__image-wrapper {
+    display: inline-block;
+    width: 40%;
+}
+
+.trs__button-wrapper {
+    width: 50%;
+    margin: 0 5%;
+        display: inline-block;
+}
+
+
+.trs__wrapper {
+    width: 50%;
+    margin: 0 5%;
+    display: inline-block;
+    
+    &.right {
+        text-align: right;
+    }
+
+    .trs__slide & {
+        padding-top: 30px;
+        position: relative;
+        z-index: 2;
+
+        @media (min-width: $screen-tablet) {
+            padding-top: 120px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            width: 100%;
+            margin: 0; 
+        }
+    }
+
+    .trs__content-block & {
+        padding: 30px 0;
+
+        @media (min-width: $screen-tablet) {
+            padding: 120px 0; 
+        }
+    }
+
+    #slide01 & {
+        position: absolute;
+        top: 10%;
+    }
+    #slide02 & {
+        position: absolute;
+        bottom: 10%;
+
+        @media (min-width: $screen-tablet) {
+            top: auto;
+            bottom: 40%;
+            left: 10%;
+            text-align: left;
+            -webkit-transform: translate(0);
+            -ms-transform: translate(0);
+            transform: translate(0);
+            padding: 0; 
+        }
+    }
+    #slide03 & {
+        padding-top: 100px;
+
+        @media (min-width: $screen-tablet) {
+            padding: 0;
+            top: 15%;
+            -webkit-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+        }
+
+    }
+}
+
+
+/* =Content Block */
+.trs__content-block {
+    background-color: $anthrazit;
+    color: rgba($white, 0.9); 
+
+    .no-touch & {
+        .trs__wrapper {
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        &.is-active {
+            .trs__wrapper {
+                visibility: visible;
+                opacity: 1;
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);   
+            }
+        }
     }
 }
 
 
 
 
-.render {
-    margin-top: 25px;
-    font-size: 21px;
+
+
+.trs__footer {
     text-align: center;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-}
-
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+    font-size: 14px;
+    color: rgba($white, 0.5);
+    background: $anthrazit; 
 }

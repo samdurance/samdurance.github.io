@@ -67,7 +67,7 @@ $(document).ready(function () {
                 var notifyMsg = data[section].popup.content;
                 var notifyThumb = data[section].popup.thumb;
 
-                notify(notifyThumb, notifyMsg);
+               // notify(notifyThumb, notifyMsg);
 
             },
             error: function(error) {
@@ -75,7 +75,7 @@ $(document).ready(function () {
         });
     });
 
-        function notify (thumb, msg) {
+       /* function notify (thumb, msg) {
 
         $.notify({
             icon: thumb,
@@ -89,9 +89,9 @@ $(document).ready(function () {
             '<span data-notify="title">{1}</span>' +
             '<span data-notify="message">{2}</span>' +
             '</div>'
-        });
+        });*/
 
-    };
+    //};
 
     $('#startstory').on('click', function(e) {
         e.preventDefault();

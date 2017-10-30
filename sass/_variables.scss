@@ -1,0 +1,34 @@
+$white: #ffffff;
+$black: #000000;
+$neogreen: #42DCA3;
+$darkerneogreen: #1d9b6c;
+
+
+$turq: #308C9B;
+$orange: #EC9A46;
+$anthrazit: #212121;
+
+
+@mixin tilli-normal {
+    font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin tilli-bold {
+    font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin tilli-normal-italic {
+    font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@mixin tilli-bold-italic {
+    font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
