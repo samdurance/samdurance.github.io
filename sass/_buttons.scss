@@ -13,7 +13,7 @@
     border: 2px solid white;
     border-radius: 100% !important;
     font-size: 35px;
-    color: white;
+    color: white !important;
     background: transparent;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
@@ -47,7 +47,7 @@
 
 .btn-white {
     border: 1px solid #ffffff;
-    color: #ffffff;
+    color: #ffffff !important;
     background-color: transparent;
     text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
