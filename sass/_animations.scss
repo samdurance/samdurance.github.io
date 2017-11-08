@@ -1,11 +1,14 @@
 /* =Simple animation up */
 .slideInUp {
 
-    .is-active &{
+    .is-active & {
         .no-touch & {
             visibility: visible;
             opacity: 1;
             -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
         }
     }
@@ -13,19 +16,56 @@
     .no-touch & {
         visibility: hidden;
         opacity: 0;
-        -webkit-transition: all 0.7s ease-out;
-        transition: all 0.7s ease-out;
-        -webkit-transform: translate3d(0, 50px, 0);
-        transform: translate3d(0, 50px, 0); 
+        -webkit-transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -ms-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        transition: all 0.4s ease-out;
+        -webkit-transform: translate3d(0, 50, 0);
+        -moz-transform: translate3d(0, 50, 0);
+        -ms-transform: translate3d(0, 50, 0);
+        -o-transform: translate3d(0, 50, 0);
+        transform: translate3d(0, 50, 0);
     }
 
     &.slideInUp2 {
         -webkit-transition-delay: 0.2s;
+        -moz-transition-delay: 0.2s;
+        -ms-transition-delay: 0.2s;
+        -o-transition-delay: 0.2s;
         transition-delay: 0.2s;
     }
 
     &.slideInUp3 {
         -webkit-transition-delay: 0.4s;
+        -moz-transition-delay: 0.4s;
+        -ms-transition-delay: 0.4s;
+        -o-transition-delay: 0.4s;
         transition-delay: 0.4s;
+    }
+
+    &.slideInUp4 {
+
+        -webkit-transition-delay: 0.6s;
+        -moz-transition-delay: 0.6s;
+        -ms-transition-delay: 0.6s;
+        -o-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+    }
+
+    &.slideInUp5 {
+        -webkit-transition-delay: 0.8s;
+        -moz-transition-delay: 0.8s;
+        -ms-transition-delay: 0.8s;
+        -o-transition-delay: 0.8s;
+        transition-delay: 0.8s;
+    }
+
+    &.slideInUp6 {
+        -webkit-transition-delay: 1s;
+        -moz-transition-delay: 1s;
+        -ms-transition-delay: 1s;
+        -o-transition-delay: 1s;
+        transition-delay: 1s;
     }
 }

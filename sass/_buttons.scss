@@ -17,6 +17,8 @@
     background: transparent;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
+    -ms-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
     transition: background 0.3s ease-in-out;
 
     &.animated {
@@ -46,12 +48,11 @@
 }
 
 .btn-white {
-    border: 1px solid #ffffff;
-    color: #ffffff !important;
+    @include tilli-bold;
+    border: 1px solid $white;
+    color: $white !important;
     background-color: transparent;
     text-transform: uppercase;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 700;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -62,24 +63,24 @@
 
     &:hover,
     &:focus {
-        border: 1px solid #42DCA3;
+        border: 1px solid $neogreen;
         outline: none;
-        color: #000000;
-        background-color: #42DCA3;
+        color: $black;
+        background-color: $neogreen;
     }
 }
 
 .btn-green {
     @extend .btn-white;
-    color: #42DCA3;
-    border: 1px solid #42DCA3;
+    color: $neogreen;
+    border: 1px solid $neogreen;
 
     &:hover,
     &:focus {
-        border: 1px solid #42DCA3;
+        border: 1px solid $neogreen;
         outline: none;
-        color: #ffffff;
-        background-color: #42DCA3;
+        color: $white;
+        background-color: $neogreen;
     }
 }
 
