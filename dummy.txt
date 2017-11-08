@@ -30,3 +30,4 @@ GREETINGFAIL MORE
 <a class=\"squiffy-link link-section\" data-section=\"Antonia_pre\" role=\"link\" tabindex=\"0\">Antonia</a> <a class=\"squiffy-link link-section\" data-section=\"Hisao_pre\" role=\"link\" tabindex=\"0\">Hisao</a>
 
 
+https://codepen.io/derekjp/pen/bpoRVK?q=diagonal%20background&order=popularity&depth=everything&show_forks=false
