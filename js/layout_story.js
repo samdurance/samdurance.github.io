@@ -303,8 +303,10 @@ var squiffy = {};
         }
         var sectionCount = squiffy.get('_section-count') + 1;
         squiffy.set('_section-count', sectionCount);
+        var name = 'sqsec';
         var id = 'squiffy-section-' + sectionCount;
         currentSection = jQuery('<div/>', {
+            class : name,
             id: id,
         }).appendTo(squiffy.ui.output);
         squiffy.set('_output-section', id);
@@ -620,12 +622,12 @@ squiffy.story.sections = {
 		},
 	},
 	'start': {
-		'text': "<article id=\"cb01\" class=\"trs__content-block is-active\"><div class=\"trs__wrapper\"><header class=\"slideInUp\"><h1>Kapitel 1: Ankunft</h1></header><section><p class=\"slideInUp slideInUp2\">Brownie carrot cake chocolate bar chocolate cake I love sweet soufflé cheesecake wafer. Sweet I love icing bonbon jelly-o pudding pudding marshmallow gummies. Chupa chups chocolate bar sweet roll jelly croissant candy canes chocolate cake I love. Gummi bears pastry I love marzipan. Dragée tootsie roll carrot cake liquorice brownie jelly-o gummi bears bonbon. Marshmallow cotton candy muffin chocolate cake macaroon cupcake bear claw. Cotton candy sesame snaps tart fruitcake gummies. Chupa chups I love I love powder topping pudding. Cupcake marshmallow brownie oat cake cheesecake. Dessert dragée tart.</p><p class=\"slideInUp slideInUp2\">Soufflé sugar plum pie cookie candy canes jelly. Chocolate oat cake wafer pastry I love toffee. Bear claw cake pudding powder cake macaroon biscuit cake.</p><p class=\"slideInUp slideInUp2\">Liquorice chocolate bar soufflé carrot cake cotton candy marshmallow dragée oat cake. Ice cream lemon drops macaroon liquorice gingerbread cheesecake sesame snaps jelly caramels. Pie lemon drops gummies bonbon.</p><div class=\"trs__button-wrapper\"><a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a><a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a></div></section></div><div class=\"trs__image-wrapper\"><img src=\"img/story/cartest.jpg\" class=\"img-responsive\" /></div></article>",
+		'text': "<article id=\"cb01\" class=\"content-block is-active\"><div class=\"wrapper textwrap\"><header class=\"slideInUp\"><h1>Kapitel 1: Ankunft</h1></header><section><p class=\"slideInUp slideInUp2\">Brownie carrot cake chocolate bar chocolate cake I love sweet soufflé cheesecake wafer. Sweet I love icing bonbon jelly-o pudding pudding marshmallow gummies. Chupa chups chocolate bar sweet roll jelly croissant candy canes chocolate cake I love. Gummi bears pastry I love marzipan. Dragée tootsie roll carrot cake liquorice brownie jelly-o gummi bears bonbon. Marshmallow cotton candy muffin chocolate cake macaroon cupcake bear claw. Cotton candy sesame snaps tart fruitcake gummies. Chupa chups I love I love powder topping pudding. Cupcake marshmallow brownie oat cake cheesecake. Dessert dragée tart.</p><p class=\"slideInUp slideInUp2\">Soufflé sugar plum pie cookie candy canes jelly. Chocolate oat cake wafer pastry I love toffee. Bear claw cake pudding powder cake macaroon biscuit cake.</p><p class=\"slideInUp slideInUp2\">Liquorice chocolate bar soufflé carrot cake cotton candy marshmallow dragée oat cake. Ice cream lemon drops macaroon liquorice gingerbread cheesecake sesame snaps jelly caramels. Pie lemon drops gummies bonbon.</p><div class=\"btnwrap\"><a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a><a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a></div></section></div><div class=\"imgwrap\"><img src=\"img/story/cartest.jpg\" class=\"img-responsive\" /></div></article>",
 		'passages': {
 		},
 	},
 	'Carkiss yes': {
-		'text': "<article id=\"slide01\" class=\"trs__slide fs\"><div class=\"trs__bcg\"></div><div class=\"trs__wrapper\"><header class=\"slideInUp\"><h1>RENDER #1</h1></header><section></section></div> </article><article id=\"cb02\" class=\"trs__content-block\"><div class=\"trs__wrapper right\"><header class=\"slideInUp\"></header><section><p class=\"slideInUp\">Carkisstext YES mit zusätzlichem Bild</p>{Carkiss more}</section></div> </article>",
+		'text': "<article id=\"slide01\" class=\"slide fs\"><div class=\"bcg\"></div><div class=\"wrapper\"><header class=\"slideInUp\"><h1>RENDER #1</h1></header><section></section></div> </article><article id=\"cb02\" class=\"content-block\"><div class=\"wrapper\"><header class=\"slideInUp\"></header><section><p class=\"slideInUp\">Carkisstext YES mit zusätzlichem Bild</p>{Carkiss more}</section></div> </article>",
 		'attributes': ["carkiss"],
 		'passages': {
 		},
@@ -633,13 +635,26 @@ squiffy.story.sections = {
 	'Carkiss no': {
 		'text': "<p>Carkisstext NO mit zusätzlichem <a class=\"squiffy-link link-passage\" data-passage=\"Bildlink\" role=\"link\" tabindex=\"0\">Bildlink</a></p>\n<p>{Carkiss more}</p>",
 		'passages': {
-			'Bildlink': {
-				'text': "<p><img src=\"http://placekitten.com/g/500/200\" class=\"img-responsive\" /></p>",
-			},
 		},
 	},
 	'Carkiss more': {
-		'text': "<p class=\"slideInUp slideInUp2\">Salara erreichen Residenz, steigen aus, gehen rein <br/>\nH ist im Foyer und labert am Telefon<br/>\nA ist noch unterwegs (Küche/draußen)<br/>\nSalara warten darauf dass H Zeit hat<br/>\nWährrenddessen kommt Akito und flauscht Lara an<br/>\nLara will dazu auch noch Vasen betouchen<br/>\n<br/>\nH fertig mit Telefonat, umarmt Sam<br/></p>\n<p class=\"slideInUp slideInUp2\"><a class=\"squiffy-link link-section\" data-section=\"Greetingfail yes\" role=\"link\" tabindex=\"0\">Greetingfail yes</a> <a class=\"squiffy-link link-section\" data-section=\"Greetingfail no\" role=\"link\" tabindex=\"0\">Greetingfail no</a> </p>",
+		'text': "<p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><a class=\"squiffy-link link-section\" data-section=\"Greetingfail yes\" role=\"link\" tabindex=\"0\">Greetingfail yes</a> <a class=\"squiffy-link link-section\" data-section=\"Greetingfail no\" role=\"link\" tabindex=\"0\">Greetingfail no</a>",
+		'passages': {
+		},
+	},
+	'Greetingfail yes': {
+		'text': "<article id=\"slide02\" class=\"slide fs\"><div class=\"bcg\"></div><div class=\"wrapper\"><header class=\"slideInUp\"><h1>RENDER #2</h1></header><section></section></div> </article><article id=\"cb03\" class=\"content-block\"><div class=\"wrapper\"><header class=\"slideInUp\"></header><section><p class=\"slideInUp\">Carkisstext YES mit zusätzlichem Bild</p>{Greetingfail more}</section></div> </article>",
+		'attributes': ["greetingfail"],
+		'passages': {
+		},
+	},
+	'Greetingfail no': {
+		'text': "<article id=\"slide02\" class=\"slide fs\"><div class=\"bcg\"></div><div class=\"wrapper\"><header class=\"slideInUp\"><h1>RENDER #2</h1></header><section></section></div> </article><article id=\"cb03\" class=\"content-block\"><div class=\"wrapper\"><header class=\"slideInUp\"></header><section><p class=\"slideInUp\">Carkisstext NO mit zusätzlichem Bild</p>{Greetingfail more}</section></div> </article>",
+		'passages': {
+		},
+	},
+	'Greetingfail more': {
+		'text': "<p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><a class=\"squiffy-link link-section\" data-section=\"Antonia_pre\" role=\"link\" tabindex=\"0\">Antonia</a> <a class=\"squiffy-link link-section\" data-section=\"Hisao_pre\" role=\"link\" tabindex=\"0\">Hisao</a>",
 		'passages': {
 		},
 	},

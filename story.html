@@ -23,15 +23,14 @@
 
     <body class="tr__story">
 
-
         <div id="intro" class="trs__header-container fs">
             <div class="trs__bcg"></div>
-            <header class="trs__header-container__wrapper">
+            <header class="trs__wrapper">
                 <h1 class="title">Build Something Amazing!</h1>
                 <p>Learn ScrollMagic and GreenSock to create your own site from scratch.</p>
             </header>
             <span class="trs__scroll-hint">
-             <i class="fa fa-angle-double-down"></i>
+                <i class="fa fa-angle-double-down"></i>
             </span>
         </div>
 
@@ -73,20 +72,19 @@
         <div class="main-container">
 
 
-
-
-            <div id="squiffy-container">
+          <div id="squiffy-container">
                 <div id="squiffy-header">
                     <a class="squiffy-header-link" id="restart" tabindex="0">Restart</a>
                 </div>
                 <div id="squiffy"></div>
             </div>
 
+
         </div>
 
         <div class="trs__footer">
             <div class="trs__wrapper">
-               
+
             </div>
         </div>
 
@@ -106,14 +104,14 @@
 
         <script type="application/javascript" src="js/bootstrap-notify.min.js"></script>
         <script type="application/javascript" src="js/layout_story.js" charset="UTF-8"></script>
-        <script src="js/scrollmagic_main.js"></script>
+        <script src="js/SM_origin.js"></script>
 
         <script>
 
-            initSM();
+            //initSM();
 
             $(document).on('click', '.squiffy-link', function(e) {
-                initSM();
+              //  initSM();
             });
 
             jQuery(function($){

@@ -1,54 +1,32 @@
-<article id="\cb01\" class="\content-block\">
-<div class="\wrapper\">
-<header class="\slideInUp\">
-<h1>Kapitel 1: Ankunft</h1>
-</header>
-<section>
-<p class="\slideInUp slideInUp2\">
-\nSalara fahren im schicken Schlitten zur Residenz<br/>
-\nUnterhalten sich währenddessen über A/H, die not-to-do Liste gegenüber A etc<br/>
-\nSam flauscht sich ran
-</p>
-<a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a>
-<a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a>
-</section>
-</div>
-</article>
+START
+"<article id=\"cb01\" class=\"content-block is-active\"><div class=\"wrapper\"><header class=\"slideInUp\"><h1>Kapitel 1: Ankunft</h1></header><section><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a><a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a><img src=\"img/story/cartest.jpg\" class=\"img-responsive\" /></section></div></article>"
 
 
-"<article id=\"cb01\" class=\"trs__content-block is-active\"><div class=\"trs__wrapper\"><header class=\"slideInUp\"><h1>Kapitel 1: Ankunft</h1></header><section><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a><a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a><img src=\"img/story/cartest.jpg\" class=\"img-responsive\" /></section></div></article>"
+CARKISS YES
+<article id=\"slide01\" class=\"slide fs\"><div class=\"bcg\"></div><div class=\"wrapper\"><header class=\"slideInUp\"><h1>RENDER #1</h1></header><section></section></div> </article><article id=\"cb02\" class=\"content-block\"><div class=\"wrapper\"><header class=\"slideInUp\"></header><section><p class=\"slideInUp\">Carkisstext YES mit zusätzlichem Bild</p>{Carkiss more}</section></div> </article>
 
 
 
+CARKISS NO
+<article id=\"slide01\" class=\"slide fs\"><div class=\"bcg\"></div><div class=\"wrapper\"><header class=\"slideInUp\"><h1>RENDER #1</h1></header><section></section></div> </article><article id=\"cb02\" class=\"content-block\"><div class=\"wrapper\"><header class=\"slideInUp\"></header><section><p class=\"slideInUp\">Carkisstext NO mit zusätzlichem Bild</p>{Carkiss more}</section></div> </article>
 
 
 
+CARKISS MORE
+<p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+<a class=\"squiffy-link link-section\" data-section=\"Greetingfail yes\" role=\"link\" tabindex=\"0\">Greetingfail yes</a> <a class=\"squiffy-link link-section\" data-section=\"Greetingfail no\" role=\"link\" tabindex=\"0\">Greetingfail no</a>
 
 
+GREETINGFAIL YES
+<article id=\"slide02\" class=\"slide fs\"><div class=\"bcg\"></div><div class=\"wrapper\"><header class=\"slideInUp\"><h1>RENDER #1</h1></header><section></section></div> </article><article id=\"cb03\" class=\"content-block\"><div class=\"wrapper\"><header class=\"slideInUp\"></header><section><p class=\"slideInUp\">Carkisstext YES mit zusätzlichem Bild</p>{Greetingfail more}</section></div> </article>
 
 
-        
-                <article id=\"slide01\" class=\"slide fs\">
-                    <div class=\"bcg\"></div>
-                    <div class=\"wrapper\">
-                        <header class=\"slideInUp\">
-                            <h1>RENDER #1</h1>
-                        </header>
-                        <section>
-                            <p class=\"slideInUp slideInUp2\">Hier kommt das Carkissbild/Gif hin</p>
-                        </section>
-                    </div> 
-                </article>
-           
-                <article id=\"cb02\" class=\"content-block\">
-                    <div class=\"wrapper\">
-                        <header class=\"slideInUp\">
-                            <h1>FOCUS</h1>
-                        </header>
-                        <section>
-                            <p class=\"slideInUp slideInUp2\">Carkisstext YES mit zusätzlichem Bild</p>
-                            {Carkiss more}
-                        </section>
-                    </div> 
-                </article>
-          
+GREETINGFAIL NO
+<article id=\"slide02\" class=\"slide fs\"><div class=\"bcg\"></div><div class=\"wrapper\"><header class=\"slideInUp\"><h1>RENDER #1</h1></header><section></section></div> </article><article id=\"cb03\" class=\"content-block\"><div class=\"wrapper\"><header class=\"slideInUp\"></header><section><p class=\"slideInUp\">Carkisstext NO mit zusätzlichem Bild</p>{Greetingfail more}</section></div> </article>
+
+
+GREETINGFAIL MORE
+<p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p><p class=\"slideInUp slideInUp2\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+<a class=\"squiffy-link link-section\" data-section=\"Antonia_pre\" role=\"link\" tabindex=\"0\">Antonia</a> <a class=\"squiffy-link link-section\" data-section=\"Hisao_pre\" role=\"link\" tabindex=\"0\">Hisao</a>
+
+
