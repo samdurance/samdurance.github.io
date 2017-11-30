@@ -303,10 +303,12 @@ var squiffy = {};
         }
         var sectionCount = squiffy.get('_section-count') + 1;
         squiffy.set('_section-count', sectionCount);
+        var style = 'display:none;';
         var id = 'squiffy-section-' + sectionCount;
         currentSection = jQuery('<div/>', {
+            style : style,
             id: id,
-        }).appendTo(squiffy.ui.output);
+        }).appendTo(squiffy.ui.output).slideDown('slow' , function(){$('html,body').animate({scrollTop: $(this).offset().top - 100}, 3000, 'easeInOutExpo');});
         squiffy.set('_output-section', id);
     };
 
@@ -587,7 +589,7 @@ var squiffy = {};
             squiffy.set(attribute, value);
         },
         restart: function () {
-            if (!squiffy.ui.settings.restartPrompt || confirm('Are you sure you want to restart?')) {
+            if (!squiffy.ui.settings.restartPrompt || confirm('Are you sure you want to restart the story? All progress will be lost.')) {
                 squiffy.story.restart();
             }
         }
@@ -660,7 +662,9 @@ squiffy.story.sections = {
                 "</section>" +
             "</div>" +
             "<div class=\"imgwrap\">" +
-                "<img src=\"https://placeimg.com/640/480/animals\" class=\"img-responsive\" />" +
+                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
+                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "</a>" +
             "</div>" +
         "</article>",
 		'passages': {

@@ -1,0 +1,11 @@
+# Modal on Restart btn with real design and restart and cancel btn
+
+# Notification on decision
+
+# scroll indicator after decision, animated arrow or smth
+
+# Image lightbox on click render
+
+https://codepen.io/balapa/pen/embYYB
+
+https://tympanus.net/codrops/
