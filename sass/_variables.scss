@@ -5,6 +5,7 @@ $darkerneogreen: #1d9b6c;
 
 
 $turq: #308C9B;
+$turqdark: #19474d;
 $orange: #EC9A46;
 $anthrazit: #212121;
 
@@ -31,4 +32,13 @@ $anthrazit: #212121;
     font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
     font-style: italic;
     font-weight: 700;
+}
+
+
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }

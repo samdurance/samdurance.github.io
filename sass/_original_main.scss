@@ -17,7 +17,7 @@
         text-transform: uppercase;
     }
 
-    p {
+    .tr__para {
         font-size: 18px;
         @include tilli-normal;
     }
@@ -65,8 +65,9 @@
     }
 
     #slide01 & {
-        background: url(https://media.giphy.com/media/DfnPHWhaz5rY4/giphy.gif) no-repeat center center;
-        background-size: cover;
+        //background: url(https://media.giphy.com/media/DfnPHWhaz5rY4/giphy.gif) no-repeat center center;
+        //background-size: cover;
+        background: $turqdark;
     }
 
     #slide02 & {
@@ -188,6 +189,10 @@
     height: 100vh;
 }
 
+.qt {
+    height: 500px;
+}
+
 .slide {
     color: $white;
     position: relative;
@@ -210,6 +215,10 @@
         .wrapper {
             position: absolute;
             top: 10%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            @include vertical-align;
         }
     }
 
@@ -407,4 +416,19 @@
         opacity: 0;
     }
 
+}
+
+
+.tr__quote {
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+    padding: 0 150px;
+}
+
+.tr__quote__para {
+    color: $white;
+    font-size: 30px;
+    line-height: 40px;
+    @include tilli-normal-italic;
 }

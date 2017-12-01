@@ -81,7 +81,7 @@ if (!Modernizr.touch) {
                 triggerHook: 1,
                 duration: "100%"
             })
-            .setTween(TweenMax.from($bcg, 1, {y: '-40%', autoAlpha: 0.3, ease:Power0.easeNone}))
+            //.setTween(TweenMax.from($bcg, 1, {y: '-40%', autoAlpha: 0.3, ease:Power0.easeNone}))
             .addTo(controller);
         });
     }
