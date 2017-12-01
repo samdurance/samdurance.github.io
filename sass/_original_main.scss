@@ -236,7 +236,7 @@
 /* =Content Block */
 
 .content-block {
-    background-color: $anthrazit;
+    background-color: $turq;
     color: transparentize($white,.1);
     padding: 30px 50px;
 
@@ -296,8 +296,9 @@
 }
 
 .btnwrap {
-    width: 50%;
+    width: 100%;
     display: inline-block;
+    margin-top: 20px;
 }
 
 .sqsec {
@@ -308,26 +309,34 @@
     display: none;
 }
 
-.lightbox {
+.overlay {
     display: none;
 }
 
 
-.main-button {
+.ac-button {
     color: $white;
     font-size: 25px;
-  padding: 11px 13px;
-    background: #57baff;
+    padding: 11px 13px;
+    background: $anthrazit;
     width: 50px;
     height: 50px;
     border: none;
     border-radius: 100%;
     cursor: pointer;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.4);
-    z-index: 9;
+    z-index: 3;
     position: fixed;
-    top: 20px;
-    right: 85px;
+
+    &.info {
+        top: 20px;
+        right: 85px;
+    }
+
+    &.restart {
+        right: 20px;
+        top: 20px;
+    }
 }
 
 .ripple {
@@ -339,7 +348,7 @@
     border-radius: 50%;
     z-index: -9;
     background: transparent;
-    border: 1px solid #57baff;
+    border: 1px solid $anthrazit;
     -webkit-transform: scale(.5);
     -ms-transform: scale(.5);
     transform: scale(.5);

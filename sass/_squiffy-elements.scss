@@ -1,6 +1,24 @@
 .squiffy-link {
-    @extend .btn;
-    @extend .btn-default;
+    //@extend .btn;
+    //@extend .btn-default;
+    color: $white;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid $white;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: transparent;
+    @include tilli-bold;
+    margin-right: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    &:hover {
+        text-decoration: none;
+        color: $anthrazit;
+        background: $white;
+    }
 }
 
 .squiffy-link.disabled {
@@ -12,11 +30,11 @@
     position: fixed;
     right: 20px;
     top: 20px;
-    background: #57baff;
+    background: $anthrazit;
     color: white;
     text-transform: uppercase;
     border-radius: 100%;
-    border: 1px solid #57baff;
+    border: 1px solid $anthrazit;
     @include tilli-bold;
     cursor: pointer;
     height: 50px;
@@ -27,8 +45,8 @@
 
     &:hover {
         color: $white;
-        background: #57baff;
-        border: 1px solid #57baff;
+        background: $anthrazit;
+        border: 1px solid $anthrazit;
         text-decoration: none;
     }
 }

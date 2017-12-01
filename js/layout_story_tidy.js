@@ -589,9 +589,9 @@ var squiffy = {};
             squiffy.set(attribute, value);
         },
         restart: function () {
-            if (!squiffy.ui.settings.restartPrompt || confirm('Are you sure you want to restart the story? All progress will be lost.')) {
+            //if (!squiffy.ui.settings.restartPrompt || confirm('Are you sure you want to restart the story? All progress will be lost.')) {
                 squiffy.story.restart();
-            }
+            //}
         }
     };
 
@@ -661,7 +661,7 @@ squiffy.story.sections = {
                     "</div>" +
                 "</section>" +
             "</div>" +
-            "<div class=\"imgwrap\">" +
+            "<div class=\"imgwrap slideInUp slideInUp5\">" +
                 "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
                     "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
                 "</a>" +
@@ -680,8 +680,10 @@ squiffy.story.sections = {
             "</div>" +
         "</article>" +
         "<article id=\"cb02\" class=\"content-block\">" +
-            "<div class=\"imgwrap\">" +
-                "<img src=\"https://placeimg.com/640/480/animals\" class=\"img-responsive\" />" +
+            "<div class=\"imgwrap slideInUp slideInUp5\">" +
+                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
+                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "</a>" +
             "</div>" +
             "<div class=\"wrapper textwrap right\">" +
                 "<header class=\"slideInUp\"></header>" +
@@ -705,8 +707,10 @@ squiffy.story.sections = {
             "</div>" +
         "</article>" +
         "<article id=\"cb02\" class=\"content-block\">" +
-            "<div class=\"imgwrap\">" +
-                "<img src=\"https://placeimg.com/640/480/animals\" class=\"img-responsive\" />" +
+            "<div class=\"imgwrap slideInUp slideInUp5\">" +
+                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
+                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "</a>" +
             "</div>" +
             "<div class=\"wrapper textwrap right\">" +
                 "<header class=\"slideInUp\"></header>" +
@@ -746,7 +750,7 @@ squiffy.story.sections = {
             "The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not" +
             " a moment to think about stopping herself before she found herself falling down a very deep well." +
         "</p>" +
-        "<div class\"btnwrap slideInUp slideInUp4\">" +
+        "<div class=\"btnwrap slideInUp slideInUp4\">" +
             "<a class=\"squiffy-link link-section\" data-section=\"Greetingfail yes\" role=\"link\" tabindex=\"0\">Greetingfail yes</a>" +
             "<a class=\"squiffy-link link-section\" data-section=\"Greetingfail no\" role=\"link\" tabindex=\"0\">Greetingfail no</a>" +
         "</div>",
@@ -770,8 +774,10 @@ squiffy.story.sections = {
                 "{Greetingfail more}" +
                 "</section>" +
             "</div>" +
-        "<div class=\"imgwrap\">" +
-                "<img src=\"https://placeimg.com/640/480/animals\" class=\"img-responsive\" />" +
+            "<div class=\"imgwrap slideInUp slideInUp5\">" +
+                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
+                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "</a>" +
             "</div>" +
         "</article>",
         'attributes': ["greetingfail"],
@@ -795,8 +801,10 @@ squiffy.story.sections = {
                     "{Greetingfail more}" +
                 "</section>" +
             "</div>" +
-            "<div class=\"imgwrap\">" +
-                "<img src=\"https://placeimg.com/640/480/animals\" class=\"img-responsive\" />" +
+            "<div class=\"imgwrap slideInUp slideInUp5\">" +
+                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
+                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "</a>" +
             "</div>" +
         "</article>",
         'passages': {

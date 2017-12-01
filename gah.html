@@ -23,8 +23,21 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="lightbox" id="mylightbox">This div will be opened in a lightbox</div>
+<div class="overlay" id="infobox">
+    <h2>Information</h2>
+    <p>A lot of information or maybe not who knows</p>
+</div>
 
+<div class="overlay" id="restartbox">
+    <h2>Restart Story</h2>
+    <p>Are you sure you want to restart the story? All progress will be lost.</p>
+    <button class="btn btn-danger" id="restart" tabindex="0">
+        RESTART
+    </button>
+    <button class="btn btn-info featherlight-close">
+        CANCEL
+    </button>
+</div>
 
 
 <div id="intro" class="header-container fs">
@@ -33,8 +46,6 @@
         <h1 class="title">Build Something Amazing!</h1>
         <p>Learn ScrollMagic and GreenSock to create your own site from scratch.</p>
         <button class="btn btn-default" id="start">Start</button>
-
-        <a href="#" data-featherlight="#mylightbox">lightbox</a>
     </header>
     <span class="scroll-hint">Scroll Down</span>
 </div>
@@ -83,97 +94,101 @@
         <div id="squiffy-header">
 
 
-                <button class="main-button fa fa-info">
-                    <div class="ripple"></div>
-                </button>
+            <button class="ac-button info fa fa-info" data-featherlight="#infobox">
+                <div class="ripple"></div>
+            </button>
+
+            <button class="ac-button restart fa fa-repeat" data-featherlight="#restartbox">
+                <div class="ripple"></div>
+            </button>
 
 
-            <a class="squiffy-header-link " id="restart" tabindex="0">
-                <span class="fa fa-repeat"></span>
-            </a>
+            <!--<a class="squiffy-header-link " id="restart" tabindex="0">-->
+            <!--<span class="fa fa-repeat"></span>-->
+            <!--</a>-->
         </div>
         <div id="squiffy">
 
-        <!--      <div id="squiffy-section-1">
-                      <article id="cb01" class="content-block">
-                          <div class="wrapper">
-                              <header class="slideInUp">
-                                  <h1>SIMPLIFY</h1>
-                              </header>
-                              <section>
-                                  <p class="slideInUp slideInUp2">Simplify your content to a MINIMUM.</p>
-                              </section>
-                          </div>
-                      </article>
-                  </div>
-                  <div id="squiffy-section-2">
-                      <article id="slide01" class="slide fs">
-                          <div class="bcg"></div>
-                          <div class="wrapper">
-                              <header class="slideInUp">
-                                  <h1>A picture is worth a thousand words</h1>
-                              </header>
-                              <section>
-                                  <p class="slideInUp slideInUp2">Let the images do the talking and use text for short summaries.</p>
-                              </section>
-                          </div>
-                      </article>
+            <!--      <div id="squiffy-section-1">
+                          <article id="cb01" class="content-block">
+                              <div class="wrapper">
+                                  <header class="slideInUp">
+                                      <h1>SIMPLIFY</h1>
+                                  </header>
+                                  <section>
+                                      <p class="slideInUp slideInUp2">Simplify your content to a MINIMUM.</p>
+                                  </section>
+                              </div>
+                          </article>
+                      </div>
+                      <div id="squiffy-section-2">
+                          <article id="slide01" class="slide fs">
+                              <div class="bcg"></div>
+                              <div class="wrapper">
+                                  <header class="slideInUp">
+                                      <h1>A picture is worth a thousand words</h1>
+                                  </header>
+                                  <section>
+                                      <p class="slideInUp slideInUp2">Let the images do the talking and use text for short summaries.</p>
+                                  </section>
+                              </div>
+                          </article>
 
 
-                      <article id="cb02" class="content-block">
-                          <div class="wrapper">
-                              <header class="slideInUp">
-                                  <h1>FOCUS</h1>
-                              </header>
-                              <section>
-                                  <p class="slideInUp slideInUp2">Focus on the most IMPORTANT thing. The one thing!</p>
-                              </section>
-                          </div>
-                      </article>
-                  </div>
-                  <div id="squiffy-section-3">
-                      <article id="slide02" class="slide fs">
-                          <div class="bcg"></div>
-                          <div class="wrapper">
-                              <header class="slideInUp">
-                                  <h1>Position and Timing</h1>
-                              </header>
-                              <section>
-                                  <p class="slideInUp slideInUp2">Position elements based on the background image and trigger animation at the right time.</p>
-                                  <p class="slideInUp slideInUp3">Use different triggerElements in combination with offsets to be in full control.</p>
-                              </section>
-                          </div>
-                      </article>
+                          <article id="cb02" class="content-block">
+                              <div class="wrapper">
+                                  <header class="slideInUp">
+                                      <h1>FOCUS</h1>
+                                  </header>
+                                  <section>
+                                      <p class="slideInUp slideInUp2">Focus on the most IMPORTANT thing. The one thing!</p>
+                                  </section>
+                              </div>
+                          </article>
+                      </div>
+                      <div id="squiffy-section-3">
+                          <article id="slide02" class="slide fs">
+                              <div class="bcg"></div>
+                              <div class="wrapper">
+                                  <header class="slideInUp">
+                                      <h1>Position and Timing</h1>
+                                  </header>
+                                  <section>
+                                      <p class="slideInUp slideInUp2">Position elements based on the background image and trigger animation at the right time.</p>
+                                      <p class="slideInUp slideInUp3">Use different triggerElements in combination with offsets to be in full control.</p>
+                                  </section>
+                              </div>
+                          </article>
 
 
-                      <article id="cb03" class="content-block">
-                          <div class="wrapper">
-                              <header class="slideInUp">
-                                  <h1>ASK</h1>
-                              </header>
-                              <section>
-                                  <p class="slideInUp slideInUp2">You don't ask, you don't get. Always end with CALL TO ACTION.</p>
-                              </section>
-                          </div>
-                      </article>
-                  </div>
-                  <div id="squiffy-section-4">
-                      <article id="slide03" class="slide fs">
-                          <div class="bcg"></div>
-                          <div class="wrapper">
-                              <header class="slideInUp">
-                                  <h1>Do you want to learn ScrollMagic?</h1>
-                              </header>
-                              <section>
-                                  <p class="slideInUp slideInUp2">Explore the source code and start learning ScrollMagic today.</p>
-                                  <div class="slideInUp slideInUp3">
-                                      <a href="https://ihatetomatoes.net/5-days-with-scrollmagic/" class="button">DOWNLOAD FILES</a>
-                                  </div>
+                          <article id="cb03" class="content-block">
+                              <div class="wrapper">
+                                  <header class="slideInUp">
+                                      <h1>ASK</h1>
+                                  </header>
+                                  <section>
+                                      <p class="slideInUp slideInUp2">You don't ask, you don't get. Always end with CALL TO ACTION.</p>
+                                  </section>
+                              </div>
+                          </article>
+                      </div>
+                      <div id="squiffy-section-4">
+                          <article id="slide03" class="slide fs">
+                              <div class="bcg"></div>
+                              <div class="wrapper">
+                                  <header class="slideInUp">
+                                      <h1>Do you want to learn ScrollMagic?</h1>
+                                  </header>
+                                  <section>
+                                      <p class="slideInUp slideInUp2">Explore the source code and start learning ScrollMagic today.</p>
+                                      <div class="slideInUp slideInUp3">
+                                          <a href="https://ihatetomatoes.net/5-days-with-scrollmagic/" class="button">DOWNLOAD FILES</a>
+                                      </div>
 
-                              </section>
-                          </div>
-                      </article>
-                  </div>-->
+                                  </section>
+                              </div>
+                          </article>
+                      </div>-->
 
 
         </div>
@@ -216,6 +231,11 @@
 
     $('#start').on('click', function(e) {
         $('#squiffy-section-1').slideDown('slow' , function(){$('html,body').animate({scrollTop: document.body.scrollHeight},1000);});
+    });
+
+
+    $(".ac-button").on("click", function(){
+        $(this).children(".ripple").addClass("rippling");
     });
 
 
