@@ -24,8 +24,8 @@
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+Author's custom styles
+========================================================================== */
 
 /* =Header */
 .header-container {
@@ -58,6 +58,25 @@
     height: 100%;
     z-index: 1;
     opacity: 1;
+    
+
+    &:before {  
+        content: "";
+        width: 100%;
+        box-shadow: inset 0px 13px 20px 0px #0000006b;
+        height: 100px;
+        display: block;
+    }
+
+    &:after {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        display: block;
+        content: "";
+        box-shadow: inset 0 -13px 20px 0px #0000006b;
+    }
 
     .header-container & {
         background-image: url(../img/img_mountains01.jpg);
@@ -302,6 +321,10 @@
     display: inline-block;
     width: 50%;
     margin: 0;
+    
+    img {
+        width: 100%;
+    }
 }
 
 .btnwrap {

@@ -691,8 +691,8 @@ squiffy.story.sections = {
         "</article>" +
         "<article id=\"cb02\" class=\"content-block\">" +
             "<div class=\"imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
-                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "<a href=\"#\" data-featherlight=\"img/story/carkiss.gif\">" +
+                    "<img src=\"img/story/carkiss.gif\" class=\"img-responsive\" />" +
                 "</a>" +
             "</div>" +
             "<div class=\"wrapper textwrap right\">" +
