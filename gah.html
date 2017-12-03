@@ -1,258 +1,263 @@
 <html class="tr__game">
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>#3 - A Simple Parallax Template using ScrollMagic and GreenSock</title>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>#3 - A Simple Parallax Template using ScrollMagic and GreenSock</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,100|Roboto+Condensed:700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/screen.css">
-    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,100|Roboto+Condensed:700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/screen.css">
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
-    <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
-<body class="tr__story">
-<!--[if lt IE 8]>
+        <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body class="tr__story">
+        <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="lightbox" id="infobox">
-    <h2>Information</h2>
-    <p>A lot of information or maybe not who knows</p>
-</div>
-
-<div class="lightbox" id="restartbox">
-    <h2>Restart Story</h2>
-    <p>Are you sure you want to restart the story? All progress will be lost.</p>
-    <button class="btn btn-danger" id="restart" tabindex="0">
-        RESTART
-    </button>
-    <button class="btn btn-info featherlight-close">
-        CANCEL
-    </button>
-</div>
-
-
-<div id="intro" class="header-container fs">
-    <div class="bcg"></div>
-    <header class="wrapper">
-        <h1 class="title">Build Something Amazing!</h1>
-        <p>Learn ScrollMagic and GreenSock to create your own site from scratch.</p>
-        <button class="btn btn-default" id="start">Start</button>
-    </header>
-    <span class="scroll-hint">Scroll Down</span>
-</div>
-
-<nav class="trs__nav">
-    <ul class="trs__nav__list">
-        <li class="trs__nav__list__item">
-            <a class="trs__nav__link active" href="#ch1">
-                <span class="trs__nav__dot"></span>
-                <span class="trs__nav__label">Kapitel 1</span>
-            </a>
-        </li>
-        <li class="trs__nav__list__item">
-            <a class="trs__nav__link" href="#ch2">
-                <span class="trs__nav__dot"></span>
-                <span class="trs__nav__label">Kapitel 2</span>
-            </a>
-        </li>
-        <li class="trs__nav__list__item">
-            <a class="trs__nav__link" href="#ch3">
-                <span class="trs__nav__dot"></span>
-                <span class="trs__nav__label">Kapitel 3</span>
-            </a>
-        </li>
-        <li class="trs__nav__list__item">
-            <a class="trs__nav__link"href="#ch4">
-                <span class="trs__nav__dot"></span>
-                <span class="trs__nav__label">Kapitel 4</span>
-            </a>
-        </li>
-        <li class="trs__nav__list__item">
-            <a class="trs__nav__link" href="#ch5">
-                <span class="trs__nav__dot"></span>
-                <span class="trs__nav__label">Epilog</span>
-            </a>
-        </li>
-    </ul>
-</nav>
-
-<div class="main-container">
-
-
-    <div id="squiffy-container">
-
-
-        <div id="squiffy-header">
-
-
-            <button class="ac-button info fa fa-info" data-featherlight="#infobox">
-                <div class="ripple"></div>
-            </button>
-
-            <button class="ac-button restart fa fa-repeat" data-featherlight="#restartbox">
-                <div class="ripple"></div>
-            </button>
-
-
-            <!--<a class="squiffy-header-link " id="restart" tabindex="0">-->
-            <!--<span class="fa fa-repeat"></span>-->
-            <!--</a>-->
+        <div class="lightbox" id="infobox">
+            <h2>Information</h2>
+            <p>A lot of information or maybe not who knows</p>
         </div>
-        <div id="squiffy">
 
-            <!--      <div id="squiffy-section-1">
-                          <article id="cb01" class="content-block">
-                              <div class="wrapper">
-                                  <header class="slideInUp">
-                                      <h1>SIMPLIFY</h1>
-                                  </header>
-                                  <section>
-                                      <p class="slideInUp slideInUp2">Simplify your content to a MINIMUM.</p>
-                                  </section>
-                              </div>
-                          </article>
-                      </div>
-                      <div id="squiffy-section-2">
-                          <article id="slide01" class="slide fs">
-                              <div class="bcg"></div>
-                              <div class="wrapper">
-                                  <header class="slideInUp">
-                                      <h1>A picture is worth a thousand words</h1>
-                                  </header>
-                                  <section>
-                                      <p class="slideInUp slideInUp2">Let the images do the talking and use text for short summaries.</p>
-                                  </section>
-                              </div>
-                          </article>
+        <div class="lightbox" id="restartbox">
+            <h2>Restart Story</h2>
+            <p>Are you sure you want to restart the story? All progress will be lost.</p>
+            <button class="btn btn-danger" id="restart" tabindex="0">
+                RESTART
+            </button>
+            <button class="btn btn-info featherlight-close">
+                CANCEL
+            </button>
+        </div>
 
 
-                          <article id="cb02" class="content-block">
-                              <div class="wrapper">
-                                  <header class="slideInUp">
-                                      <h1>FOCUS</h1>
-                                  </header>
-                                  <section>
-                                      <p class="slideInUp slideInUp2">Focus on the most IMPORTANT thing. The one thing!</p>
-                                  </section>
-                              </div>
-                          </article>
-                      </div>
-                      <div id="squiffy-section-3">
-                          <article id="slide02" class="slide fs">
-                              <div class="bcg"></div>
-                              <div class="wrapper">
-                                  <header class="slideInUp">
-                                      <h1>Position and Timing</h1>
-                                  </header>
-                                  <section>
-                                      <p class="slideInUp slideInUp2">Position elements based on the background image and trigger animation at the right time.</p>
-                                      <p class="slideInUp slideInUp3">Use different triggerElements in combination with offsets to be in full control.</p>
-                                  </section>
-                              </div>
-                          </article>
+        <div id="intro" class="header-container fs">
+            <div class="bcg"></div>
+            <header class="wrapper">
+                <h1 class="title">Build Something Amazing!</h1>
+                <p>Learn ScrollMagic and GreenSock to create your own site from scratch.</p>
+                <button class="btn btn-default" id="start">Start</button>
+            </header>
+            <span class="scroll-hint">Scroll Down</span>
+        </div>
+
+        <nav class="trs__nav">
+            <ul class="trs__nav__list">
+                <li class="trs__nav__list__item">
+                    <a class="trs__nav__link active" href="#ch1">
+                        <span class="trs__nav__dot"></span>
+                        <span class="trs__nav__label">Kapitel 1</span>
+                    </a>
+                </li>
+                <li class="trs__nav__list__item">
+                    <a class="trs__nav__link" href="#ch2">
+                        <span class="trs__nav__dot"></span>
+                        <span class="trs__nav__label">Kapitel 2</span>
+                    </a>
+                </li>
+                <li class="trs__nav__list__item">
+                    <a class="trs__nav__link" href="#ch3">
+                        <span class="trs__nav__dot"></span>
+                        <span class="trs__nav__label">Kapitel 3</span>
+                    </a>
+                </li>
+                <li class="trs__nav__list__item">
+                    <a class="trs__nav__link"href="#ch4">
+                        <span class="trs__nav__dot"></span>
+                        <span class="trs__nav__label">Kapitel 4</span>
+                    </a>
+                </li>
+                <li class="trs__nav__list__item">
+                    <a class="trs__nav__link" href="#ch5">
+                        <span class="trs__nav__dot"></span>
+                        <span class="trs__nav__label">Epilog</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="main-container">
 
 
-                          <article id="cb03" class="content-block">
-                              <div class="wrapper">
-                                  <header class="slideInUp">
-                                      <h1>ASK</h1>
-                                  </header>
-                                  <section>
-                                      <p class="slideInUp slideInUp2">You don't ask, you don't get. Always end with CALL TO ACTION.</p>
-                                  </section>
-                              </div>
-                          </article>
-                      </div>
-                      <div id="squiffy-section-4">
-                          <article id="slide03" class="slide fs">
-                              <div class="bcg"></div>
-                              <div class="wrapper">
-                                  <header class="slideInUp">
-                                      <h1>Do you want to learn ScrollMagic?</h1>
-                                  </header>
-                                  <section>
-                                      <p class="slideInUp slideInUp2">Explore the source code and start learning ScrollMagic today.</p>
-                                      <div class="slideInUp slideInUp3">
-                                          <a href="https://ihatetomatoes.net/5-days-with-scrollmagic/" class="button">DOWNLOAD FILES</a>
-                                      </div>
+            <div id="squiffy-container">
 
-                                  </section>
-                              </div>
-                          </article>
-                      </div>-->
+
+                <div id="squiffy-header">
+
+
+                    <button class="ac-button info fa fa-info" data-featherlight="#infobox">
+                        <div class="ripple"></div>
+                    </button>
+
+                    <button class="ac-button restart fa fa-repeat" data-featherlight="#restartbox">
+                        <div class="ripple"></div>
+                    </button>
+
+
+                    <!--<a class="squiffy-header-link " id="restart" tabindex="0">-->
+                    <!--<span class="fa fa-repeat"></span>-->
+                    <!--</a>-->
+                </div>
+                <div id="squiffy">
+
+                    <!--      <div id="squiffy-section-1">
+<article id="cb01" class="content-block">
+<div class="wrapper">
+<header class="slideInUp">
+<h1>SIMPLIFY</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Simplify your content to a MINIMUM.</p>
+</section>
+</div>
+</article>
+</div>
+<div id="squiffy-section-2">
+<article id="slide01" class="slide fs">
+<div class="bcg"></div>
+<div class="wrapper">
+<header class="slideInUp">
+<h1>A picture is worth a thousand words</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Let the images do the talking and use text for short summaries.</p>
+</section>
+</div>
+</article>
+
+
+<article id="cb02" class="content-block">
+<div class="wrapper">
+<header class="slideInUp">
+<h1>FOCUS</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Focus on the most IMPORTANT thing. The one thing!</p>
+</section>
+</div>
+</article>
+</div>
+<div id="squiffy-section-3">
+<article id="slide02" class="slide fs">
+<div class="bcg"></div>
+<div class="wrapper">
+<header class="slideInUp">
+<h1>Position and Timing</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Position elements based on the background image and trigger animation at the right time.</p>
+<p class="slideInUp slideInUp3">Use different triggerElements in combination with offsets to be in full control.</p>
+</section>
+</div>
+</article>
+
+
+<article id="cb03" class="content-block">
+<div class="wrapper">
+<header class="slideInUp">
+<h1>ASK</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">You don't ask, you don't get. Always end with CALL TO ACTION.</p>
+</section>
+</div>
+</article>
+</div>
+<div id="squiffy-section-4">
+<article id="slide03" class="slide fs">
+<div class="bcg"></div>
+<div class="wrapper">
+<header class="slideInUp">
+<h1>Do you want to learn ScrollMagic?</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Explore the source code and start learning ScrollMagic today.</p>
+<div class="slideInUp slideInUp3">
+<a href="https://ihatetomatoes.net/5-days-with-scrollmagic/" class="button">DOWNLOAD FILES</a>
+</div>
+
+</section>
+</div>
+</article>
+</div>-->
+
+
+                </div>
+            </div>
 
 
         </div>
-    </div>
 
-
-</div>
-
-<div class="footer-container">
-    <footer class="wrapper">
-        <h3>2016 &copy; | Animate responsibly!</h3>
-    </footer>
-</div>
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3>2016 &copy; | Animate responsibly!</h3>
+            </footer>
+        </div>
 
 
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-<script type="application/javascript" src="js/layout_story_tidy.js" charset="UTF-8"></script>
-<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+        <script type="application/javascript" src="js/layout_story_tidy.js" charset="UTF-8"></script>
+        <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
-<script src="js/scrollmagic_main.js"></script>
+        <script src="js/scrollmagic_main.js"></script>
 
-<script>
+        <script>
 
-    initSM();
+            initSM();
 
-    $(document).on('click', '.squiffy-link', function(e) {
-        initSM();
-    });
+            $(document).on('click', '.squiffy-link', function(e) {
+                initSM();
+            });
 
-    $('#start').on('click', function(e) {
-        $('#squiffy-section-1').slideDown('slow' , function(){$('html,body').animate({scrollTop: document.body.scrollHeight},1000);});
-    });
-
-
-    $(".ac-button").on("click", function(){
-        $(this).children(".ripple").addClass("rippling");
-    });
+            $('#start').on('click', function(e) {
+                $('#squiffy-section-1').slideDown('slow' , function(){$('html,body').animate({scrollTop: document.body.scrollHeight},1000);});
+            });
 
 
-    jQuery(function($){
-        $('#squiffy').squiffy();
-        var restart = function () {
-            $('#squiffy').squiffy('restart');
-        };
-        $('#restart').click(restart);
-        $('#restart').keypress(function (e) {
-            if (e.which !== 13) return;
-            restart();
-        });
-    });
+            $(".ac-button").on("click", function(){
+                $(this).children(".ripple").addClass("rippling");
+            });
 
-</script>
+            $("img", ".imgwrap a").hover(function() {
+                $('.gifpreset').toggle();
+                $('.gif').toggle();
+            });
 
 
-</body>
-</html>
+            jQuery(function($){
+                $('#squiffy').squiffy();
+                var restart = function () {
+                    $('#squiffy').squiffy('restart');
+                };
+                $('#restart').click(restart);
+                $('#restart').keypress(function (e) {
+                    if (e.which !== 13) return;
+                    restart();
+                });
+            });
+
+        </script>
+
+
+    </body>
+    </html>

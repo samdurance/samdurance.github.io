@@ -58,7 +58,7 @@ Author's custom styles
     height: 100%;
     z-index: 1;
     opacity: 1;
-    
+
 
     &:before {  
         content: "";
@@ -321,7 +321,7 @@ Author's custom styles
     display: inline-block;
     width: 50%;
     margin: 0;
-    
+
     img {
         width: 100%;
     }
@@ -441,7 +441,6 @@ Author's custom styles
 
 }
 
-
 .tr__quote {
     width: 100%;
     margin: 0 auto;
@@ -454,4 +453,104 @@ Author's custom styles
     font-size: 30px;
     line-height: 40px;
     @include tilli-normal-italic;
+}
+
+@include keyframes(fade-in) {
+    0%   { @include opacity(0); }
+    100% { @include opacity(1); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.polaroid {
+    width: 500px;
+    height: 520px;
+    position: relative;
+    float: left;
+    background: #1e1c18;
+    border: 7px solid #f5f5f5;
+    border-bottom: 50px solid #f5f5f5;
+    box-shadow: 8px 13px 20px 0px #000;
+    overflow: hidden;
+    left: 0px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    clear: both;
+
+    &.flash {
+        -webkit-animation: fade-in 3s ease-in; 
+        -moz-animation:    fade-in 3s ease-in;
+        -o-animation:      fade-in 3s ease-in;
+        animation:         fade-in 3s ease-in;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-iteration-count: 1;
+        -o-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+    }
+
+    img {
+        width: 100%;
+
+    }
+}
+
+
+
+
+
+.tr__movie__wrapper{
+    background-color: #333;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.tr__movie__box{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+}
+
+.tr__movie__boxes{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tr__movie__small_box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    margin: 10px 10.5px 10px 10.5px;
+}
+
+.tr__movie__center_box{
+    width: 100%;
+    height: calc(100% - 80px);
+    background: url(/img/story/preset.jpg) center center no-repeat;
+    background-size: cover;
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+    
+    &:hover {
+        transform: scale(1.05);
+    opacity: 0.75;
+    }
 }

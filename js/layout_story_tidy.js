@@ -662,8 +662,10 @@ squiffy.story.sections = {
                 "</section>" +
             "</div>" +
             "<div class=\"imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
-                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "<a href=\"#\" data-featherlight=\"img/story/animals_big.jpg\">" +
+                    "<div class=\"polaroid\">" +
+                    "<img src=\"img/story/animals_polaroid.jpg\" class=\"img-responsive\" />" +
+                    "</div>" +
                 "</a>" +
             "</div>" +
         "</article>",
@@ -692,7 +694,51 @@ squiffy.story.sections = {
         "<article id=\"cb02\" class=\"content-block\">" +
             "<div class=\"imgwrap slideInUp slideInUp5\">" +
                 "<a href=\"#\" data-featherlight=\"img/story/carkiss.gif\">" +
-                    "<img src=\"img/story/carkiss.gif\" class=\"img-responsive\" />" +
+                    
+        "<div class=\"tr__movie__wrapper\">" +
+        "<div class=\"tr__movie__box\">" +
+        "<div class=\"tr__movie__boxes\">" +
+            "<span class=\"tr__movie__small_box\"></span>" +          
+            "<span class=\"tr__movie__small_box\"></span>" +
+            "<span class=\"tr__movie__small_box\"></span>" +          
+            "<span class=\"tr__movie__small_box\"></span>" +
+            "<span class=\"tr__movie__small_box\"></span>" +    
+            "<span class=\"tr__movie__small_box\"></span>" +    
+             "<span class=\"tr__movie__small_box\"></span>" +     
+             "<span class=\"tr__movie__small_box\"></span>" +    
+             "<span class=\"tr__movie__small_box\"></span>" +    
+             "<span class=\"tr__movie__small_box\"></span>" +
+        "<span class=\"tr__movie__small_box\"></span>" +          
+            "<span class=\"tr__movie__small_box\"></span>" +
+            "<span class=\"tr__movie__small_box\"></span>" +          
+            "<span class=\"tr__movie__small_box\"></span>" +
+            "<span class=\"tr__movie__small_box\"></span>" +    
+            "<span class=\"tr__movie__small_box\"></span>" +    
+             "<span class=\"tr__movie__small_box\"></span>" + 
+        "</div>" +
+       "<div class=\"tr__movie__center_box\"></div>" +
+        "<div class=\"tr__movie__boxes\">" +
+            "<span class=\"tr__movie__small_box\"></span>" +
+            "<span class=\"tr__movie__small_box\"></span>" +
+            "<span class=\"tr__movie__small_box\"></span>" +
+            "<span class=\"tr__movie__small_box\"></span>" +   
+             "<span class=\"tr__movie__small_box\"></span>" +     
+             "<span class=\"tr__movie__small_box\"></span>" +    
+            "<span class=\"tr__movie__small_box\"></span>" +   
+            "<span class=\"tr__movie__small_box\"></span>" +    
+             "<span class=\"tr__movie__small_box\"></span>" +  
+             "<span class=\"tr__movie__small_box\"></span>" + 
+        "<span class=\"tr__movie__small_box\"></span>" +          
+            "<span class=\"tr__movie__small_box\"></span>" +
+            "<span class=\"tr__movie__small_box\"></span>" +          
+            "<span class=\"tr__movie__small_box\"></span>" +
+            "<span class=\"tr__movie__small_box\"></span>" +    
+            "<span class=\"tr__movie__small_box\"></span>" +    
+             "<span class=\"tr__movie__small_box\"></span>" + 
+        "</div>" +
+    "</div>" +
+"</div>" +
+        
                 "</a>" +
             "</div>" +
             "<div class=\"wrapper textwrap right\">" +
@@ -728,8 +774,8 @@ squiffy.story.sections = {
         "</article>" +
         "<article id=\"cb02\" class=\"content-block\">" +
             "<div class=\"imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
-                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "<a href=\"#\" data-featherlight=\"img/story/animals.jpg\">" +
+                    "<img src=\"img/story/animals.jpg\" class=\"img-responsive\" />" +
                 "</a>" +
             "</div>" +
             "<div class=\"wrapper textwrap right\">" +
@@ -795,8 +841,8 @@ squiffy.story.sections = {
                 "</section>" +
             "</div>" +
             "<div class=\"imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
-                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "<a href=\"#\" data-featherlight=\"img/story/animals.jpg\">" +
+                    "<img src=\"img/story/animals.jpg\" class=\"img-responsive\" />" +
                 "</a>" +
             "</div>" +
         "</article>",
@@ -822,8 +868,8 @@ squiffy.story.sections = {
                 "</section>" +
             "</div>" +
             "<div class=\"imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/animals.jpeg\">" +
-                    "<img src=\"img/story/animals.jpeg\" class=\"img-responsive\" />" +
+                "<a href=\"#\" data-featherlight=\"img/story/animals.jpg\">" +
+                    "<img src=\"img/story/animals.jpg\" class=\"img-responsive\" />" +
                 "</a>" +
             "</div>" +
         "</article>",
