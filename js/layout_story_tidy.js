@@ -693,52 +693,50 @@ squiffy.story.sections = {
         "</article>" +
         "<article id=\"cb02\" class=\"content-block\">" +
             "<div class=\"imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/carkiss.gif\">" +
-                    
-        "<div class=\"tr__movie__wrapper\">" +
-        "<div class=\"tr__movie__box\">" +
-        "<div class=\"tr__movie__boxes\">" +
-            "<span class=\"tr__movie__small_box\"></span>" +          
-            "<span class=\"tr__movie__small_box\"></span>" +
-            "<span class=\"tr__movie__small_box\"></span>" +          
-            "<span class=\"tr__movie__small_box\"></span>" +
-            "<span class=\"tr__movie__small_box\"></span>" +    
-            "<span class=\"tr__movie__small_box\"></span>" +    
-             "<span class=\"tr__movie__small_box\"></span>" +     
-             "<span class=\"tr__movie__small_box\"></span>" +    
-             "<span class=\"tr__movie__small_box\"></span>" +    
-             "<span class=\"tr__movie__small_box\"></span>" +
-        "<span class=\"tr__movie__small_box\"></span>" +          
-            "<span class=\"tr__movie__small_box\"></span>" +
-            "<span class=\"tr__movie__small_box\"></span>" +          
-            "<span class=\"tr__movie__small_box\"></span>" +
-            "<span class=\"tr__movie__small_box\"></span>" +    
-            "<span class=\"tr__movie__small_box\"></span>" +    
-             "<span class=\"tr__movie__small_box\"></span>" + 
-        "</div>" +
-       "<div class=\"tr__movie__center_box\"></div>" +
-        "<div class=\"tr__movie__boxes\">" +
-            "<span class=\"tr__movie__small_box\"></span>" +
-            "<span class=\"tr__movie__small_box\"></span>" +
-            "<span class=\"tr__movie__small_box\"></span>" +
-            "<span class=\"tr__movie__small_box\"></span>" +   
-             "<span class=\"tr__movie__small_box\"></span>" +     
-             "<span class=\"tr__movie__small_box\"></span>" +    
-            "<span class=\"tr__movie__small_box\"></span>" +   
-            "<span class=\"tr__movie__small_box\"></span>" +    
-             "<span class=\"tr__movie__small_box\"></span>" +  
-             "<span class=\"tr__movie__small_box\"></span>" + 
-        "<span class=\"tr__movie__small_box\"></span>" +          
-            "<span class=\"tr__movie__small_box\"></span>" +
-            "<span class=\"tr__movie__small_box\"></span>" +          
-            "<span class=\"tr__movie__small_box\"></span>" +
-            "<span class=\"tr__movie__small_box\"></span>" +    
-            "<span class=\"tr__movie__small_box\"></span>" +    
-             "<span class=\"tr__movie__small_box\"></span>" + 
-        "</div>" +
-    "</div>" +
-"</div>" +
-        
+                "<a href=\"#\" data-featherlight=\"https://media.giphy.com/media/ps9NJxDQb0pWw/giphy.gif\">" +
+                    "<div class=\"tr__movie__wrapper\">" +
+                        "<div class=\"tr__movie__box\">" +
+                            "<div class=\"tr__movie__boxes\">" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                            "</div>" +
+                            "<div class=\"tr__movie__center_box\"></div>" +
+                            "<div class=\"tr__movie__boxes\">" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                                "<span class=\"tr__movie__small_box\"></span>" +
+                            "</div>" +
+                        "</div>" +
+                    "</div>" +
                 "</a>" +
             "</div>" +
             "<div class=\"wrapper textwrap right\">" +
