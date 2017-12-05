@@ -71,7 +71,7 @@ var squiffy = {};
     };
 
     var disableLink = function (link) {
-        link.addClass('disabled');
+        link.addClass('invisible');
         link.attr('tabindex', -1);
     }
 
@@ -304,10 +304,12 @@ var squiffy = {};
         var sectionCount = squiffy.get('_section-count') + 1;
         squiffy.set('_section-count', sectionCount);
         var style = 'display:none;';
+        var name = 'squiffy-section';
         var id = 'squiffy-section-' + sectionCount;
         currentSection = jQuery('<div/>', {
             style : style,
             id: id,
+            class: name,
         }).appendTo(squiffy.ui.output).slideDown('slow' , function(){$('html,body').animate({scrollTop: $(this).offset().top - 100}, 3000, 'easeInOutExpo');});
         squiffy.set('_output-section', id);
     };
@@ -693,7 +695,7 @@ squiffy.story.sections = {
         "</article>" +
         "<article id=\"cb02\" class=\"content-block\">" +
             "<div class=\"imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"https://media.giphy.com/media/ps9NJxDQb0pWw/giphy.gif\">" +
+                "<a href=\"#\" data-featherlight=\"img/story/test.gif\">" +
                     "<div class=\"tr__movie__wrapper\">" +
                         "<div class=\"tr__movie__box\">" +
                             "<div class=\"tr__movie__boxes\">" +

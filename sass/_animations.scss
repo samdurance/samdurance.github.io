@@ -128,3 +128,13 @@
     0%   { @include opacity(0); }
     100% { @include opacity(1); }
 }
+
+
+
+.blur {
+    -ms-filter:blur(2px);
+    -webkit-filter:blur(2px);
+    -moz-filter:blur(2px);
+    -o-filter:blur(2px);
+    filter: url(#blur2px)
+}

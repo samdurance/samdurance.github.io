@@ -23,20 +23,20 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-        <div class="lightbox" id="infobox">
+        <div class="lightbox infobox" id="infobox">
             <h2>Information</h2>
             <p>A lot of information or maybe not who knows</p>
         </div>
 
-        <div class="lightbox" id="restartbox">
+        <div class="lightbox restartbox" id="restartbox">
             <h2>Restart Story</h2>
-            <p>Are you sure you want to restart the story? All progress will be lost.</p>
-            <button class="btn btn-danger" id="restart" tabindex="0">
-                RESTART
-            </button>
-            <button class="btn btn-info featherlight-close">
-                CANCEL
-            </button>
+            <p>Are you sure you want to restart the story?</p>
+            <p>All progress and decisions you made so far will be lost. You will have to start over again.</p>
+
+            <div class="lightbox__btn__wrapper">
+                <button class="lightbox__btn alert" id="restart" tabindex="0">Restart</button>
+                <button class="lightbox__btn featherlight-close">Cancel</button>
+            </div>
         </div>
 
 
@@ -94,11 +94,11 @@
                 <div id="squiffy-header">
 
 
-                    <button class="ac-button info fa fa-info" data-featherlight="#infobox">
+                    <button class="ac-button info fa fa-info" data-url="#infobox">
                         <div class="ripple"></div>
                     </button>
 
-                    <button class="ac-button restart fa fa-repeat" data-featherlight="#restartbox">
+                    <button class="ac-button restart fa fa-repeat" data-url="#restartbox">
                         <div class="ripple"></div>
                     </button>
 
@@ -197,12 +197,18 @@
 
         </div>
 
-        <div class="footer-container">
-            <footer class="wrapper">
-                <h3>2016 &copy; | Animate responsibly!</h3>
-            </footer>
-        </div>
+        <!--<div class="footer-container">-->
+            <!--<footer class="wrapper">-->
+                <!--<h3>2016 &copy; | Animate responsibly!</h3>-->
+            <!--</footer>-->
+        <!--</div>-->
 
+
+        <svg width="0" height="0" style="position:absolute">
+            <filter id="blur2px">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2"></feGaussianBlur>
+            </filter>
+        </svg>
 
 
 
@@ -216,6 +222,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+        <script type="application/javascript" src="js/bootstrap-notify.min.js"></script>
         <script type="application/javascript" src="js/layout_story_tidy.js" charset="UTF-8"></script>
         <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -236,11 +244,7 @@
 
             $(".ac-button").on("click", function(){
                 $(this).children(".ripple").addClass("rippling");
-            });
-
-            $("img", ".imgwrap a").hover(function() {
-                $('.gifpreset').toggle();
-                $('.gif').toggle();
+                $('.squiffy-section').addClass('blur');
             });
 
 
@@ -255,6 +259,57 @@
                     restart();
                 });
             });
+
+
+            $('.ac-button').featherlight({
+                targetAttr: 'data-url',
+                resetCss: true,
+                closeOnEsc: true,
+                closeIcon: '<span class="fa fa-times"></span>',
+                loading: '<h1 style="color:red;">HIER STEHT TEXT</h1>',
+                afterClose: function(e){
+                    $('.squiffy-section').removeClass('blur');
+                }
+            });
+
+
+            $(document).on('click', '.squiffy-link', function(e) {
+                var section = $(this).attr('data-section');
+
+                $.ajax({
+                    type: 'GET',
+                    url: 'js/data.json',
+                    dataType: 'json',
+                    success: function (data) {
+
+                        var notifyMsg = data[section].popup.content;
+                        var notifyThumb = data[section].popup.thumb;
+
+                        notify(notifyThumb, notifyMsg);
+
+                    },
+                    error: function(error) {
+                    }
+                });
+            });
+
+            function notify (thumb, msg) {
+
+                $.notify({
+                    icon: thumb,
+                    message: msg
+                },{
+                    type: 'minimalist',
+                    delay: 5000,
+                    icon_type: 'image',
+                    template: '<div data-notify="container" class="col-xs-11 col-sm-3 alert alert-{0}" role="alert">' +
+                    '<img data-notify="icon" class="img-circle pull-left">' +
+                    '<span data-notify="title">{1}</span>' +
+                    '<span data-notify="message">{2}</span>' +
+                    '</div>'
+                });
+
+            };
 
         </script>
 
