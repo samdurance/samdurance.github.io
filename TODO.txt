@@ -37,8 +37,12 @@ https://coolors.co/
 
 
 Chapter Headline
-https://github.com/dboudro/AnimateSVGText
+https://codepen.io/rusjames/pen/uAFhE
 https://codepen.io/geoffgraham/pen/jrWwWM
+
+
+SVG
+https://github.com/dboudro/AnimateSVGText
 https://github.com/maxwellito/vivus#vivusjs
 
 
