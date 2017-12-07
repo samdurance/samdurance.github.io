@@ -9436,16 +9436,16 @@ button.close {
 }
 
 /* ========================================================================== */
-/* line 35, ../sass/_notification.scss */
+/* line 5, ../sass/_lightboxes.scss */
 .lightbox {
   display: none;
 }
-/* line 38, ../sass/_notification.scss */
+/* line 8, ../sass/_lightboxes.scss */
 .lightbox.featherlight-inner {
   display: block;
 }
 
-/* line 44, ../sass/_notification.scss */
+/* line 14, ../sass/_lightboxes.scss */
 .lightbox__btn__wrapper {
   position: absolute;
   bottom: 0;
@@ -9454,22 +9454,22 @@ button.close {
   padding: 0 20px;
 }
 
-/* line 52, ../sass/_notification.scss */
+/* line 22, ../sass/_lightboxes.scss */
 .lightbox__btn {
   margin: 0 15px 20px;
 }
-/* line 56, ../sass/_notification.scss */
+/* line 26, ../sass/_lightboxes.scss */
 .lightbox__btn.alert {
   background: #d9534f;
   float: right;
   border: 1px solid #d9534f;
 }
-/* line 61, ../sass/_notification.scss */
+/* line 31, ../sass/_lightboxes.scss */
 .lightbox__btn.alert:hover {
   border: 1px solid #ffffff;
 }
 
-/* line 71, ../sass/_notification.scss */
+/* line 41, ../sass/_lightboxes.scss */
 .featherlight-reset {
   display: none;
   position: fixed;
@@ -9482,11 +9482,11 @@ button.close {
   white-space: nowrap;
   cursor: pointer;
 }
-/* line 83, ../sass/_notification.scss */
+/* line 53, ../sass/_lightboxes.scss */
 .featherlight-reset:last-of-type {
   background: rgba(255, 255, 255, 0.6);
 }
-/* line 87, ../sass/_notification.scss */
+/* line 57, ../sass/_lightboxes.scss */
 .featherlight-reset:before {
   content: '';
   display: inline-block;
@@ -9497,11 +9497,8 @@ button.close {
   cursor: pointer;
 }
 
-/* line 98, ../sass/_notification.scss */
+/* line 68, ../sass/_lightboxes.scss */
 .featherlight-reset-content {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
   position: relative;
   text-align: left;
   vertical-align: middle;
@@ -9517,7 +9514,7 @@ button.close {
   white-space: normal;
 }
 
-/* line 117, ../sass/_notification.scss */
+/* line 84, ../sass/_lightboxes.scss */
 .featherlight-reset-close-icon {
   position: absolute;
   z-index: 9999;
@@ -9533,18 +9530,18 @@ button.close {
   padding: 0;
 }
 
-/* line 134, ../sass/_notification.scss */
+/* line 101, ../sass/_lightboxes.scss */
 .featherlight-inner.restartbox {
   width: 500px;
   height: 250px;
   padding: 0 35px;
 }
-/* line 140, ../sass/_notification.scss */
+/* line 107, ../sass/_lightboxes.scss */
 .featherlight-inner.infobox {
   width: 500px;
   height: 350px;
 }
-/* line 145, ../sass/_notification.scss */
+/* line 112, ../sass/_lightboxes.scss */
 .featherlight-inner h2 {
   font-size: 30px;
   line-height: 35px;
@@ -9553,7 +9550,7 @@ button.close {
   text-align: center;
   margin-bottom: 25px;
 }
-/* line 154, ../sass/_notification.scss */
+/* line 121, ../sass/_lightboxes.scss */
 .featherlight-inner p {
   color: #ffffff;
   font-size: 22px;
@@ -9623,6 +9620,23 @@ button.close {
   background: #212121;
   border: 1px solid #212121;
   text-decoration: none;
+}
+
+/* line 57, ../sass/_squiffy-elements.scss */
+#squiffy-section-1 {
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  height: auto !important;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 64, ../sass/_squiffy-elements.scss */
+#squiffy-section-1 a {
+  margin: 0 auto;
 }
 
 /* =Simple animation up */
@@ -10026,7 +10040,7 @@ Author's custom styles
   left: 0;
   width: 100%;
   text-align: center;
-  position: relative;
+  position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -10114,18 +10128,8 @@ Author's custom styles
   margin-top: 20px;
 }
 
-/* line 336, ../sass/_original_main.scss */
-.sqsec {
-  transition: all 1s ease-in-out;
-}
-
-/* line 340, ../sass/_original_main.scss */
-#squiffy-section-1 {
-  display: none;
-}
-
 /* ========================================================================== */
-/* line 351, ../sass/_original_main.scss */
+/* line 340, ../sass/_original_main.scss */
 .ac-button {
   color: #ffffff;
   font-size: 25px;
@@ -10140,18 +10144,18 @@ Author's custom styles
   z-index: 3;
   position: fixed;
 }
-/* line 365, ../sass/_original_main.scss */
+/* line 354, ../sass/_original_main.scss */
 .ac-button.info {
   top: 20px;
   right: 85px;
 }
-/* line 370, ../sass/_original_main.scss */
+/* line 359, ../sass/_original_main.scss */
 .ac-button.restart {
   right: 20px;
   top: 20px;
 }
 
-/* line 376, ../sass/_original_main.scss */
+/* line 365, ../sass/_original_main.scss */
 .ripple {
   position: absolute;
   left: 0;
@@ -10171,7 +10175,7 @@ Author's custom styles
 }
 
 /* ========================================================================== */
-/* line 399, ../sass/_original_main.scss */
+/* line 388, ../sass/_original_main.scss */
 .tr__quote {
   width: 100%;
   margin: 0 auto;
@@ -10179,7 +10183,7 @@ Author's custom styles
   padding: 0 150px;
 }
 
-/* line 406, ../sass/_original_main.scss */
+/* line 395, ../sass/_original_main.scss */
 .tr__quote__para {
   color: #ffffff;
   font-size: 30px;
@@ -10190,7 +10194,7 @@ Author's custom styles
 }
 
 /* ========================================================================== */
-/* line 426, ../sass/_original_main.scss */
+/* line 415, ../sass/_original_main.scss */
 .polaroid {
   width: 500px;
   height: 520px;
@@ -10209,7 +10213,7 @@ Author's custom styles
   transform: rotate(-10deg);
   clear: both;
 }
-/* line 444, ../sass/_original_main.scss */
+/* line 433, ../sass/_original_main.scss */
 .polaroid.flash {
   -webkit-animation: fade-in 3s ease-in;
   -moz-animation: fade-in 3s ease-in;
@@ -10220,13 +10224,13 @@ Author's custom styles
   -o-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 455, ../sass/_original_main.scss */
+/* line 444, ../sass/_original_main.scss */
 .polaroid img {
   width: 100%;
 }
 
 /* ========================================================================== */
-/* line 466, ../sass/_original_main.scss */
+/* line 455, ../sass/_original_main.scss */
 .tr__movie__wrapper {
   background-color: #212121;
   height: 500px;
@@ -10234,7 +10238,7 @@ Author's custom styles
   margin: auto;
 }
 
-/* line 473, ../sass/_original_main.scss */
+/* line 462, ../sass/_original_main.scss */
 .tr__movie__box {
   width: 100%;
   height: 100%;
@@ -10243,7 +10247,7 @@ Author's custom styles
   overflow: hidden;
 }
 
-/* line 481, ../sass/_original_main.scss */
+/* line 470, ../sass/_original_main.scss */
 .tr__movie__boxes {
   width: 100%;
   height: 40px;
@@ -10251,7 +10255,7 @@ Author's custom styles
   text-align: center;
 }
 
-/* line 488, ../sass/_original_main.scss */
+/* line 477, ../sass/_original_main.scss */
 .tr__movie__small_box {
   background-color: #ffffff;
   display: inline-block;
@@ -10260,7 +10264,7 @@ Author's custom styles
   margin: 10px 10.5px 10px 10.5px;
 }
 
-/* line 496, ../sass/_original_main.scss */
+/* line 485, ../sass/_original_main.scss */
 .tr__movie__center_box {
   width: 100%;
   height: calc(100% - 80px);
@@ -10277,7 +10281,7 @@ Author's custom styles
   -o-animation: load 1s linear;
   animation: load 1s linear;
 }
-/* line 512, ../sass/_original_main.scss */
+/* line 501, ../sass/_original_main.scss */
 .tr__movie__center_box:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -10285,4 +10289,170 @@ Author's custom styles
   -o-transform: scale(1.05);
   transform: scale(1.05);
   opacity: 0.75;
+}
+
+/* line 1, ../sass/_preload.scss */
+.ip-header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  min-height: 480px;
+  width: 100%;
+  height: 100%;
+  background: #EC9A46;
+}
+
+/* line 12, ../sass/_preload.scss */
+.ip-loader {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+}
+/* line 20, ../sass/_preload.scss */
+.ip-loader svg path {
+  fill: none;
+  stroke-width: 6;
+}
+/* line 24, ../sass/_preload.scss */
+.ip-loader svg path.ip-loader-circlebg {
+  stroke: #ddd;
+}
+/* line 28, ../sass/_preload.scss */
+.ip-loader svg path.ip-loader-circle {
+  -webkit-transition: stroke-dashoffset 0.2s;
+  transition: stroke-dashoffset 0.2s;
+  stroke: #19474d;
+}
+
+/* line 37, ../sass/_preload.scss */
+.ip-logo {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+  top: 0;
+  text-align: center;
+  height: 100%;
+  -webkit-transform: translate3d(0, 25%, 0);
+  transform: translate3d(0, 25%, 0);
+}
+/* line 50, ../sass/_preload.scss */
+.ip-logo img {
+  margin: 0 auto;
+  width: 50%;
+}
+/* line 55, ../sass/_preload.scss */
+.ip-logo svg path {
+  fill: #19474d;
+}
+
+/* line 60, ../sass/_preload.scss */
+.ip-loader {
+  bottom: 20%;
+}
+
+/* line 64, ../sass/_preload.scss */
+.ip-inner {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 69, ../sass/_preload.scss */
+.ip-main {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 79, ../sass/_preload.scss */
+.loading .ip-logo {
+  opacity: 1;
+  -webkit-animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+}
+/* line 85, ../sass/_preload.scss */
+.loaded .ip-logo {
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: animLoadedLogo 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  animation: animLoadedLogo 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  opacity: 1;
+}
+
+/* line 96, ../sass/_preload.scss */
+.loading .ip-loader {
+  opacity: 1;
+  -webkit-animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+/* line 104, ../sass/_preload.scss */
+.loaded .ip-loader {
+  -webkit-animation: animLoadedLoader 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  animation: animLoadedLoader 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  opacity: 1;
+}
+
+/* line 113, ../sass/_preload.scss */
+.loaded .ip-header {
+  -webkit-animation: animLoadedHeader 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  animation: animLoadedHeader 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+}
+/* line 118, ../sass/_preload.scss */
+.layout-switch .ip-header {
+  position: absolute;
+}
+
+@-webkit-keyframes animInitialHeader {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 800px, 0);
+  }
+}
+@keyframes animInitialHeader {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 800px, 0);
+    transform: translate3d(0, 800px, 0);
+  }
+}
+@-webkit-keyframes animLoadedLogo {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0) translate3d(0, 50px, 0) scale3d(0.65, 0.65, 1);
+  }
+}
+@keyframes animLoadedLogo {
+  to {
+    -webkit-transform: translate3d(0, 100%, 0) translate3d(0, 50px, 0) scale3d(0.65, 0.65, 1);
+    transform: translate3d(0, 100%, 0) translate3d(0, 50px, 0) scale3d(0.65, 0.65, 1);
+  }
+}
+@-webkit-keyframes animLoadedLoader {
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0) scale3d(0.3, 0.3, 1);
+  }
+}
+@keyframes animLoadedLoader {
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0) scale3d(0.3, 0.3, 1);
+    transform: translate3d(0, -100%, 0) scale3d(0.3, 0.3, 1);
+  }
+}
+@-webkit-keyframes animLoadedHeader {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes animLoadedHeader {
+  to {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
 }

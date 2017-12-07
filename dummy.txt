@@ -30,4 +30,91 @@ GREETINGFAIL MORE
 <a class=\"squiffy-link link-section\" data-section=\"Antonia_pre\" role=\"link\" tabindex=\"0\">Antonia</a> <a class=\"squiffy-link link-section\" data-section=\"Hisao_pre\" role=\"link\" tabindex=\"0\">Hisao</a>
 
 
-https://codepen.io/derekjp/pen/bpoRVK?q=diagonal%20background&order=popularity&depth=everything&show_forks=false
+
+
+
+
+
+
+
+
+                    <!--      <div id="squiffy-section-1">
+<article id="cb01" class="content-block">
+<div class="wrapper">
+<header class="slideInUp">
+<h1>SIMPLIFY</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Simplify your content to a MINIMUM.</p>
+</section>
+</div>
+</article>
+</div>
+<div id="squiffy-section-2">
+<article id="slide01" class="slide fs">
+<div class="bcg"></div>
+<div class="wrapper">
+<header class="slideInUp">
+<h1>A picture is worth a thousand words</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Let the images do the talking and use text for short summaries.</p>
+</section>
+</div>
+</article>
+
+
+<article id="cb02" class="content-block">
+<div class="wrapper">
+<header class="slideInUp">
+<h1>FOCUS</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Focus on the most IMPORTANT thing. The one thing!</p>
+</section>
+</div>
+</article>
+</div>
+<div id="squiffy-section-3">
+<article id="slide02" class="slide fs">
+<div class="bcg"></div>
+<div class="wrapper">
+<header class="slideInUp">
+<h1>Position and Timing</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Position elements based on the background image and trigger animation at the right time.</p>
+<p class="slideInUp slideInUp3">Use different triggerElements in combination with offsets to be in full control.</p>
+</section>
+</div>
+</article>
+
+
+<article id="cb03" class="content-block">
+<div class="wrapper">
+<header class="slideInUp">
+<h1>ASK</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">You don't ask, you don't get. Always end with CALL TO ACTION.</p>
+</section>
+</div>
+</article>
+</div>
+<div id="squiffy-section-4">
+<article id="slide03" class="slide fs">
+<div class="bcg"></div>
+<div class="wrapper">
+<header class="slideInUp">
+<h1>Do you want to learn ScrollMagic?</h1>
+</header>
+<section>
+<p class="slideInUp slideInUp2">Explore the source code and start learning ScrollMagic today.</p>
+<div class="slideInUp slideInUp3">
+<a href="https://ihatetomatoes.net/5-days-with-scrollmagic/" class="button">DOWNLOAD FILES</a>
+</div>
+
+</section>
+</div>
+</article>
+</div>-->

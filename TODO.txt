@@ -27,6 +27,10 @@ http://www.awwwards.com/
 
 https://codepen.io/balapa/pen/embYYB
 
+Dummystuff
+https://codepen.io/derekjp/pen/bpoRVK?q=diagonal%20background&order=popularity&depth=everything&show_forks=false
+
+
 Font
 https://www.dafont.com/tomb-raider2.font?
 
@@ -54,6 +58,8 @@ Intro
 https://tympanus.net/codrops/2014/08/05/page-preloading-effect/
 https://codyhouse.co/gem/animated-page-transition/
 
+https://www.photo-mark.com/notes/image-preloading/
+https://css-tricks.com/snippets/jquery/image-preloader/
 
 Modal
 https://tympanus.net/codrops/2013/06/25/nifty-modal-window-effects/

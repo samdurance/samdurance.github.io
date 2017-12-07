@@ -618,7 +618,7 @@ squiffy.story.start = 'setvariables';
 squiffy.story.id = '75486b01cb';
 squiffy.story.sections = {
 	'setvariables': {
-		'text': "{start}",
+		'text': "{introduction}",
 		'attributes': ["SC = 0","PC = 0", "fail = 0","not salarawin","not parentswin","not tie","not carkiss",
             "not greetingfail","antonia","not clothes","not compliment","not samstory","not sammad","not samclothes",
             "not interrupt","hisao","not tease","not roof","not samhelp","not tool","not drink2","not accident",
@@ -626,6 +626,9 @@ squiffy.story.sections = {
 		'passages': {
 		},
 	},
+    'introduction': {
+        'text': "<a class=\"squiffy-link first link-section\" data-section=\"start\" role=\"link\" tabindex=\"0\">START</a>"
+    },
 	'start': {
 		'text': "" +
         "<article id=\"cb01\" class=\"content-block is-active\">" +
