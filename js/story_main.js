@@ -1,3 +1,16 @@
+$(window).load( function(){
+   $.preloadImages("/img/story/animals.jpg","/img/story/animals_polaroid.jpg","/img/story/animals_big.jpg","/img/story/test.gif");
+});
+
+
+$.preloadImages = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+      console.log($("<img />").attr("src", arguments[i]));
+  }
+}
+
+
 initSM();
 
 $(document).on('click', '.squiffy-link', function(e) {
