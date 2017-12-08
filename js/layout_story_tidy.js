@@ -631,9 +631,10 @@ squiffy.story.sections = {
     },
 	'start': {
 		'text': "" +
-        "<article id=\"cb01\" class=\"content-block is-active\">" +
-            "<div class=\"wrapper textwrap\">" +
-                "<header class=\"slideInUp\"><h1>Kapitel 1: Ankunft</h1></header>" +
+        "<article id=\"cb01\" class=\"tr__contentblock is-active\">" +
+             "<header class=\"tr__chapter__header slideInUp\"><h1 class=\"typewriter animate\">Kapitel 1: Ankunft</h1></header>" +
+        "<div class=\"tr__contentblock__wrapper tr__textwrap\">" +
+
                 "<section>" +
                     "<p class=\"tr__para slideInUp slideInUp2\">" +
                         "Alice was beginning to get very tired of sitting by her sister on the bank, and of" +
@@ -660,15 +661,15 @@ squiffy.story.sections = {
                         "The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not" +
                         " a moment to think about stopping herself before she found herself falling down a very deep well." +
                     "</p>" +
-                    "<div class=\"btnwrap slideInUp slideInUp4\">" +
+                    "<div class=\"tr__btnwrap slideInUp slideInUp4\">" +
                         "<a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a>" +
                         "<a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a>" +
                     "</div>" +
                 "</section>" +
             "</div>" +
-            "<div class=\"imgwrap slideInUp slideInUp5\">" +
+            "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
                 "<a href=\"#\" data-featherlight=\"img/story/animals_big.jpg\">" +
-                    "<div class=\"polaroid\">" +
+                    "<div class=\"tr__polaroid\">" +
                     "<img src=\"img/story/animals_polaroid.jpg\" class=\"img-responsive\" />" +
                     "</div>" +
                 "</a>" +
@@ -679,9 +680,9 @@ squiffy.story.sections = {
 	},
 	'Carkiss yes': {
 		'text': "" +
-        "<article id=\"slide01\" class=\"slide qt\">" +
-            "<div class=\"bcg\"></div>" +
-            "<div class=\"wrapper\">" +
+        "<article id=\"slide01\" class=\"tr__slide tr__slide01 qt\">" +
+            "<div class=\"tr__slide01__bcg\"></div>" +
+            "<div class=\"tr__slide01__wrapper\">" +
                 //"<header class=\"slideInUp\"><h1>RENDER #1</h1></header>" +
                  "<section>" +
                     "<blockquote class=\"tr__quote\">" +
@@ -696,8 +697,8 @@ squiffy.story.sections = {
                 "</section>" +
             "</div>" +
         "</article>" +
-        "<article id=\"cb02\" class=\"content-block\">" +
-            "<div class=\"imgwrap slideInUp slideInUp5\">" +
+        "<article id=\"cb02\" class=\"tr__contentblock\">" +
+            "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
                 "<a href=\"#\" data-featherlight=\"img/story/test.gif\">" +
                     "<div class=\"tr__movie__wrapper\">" +
                         "<div class=\"tr__movie__box\">" +
@@ -744,7 +745,7 @@ squiffy.story.sections = {
                     "</div>" +
                 "</a>" +
             "</div>" +
-            "<div class=\"wrapper textwrap right\">" +
+            "<div class=\"tr__contentblock__wrapper tr__textwrap right\">" +
                 "<header class=\"slideInUp\"></header>" +
                 "<section>" +
                     "<p class=\"tr__para slideInUp\">Carkisstext YES mit zusätzlichem Bild</p>" +
@@ -758,9 +759,9 @@ squiffy.story.sections = {
 	},
 	'Carkiss no': {
 		'text': "" +
-       "<article id=\"slide01\" class=\"slide gt\">" +
-            "<div class=\"bcg\"></div>" +
-            "<div class=\"wrapper\">" +
+       "<article id=\"slide01\" class=\"tr__slide tr__slide01 gt\">" +
+            "<div class=\"tr__slide01__bcg\"></div>" +
+            "<div class=\"tr__slide01__wrapper\">" +
                 //"<header class=\"slideInUp\"><h1>RENDER #1</h1></header>" +
                 "<section>" +
                     "<blockquote class=\"tr__quote\">" +
@@ -775,13 +776,13 @@ squiffy.story.sections = {
                 "</section>" +
             "</div>" +
         "</article>" +
-        "<article id=\"cb02\" class=\"content-block\">" +
-            "<div class=\"imgwrap slideInUp slideInUp5\">" +
+        "<article id=\"cb02\" class=\"tr__contentblock\">" +
+            "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
                 "<a href=\"#\" data-featherlight=\"img/story/animals.jpg\">" +
                     "<img src=\"img/story/animals.jpg\" class=\"img-responsive\" />" +
                 "</a>" +
             "</div>" +
-            "<div class=\"wrapper textwrap right\">" +
+            "<div class=\"tr__contentblock__wrapper tr__textwrap right\">" +
                 "<header class=\"slideInUp\"></header>" +
                 "<section>" +
                     "<p class=\"tr__para slideInUp\">Carkisstext NO mit zusätzlichem Bild</p>" +
@@ -819,7 +820,7 @@ squiffy.story.sections = {
             "The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not" +
             " a moment to think about stopping herself before she found herself falling down a very deep well." +
         "</p>" +
-        "<div class=\"btnwrap slideInUp slideInUp4\">" +
+        "<div class=\"tr__btnwrap slideInUp slideInUp4\">" +
             "<a class=\"squiffy-link link-section\" data-section=\"Greetingfail yes\" role=\"link\" tabindex=\"0\">Greetingfail yes</a>" +
             "<a class=\"squiffy-link link-section\" data-section=\"Greetingfail no\" role=\"link\" tabindex=\"0\">Greetingfail no</a>" +
         "</div>",
@@ -828,22 +829,22 @@ squiffy.story.sections = {
     },
     'Greetingfail yes': {
         'text': "" +
-        "<article id=\"slide02\" class=\"slide fs\">" +
-            "<div class=\"bcg\"></div>" +
-            "<div class=\"wrapper\">" +
+        "<article id=\"slide02\" class=\"tr__slide tr__slide02 fs\">" +
+            "<div class=\"tr__slide02__bcg\"></div>" +
+            "<div class=\"tr__slide02__wrapper\">" +
                 "<header class=\"slideInUp\"><h1>RENDER #2</h1></header>" +
                 "<section></section>" +
             "</div>" +
         " </article>" +
-        "<article id=\"cb03\" class=\"content-block\">" +
-            "<div class=\"wrapper textwrap\">" +
+        "<article id=\"cb03\" class=\"tr__contentblock\">" +
+            "<div class=\"tr__contentblock__wrapper tr__textwrap\">" +
                 "<header class=\"slideInUp\"></header>" +
                 "<section>" +
                 "<p class=\"tr__para slideInUp\">Greetingfail YES mit zusätzlichem Bild</p>" +
                 "{Greetingfail more}" +
                 "</section>" +
             "</div>" +
-            "<div class=\"imgwrap slideInUp slideInUp5\">" +
+            "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
                 "<a href=\"#\" data-featherlight=\"img/story/animals.jpg\">" +
                     "<img src=\"img/story/animals.jpg\" class=\"img-responsive\" />" +
                 "</a>" +
@@ -855,22 +856,22 @@ squiffy.story.sections = {
     },
     'Greetingfail no': {
         'text': "" +
-        "<article id=\"slide02\" class=\"slide fs\">" +
-            "<div class=\"bcg\"></div>" +
-            "<div class=\"wrapper\">" +
+        "<article id=\"slide02\" class=\"tr__slide tr__slide02 fs\">" +
+            "<div class=\"tr__slide02__bcg\"></div>" +
+            "<div class=\"tr__slide02__wrapper\">" +
                 "<header class=\"slideInUp\"><h1>RENDER #2</h1></header>" +
                 "<section></section>" +
             "</div>" +
         " </article>" +
-        "<article id=\"cb03\" class=\"content-block\">" +
-            "<div class=\"wrapper textwrap\">" +
+        "<article id=\"cb03\" class=\"tr__contentblock\">" +
+            "<div class=\"tr__contentblock__wrapper tr__textwrap\">" +
                 "<header class=\"slideInUp\"></header>" +
                 "<section>" +
                     "<p class=\"tr__para slideInUp\">Greetingfail NO mit zusätzlichem Bild</p>" +
                     "{Greetingfail more}" +
                 "</section>" +
             "</div>" +
-            "<div class=\"imgwrap slideInUp slideInUp5\">" +
+            "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
                 "<a href=\"#\" data-featherlight=\"img/story/animals.jpg\">" +
                     "<img src=\"img/story/animals.jpg\" class=\"img-responsive\" />" +
                 "</a>" +

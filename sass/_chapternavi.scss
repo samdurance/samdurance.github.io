@@ -1,0 +1,97 @@
+/* =Navigation */
+
+.trs__nav {
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: right;
+    z-index: 1;
+    display: none;
+
+    .trs__nav__link {
+        display: block;
+        line-height: 25px;
+        position: relative;
+        padding-left: 20px;
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+
+            .trs__nav__label {
+                -webkit-transform: translateX(0);
+                -moz-transform: translateX(0);
+                -ms-transform: translateX(0);
+                -o-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.trs__nav__list {
+    margin: 0;
+    padding: 0;
+}
+
+.trs__nav__list__item {
+    width: auto;
+    list-style: none;
+}
+
+.trs__nav__label {
+    display: block;
+    opacity: 0.5;
+    visibility: hidden;
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+    -webkit-transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+    transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+}
+
+.trs__nav__dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border: 1px solid $white;
+
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+
+    .active & {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+.trs__scroll-hint {
+    font-size: 30px;
+    color: $white;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 5px 15px;
+    border: 3px $white solid;
+    border-radius: 100%;
+    @include tilli-bold;
+    z-index: 2;
+}

@@ -8,7 +8,7 @@ initSM();
 //});
 
 
-$(".ac-button").on("click", function(){
+$(".tr__acbtn").on("click", function(){
     $(this).children(".ripple").addClass("rippling");
     $('.squiffy-section').addClass('blur');
 });
@@ -27,7 +27,7 @@ jQuery(function($){
 });
 
 
-$('.ac-button').featherlight({
+$('.tr__acbtn').featherlight({
     targetAttr: 'data-url',
     resetCss: true,
     closeOnEsc: true,

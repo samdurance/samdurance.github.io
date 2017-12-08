@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/screen.css">
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
-    <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/libs/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
 <body class="tr__story">
@@ -31,33 +31,33 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="trs__lightbox trs__lightbox--infobox" id="infobox">
+<div class="tr__lightbox tr__lightbox--infobox" id="infobox">
     <h2>Information</h2>
     <p>A lot of information or maybe not who knows</p>
 </div>
 
-<div class="trs__lightbox trs__lightbox--restartbox" id="restartbox">
+<div class="tr__lightbox tr__lightbox--restartbox" id="restartbox">
     <h2>Restart Story</h2>
     <p>Are you sure you want to restart the story?</p>
     <p>All progress and decisions you made so far will be lost. You will have to start over again.</p>
 
-    <div class="trs__lightbox__btn__wrapper">
-        <button class="trs__lightbox__btn alert" id="restart" tabindex="0">Restart</button>
-        <button class="trs__lightbox__btn featherlight-close">Cancel</button>
+    <div class="tr__lightbox__btn__wrapper">
+        <button class="tr__lightbox__btn alert" id="restart" tabindex="0">Restart</button>
+        <button class="tr__lightbox__btn featherlight-close">Cancel</button>
     </div>
 </div>
 
 
-<div class="trs__preload__container">
+<div class="tr__story__inner">
 
-
-    <div class="trs__preload__header">
-        <div class="trs__preload__logo">
+    <div class="tr__preload__overlay">
+        <div class="tr__preload__logo">
+            <!--<img src="/img/story/logo_test.svg" alt="Family Matters Logo" />-->
             <img src="/img/story/logo_white.png" alt="Family Matters Logo" />
         </div>
 
-        <div class="trs__preload__loader ip-loader">
-            <div class="trs__preload__loader__inner">
+        <div class="tr__preload__loader ip-loader">
+            <div class="tr__preload__loader__inner">
                 <svg class="animated fadeIn" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 354.461 354.461" style="enable-background:new 0 0 354.461 354.461;" xml:space="preserve">
 <g id="XMLID_484_">
@@ -138,16 +138,16 @@
 		c-22.893,0-41.9,17.454-44.39,39.711h-0.285v4.964v59.567v130.569h69.495l19.856-190.136v-4.964H295.424z"/>
 </svg>
             </div>
-            <p class="trs__preload__loader__para">preparing popcorn...</p>
+            <p class="tr__preload__loader__para">preparing popcorn...</p>
         </div>
     </div>
 
 
-    <div class="trs__preload__main">
+    <div class="tr__main__container">
 
-        <div id="intro" class="header-container fs">
-            <div class="bcg"></div>
-            <header class="wrapper"></header>
+        <div id="intro" class="tr__bookcover">
+            <div class="tr__bookcover__bcg"></div>
+            <header class="tr__bookcover__wrapper"></header>
         </div>
 
         <!--<nav class="trs__nav">
@@ -185,19 +185,17 @@
             </ul>
         </nav>-->
 
-        <div class="main-container">
-            <div id="squiffy-container">
-                <div id="squiffy-header">
-                    <button class="ac-button info fa fa-question" data-url="#infobox">
-                        <div class="ripple"></div>
-                    </button>
+        <div class="tr__squiffy__container">
+            <div class="tr__squiffy__header">
+                <button class="tr__acbtn info fa fa-question" data-url="#infobox">
+                    <div class="ripple"></div>
+                </button>
 
-                    <button class="ac-button restart fa fa-repeat" data-url="#restartbox">
-                        <div class="ripple"></div>
-                    </button>
-                </div>
-                <div id="squiffy"></div>
+                <button class="tr__acbtn restart fa fa-repeat" data-url="#restartbox">
+                    <div class="ripple"></div>
+                </button>
             </div>
+            <div id="squiffy"></div>
         </div>
 
     </div>
@@ -224,13 +222,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 
-<script type="application/javascript" src="js/bootstrap-notify.min.js"></script>
+<script type="application/javascript" src="js/libs/bootstrap-notify.min.js"></script>
 <script type="application/javascript" src="js/layout_story_tidy.js" charset="UTF-8"></script>
 <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 <script src="js/scrollmagic_main.js"></script>
 <script src="js/story_main.js"></script>
-<script src="js/preLoader.js"></script>
+<script src="js/story_preloader.js"></script>
 
 </body>
 </html>

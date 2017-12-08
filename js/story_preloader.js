@@ -1,6 +1,6 @@
 
 function preloader() {
-	$('.trs__preload__container').addClass('loading');
+	$('.tr__story__inner').addClass('loading');
 	window.addEventListener( 'scroll', noscroll );
 }
 
@@ -36,12 +36,15 @@ $(window).load( function() {
 
 	preloader();
 
-	preloadPictures(["/img/story/animals.jpg", "/img/story/animals_polaroid.jpg", "/img/story/animals_big.jpg", "/img/story/test.gif", "https://media.giphy.com/media/O5AZJzYhCr1NS/giphy.gif", "https://media.giphy.com/media/nNott3XnNjDDq/giphy.gif", "https://media.giphy.com/media/cSaX029U8Nies/giphy.gif"], function () {
-		$('.popcorn').fadeOut(3000);
-		$('.trs__preload__container').removeClass('loading');
-		$('.trs__preload__container').addClass('loaded');
-		$('.trs__preload__header').addClass('layout-switch');
-		window.removeEventListener( 'scroll', noscroll );
+	preloadPictures(["/img/story/animals.jpg", "/img/story/animals_polaroid.jpg", "/img/story/animals_big.jpg", "https://media.giphy.com/media/O5AZJzYhCr1NS/giphy.gif", "https://media.giphy.com/media/nNott3XnNjDDq/giphy.gif", "https://media.giphy.com/media/cSaX029U8Nies/giphy.gif"], function () {
+
+		setTimeout(function(){
+			$('.tr__preload__loader__inner, .tr__preload__loader__para').fadeOut(1000);
+			$('.tr__story__inner').removeClass('loading');
+			$('.tr__story__inner').addClass('loaded');
+			$('.tr__preload__overlay').addClass('layout-switch');
+			window.removeEventListener( 'scroll', noscroll );
+		}, 2000);
 	});
 
 });

@@ -48,6 +48,7 @@ https://codepen.io/geoffgraham/pen/jrWwWM
 SVG
 https://github.com/dboudro/AnimateSVGText
 https://github.com/maxwellito/vivus#vivusjs
+http://editor.method.ac/
 
 
 Tutorial

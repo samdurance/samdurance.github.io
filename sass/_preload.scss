@@ -1,4 +1,4 @@
-.trs__preload__header {
+.tr__preload__overlay {
   position: fixed;
   top: 0;
   z-index: 100;
@@ -6,6 +6,8 @@
   width: 100%;
   height: 100%;
   background: $orange;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 
   .loaded & {
     -webkit-animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
@@ -17,7 +19,7 @@
   }
 }
 
-.trs__preload__loader {
+.tr__preload__loader {
   bottom: 25%;
   position: absolute;
   left: 0;
@@ -25,6 +27,8 @@
   opacity: 0;
   cursor: default;
   pointer-events: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 
   svg {
     overflow: visible;
@@ -45,7 +49,7 @@
   }
 }
 
-.trs__preload__loader__para {
+.tr__preload__loader__para {
   color: $white;
   font-size: 20px;
   line-height: 25px;
@@ -55,7 +59,7 @@
   @include tilli-bold;
 }
 
-.trs__preload__loader__inner {
+.tr__preload__loader__inner {
   margin: auto;
   width: 100px;
 }
@@ -69,7 +73,7 @@ circle#popcorncircle {
 }
 
 
-.trs__preload__logo {
+.tr__preload__logo {
   position: absolute;
   left: 0;
   width: 100%;
@@ -81,6 +85,8 @@ circle#popcorncircle {
   height: 100%;
   -webkit-transform: translate3d(0,25%,0);
   transform: translate3d(0,25%,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 
   img {
     margin: 0 auto;
@@ -103,7 +109,7 @@ circle#popcorncircle {
 }
 
 
-.trs__preload__main {
+.tr__main__container {
   overflow: hidden;
   margin: 0 auto;
 }

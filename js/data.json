@@ -2,28 +2,28 @@
     "Carkiss no": {
         "popup": {
             "content": "Kitty will remember this",
-            "thumb": "http://placeimg.com/120/120/animals"
+            "thumb": "/img/story/icon.jpg"
         }
     },
  
     "Carkiss yes": {
         "popup": {
             "content": "Kitty appreciates this",
-            "thumb": "http://placeimg.com/120/120/animals"
+            "thumb": "/img/story/icon.jpg"
         }
     },
 
     "Greetingfail yes": {
         "popup": {
             "content": "Kitty will remember this",
-            "thumb": "http://placeimg.com/120/120/animals"
+            "thumb": "/img/story/icon.jpg"
         }
     },
 
     "Greetingfail no": {
         "popup": {
             "content": "Kitty appreciates this",
-            "thumb": "http://placeimg.com/120/120/animals"
+            "thumb": "/img/story/icon.jpg"
         }
     }
 }
