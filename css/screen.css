@@ -9437,16 +9437,16 @@ button.close {
 
 /* ========================================================================== */
 /* line 5, ../sass/_lightboxes.scss */
-.lightbox {
+.trs__lightbox {
   display: none;
 }
 /* line 8, ../sass/_lightboxes.scss */
-.lightbox.featherlight-inner {
+.trs__lightbox.featherlight-inner {
   display: block;
 }
 
 /* line 14, ../sass/_lightboxes.scss */
-.lightbox__btn__wrapper {
+.trs__lightbox__btn__wrapper {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -9455,17 +9455,17 @@ button.close {
 }
 
 /* line 22, ../sass/_lightboxes.scss */
-.lightbox__btn {
+.trs__lightbox__btn {
   margin: 0 15px 20px;
 }
 /* line 26, ../sass/_lightboxes.scss */
-.lightbox__btn.alert {
+.trs__lightbox__btn.alert {
   background: #d9534f;
   float: right;
   border: 1px solid #d9534f;
 }
 /* line 31, ../sass/_lightboxes.scss */
-.lightbox__btn.alert:hover {
+.trs__lightbox__btn.alert:hover {
   border: 1px solid #ffffff;
 }
 
@@ -9531,13 +9531,13 @@ button.close {
 }
 
 /* line 101, ../sass/_lightboxes.scss */
-.featherlight-inner.restartbox {
+.featherlight-inner.trs__lightbox--restartbox {
   width: 500px;
   height: 250px;
   padding: 0 35px;
 }
 /* line 107, ../sass/_lightboxes.scss */
-.featherlight-inner.infobox {
+.featherlight-inner.trs__lightbox--infobox {
   width: 500px;
   height: 350px;
 }
@@ -9561,7 +9561,7 @@ button.close {
 }
 
 /* line 1, ../sass/_squiffy-elements.scss */
-.squiffy-link, .lightbox__btn {
+.squiffy-link, .trs__lightbox__btn {
   color: #ffffff;
   font-size: 18px;
   padding: 10px;
@@ -9578,18 +9578,18 @@ button.close {
   text-transform: uppercase;
 }
 /* line 15, ../sass/_squiffy-elements.scss */
-.squiffy-link:hover, .lightbox__btn:hover {
+.squiffy-link:hover, .trs__lightbox__btn:hover {
   text-decoration: none;
   color: #212121;
   background: #ffffff;
 }
 /* line 21, ../sass/_squiffy-elements.scss */
-.squiffy-link.invisible, .invisible.lightbox__btn {
+.squiffy-link.invisible, .invisible.trs__lightbox__btn {
   opacity: 0;
 }
 
 /* line 26, ../sass/_squiffy-elements.scss */
-.squiffy-link.disabled, .disabled.lightbox__btn {
+.squiffy-link.disabled, .disabled.trs__lightbox__btn {
   display: none;
 }
 
@@ -9796,6 +9796,16 @@ button.close {
   filter: url(#blur2px);
 }
 
+@-webkit-keyframes rotate {
+  50% {
+    -webkit-transform: translate(0px, 100px);
+  }
+}
+@keyframes rotate {
+  50% {
+    transform: translate(0px, 100px);
+  }
+}
 /* line 1, ../sass/_original_main.scss */
 .tr__game {
   overflow-y: scroll !important;
@@ -9907,7 +9917,6 @@ Author's custom styles
 /* =Navigation */
 /* line 106, ../sass/_original_main.scss */
 .trs__nav {
-  display: block;
   position: fixed;
   left: 30px;
   top: 50%;
@@ -9917,7 +9926,8 @@ Author's custom styles
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   text-align: right;
-  z-index: 100;
+  z-index: 1;
+  display: none;
 }
 /* line 119, ../sass/_original_main.scss */
 .trs__nav .trs__nav__link {
@@ -10292,7 +10302,7 @@ Author's custom styles
 }
 
 /* line 1, ../sass/_preload.scss */
-.ip-header {
+.trs__preload__header {
   position: fixed;
   top: 0;
   z-index: 100;
@@ -10301,9 +10311,19 @@ Author's custom styles
   height: 100%;
   background: #EC9A46;
 }
+/* line 10, ../sass/_preload.scss */
+.loaded .trs__preload__header {
+  -webkit-animation: animLoadedHeader 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  animation: animLoadedHeader 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+}
+/* line 15, ../sass/_preload.scss */
+.trs__preload__header.layout-switch {
+  position: absolute;
+}
 
-/* line 12, ../sass/_preload.scss */
-.ip-loader {
+/* line 20, ../sass/_preload.scss */
+.trs__preload__loader {
+  bottom: 25%;
   position: absolute;
   left: 0;
   width: 100%;
@@ -10311,24 +10331,55 @@ Author's custom styles
   cursor: default;
   pointer-events: none;
 }
-/* line 20, ../sass/_preload.scss */
-.ip-loader svg path {
-  fill: none;
-  stroke-width: 6;
+/* line 29, ../sass/_preload.scss */
+.trs__preload__loader svg {
+  overflow: visible;
 }
-/* line 24, ../sass/_preload.scss */
-.ip-loader svg path.ip-loader-circlebg {
-  stroke: #ddd;
+/* line 33, ../sass/_preload.scss */
+.loading .trs__preload__loader {
+  opacity: 1;
+  -webkit-animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
-/* line 28, ../sass/_preload.scss */
-.ip-loader svg path.ip-loader-circle {
-  -webkit-transition: stroke-dashoffset 0.2s;
-  transition: stroke-dashoffset 0.2s;
-  stroke: #19474d;
+/* line 41, ../sass/_preload.scss */
+.loaded .trs__preload__loader {
+  -webkit-animation: animLoadedLoader 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  animation: animLoadedLoader 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  opacity: 1;
 }
 
-/* line 37, ../sass/_preload.scss */
-.ip-logo {
+/* line 48, ../sass/_preload.scss */
+.trs__preload__loader__para {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* line 58, ../sass/_preload.scss */
+.trs__preload__loader__inner {
+  margin: auto;
+  width: 100px;
+}
+
+/* line 63, ../sass/_preload.scss */
+circle#popcorncircle {
+  fill: #FFE477;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -webkit-animation: rotate 1.5s cubic-bezier(0.49, 0.05, 0.32, 1.04) infinite alternate;
+  animation: rotate 1.5s cubic-bezier(0.49, 0.05, 0.32, 1.04) infinite alternate;
+}
+
+/* line 72, ../sass/_preload.scss */
+.trs__preload__logo {
   position: absolute;
   left: 0;
   width: 100%;
@@ -10341,41 +10392,19 @@ Author's custom styles
   -webkit-transform: translate3d(0, 25%, 0);
   transform: translate3d(0, 25%, 0);
 }
-/* line 50, ../sass/_preload.scss */
-.ip-logo img {
+/* line 85, ../sass/_preload.scss */
+.trs__preload__logo img {
   margin: 0 auto;
   width: 50%;
 }
-/* line 55, ../sass/_preload.scss */
-.ip-logo svg path {
-  fill: #19474d;
-}
-
-/* line 60, ../sass/_preload.scss */
-.ip-loader {
-  bottom: 20%;
-}
-
-/* line 64, ../sass/_preload.scss */
-.ip-inner {
-  display: block;
-  margin: 0 auto;
-}
-
-/* line 69, ../sass/_preload.scss */
-.ip-main {
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-/* line 79, ../sass/_preload.scss */
-.loading .ip-logo {
+/* line 90, ../sass/_preload.scss */
+.loading .trs__preload__logo {
   opacity: 1;
   -webkit-animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
   animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
 }
-/* line 85, ../sass/_preload.scss */
-.loaded .ip-logo {
+/* line 96, ../sass/_preload.scss */
+.loaded .trs__preload__logo {
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
   -webkit-animation: animLoadedLogo 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
@@ -10383,29 +10412,10 @@ Author's custom styles
   opacity: 1;
 }
 
-/* line 96, ../sass/_preload.scss */
-.loading .ip-loader {
-  opacity: 1;
-  -webkit-animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
-  animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-/* line 104, ../sass/_preload.scss */
-.loaded .ip-loader {
-  -webkit-animation: animLoadedLoader 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
-  animation: animLoadedLoader 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
-  opacity: 1;
-}
-
-/* line 113, ../sass/_preload.scss */
-.loaded .ip-header {
-  -webkit-animation: animLoadedHeader 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
-  animation: animLoadedHeader 1s cubic-bezier(0.7, 0, 0.3, 1) forwards;
-}
-/* line 118, ../sass/_preload.scss */
-.layout-switch .ip-header {
-  position: absolute;
+/* line 106, ../sass/_preload.scss */
+.trs__preload__main {
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 @-webkit-keyframes animInitialHeader {

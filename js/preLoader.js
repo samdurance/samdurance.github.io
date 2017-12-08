@@ -1,110 +1,47 @@
-;( function( window ) {
 
-	'use strict';
+function preloader() {
+	$('.trs__preload__container').addClass('loading');
+	window.addEventListener( 'scroll', noscroll );
+}
 
-	function PathLoader( el ) {
-		this.el = el;
-		// clear stroke
-		this.el.style.strokeDasharray = this.el.style.strokeDashoffset = this.el.getTotalLength();
+function noscroll() {
+	window.scrollTo( 0, 0 );
+}
+
+var preloadPictures = function(pictureUrls, callback) {
+	var i,
+		j,
+		loaded = 0;
+
+	for (i = 0, j = pictureUrls.length; i < j; i++) {
+		(function (img, src) {
+			img.onload = function () {
+				if (++loaded == pictureUrls.length && callback) {
+					callback();
+				}
+			};
+
+			// Use the following callback methods to debug
+			// in case of an unexpected behavior.
+			img.onerror = function () {};
+			img.onabort = function () {};
+
+			img.src = src;
+		} (new Image(), pictureUrls[i]));
 	}
-
-	PathLoader.prototype._draw = function( val ) {
-		this.el.style.strokeDashoffset = this.el.getTotalLength() * ( 1 - val );
-	}
-
-	PathLoader.prototype.setProgress = function( val, callback ) {
-		this._draw(val);
-		if( callback && typeof callback === 'function' ) {
-			// give it a time (ideally the same like the transition time) so that the last progress increment animation is still visible.
-			setTimeout( callback, 200 );
-		}
-	}
-
-	PathLoader.prototype.setProgressFn = function( fn ) {
-		if( typeof fn === 'function' ) { fn( this ); }
-	}
-
-	// add to global namespace
-	window.PathLoader = PathLoader;
-
-})( window );
+};
 
 
-(function() {
+$(window).load( function() {
 
-	var support = { animations : Modernizr.cssanimations },
-		container = document.getElementById( 'ip-container' ),
-		header = container.querySelector( 'header.ip-header' ),
-		loader = new PathLoader( document.getElementById( 'ip-loader-circle' ) ),
-		animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
-		// animation end event name
-		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ];
+	preloader();
 
-	function init() {
-		var onEndInitialAnimation = function() {
-			if( support.animations ) {
-				this.removeEventListener( animEndEventName, onEndInitialAnimation );
-			}
+	preloadPictures(["/img/story/animals.jpg", "/img/story/animals_polaroid.jpg", "/img/story/animals_big.jpg", "/img/story/test.gif", "https://media.giphy.com/media/O5AZJzYhCr1NS/giphy.gif", "https://media.giphy.com/media/nNott3XnNjDDq/giphy.gif", "https://media.giphy.com/media/cSaX029U8Nies/giphy.gif"], function () {
+		$('.popcorn').fadeOut(3000);
+		$('.trs__preload__container').removeClass('loading');
+		$('.trs__preload__container').addClass('loaded');
+		$('.trs__preload__header').addClass('layout-switch');
+		window.removeEventListener( 'scroll', noscroll );
+	});
 
-			startLoading();
-		};
-
-		// disable scrolling
-		window.addEventListener( 'scroll', noscroll );
-
-		// initial animation
-		classie.add( container, 'loading' );
-
-		if( support.animations ) {
-			container.addEventListener( animEndEventName, onEndInitialAnimation );
-		}
-		else {
-			onEndInitialAnimation();
-		}
-	}
-
-	function startLoading() {
-		// simulate loading something..
-		var simulationFn = function(instance) {
-			var progress = 0,
-				interval = setInterval( function() {
-					progress = Math.min( progress + Math.random() * 0.1, 1 );
-
-					instance.setProgress( progress );
-
-					// reached the end
-					if( progress === 1 ) {
-						classie.remove( container, 'loading' );
-						classie.add( container, 'loaded' );
-						clearInterval( interval );
-
-						var onEndHeaderAnimation = function(ev) {
-							if( support.animations ) {
-								if( ev.target !== header ) return;
-								this.removeEventListener( animEndEventName, onEndHeaderAnimation );
-							}
-
-							classie.add( document.body, 'layout-switch' );
-							window.removeEventListener( 'scroll', noscroll );
-						};
-
-						if( support.animations ) {
-							header.addEventListener( animEndEventName, onEndHeaderAnimation );
-						}
-						else {
-							onEndHeaderAnimation();
-						}
-					}
-				}, 80 );
-		};
-
-		loader.setProgressFn( simulationFn );
-	}
-
-	function noscroll() {
-		window.scrollTo( 0, 0 );
-	}
-
-	init();
-
-})();
+});

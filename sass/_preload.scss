@@ -1,4 +1,4 @@
-.ip-header {
+.trs__preload__header {
   position: fixed;
   top: 0;
   z-index: 100;
@@ -6,10 +6,19 @@
   width: 100%;
   height: 100%;
   background: $orange;
+
+  .loaded & {
+    -webkit-animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
+    animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
+  }
+
+  &.layout-switch {
+    position: absolute;
+  }
 }
 
-
-.ip-loader {
+.trs__preload__loader {
+  bottom: 25%;
   position: absolute;
   left: 0;
   width: 100%;
@@ -17,24 +26,50 @@
   cursor: default;
   pointer-events: none;
 
-  svg path {
-    fill: none;
-    stroke-width: 6;
+  svg {
+    overflow: visible;
+  }
 
-    &.ip-loader-circlebg {
-      stroke: #ddd;
-    }
+  .loading & {
+    opacity: 1;
+    -webkit-animation: animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both;
+    animation: animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
 
-    &.ip-loader-circle {
-      -webkit-transition: stroke-dashoffset 0.2s;
-      transition: stroke-dashoffset 0.2s;
-      stroke: $turqdark;
-    }
+  .loaded & {
+    -webkit-animation: animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
+    animation: animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
+    opacity: 1;
   }
 }
 
+.trs__preload__loader__para {
+  color: $white;
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  @include tilli-bold;
+}
 
-.ip-logo {
+.trs__preload__loader__inner {
+  margin: auto;
+  width: 100px;
+}
+
+circle#popcorncircle {
+  fill: #FFE477;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  -webkit-animation: rotate 1.5s cubic-bezier(.49,.05,.32,1.04) infinite alternate;
+  animation: rotate 1.5s cubic-bezier(.49,.05,.32,1.04) infinite alternate;
+}
+
+
+.trs__preload__logo {
   position: absolute;
   left: 0;
   width: 100%;
@@ -52,30 +87,6 @@
     width: 50%;
   }
 
-  svg path {
-    fill: $turqdark;
-  }
-}
-
-.ip-loader {
-  bottom: 20%;
-}
-
-.ip-inner {
-  display: block;
-  margin: 0 auto;
-}
-
-.ip-main {
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-
-
-
-.ip-logo {
-
   .loading & {
     opacity: 1;
     -webkit-animation: animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both;
@@ -91,37 +102,11 @@
   }
 }
 
-.ip-loader {
 
-  .loading & {
-    opacity: 1;
-    -webkit-animation: animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both;
-    animation: animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both;
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
-  }
-
-  .loaded & {
-    -webkit-animation: animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
-    animation: animLoadedLoader 0.5s cubic-bezier(0.7,0,0.3,1) forwards;
-    opacity: 1;
-  }
+.trs__preload__main {
+  overflow: hidden;
+  margin: 0 auto;
 }
-
-.ip-header {
-
-  .loaded & {
-    -webkit-animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
-    animation: animLoadedHeader 1s cubic-bezier(0.7,0,0.3,1) forwards;
-  }
-
-  .layout-switch & {
-    position: absolute;
-  }
-}
-
-
-
 
 
 @-webkit-keyframes animInitialHeader {

@@ -138,3 +138,16 @@
     -o-filter:blur(2px);
     filter: url(#blur2px)
 }
+
+
+@-webkit-keyframes rotate {
+  50% {
+    -webkit-transform: translate(0px, 100px);
+  }
+}
+
+@keyframes rotate {
+  50% {
+    transform: translate(0px, 100px);
+  }
+}

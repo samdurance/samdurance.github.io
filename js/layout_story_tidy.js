@@ -627,7 +627,7 @@ squiffy.story.sections = {
 		},
 	},
     'introduction': {
-        'text': "<a class=\"squiffy-link first link-section\" data-section=\"start\" role=\"link\" tabindex=\"0\">START</a>"
+        'text': "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">START</a>"
     },
 	'start': {
 		'text': "" +

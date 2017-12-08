@@ -104,7 +104,6 @@ Author's custom styles
 /* =Navigation */
 
 .trs__nav {
-    display: block;
     position: fixed;
     left: 30px;
     top: 50%;
@@ -114,7 +113,8 @@ Author's custom styles
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: right;
-    z-index: 100;
+    z-index: 1;
+    display: none;
 
     .trs__nav__link {
         display: block;

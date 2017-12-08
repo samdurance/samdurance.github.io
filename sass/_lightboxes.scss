@@ -2,7 +2,7 @@
 /* ========================================================================== */
 // Lightbox stuff //
 
-.lightbox {
+.trs__lightbox {
     display: none;
 
     &.featherlight-inner {
@@ -11,7 +11,7 @@
 }
 
 
-.lightbox__btn__wrapper {
+.trs__lightbox__btn__wrapper {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -19,7 +19,7 @@
     padding: 0 20px;
 }
 
-.lightbox__btn {
+.trs__lightbox__btn {
     @extend .squiffy-link;
     margin: 0 15px 20px;
 
@@ -98,13 +98,13 @@
 
 .featherlight-inner {
 
-    &.restartbox {
+    &.trs__lightbox--restartbox {
         width: 500px;
         height: 250px;
         padding: 0 35px;
     }
 
-    &.infobox {
+    &.trs__lightbox--infobox {
         width: 500px;
         height: 350px;
     }

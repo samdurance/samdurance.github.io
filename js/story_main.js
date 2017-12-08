@@ -1,24 +1,10 @@
-$(window).load( function(){
-   $.preloadImages("/img/story/animals.jpg","/img/story/animals_polaroid.jpg","/img/story/animals_big.jpg","/img/story/test.gif");
-});
-
-
-$.preloadImages = function() {
-  for (var i = 0; i < arguments.length; i++) {
-    $("<img />").attr("src", arguments[i]);
-      console.log($("<img />").attr("src", arguments[i]));
-  }
-}
 
 
 initSM();
 
-$(document).on('click', '.squiffy-link', function(e) {
-    initSM();
-});
 
-//$('#start').on('click', function(e) {
-//    $('#squiffy-section-1').slideDown('slow' , function(){$('html,body').animate({scrollTop: document.body.scrollHeight},1000);});
+//$(document).on('click', '#start', function(e) {
+//    $('.trs__nav').fadeIn('slow');
 //});
 
 
@@ -46,7 +32,6 @@ $('.ac-button').featherlight({
     resetCss: true,
     closeOnEsc: true,
     closeIcon: '<span class="fa fa-times"></span>',
-    loading: '<h1 style="color:red;">HIER STEHT TEXT</h1>',
     afterClose: function(e){
         $('.squiffy-section').removeClass('blur');
     }
@@ -54,6 +39,8 @@ $('.ac-button').featherlight({
 
 
 $(document).on('click', '.squiffy-link', function(e) {
+    initSM();
+
     var section = $(this).attr('data-section');
 
     if(!$(this).hasClass('first')) {
