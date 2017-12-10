@@ -1,29 +1,29 @@
 {
     "Carkiss no": {
         "popup": {
-            "content": "Kitty will remember this",
-            "thumb": "/img/story/icon.jpg"
+            "content": "Sam will remember this.",
+            "thumb": "/img/story/carkiss_no.jpg"
         }
     },
  
     "Carkiss yes": {
         "popup": {
-            "content": "Kitty appreciates this",
-            "thumb": "/img/story/icon.jpg"
+            "content": "Sam appreciates this.",
+            "thumb": "/img/story/carkiss_yes.jpg"
         }
     },
 
     "Greetingfail yes": {
         "popup": {
             "content": "Kitty will remember this",
-            "thumb": "/img/story/icon.jpg"
+            "thumb": "/img/story/carkiss_yes.jpg"
         }
     },
 
     "Greetingfail no": {
         "popup": {
             "content": "Kitty appreciates this",
-            "thumb": "/img/story/icon.jpg"
+            "thumb": "/img/story/carkiss_no.jpg"
         }
     }
 }

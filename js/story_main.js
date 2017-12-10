@@ -1,6 +1,10 @@
+$(document).ready(function () {
+    initSM();
+
+    // $('#squiffy').squiffy('restart');
+});
 
 
-initSM();
 
 
 //$(document).on('click', '#start', function(e) {
@@ -81,3 +85,31 @@ function notify (thumb, msg) {
     });
 
 };
+
+function tour() {
+    var tour = new Tour({
+        steps: [
+            {
+                element: "#tutop1",
+                title: "Title of my step",
+                content: "Content of my step"
+            },
+            {
+                element: "#tutop2",
+                title: "Title of my step",
+                content: "Content of my step"
+            }
+        ]});
+    
+    tour.init();
+    tour.start();
+}
+
+
+
+
+
+$(document).on('click', '#tutorial', function(e) {
+    $('#tuto').fadeIn('slow');
+    tour();
+});

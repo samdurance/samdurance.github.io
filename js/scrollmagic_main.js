@@ -94,9 +94,9 @@ if (!Modernizr.touch) {
     var introTl = new TimelineMax();
 
     introTl
-        .to($('#intro header'), 0.2, {autoAlpha: 0, ease:Power1.easeNone})
-        .to($('#intro .tr__bookcover__bcg'), 1.4, {y: '20%', ease:Power1.easeOut}, '-=0.2')
-        .to($('#intro'), 0.7, {autoAlpha: 0.5, ease:Power1.easeNone}, '-=1.4');
+ 
+        .to($('#intro .tr__bookcover__bcg'), 1.4, {y: '20%', ease:Power1.easeOut}, '-=0.2');
+       
 
     var introScene = new ScrollMagic.Scene({
         triggerElement: '#intro', 

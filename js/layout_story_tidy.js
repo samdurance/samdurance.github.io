@@ -566,7 +566,7 @@ var squiffy = {};
         init: function (options) {
             var settings = jQuery.extend({
                 scroll: 'body',
-                persist: true,
+                persist: false,
                 restartPrompt: true,
                 onSet: function (attribute, value) {}
             }, options);
@@ -594,6 +594,9 @@ var squiffy = {};
             //if (!squiffy.ui.settings.restartPrompt || confirm('Are you sure you want to restart the story? All progress will be lost.')) {
                 squiffy.story.restart();
             //}
+        },
+        begin: function (){
+            squiffy.story.begin();
         }
     };
 
@@ -627,7 +630,15 @@ squiffy.story.sections = {
 		},
 	},
     'introduction': {
-        'text': "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">START</a>"
+        'text':  "" +
+        "<div class=\"tr__introductionblock\">" +
+        "<h1 class=\"tr__introductionblock__headline\">Welcome!</h1>" +
+          "<p class=\"tr__introductionblock__para\">" +
+         "Get ready to start reading the teaser in pressing the Start button. If you would like a short introduction how to navigate this page choose the Tutorial button. <br/> Have fun!" +
+          "</p>" +
+        "<a class=\"squiffy-link first\" id=\"tutorial\" role=\"link\" tabindex=\"0\">TUTORIAL</a>" +
+        "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">START</a>" +
+         "</div>"
     },
 	'start': {
 		'text': "" +

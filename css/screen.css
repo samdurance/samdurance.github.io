@@ -9016,7 +9016,7 @@ button.close {
   display: block;
 }
 
-/* line 14, ../sass/_lightboxes.scss */
+/* line 13, ../sass/_lightboxes.scss */
 .tr__lightbox__btn__wrapper {
   position: absolute;
   bottom: 0;
@@ -9025,22 +9025,22 @@ button.close {
   padding: 0 20px;
 }
 
-/* line 22, ../sass/_lightboxes.scss */
+/* line 21, ../sass/_lightboxes.scss */
 .tr__lightbox__btn {
   margin: 0 15px 20px;
 }
-/* line 26, ../sass/_lightboxes.scss */
+/* line 25, ../sass/_lightboxes.scss */
 .tr__lightbox__btn.alert {
   background: #d9534f;
   float: right;
   border: 1px solid #d9534f;
 }
-/* line 31, ../sass/_lightboxes.scss */
+/* line 30, ../sass/_lightboxes.scss */
 .tr__lightbox__btn.alert:hover {
   border: 1px solid #ffffff;
 }
 
-/* line 41, ../sass/_lightboxes.scss */
+/* line 40, ../sass/_lightboxes.scss */
 .featherlight-reset {
   display: none;
   position: fixed;
@@ -9053,11 +9053,11 @@ button.close {
   white-space: nowrap;
   cursor: pointer;
 }
-/* line 53, ../sass/_lightboxes.scss */
+/* line 52, ../sass/_lightboxes.scss */
 .featherlight-reset:last-of-type {
   background: rgba(255, 255, 255, 0.6);
 }
-/* line 57, ../sass/_lightboxes.scss */
+/* line 56, ../sass/_lightboxes.scss */
 .featherlight-reset:before {
   content: '';
   display: inline-block;
@@ -9068,7 +9068,7 @@ button.close {
   cursor: pointer;
 }
 
-/* line 68, ../sass/_lightboxes.scss */
+/* line 67, ../sass/_lightboxes.scss */
 .featherlight-reset-content {
   position: relative;
   text-align: left;
@@ -9085,7 +9085,7 @@ button.close {
   white-space: normal;
 }
 
-/* line 84, ../sass/_lightboxes.scss */
+/* line 83, ../sass/_lightboxes.scss */
 .featherlight-reset-close-icon {
   position: absolute;
   z-index: 9999;
@@ -9101,18 +9101,18 @@ button.close {
   padding: 0;
 }
 
-/* line 101, ../sass/_lightboxes.scss */
+/* line 100, ../sass/_lightboxes.scss */
 .featherlight-inner.tr__lightbox--restartbox {
   width: 500px;
   height: 250px;
   padding: 0 35px;
 }
-/* line 107, ../sass/_lightboxes.scss */
+/* line 106, ../sass/_lightboxes.scss */
 .featherlight-inner.tr__lightbox--infobox {
   width: 500px;
   height: 350px;
 }
-/* line 112, ../sass/_lightboxes.scss */
+/* line 111, ../sass/_lightboxes.scss */
 .featherlight-inner h2 {
   font-size: 30px;
   line-height: 35px;
@@ -9121,7 +9121,7 @@ button.close {
   text-align: center;
   margin-bottom: 25px;
 }
-/* line 121, ../sass/_lightboxes.scss */
+/* line 120, ../sass/_lightboxes.scss */
 .featherlight-inner p {
   color: #ffffff;
   font-size: 22px;
@@ -9325,6 +9325,44 @@ button.close {
 /* line 172, ../sass/_animations.scss */
 .typewriter.animate {
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* line 1, ../sass/_tutorial.scss */
+#tutop1 {
+  position: absolute;
+  left: 0;
+  top: 10%;
+}
+
+/* line 7, ../sass/_tutorial.scss */
+#tutop2 {
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+
+/* line 13, ../sass/_tutorial.scss */
+.tr__lightbox--tutorial {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  z-index: 6;
+  background-color: rgba(33, 33, 33, 0.7);
+}
+
+/* line 25, ../sass/_tutorial.scss */
+.tr__tutorial__image {
+  margin: 0 auto;
+  width: 75%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /* line 1, ../sass/_index.scss */
@@ -9760,11 +9798,11 @@ button.close {
 .tr__preload__overlay {
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 5;
   min-height: 480px;
   width: 100%;
   height: 100%;
-  background: #EC9A46;
+  background: #212121;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -9856,7 +9894,7 @@ circle#popcorncircle {
 /* line 91, ../sass/_preload.scss */
 .tr__preload__logo img {
   margin: 0 auto;
-  width: 50%;
+  width: 65%;
 }
 /* line 96, ../sass/_preload.scss */
 .loading .tr__preload__logo {
@@ -10103,6 +10141,21 @@ circle#popcorncircle {
 }
 
 /* line 65, ../sass/_original_main.scss */
+.tr__bookcover__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/overlay.png);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: 2px 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* line 79, ../sass/_original_main.scss */
 .tr__bookcover__wrapper {
   padding-top: 120px;
   z-index: 2;
@@ -10117,49 +10170,91 @@ circle#popcorncircle {
   margin: 0;
 }
 
-/* line 79, ../sass/_original_main.scss */
+/* line 93, ../sass/_original_main.scss */
 .tr__bookcover__bcg {
-  background-image: url(../img/familyfodo.jpg);
+  background-image: url(../img/familyfodo_header.jpg);
 }
 
-/* line 84, ../sass/_original_main.scss */
+/* line 98, ../sass/_original_main.scss */
+.tr__introductionblock {
+  width: 45%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  /* line 98, ../sass/_original_main.scss */
+  .tr__introductionblock {
+    width: 100%;
+  }
+}
+
+/* line 107, ../sass/_original_main.scss */
+.tr__introductionblock__para {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  /* line 107, ../sass/_original_main.scss */
+  .tr__introductionblock__para {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+/* line 120, ../sass/_original_main.scss */
+.tr__introductionblock__headline {
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  /* line 120, ../sass/_original_main.scss */
+  .tr__introductionblock__headline {
+    font-size: 24px;
+    line-height: 27px;
+  }
+}
+
+/* line 130, ../sass/_original_main.scss */
 .tr__slide01__bcg {
   background: #19474d;
 }
 
-/* line 89, ../sass/_original_main.scss */
+/* line 135, ../sass/_original_main.scss */
 .tr__slide02__bcg {
   background-image: url(https://media.giphy.com/media/ps9NJxDQb0pWw/giphy.gif);
 }
 
-/* line 96, ../sass/_original_main.scss */
+/* line 142, ../sass/_original_main.scss */
 .tr__slide {
   color: #ffffff;
   position: relative;
   overflow: hidden;
 }
-/* line 101, ../sass/_original_main.scss */
+/* line 147, ../sass/_original_main.scss */
 .tr__slide.fs {
   height: 100vh;
 }
-/* line 105, ../sass/_original_main.scss */
+/* line 151, ../sass/_original_main.scss */
 .tr__slide.qt {
   height: 500px;
 }
 
-/* line 110, ../sass/_original_main.scss */
+/* line 156, ../sass/_original_main.scss */
 .tr__slide__wrapper, .tr__slide01__wrapper, .tr__slide02__wrapper {
   padding-top: 30px;
   text-align: left;
   position: relative;
   z-index: 2;
 }
-/* line 116, ../sass/_original_main.scss */
+/* line 162, ../sass/_original_main.scss */
 .tr__slide__wrapper.right, .right.tr__slide01__wrapper, .right.tr__slide02__wrapper {
   text-align: right;
 }
 
-/* line 122, ../sass/_original_main.scss */
+/* line 168, ../sass/_original_main.scss */
 .tr__slide01__wrapper {
   position: absolute;
   top: 10%;
@@ -10173,25 +10268,25 @@ circle#popcorncircle {
   transform: translateY(-50%);
 }
 
-/* line 133, ../sass/_original_main.scss */
+/* line 179, ../sass/_original_main.scss */
 .tr__slide02__wrapper {
   position: absolute;
   bottom: 10%;
 }
 
 /* =Content Block */
-/* line 143, ../sass/_original_main.scss */
+/* line 189, ../sass/_original_main.scss */
 .tr__contentblock {
   background-color: #308C9B;
   color: rgba(255, 255, 255, 0.9);
   padding: 30px 50px;
 }
-/* line 150, ../sass/_original_main.scss */
+/* line 196, ../sass/_original_main.scss */
 .no-touch .tr__contentblock .tr__contentblock__wrapper {
   visibility: hidden;
   opacity: 0;
 }
-/* line 157, ../sass/_original_main.scss */
+/* line 203, ../sass/_original_main.scss */
 .no-touch .tr__contentblock.is-active .tr__contentblock__wrapper {
   visibility: visible;
   opacity: 1;
@@ -10203,7 +10298,7 @@ circle#popcorncircle {
 }
 
 /* ========================================================================== */
-/* line 178, ../sass/_original_main.scss */
+/* line 224, ../sass/_original_main.scss */
 .tr__textwrap {
   display: inline-block;
   width: 50%;
@@ -10211,18 +10306,18 @@ circle#popcorncircle {
   padding: 30px;
 }
 
-/* line 185, ../sass/_original_main.scss */
+/* line 231, ../sass/_original_main.scss */
 .tr__imgwrap {
   display: inline-block;
   width: 50%;
   margin: 0;
 }
-/* line 190, ../sass/_original_main.scss */
+/* line 236, ../sass/_original_main.scss */
 .tr__imgwrap img {
   width: 100%;
 }
 
-/* line 195, ../sass/_original_main.scss */
+/* line 241, ../sass/_original_main.scss */
 .tr__btnwrap {
   width: 100%;
   display: inline-block;
@@ -10230,7 +10325,7 @@ circle#popcorncircle {
 }
 
 /* ========================================================================== */
-/* line 205, ../sass/_original_main.scss */
+/* line 251, ../sass/_original_main.scss */
 .tr__acbtn {
   color: #ffffff;
   font-size: 25px;
@@ -10245,18 +10340,18 @@ circle#popcorncircle {
   z-index: 3;
   position: fixed;
 }
-/* line 219, ../sass/_original_main.scss */
+/* line 265, ../sass/_original_main.scss */
 .tr__acbtn.info {
   top: 20px;
   right: 85px;
 }
-/* line 224, ../sass/_original_main.scss */
+/* line 270, ../sass/_original_main.scss */
 .tr__acbtn.restart {
   right: 20px;
   top: 20px;
 }
 
-/* line 230, ../sass/_original_main.scss */
+/* line 276, ../sass/_original_main.scss */
 .ripple {
   position: absolute;
   left: 0;
@@ -10276,7 +10371,7 @@ circle#popcorncircle {
 }
 
 /* ========================================================================== */
-/* line 253, ../sass/_original_main.scss */
+/* line 299, ../sass/_original_main.scss */
 .tr__quote {
   width: 100%;
   margin: 0 auto;
@@ -10284,7 +10379,7 @@ circle#popcorncircle {
   padding: 0 150px;
 }
 
-/* line 260, ../sass/_original_main.scss */
+/* line 306, ../sass/_original_main.scss */
 .tr__quote__para {
   color: #ffffff;
   font-size: 30px;
@@ -10295,7 +10390,7 @@ circle#popcorncircle {
 }
 
 /* ========================================================================== */
-/* line 280, ../sass/_original_main.scss */
+/* line 326, ../sass/_original_main.scss */
 .tr__polaroid {
   width: 500px;
   height: 520px;
@@ -10314,7 +10409,7 @@ circle#popcorncircle {
   transform: rotate(-10deg);
   clear: both;
 }
-/* line 298, ../sass/_original_main.scss */
+/* line 344, ../sass/_original_main.scss */
 .tr__polaroid.flash {
   -webkit-animation: fade-in 3s ease-in;
   -moz-animation: fade-in 3s ease-in;
@@ -10325,13 +10420,13 @@ circle#popcorncircle {
   -o-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 309, ../sass/_original_main.scss */
+/* line 355, ../sass/_original_main.scss */
 .tr__polaroid img {
   width: 100%;
 }
 
 /* ========================================================================== */
-/* line 320, ../sass/_original_main.scss */
+/* line 366, ../sass/_original_main.scss */
 .tr__movie__wrapper {
   background-color: #212121;
   height: 500px;
@@ -10339,7 +10434,7 @@ circle#popcorncircle {
   margin: auto;
 }
 
-/* line 327, ../sass/_original_main.scss */
+/* line 373, ../sass/_original_main.scss */
 .tr__movie__box {
   width: 100%;
   height: 100%;
@@ -10348,7 +10443,7 @@ circle#popcorncircle {
   overflow: hidden;
 }
 
-/* line 335, ../sass/_original_main.scss */
+/* line 381, ../sass/_original_main.scss */
 .tr__movie__boxes {
   width: 100%;
   height: 40px;
@@ -10356,7 +10451,7 @@ circle#popcorncircle {
   text-align: center;
 }
 
-/* line 342, ../sass/_original_main.scss */
+/* line 388, ../sass/_original_main.scss */
 .tr__movie__small_box {
   background-color: #ffffff;
   display: inline-block;
@@ -10365,7 +10460,7 @@ circle#popcorncircle {
   margin: 10px 10.5px 10px 10.5px;
 }
 
-/* line 350, ../sass/_original_main.scss */
+/* line 396, ../sass/_original_main.scss */
 .tr__movie__center_box {
   width: 100%;
   height: calc(100% - 80px);
@@ -10382,7 +10477,7 @@ circle#popcorncircle {
   -o-animation: load 1s linear;
   animation: load 1s linear;
 }
-/* line 366, ../sass/_original_main.scss */
+/* line 412, ../sass/_original_main.scss */
 .tr__movie__center_box:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -10459,15 +10554,13 @@ circle#popcorncircle {
   overflow: visible !important;
   text-align: center;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
   height: auto !important;
+  bottom: 10%;
   position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
-/* line 65, ../sass/_squiffy-elements.scss */
+/* line 66, ../sass/_squiffy-elements.scss */
 #squiffy-section-1 a {
-  margin: 0 auto;
+  margin: 0 15px;
+  font-size: 20px;
 }

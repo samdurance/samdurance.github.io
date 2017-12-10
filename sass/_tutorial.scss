@@ -1,0 +1,33 @@
+#tutop1 {
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+
+#tutop2 {
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+.tr__lightbox--tutorial {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    z-index: 6;
+    background-color: rgba($anthrazit, 0.7);
+}
+
+.tr__tutorial__image {
+       margin: 0 auto;
+    width: 75%;
+       position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
