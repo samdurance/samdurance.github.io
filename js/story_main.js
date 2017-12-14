@@ -7,18 +7,19 @@ $(document).ready(function () {
 
 
 
-//$(document).on('click', '#start', function(e) {
-//    $('.trs__nav').fadeIn('slow');
-//});
+$(document).on('click', '#start', function (e) {
+    //    $('.trs__nav').fadeIn('slow');
+    $('.tr__preload__overlay').addClass('layout-switch');
+});
 
 
-$(".tr__acbtn").on("click", function(){
+$(".tr__acbtn").on("click", function () {
     $(this).children(".ripple").addClass("rippling");
     $('.squiffy-section').addClass('blur');
 });
 
 
-jQuery(function($){
+jQuery(function ($) {
     $('#squiffy').squiffy();
     var restart = function () {
         $('#squiffy').squiffy('restart');
@@ -36,18 +37,18 @@ $('.tr__acbtn').featherlight({
     resetCss: true,
     closeOnEsc: true,
     closeIcon: '<span class="fa fa-times"></span>',
-    afterClose: function(e){
+    afterClose: function (e) {
         $('.squiffy-section').removeClass('blur');
     }
 });
 
 
-$(document).on('click', '.squiffy-link', function(e) {
+$(document).on('click', '.squiffy-link', function (e) {
     initSM();
 
     var section = $(this).attr('data-section');
 
-    if(!$(this).hasClass('first')) {
+    if (!$(this).hasClass('first')) {
 
         $.ajax({
             type: 'GET',
@@ -61,27 +62,26 @@ $(document).on('click', '.squiffy-link', function(e) {
                 notify(notifyThumb, notifyMsg);
 
             },
-            error: function (error) {
-            }
+            error: function (error) {}
         });
     }
 });
 
-function notify (thumb, msg) {
+function notify(thumb, msg) {
 
     $.notify({
         icon: thumb,
         message: msg
-    },{
+    }, {
         type: 'minimalist',
         delay: 5000,
         offset: 20,
         icon_type: 'image',
         template: '<div data-notify="container" class="col-xs-11 col-sm-3 alert alert-{0}" role="alert">' +
-        '<img data-notify="icon" class="img-circle pull-left">' +
-        '<span data-notify="title">{1}</span>' +
-        '<span data-notify="message">{2}</span>' +
-        '</div>'
+            '<img data-notify="icon" class="img-circle pull-left">' +
+            '<span data-notify="title">{1}</span>' +
+            '<span data-notify="message">{2}</span>' +
+            '</div>'
     });
 
 };
@@ -90,8 +90,8 @@ function notify (thumb, msg) {
 
 // Instance the tour
 var tour = new Tour({
-  storage: false,
-  debug: true
+    storage: false,
+    debug: true
 });
 
 tour.addSteps([
@@ -107,10 +107,10 @@ tour.addSteps([
     }
   ]);
 
-$(document).on('click', '#tutorial', function(e) {
+$(document).on('click', '#tutorial', function (e) {
     $('#tuto').fadeIn('slow');
     // Start the tour
-    if(!tour.start()){
-    	tour.restart();
+    if (!tour.start()) {
+        tour.restart();
     }
 });
