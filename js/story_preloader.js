@@ -38,12 +38,15 @@ $(window).load( function() {
 
 	preloadPictures(["/img/story/animals.jpg", "/img/story/animals_polaroid.jpg", "/img/story/animals_big.jpg", "https://media.giphy.com/media/O5AZJzYhCr1NS/giphy.gif", "https://media.giphy.com/media/nNott3XnNjDDq/giphy.gif", "https://media.giphy.com/media/cSaX029U8Nies/giphy.gif"], function () {
 
+		//initSM();
+		//initSMheader();
+
 		setTimeout(function(){
 			$('.tr__preload__loader__inner, .tr__preload__loader__para').fadeOut(1000);
-			$('.tr__story__inner').removeClass('loading');
-			$('.tr__story__inner').addClass('loaded');
-			$('.tr__preload__overlay').addClass('layout-switch');
-			window.removeEventListener( 'scroll', noscroll );
+			//$('.tr__story__inner').removeClass('loading').addClass('loaded');
+			//$('.tr__story__inner').addClass('loaded');
+			//$('.tr__preload__overlay').addClass('layout-switch');
+			//window.removeEventListener( 'scroll', noscroll );
 		}, 2000);
 	});
 

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    initSM();
+    //initSM();
 
     // $('#squiffy').squiffy('restart');
 });

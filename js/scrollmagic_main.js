@@ -16,6 +16,7 @@ if (!Modernizr.touch) {
 
 
     function initSM () {
+        console.log('initSM');
         // SCENE 1
         // create scenes for each of the headers
         headers.forEach(function (header, index) {
@@ -91,41 +92,44 @@ if (!Modernizr.touch) {
     // SCENE 5 - parallax effect on the intro slide
     // move bcg container when intro gets out of the the view
 
-    var introTl = new TimelineMax();
+    function initSMheader () {
+        console.log('SMheader');
+        var introTl = new TimelineMax();
 
-    introTl
+        introTl
 
-        .to($('#intro .tr__bookcover__bcg'), 1.4, {y: '20%', ease:Power1.easeOut}, '-=0.2');
+            .to($('#intro .tr__bookcover__bcg'), 1.4, {y: '20%', ease: Power1.easeOut}, '-=0.2');
 
 
-    var introScene = new ScrollMagic.Scene({
-        triggerElement: '#intro',
-        triggerHook: 0,
-        duration: "100%"
-    })
-    .setTween(introTl)
-    .addTo(controller);
+        var introScene = new ScrollMagic.Scene({
+            triggerElement: '#intro',
+            triggerHook: 0,
+            duration: "100%"
+        })
+            .setTween(introTl)
+            .addTo(controller);
 
-    // change behaviour of controller to animate scroll instead of jump
-    controller.scrollTo(function (newpos) {
-        TweenMax.to(window, 1, {scrollTo: {y: newpos}, ease:Power1.easeInOut});
-    });
+        // change behaviour of controller to animate scroll instead of jump
+        controller.scrollTo(function (newpos) {
+            TweenMax.to(window, 1, {scrollTo: {y: newpos}, ease: Power1.easeInOut});
+        });
+    }
 
-    //  bind scroll to anchor links
-    $(document).on("click", "a[href^='#']", function (e) {
-        var id = $(this).attr("href");
-        if ($(id).length > 0) {
-            e.preventDefault();
-
-            // trigger scroll
-            controller.scrollTo(id);
-
-            // if supported by the browser we can even update the URL.
-            if (window.history && window.history.pushState) {
-                history.pushState("", document.title, id);
-            }
-        }
-    });
+    ////  bind scroll to anchor links
+    //$(document).on("click", "a[href^='#']", function (e) {
+    //    var id = $(this).attr("href");
+    //    if ($(id).length > 0) {
+    //        e.preventDefault();
+    //
+    //        // trigger scroll
+    //        controller.scrollTo(id);
+    //
+    //        // if supported by the browser we can even update the URL.
+    //        if (window.history && window.history.pushState) {
+    //            history.pushState("", document.title, id);
+    //        }
+    //    }
+    //});
 
 
 }
