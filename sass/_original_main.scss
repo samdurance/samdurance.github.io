@@ -63,17 +63,17 @@
 }
 
 .tr__bookcover__overlay {
-        position: absolute;
-        width: 100%;
-        height:100%;
-        background-image: url(../img/overlay.png);
-        background-attachment: fixed;
-        background-repeat: repeat;
-        background-size: 2px 2px;
-        background-color: rgba(0,0,0,0.3);
-        top: 0;
-        left: 0;
-        z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/overlay.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 2px 2px;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .tr__bookcover__wrapper {
@@ -92,13 +92,13 @@
 
 .tr__bookcover__bcg {
     @extend .tr__bcg;
-    background-image: url(../img/familyfodo_header.jpg);
+    background-image: url(../img/story/familyfodo_header.jpg);
 }
 
 .tr__introductionblock {
     width: 45%;
     margin: 0 auto;
-    
+
     @media (max-width: $screen-tablet) {
         width: 100%;
     }
@@ -110,16 +110,16 @@
     line-height: 27px;
     margin-bottom: 25px;
     @include tilli-bold;
-    
+
     @media (max-width: $screen-tablet) {
-    font-size: 18px;
+        font-size: 18px;
         line-height: 22px;
     }
 }
 
 .tr__introductionblock__headline {
     color: $white;
-    
+
     @media (max-width: $screen-tablet) {
         font-size: 24px;
         line-height: 27px;
@@ -127,7 +127,7 @@
 }
 
 
-.tr__slide01__bcg  {
+.tr__slide01__bcg {
     @extend .tr__bcg;
     background: $turqdark;
 }
@@ -188,7 +188,7 @@
 
 .tr__contentblock {
     background-color: $turq;
-    color: transparentize($white,.1);
+    color: transparentize($white, .1);
     padding: 30px 50px;
 
     .no-touch & {
@@ -216,12 +216,11 @@
 
 
 /* ========================================================================== */
+
 // Section elements  //
-
-
 .tr__chapter__header {}
 
-.tr__textwrap{
+.tr__textwrap {
     display: inline-block;
     width: 50%;
     margin: 0;
@@ -246,8 +245,8 @@
 
 
 /* ========================================================================== */
-// Actionbuttons top  //
 
+// Actionbuttons top  //
 .tr__acbtn {
     color: $white;
     font-size: 25px;
@@ -258,7 +257,7 @@
     border: none;
     border-radius: 100%;
     cursor: pointer;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
     z-index: 3;
     position: fixed;
 
@@ -294,8 +293,8 @@
 
 
 /* ========================================================================== */
-// Quote Block Stuff //
 
+// Quote Block Stuff //
 .tr__quote {
     width: 100%;
     margin: 0 auto;
@@ -318,14 +317,11 @@
 
 
 /* ========================================================================== */
+
 // Render Polaroid Stuff //
-
-
-
-
 .tr__polaroid {
-    width: 500px;
-    height: 520px;
+    width: 350px;
+    height: 400px;
     position: relative;
     float: left;
     background: $anthrazit;
@@ -343,9 +339,9 @@
 
     &.flash {
         -webkit-animation: fade-in 3s ease-in;
-        -moz-animation:    fade-in 3s ease-in;
-        -o-animation:      fade-in 3s ease-in;
-        animation:         fade-in 3s ease-in;
+        -moz-animation: fade-in 3s ease-in;
+        -o-animation: fade-in 3s ease-in;
+        animation: fade-in 3s ease-in;
         -webkit-animation-iteration-count: 1;
         -moz-animation-iteration-count: 1;
         -o-animation-iteration-count: 1;
@@ -360,17 +356,16 @@
 
 
 /* ========================================================================== */
+
 // Movie Gif Stuff //
-
-
-.tr__movie__wrapper{
+.tr__movie__wrapper {
     background-color: $anthrazit;
     height: 500px;
     width: 100%;
     margin: auto;
 }
 
-.tr__movie__box{
+.tr__movie__box {
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -378,14 +373,14 @@
     overflow: hidden;
 }
 
-.tr__movie__boxes{
+.tr__movie__boxes {
     width: 100%;
     height: 40px;
     overflow: hidden;
     text-align: center;
 }
 
-.tr__movie__small_box{
+.tr__movie__small_box {
     background-color: $white;
     display: inline-block;
     width: 25px;
@@ -393,10 +388,9 @@
     margin: 10px 10.5px 10px 10.5px;
 }
 
-.tr__movie__center_box{
+.tr__movie__center_box {
     width: 100%;
     height: calc(100% - 80px);
-    background: url(/img/story/animals.jpg) center center no-repeat;
     background-size: cover;
     margin: auto;
     cursor: pointer;
@@ -416,5 +410,13 @@
         -o-transform: scale(1.05);
         transform: scale(1.05);
         opacity: 0.75;
+    }
+
+    &.carkiss__yes {
+        background: url(/img/story/carkiss_yes_preset.jpg) center center no-repeat;
+    }
+
+    &.carkiss__no {
+        background: url(http://via.placeholder.com/500x281?text=Carkiss_no_preset) center center no-repeat;
     }
 }

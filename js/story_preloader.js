@@ -35,7 +35,7 @@ $(window).load(function () {
 
     preloader();
 
-    preloadPictures(["/img/story/animals.jpg", "/img/story/animals_polaroid.jpg", "/img/story/animals_big.jpg", "https://media.giphy.com/media/O5AZJzYhCr1NS/giphy.gif", "https://media.giphy.com/media/nNott3XnNjDDq/giphy.gif", "https://media.giphy.com/media/cSaX029U8Nies/giphy.gif"], function () {
+    preloadPictures(["/img/story/carkiss_no.jpg", "/img/story/carkiss_yes.jpg", "/img/story/carkiss_yes.gif", "/img/story/carkiss_yes_preset.jpg", "/img/story/carsnuggle.jpg", "/img/story/carsnuggle_pola.jpg"], function () {
 
         initSM();
         initSMheader();

@@ -624,35 +624,70 @@
         'start': {
             'text': "" +
                 "<article id=\"cb01\" class=\"tr__contentblock is-active\">" +
-                "<header class=\"tr__chapter__header slideInUp\"><h1 class=\"typewriter animate\">Kapitel 1: Ankunft</h1></header>" +
+                "<header class=\"tr__chapter__header slideInUp\"><h1 class=\"typewriter animate\">Chapter 1: The Arrival</h1></header>" +
                 "<div class=\"tr__contentblock__wrapper tr__textwrap\">" +
 
                 "<section>" +
                 "<p class=\"tr__para slideInUp slideInUp2\">" +
-                "Alice was beginning to get very tired of sitting by her sister on the bank, and of" +
-                "having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no" +
-                "pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?'" +
+                "My arm twitched with the need to reach out for Sam’s hand for comfort, but she was soundly sleeping on the other side of the back seat. I didn’t know how she’d managed to nap again in the car after already sleeping through the entire twelve hours flight. I was a tad jealous actually. The jet lag affected me as well, but I was too worked up to rest." +
                 "</p>" +
                 "<p class=\"tr__para slideInUp slideInUp3\">" +
-                "So she was considering in her own mind (as well as she could, for the hot day made her feel very " +
-                "sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and" +
-                "picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her." +
+                "I looked out of the side window at the grey sky and the white landscape that had been covered in fresh snow. With the snowfall having died down, it seemed like we were the only thing moving amidst the frozen countryside. It was a peaceful scenery. A cold and peaceful scenery." +
                 "</p>" +
                 "<p class=\"tr__para slideInUp slideInUp4\">" +
-                "There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear " +
-                "the Rabbit say to itself, 'Oh dear! Oh dear! I shall be late!' (when she thought it over afterwards, it occurred to her " +
-                "that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took " +
-                "a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across " +
-                "her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with " +
-                "curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge." +
+                "\"Why is there a swimsuit in my bag?\" I murmured and ran a sleeve over the breath-clouded window. Sam’s snoring stopped. Her leather jacket rustled as she stirred." +
                 "</p>" +
                 "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "In another moment down went Alice after it, never once considering how in the world she was to get out again." +
+                "\"Jacuzzi,\" she groaned dozily like a zombie. Her eyes were still closed." +
                 "</p>" +
                 "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not" +
-                " a moment to think about stopping herself before she found herself falling down a very deep well." +
+                "\"Right.\" I didn't see the appeal yet in going for a bath in the freezing cold. Sam slapped my leg." +
                 "</p>" +
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"Right,\" she imitated (aped?) me, which came out more as a long yawn. \"You’ll see.\" She pulled her open jacket close, wrapped her arms around herself, and rolled over to find a position in which she could sleep on." +
+                "</p>" +
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "I looked at her with raised brows and felt a cold chill run over my skin. Against my protests, the short leather jacket was all she’d put on over her jumper. I probably looked like the marshmallow man next to her, but at least I’d been comfortably warm when we’d left the plane—unlike her. It was actually colder in Japan than back in London. Fortunately, the car Sam’s parents had sent to pick us up was heated." +
+                "</p>" +
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"You should’ve dressed more warmly.\" When Sam only scoffed, I added, \"Or do you want your mother to tend to you while you’re ill in bed?\" Sam’s exaggerated, disgusted face made me chuckle." +
+                "</p>" +
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"I’ll be fine. You can keep me warm though if you’re worried.\" While she gave me a tired but persistent smirk, I gave the driver a worried glance. \"Just some friendly cuddling,\" she added. \"It was a stupid idea not to sit together.\"" +
+                "</p>" +
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"It was your idea,\" I reminded her." +
+                "</p>" +
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"Well, in theory it was a good one.\" She grinned half-heartedly before pointing at the front seat with a shrug. \"He’s just the driver. And when we arrive, we’ll just sit apart again. Seriously, we’re going to spend an entire week with my parents. I really need some good cuddles now.\"" +
+                "</p>" +
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "Sighing, I turned to her with a resigned smile. With swift movements belying her tired look, Sam opened her seat belt and re-belted up in the middle of the back seat. She snuggled into me as we locked arms. I preferred it that way as well. Sam made me feel a kind of warmth the car heater couldn’t provide. I relaxed into her until Sam’s smug smirk caught my attention." +
+                "</p>" +            
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"What?\"" +
+                "</p>" +            
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"Loved the stupid grin you just had,\" she chuckled, now sporting one herself. My eyes were still rolling at her, when her face fell and she put her head back on my shoulder. \"I really wanna kiss you right now,\" she muttered." +
+                "</p>" +                  
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"<i>You</i> said it’s better if your parents don’t know yet that we’re...\"" +
+                "</p>" +              
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"I know, I know,\" she sighed. \"It is for the better. They’ll take you apart and then put you through the meat grinder if I tell them you’re my girlfriend. The words girlfriend and boyfriend instantly raise red flags for them. I mean, I don’t blame them, I guess. Had I been my daughter, I would’ve kicked me out way sooner than they did.\"" +
+                "</p>" +              
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"You were young and daft,\" I said jokingly and gave her a squeeze. Snorting, she slapped my leg again." +
+                "</p>" +            
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"And now… I’m just older.\" She pulled a disgusted face. I had to chuckle but also admit I was proud of her that she was able to reflect on herself like that. To say her youth had been wild would be far from an exaggeration, but she’d grown quite a lot in the three years since we’d first met—as a person and on me." +
+                "</p>" +                   
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "Sam was smiling at me again. \"So, considering how much we’ll have to hold back in the next days, we really should we make out now.\" Her smile had turned into a grin. \"Just ignore the driver,\" she said and leant in wanting to give me a kiss." +
+                "</p>" +
+                 "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "Hesitating for a moment, I held her back and glanced at the front seats again." +
+                "</p>" +           
                 "<div class=\"tr__btnwrap slideInUp slideInUp4\">" +
                 "<a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a>" +
                 "<a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a>" +
@@ -660,9 +695,9 @@
                 "</section>" +
                 "</div>" +
                 "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/animals_big.jpg\">" +
+                "<a href=\"#\" data-featherlight=\"img/story/carsnuggle.jpg\">" +
                 "<div class=\"tr__polaroid\">" +
-                "<img src=\"img/story/animals_polaroid.jpg\" class=\"img-responsive\" />" +
+                "<img src=\"img/story/carsnuggle_pola.jpg\" class=\"img-responsive\" />" +
                 "</div>" +
                 "</a>" +
                 "</div>" +
@@ -690,7 +725,7 @@
                 "</article>" +
                 "<article id=\"cb02\" class=\"tr__contentblock\">" +
                 "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/test.gif\">" +
+                "<a href=\"#\" data-featherlight=\"img/story/carkiss_yes.gif\">" +
                 "<div class=\"tr__movie__wrapper\">" +
                 "<div class=\"tr__movie__box\">" +
                 "<div class=\"tr__movie__boxes\">" +
@@ -712,7 +747,7 @@
                 "<span class=\"tr__movie__small_box\"></span>" +
                 "<span class=\"tr__movie__small_box\"></span>" +
                 "</div>" +
-                "<div class=\"tr__movie__center_box\"></div>" +
+                "<div class=\"tr__movie__center_box carkiss__yes\"></div>" +
                 "<div class=\"tr__movie__boxes\">" +
                 "<span class=\"tr__movie__small_box\"></span>" +
                 "<span class=\"tr__movie__small_box\"></span>" +
@@ -739,7 +774,19 @@
                 "<div class=\"tr__contentblock__wrapper tr__textwrap right\">" +
                 "<header class=\"slideInUp\"></header>" +
                 "<section>" +
-                "<p class=\"tr__para slideInUp\">Carkisstext YES mit zusätzlichem Bild</p>" +
+                
+              
+                "<p class=\"tr__para slideInUp slideInUp2\">" +
+                "\"Sam, no.\"" +
+                "</p>" +   
+                "<p class=\"tr__para slideInUp slideInUp3\">" +
+                "\"Sam, yes.\"" +
+                "</p>" +  
+                "<p class=\"tr__para slideInUp slideInUp4\">" +
+                "...." +
+                "</p>" + 
+            
+            
                 "{Carkiss more}" +
                 "</section>" +
                 "</div>" +
@@ -749,7 +796,7 @@
         },
         'Carkiss no': {
             'text': "" +
-                "<article id=\"slide01\" class=\"tr__slide tr__slide01 gt\">" +
+                "<article id=\"slide01\" class=\"tr__slide tr__slide01 qt\">" +
                 "<div class=\"tr__slide01__bcg\"></div>" +
                 "<div class=\"tr__slide01__wrapper\">" +
                 //"<header class=\"slideInUp\"><h1>RENDER #1</h1></header>" +
@@ -768,14 +815,67 @@
                 "</article>" +
                 "<article id=\"cb02\" class=\"tr__contentblock\">" +
                 "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/animals.jpg\">" +
-                "<img src=\"img/story/animals.jpg\" class=\"img-responsive\" />" +
+                "<a href=\"#\" data-featherlight=\"http://via.placeholder.com/500x281?text=Carkiss_no_gif\">" +
+                "<div class=\"tr__movie__wrapper\">" +
+                "<div class=\"tr__movie__box\">" +
+                "<div class=\"tr__movie__boxes\">" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "</div>" +
+                "<div class=\"tr__movie__center_box carkiss__no\"></div>" +
+                "<div class=\"tr__movie__boxes\">" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "<span class=\"tr__movie__small_box\"></span>" +
+                "</div>" +
+                "</div>" +
+                "</div>" +
                 "</a>" +
                 "</div>" +
                 "<div class=\"tr__contentblock__wrapper tr__textwrap right\">" +
                 "<header class=\"slideInUp\"></header>" +
                 "<section>" +
-                "<p class=\"tr__para slideInUp\">Carkisstext NO mit zusätzlichem Bild</p>" +
+
+                
+                "<p class=\"tr__para slideInUp slideInUp2\">" +
+                "\"Sam, stick to the plan.\"" +
+                "</p>" +   
+                "<p class=\"tr__para slideInUp slideInUp3\">" +
+                "\"Stupid plan,\" she muttered, putting her head back on my shoulder." +
+                "</p>" +  
+                "<p class=\"tr__para slideInUp slideInUp4\">" +
+                "...." +
+                "</p>" + 
+            
                 "{Carkiss more}" +
                 "</section>" +
                 "</div>" +
@@ -785,134 +885,56 @@
         'Carkiss more': {
             'text': "" +
                 "<p class=\"tr__para slideInUp slideInUp2\">" +
-                "Alice was beginning to get very tired of sitting by her sister on the bank, and of" +
-                "having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no" +
-                "pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?'" +
+                "\"Anyway,\" she continued, \"we really have to make my parents like you before we let them know about us. So, behave yourself!” She gave me an intense look and waved her finger at me. I scoffed, to which Sam poked my well-padded shoulder. \"I’m serious. Like—\"" +
                 "</p>" +
                 "<p class=\"tr__para slideInUp slideInUp3\">" +
-                "So she was considering in her own mind (as well as she could, for the hot day made her feel very " +
-                "sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and" +
-                "picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her." +
+                "\"I always behave myself.\" My head heated up a tad from Sam’s accusing tone. I was short of adding ‘unlike you’." +
                 "</p>" +
                 "<p class=\"tr__para slideInUp slideInUp4\">" +
-                "There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear " +
-                "the Rabbit say to itself, 'Oh dear! Oh dear! I shall be late!' (when she thought it over afterwards, it occurred to her " +
-                "that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took " +
-                "a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across " +
-                "her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with " +
-                "curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge." +
+                "\"Like—don’t interrupt anyone.\" Sam’s smug look made me sigh. Slumping, I mentally braced myself for what I knew I was in for now that I’d accidentally proven her point.  \"Especially not my mom,\" she begun. \"But neither Dad, really. And, no,\" she rose her finger at me again, \"that doesn’t mean you get to keep quiet. Make conversation. Show some interest. Mom’s a sucker for compliments, but don’t overdo it, or I’ll throw up.\" Sam paused to shudder. \"Ask questions. Dad has all this old stuff standing around. Maybe you can whip out your archeological super powers and you can bond over that and become best buddies. But don’t. Break. Anything.\" Sam had put on her serious face for that. Rolling my eyes, I turned to look out the window with warm cheeks." +
                 "</p>" +
                 "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "In another moment down went Alice after it, never once considering how in the world she was to get out again." +
+                "\"Are you listening?\"" +
                 "</p>" +
                 "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not" +
-                " a moment to think about stopping herself before she found herself falling down a very deep well." +
+                "\"Yeah, yeah.\"" +
+                "</p>" + 
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"Lara…\" Sam waited until I looked at her again. \"This is important. It’s important to me.\"" +
+                "</p>" +                
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"I know,\" I sighed." +
+                "</p>" + 
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "\"I want them to take you serious. To take us serious. This is on me that we have to deal with this but, please, just help me here.\" She gave me a pleading look that made me wanting to tell her that it wasn’t going to be the end of everything should it go south, but I had my own reasons why that week with her parents was important." +
                 "</p>" +
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "Seemingly placated, Sam put her head back on my shoulder." +
+                "</p>" +            
+                "<p class=\"tr__para slideInUp slideInUp5\">" +
+                "..................." +
+                "</p>" +                
+            
+            
                 "<div class=\"tr__btnwrap slideInUp slideInUp4\">" +
-                "<a class=\"squiffy-link link-section\" data-section=\"Greetingfail yes\" role=\"link\" tabindex=\"0\">Greetingfail yes</a>" +
-                "<a class=\"squiffy-link link-section\" data-section=\"Greetingfail no\" role=\"link\" tabindex=\"0\">Greetingfail no</a>" +
+                "<a class=\"squiffy-link link-section\" data-section=\"thanks\" role=\"link\" tabindex=\"0\">TBC</a>" +
                 "</div>",
             'passages': {},
         },
-        'Greetingfail yes': {
+        'thanks': {
             'text': "" +
-                "<article id=\"slide02\" class=\"tr__slide tr__slide02 fs\">" +
-                "<div class=\"tr__slide02__bcg\"></div>" +
-                "<div class=\"tr__slide02__wrapper\">" +
-                "<header class=\"slideInUp\"><h1>RENDER #2</h1></header>" +
-                "<section></section>" +
-                "</div>" +
-                " </article>" +
-                "<article id=\"cb03\" class=\"tr__contentblock\">" +
-                "<div class=\"tr__contentblock__wrapper tr__textwrap\">" +
-                "<header class=\"slideInUp\"></header>" +
+               "<article id=\"slide02\" class=\"tr__slide tr__slide01 qt\">" +
+                "<div class=\"tr__slide01__bcg\"></div>" +
+                "<div class=\"tr__slide01__wrapper\">" +
                 "<section>" +
-                "<p class=\"tr__para slideInUp\">Greetingfail YES mit zusätzlichem Bild</p>" +
-                "{Greetingfail more}" +
+                "<blockquote class=\"tr__quote\">" +
+                "<p class=\"tr__quote__para\">" +
+                "Thanks and good buy" +
+                "</p>" +
+                "</blockquote>" +
                 "</section>" +
                 "</div>" +
-                "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/animals.jpg\">" +
-                "<img src=\"img/story/animals.jpg\" class=\"img-responsive\" />" +
-                "</a>" +
-                "</div>" +
                 "</article>",
-            'attributes': ["greetingfail"],
-            'passages': {},
-        },
-        'Greetingfail no': {
-            'text': "" +
-                "<article id=\"slide02\" class=\"tr__slide tr__slide02 fs\">" +
-                "<div class=\"tr__slide02__bcg\"></div>" +
-                "<div class=\"tr__slide02__wrapper\">" +
-                "<header class=\"slideInUp\"><h1>RENDER #2</h1></header>" +
-                "<section></section>" +
-                "</div>" +
-                " </article>" +
-                "<article id=\"cb03\" class=\"tr__contentblock\">" +
-                "<div class=\"tr__contentblock__wrapper tr__textwrap\">" +
-                "<header class=\"slideInUp\"></header>" +
-                "<section>" +
-                "<p class=\"tr__para slideInUp\">Greetingfail NO mit zusätzlichem Bild</p>" +
-                "{Greetingfail more}" +
-                "</section>" +
-                "</div>" +
-                "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/animals.jpg\">" +
-                "<img src=\"img/story/animals.jpg\" class=\"img-responsive\" />" +
-                "</a>" +
-                "</div>" +
-                "</article>",
-            'passages': {},
-        },
-        'Greetingfail more': {
-            'text': "" +
-                "<p class=\"tr__para slideInUp slideInUp2\">" +
-                "Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look " +
-                "about her and to wonder what was going to happen next. First, she tried to look down and make out what she was " +
-                "coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they " +
-                "were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took " +
-                "down a jar from one of the shelves as she passed; it was labelled 'ORANGE MARMALADE', but to her great " +
-                "disappointment it was empty: she did not like to drop the jar for fear of killing somebody, so managed to " +
-                "put it into one of the cupboards as she fell past it." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp3\">" +
-                "'Well!' thought Alice to herself, 'after such a fall as this, I shall think nothing of tumbling down stairs! " +
-                "How brave they'll all think me at home! Why, I wouldn't say anything about it, even if I fell off the top of the " +
-                "house!' (Which was very likely true.)" +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp4\">" +
-                "Down, down, down. Would the fall never come to an end! 'I wonder how many miles I've fallen by this time?' " +
-                "she said aloud. 'I must be getting somewhere near the centre of the earth. Let me see: that would be four thousand " +
-                "miles down, I think—' (for, you see, Alice had learnt several things of this sort in her lessons in the schoolroom, " +
-                "and though this was not a very good opportunity for showing off her knowledge, as there was no one to listen to her, " +
-                "still it was good practice to say it over) '—yes, that's about the right distance—but then I wonder what Latitude " +
-                "or Longitude I've got to?' (Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say.)" +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "Presently she began again. 'I wonder if I shall fall right through the earth! How funny it'll seem to come " +
-                "out among the people that walk with their heads downward! The Antipathies, I think—' (she was rather glad there " +
-                "was no one listening, this time, as it didn't sound at all the right word) '—but I shall have to ask them what the " +
-                "name of the country is, you know. Please, Ma'am, is this New Zealand or Australia?' (and she tried to curtsey as " +
-                "she spoke—fancy curtseying as you're falling through the air! Do you think you could manage it?) 'And what an " +
-                "ignorant little girl she'll think me for asking! No, it'll never do to ask: perhaps I shall see it written up somewhere.'" +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "Down, down, down. There was nothing else to do, so Alice soon began talking again. 'Dinah'll miss me very " +
-                "much to-night, I should think!' (Dinah was the cat.) 'I hope they'll remember her saucer of milk at tea-time. " +
-                "Dinah my dear! I wish you were down here with me! There are no mice in the air, I'm afraid, but you might catch " +
-                "a bat, and that's very like a mouse, you know. But do cats eat bats, I wonder?' And here Alice began to get rather " +
-                "sleepy, and went on saying to herself, in a dreamy sort of way, 'Do cats eat bats? Do cats eat bats?' and sometimes, " +
-                "'Do bats eat cats?' for, you see, as she couldn't answer either question, it didn't much matter which way she put " +
-                "it. She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, " +
-                "and saying to her very earnestly, 'Now, Dinah, tell me the truth: did you ever eat a bat?' when suddenly, thump! " +
-                "thump! down she came upon a heap of sticks and dry leaves, and the fall was over." +
-                "</p>" +
-                "<div class\"slideInUp slideInUp4\">" +
-                "<a class=\"squiffy-link link-section\" data-section=\"Antonia_pre\" role=\"link\" tabindex=\"0\">Antonia</a>" +
-                "<a class=\"squiffy-link link-section\" data-section=\"Hisao_pre\" role=\"link\" tabindex=\"0\">Hisao</a>" +
-                "</div>",
             'passages': {},
         },
     }
