@@ -624,83 +624,100 @@
         'start': {
             'text': "" +
                 "<article id=\"cb01\" class=\"tr__contentblock is-active\">" +
-                "<header class=\"tr__chapter__header slideInUp\"><h1 class=\"typewriter animate\">Chapter 1: The Arrival</h1></header>" +
-                "<div class=\"tr__contentblock__wrapper tr__textwrap\">" +
 
-                "<section>" +
-                "<p class=\"tr__para slideInUp slideInUp2\">" +
-                "My arm twitched with the need to reach out for Sam’s hand for comfort, but she was soundly sleeping on the other side of the back seat. I didn’t know how she’d managed to nap again in the car after already sleeping through the entire twelve hours flight. I was a tad jealous actually. The jet lag affected me as well, but I was too worked up to rest." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp3\">" +
-                "I looked out of the side window at the grey sky and the white landscape that had been covered in fresh snow. With the snowfall having died down, it seemed like we were the only thing moving amidst the frozen countryside. It was a peaceful scenery. A cold and peaceful scenery." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp4\">" +
-                "\"Why is there a swimsuit in my bag?\" I murmured and ran a sleeve over the breath-clouded window. Sam’s snoring stopped. Her leather jacket rustled as she stirred." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"Jacuzzi,\" she groaned dozily like a zombie. Her eyes were still closed." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"Right.\" I didn't see the appeal yet in going for a bath in the freezing cold. Sam slapped my leg." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"Right,\" she imitated (aped?) me, which came out more as a long yawn. \"You’ll see.\" She pulled her open jacket close, wrapped her arms around herself, and rolled over to find a position in which she could sleep on." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "I looked at her with raised brows and felt a cold chill run over my skin. Against my protests, the short leather jacket was all she’d put on over her jumper. I probably looked like the marshmallow man next to her, but at least I’d been comfortably warm when we’d left the plane—unlike her. It was actually colder in Japan than back in London. Fortunately, the car Sam’s parents had sent to pick us up was heated." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"You should’ve dressed more warmly.\" When Sam only scoffed, I added, \"Or do you want your mother to tend to you while you’re ill in bed?\" Sam’s exaggerated, disgusted face made me chuckle." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"I’ll be fine. You can keep me warm though if you’re worried.\" While she gave me a tired but persistent smirk, I gave the driver a worried glance. \"Just some friendly cuddling,\" she added. \"It was a stupid idea not to sit together.\"" +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"It was your idea,\" I reminded her." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"Well, in theory it was a good one.\" She grinned half-heartedly before pointing at the front seat with a shrug. \"He’s just the driver. And when we arrive, we’ll just sit apart again. Seriously, we’re going to spend an entire week with my parents. I really need some good cuddles now.\"" +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "Sighing, I turned to her with a resigned smile. With swift movements belying her tired look, Sam opened her seat belt and re-belted up in the middle of the back seat. She snuggled into me as we locked arms. I preferred it that way as well. Sam made me feel a kind of warmth the car heater couldn’t provide. I relaxed into her until Sam’s smug smirk caught my attention." +
-                "</p>" +            
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"What?\"" +
-                "</p>" +            
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"Loved the stupid grin you just had,\" she chuckled, now sporting one herself. My eyes were still rolling at her, when her face fell and she put her head back on my shoulder. \"I really wanna kiss you right now,\" she muttered." +
-                "</p>" +                  
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"<i>You</i> said it’s better if your parents don’t know yet that we’re...\"" +
-                "</p>" +              
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"I know, I know,\" she sighed. \"It is for the better. They’ll take you apart and then put you through the meat grinder if I tell them you’re my girlfriend. The words girlfriend and boyfriend instantly raise red flags for them. I mean, I don’t blame them, I guess. Had I been my daughter, I would’ve kicked me out way sooner than they did.\"" +
-                "</p>" +              
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"You were young and daft,\" I said jokingly and gave her a squeeze. Snorting, she slapped my leg again." +
-                "</p>" +            
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"And now… I’m just older.\" She pulled a disgusted face. I had to chuckle but also admit I was proud of her that she was able to reflect on herself like that. To say her youth had been wild would be far from an exaggeration, but she’d grown quite a lot in the three years since we’d first met—as a person and on me." +
-                "</p>" +                   
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "Sam was smiling at me again. \"So, considering how much we’ll have to hold back in the next days, we really should we make out now.\" Her smile had turned into a grin. \"Just ignore the driver,\" she said and leant in wanting to give me a kiss." +
-                "</p>" +
-                 "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "Hesitating for a moment, I held her back and glanced at the front seats again." +
-                "</p>" +           
-                "<div class=\"tr__btnwrap slideInUp slideInUp4\">" +
-                "<a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a>" +
-                "<a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a>" +
-                "</div>" +
+            "<header class=\"tr__chapter__header slideInUp\"><h1 class=\"typewriter animate\">Chapter 1: The Arrival</h1></header>" +
+
+            "<div class=\"tr__contentblock__wrapper\">" +
+
+                "<section class=\"tr__chapter__section\">" +
+
+                 "<div class=\"tr__textwrap\">" +
+                    "<p class=\"tr__para slideInUp slideInUp2\">" +
+                    "My arm twitched with the need to reach out for Sam’s hand for comfort, but she was soundly sleeping on the other side of the back seat. I didn’t know how she’d managed to nap again in the car after already sleeping through the entire twelve hours flight. I was a tad jealous actually. The jet lag affected me as well, but I was too worked up to rest." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp3\">" +
+                    "I looked out of the side window at the grey sky and the white landscape that had been covered in fresh snow. With the snowfall having died down, it seemed like we were the only thing moving amidst the frozen countryside. It was a peaceful scenery. A cold and peaceful scenery." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp4\">" +
+                    "\"Why is there a swimsuit in my bag?\" I murmured and ran a sleeve over the breath-clouded window. Sam’s snoring stopped. Her leather jacket rustled as she stirred." +
+                    "</p>" +
+
+
+                    "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
+                    "<a href=\"#\" data-featherlight=\"img/story/carsnuggle.jpg\">" +
+                    "<div class=\"tr__polaroid\">" +
+                    "<img src=\"img/story/carsnuggle_pola.jpg\" class=\"img-responsive\" />" +
+                    "</div>" +
+                    "</a>" +
+                    "</div>" +
+
+
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"Jacuzzi,\" she groaned dozily like a zombie. Her eyes were still closed." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"Right.\" I didn't see the appeal yet in going for a bath in the freezing cold. Sam slapped my leg." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"Right,\" she imitated (aped?) me, which came out more as a long yawn. \"You’ll see.\" She pulled her open jacket close, wrapped her arms around herself, and rolled over to find a position in which she could sleep on." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "I looked at her with raised brows and felt a cold chill run over my skin. Against my protests, the short leather jacket was all she’d put on over her jumper. I probably looked like the marshmallow man next to her, but at least I’d been comfortably warm when we’d left the plane—unlike her. It was actually colder in Japan than back in London. Fortunately, the car Sam’s parents had sent to pick us up was heated." +
+                    "</p>" +
+
+
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"You should’ve dressed more warmly.\" When Sam only scoffed, I added, \"Or do you want your mother to tend to you while you’re ill in bed?\" Sam’s exaggerated, disgusted face made me chuckle." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"I’ll be fine. You can keep me warm though if you’re worried.\" While she gave me a tired but persistent smirk, I gave the driver a worried glance. \"Just some friendly cuddling,\" she added. \"It was a stupid idea not to sit together.\"" +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"It was your idea,\" I reminded her." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"Well, in theory it was a good one.\" She grinned half-heartedly before pointing at the front seat with a shrug. \"He’s just the driver. And when we arrive, we’ll just sit apart again. Seriously, we’re going to spend an entire week with my parents. I really need some good cuddles now.\"" +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "Sighing, I turned to her with a resigned smile. With swift movements belying her tired look, Sam opened her seat belt and re-belted up in the middle of the back seat. She snuggled into me as we locked arms. I preferred it that way as well. Sam made me feel a kind of warmth the car heater couldn’t provide. I relaxed into her until Sam’s smug smirk caught my attention." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"What?\"" +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"Loved the stupid grin you just had,\" she chuckled, now sporting one herself. My eyes were still rolling at her, when her face fell and she put her head back on my shoulder. \"I really wanna kiss you right now,\" she muttered." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"<i>You</i> said it’s better if your parents don’t know yet that we’re...\"" +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"I know, I know,\" she sighed. \"It is for the better. They’ll take you apart and then put you through the meat grinder if I tell them you’re my girlfriend. The words girlfriend and boyfriend instantly raise red flags for them. I mean, I don’t blame them, I guess. Had I been my daughter, I would’ve kicked me out way sooner than they did.\"" +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"You were young and daft,\" I said jokingly and gave her a squeeze. Snorting, she slapped my leg again." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "\"And now… I’m just older.\" She pulled a disgusted face. I had to chuckle but also admit I was proud of her that she was able to reflect on herself like that. To say her youth had been wild would be far from an exaggeration, but she’d grown quite a lot in the three years since we’d first met—as a person and on me." +
+                    "</p>" +
+                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "Sam was smiling at me again. \"So, considering how much we’ll have to hold back in the next days, we really should we make out now.\" Her smile had turned into a grin. \"Just ignore the driver,\" she said and leant in wanting to give me a kiss." +
+                    "</p>" +
+                     "<p class=\"tr__para slideInUp slideInUp5\">" +
+                    "Hesitating for a moment, I held her back and glanced at the front seats again." +
+                    "</p>" +
+
+                    "<div class=\"tr__btnwrap slideInUp slideInUp4\">" +
+                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a>" +
+                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a>" +
+                    "</div>" +
+
+                  "</div>" +
+
                 "</section>" +
-                "</div>" +
-                "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/carsnuggle.jpg\">" +
-                "<div class=\"tr__polaroid\">" +
-                "<img src=\"img/story/carsnuggle_pola.jpg\" class=\"img-responsive\" />" +
-                "</div>" +
-                "</a>" +
-                "</div>" +
+            "</div>" +
+
+
+
                 "</article>",
             'passages': {},
         },
