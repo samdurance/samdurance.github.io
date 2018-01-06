@@ -220,16 +220,24 @@
 // Section elements  //
 .tr__chapter__header {}
 
+.tr__chapter__section {
+    margin: auto;
+    max-width: 80em;
+}
+
 .tr__textwrap {
     display: inline-block;
-    width: 50%;
-    margin: 0;
-    padding: 30px;
+    //width: 50%;
+}
+
+.tr__textwrap--full {
+    display: block;
+    width: 100%;
 }
 
 .tr__imgwrap {
     display: inline-block;
-    width: 50%;
+    //width: 50%;
     margin: 0;
 
     img {
@@ -330,11 +338,6 @@
     box-shadow: 8px 13px 20px 0 $black;
     overflow: hidden;
     left: 0;
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
-    -ms-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    transform: rotate(-10deg);
     clear: both;
 
     &.flash {
@@ -347,6 +350,25 @@
         -o-animation-iteration-count: 1;
         animation-iteration-count: 1;
     }
+
+    &.left {
+        margin: 30px 50px 30px -50px;
+            -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    }
+
+    &.right {
+        margin: 30px -50px 30px 50px;
+            -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+    }
+
 
     img {
         width: 100%;
