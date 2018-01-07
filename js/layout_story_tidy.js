@@ -643,13 +643,12 @@
                     "</p>" +
 
 
-                    "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
-                    "<a href=\"#\" data-featherlight=\"img/story/carsnuggle.jpg\">" +
-                    "<div class=\"tr__polaroid\">" +
-                    "<img src=\"img/story/carsnuggle_pola.jpg\" class=\"img-responsive\" />" +
+                 
+                    "<a class=\"tr__polaroid__link slideInUp slideInUp5\" href=\"#\" data-featherlight=\"img/story/lara_landscape.jpg\">" +
+                    "<div class=\"tr__polaroid left\">" +
+                    "<img src=\"img/story/lara_landscape_pola.jpg\" class=\"img-responsive\" />" +
                     "</div>" +
                     "</a>" +
-                    "</div>" +
 
 
                     "<p class=\"tr__para slideInUp slideInUp5\">" +
@@ -687,6 +686,14 @@
                     "<p class=\"tr__para slideInUp slideInUp5\">" +
                     "\"Loved the stupid grin you just had,\" she chuckled, now sporting one herself. My eyes were still rolling at her, when her face fell and she put her head back on my shoulder. \"I really wanna kiss you right now,\" she muttered." +
                     "</p>" +
+            
+            
+                 "<a class=\"tr__polaroid__link slideInUp slideInUp5\" href=\"#\" data-featherlight=\"img/story/carsnuggle.jpg\">" +
+                    "<div class=\"tr__polaroid right\">" +
+                    "<img src=\"img/story/carsnuggle_pola.jpg\" class=\"img-responsive\" />" +
+                    "</div>" +
+                    "</a>" +
+            
                     "<p class=\"tr__para slideInUp slideInUp5\">" +
                     "\"<i>You</i> said it’s better if your parents don’t know yet that we’re...\"" +
                     "</p>" +
