@@ -129,7 +129,7 @@
 
 .tr__slide01__bcg {
     @extend .tr__bcg;
-    background: $turqdark;
+    background: $darkgreyish;
 }
 
 .tr__slide02__bcg {
@@ -187,7 +187,7 @@
 /* =Content Block */
 
 .tr__contentblock {
-    background-color: $turq;
+    background-color: $greyish;
     color: transparentize($white, .1);
     padding: 30px 50px;
 

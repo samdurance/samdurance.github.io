@@ -56,6 +56,7 @@ http://bootstraptour.com/
 http://jsfiddle.net/tejashsoni111/6hh8z5qc/1/
 http://jsfiddle.net/emeoq5z6/
 
+https://github.com/xbsoftware/enjoyhint
 
 Intro
 https://tympanus.net/codrops/2014/08/05/page-preloading-effect/
