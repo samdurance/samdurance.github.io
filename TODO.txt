@@ -1,10 +1,9 @@
-# Modal on Restart btn with real design and restart and cancel btn
-
-# Notification on decision
-
-# scroll indicator after decision, animated arrow or smth
-
-# Image lightbox on click render
+# Tutorial
+# Infobtn leading to Tutorial
+# styling lightbox
+# responsiveness everything
+# colorscheme
+# gifcontainer styling
 
 
 https://tympanus.net/codrops/
