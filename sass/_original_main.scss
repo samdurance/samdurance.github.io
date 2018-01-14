@@ -218,7 +218,18 @@
 /* ========================================================================== */
 
 // Section elements  //
-.tr__chapter__header {}
+.tr__chapter__header {
+    margin: auto;
+    max-width: 80em;
+}
+
+.tr__chapter__headline {
+     font-size: 3em;
+        margin-top: 0;
+        @include tilli-bold;
+        text-transform: uppercase;
+    color: $white;
+}
 
 .tr__chapter__section {
     margin: auto;
@@ -316,12 +327,6 @@
     line-height: 40px;
     @include tilli-normal-italic;
 }
-
-
-
-
-
-
 
 
 /* ========================================================================== */

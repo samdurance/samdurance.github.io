@@ -625,7 +625,7 @@
             'text': "" +
                 "<article id=\"cb01\" class=\"tr__contentblock is-active\">" +
 
-            "<header class=\"tr__chapter__header slideInUp\"><h1 class=\"typewriter animate\">Chapter 1: The Arrival</h1></header>" +
+            "<header class=\"tr__chapter__header slideInUp\"><h1 class=\"tr__chapter__headline typewriter animate\">Chapter 1: The Arrival</h1></header>" +
 
             "<div class=\"tr__contentblock__wrapper\">" +
 

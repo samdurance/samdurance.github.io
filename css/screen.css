@@ -9328,41 +9328,350 @@ button.close {
 }
 
 /* line 1, ../sass/_tutorial.scss */
-#tutop1 {
-  position: absolute;
-  left: 0;
-  top: 10%;
+.tr__tutorial__header {
+  background: #4b5167;
+  padding: 20px 0;
 }
 
-/* line 7, ../sass/_tutorial.scss */
-#tutop2 {
-  position: absolute;
-  right: 0;
-  top: 30%;
+/* line 6, ../sass/_tutorial.scss */
+.tr__tutorial__header__logo {
+  margin: 50px auto;
+}
+/* line 9, ../sass/_tutorial.scss */
+.tr__tutorial__header__logo img {
+  margin: 0 auto;
+  width: 65%;
 }
 
-/* line 13, ../sass/_tutorial.scss */
-.tr__lightbox--tutorial {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  height: 100%;
-  z-index: 6;
-  background-color: rgba(33, 33, 33, 0.7);
+/* line 15, ../sass/_tutorial.scss */
+.tr__tutorial__header__title {
+  position: relative;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0 auto;
 }
 
 /* line 25, ../sass/_tutorial.scss */
-.tr__tutorial__image {
+.tr__tutorial__jaffa .jc {
+  width: 70%;
+  float: right;
+}
+
+/* line 33, ../sass/_tutorial.scss */
+.tr__tutorial__bubble img {
+  width: 80%;
+  margin-top: -5%;
+}
+
+/* line 39, ../sass/_tutorial.scss */
+.tr__tutorial__btn {
+  position: absolute;
+  left: 15%;
+  top: -15%;
+  cursor: pointer;
+  z-index: 15;
+}
+
+/* line 64, ../sass/_tutorial.scss */
+.enjoyhint {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* line 75, ../sass/_tutorial.scss */
+.enjoyhint_hide {
+  display: none;
+}
+
+/* line 79, ../sass/_tutorial.scss */
+.enjoyhint_disable_events {
+  position: absolute;
+  width: 2000px;
+  height: 1500px;
+  z-index: 1011;
+  pointer-events: all;
+}
+
+/* line 87, ../sass/_tutorial.scss */
+.enjoyhint_next_btn,
+.enjoyhint_skip_btn {
+  -webkit-box-sizing: content-box;
+  width: 100px;
+  height: 40px;
+  font: normal normal normal 17px/40px "Advent Pro",Helvetica,sans-serif;
+  cursor: pointer;
   margin: 0 auto;
-  width: 75%;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* line 99, ../sass/_tutorial.scss */
+.enjoyhint_close_btn,
+.enjoyhint_next_btn,
+.enjoyhint_skip_btn {
+  z-index: 1012;
+  pointer-events: all;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -moz-box-sizing: content-box;
+}
+
+/* line 109, ../sass/_tutorial.scss */
+.enjoyhint_next_btn {
+  position: absolute;
+  box-sizing: content-box;
+  border: 2px solid #1ecd97;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  color: #1ecd97;
+  background: transparent;
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+/* line 122, ../sass/_tutorial.scss */
+.enjoyhint_next_btn:hover {
+  color: white;
+  background: #1ecd97;
+}
+/* line 127, ../sass/_tutorial.scss */
+.enjoyhint_next_btn:active {
+  border: 2px solid #21e0a3;
+  background: #21e0a3;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/* line 137, ../sass/_tutorial.scss */
+.enjoyhint_skip_btn {
+  box-sizing: content-box;
+  border: 2px solid #1ecd97;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  color: #1ecd97;
+  background: transparent;
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+/* line 149, ../sass/_tutorial.scss */
+.enjoyhint_skip_btn:hover {
+  color: white;
+  background: #1ecd97;
+}
+/* line 154, ../sass/_tutorial.scss */
+.enjoyhint_skip_btn:active {
+  border: 2px solid #21e0a3;
+  background: #21e0a3;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/* line 165, ../sass/_tutorial.scss */
+.enjoyhint_close_btn {
+  display: inline-block;
+  position: absolute;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  width: .3em;
+  height: .3em;
+  border: none;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  font: 400 8em/normal Arial,Helvetica,sans-serif;
+  color: black;
+  background: transparent;
+  border: 2px solid #21e0a3;
+}
+/* line 180, ../sass/_tutorial.scss */
+.enjoyhint_close_btn:after {
+  -webkit-box-sizing: content-box;
+  width: 73%;
+  height: 2px;
+  position: absolute;
+  content: "";
+  border: none;
+  font: 400 100%/normal Arial,Helvetica,sans-serif;
+  color: black;
+  background: #fff;
+  text-shadow: none;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  display: inline-block;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  top: 46%;
+  left: 15%;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+/* line 202, ../sass/_tutorial.scss */
+.enjoyhint_close_btn:before {
+  -webkit-box-sizing: content-box;
+  width: 73%;
+  height: 2px;
+  position: absolute;
+  content: "";
+  border: none;
+  font: 400 100%/normal Arial,Helvetica,sans-serif;
+  color: black;
+  background: #fff;
+  text-shadow: none;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  display: inline-block;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  top: 48%;
+  left: 14%;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+/* line 224, ../sass/_tutorial.scss */
+.enjoyhint_close_btn:hover {
+  color: white;
+  background: #1ecd97;
+  cursor: pointer;
+}
+/* line 230, ../sass/_tutorial.scss */
+.enjoyhint_close_btn:active {
+  border: 2px solid #21e0a3;
+  background: #21e0a3;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/* line 242, ../sass/_tutorial.scss */
+.enjoyhint_btn {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  margin: 0 auto;
+  border: 2px solid #1ecd97;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal normal normal 17px/40px "Advent Pro",Helvetica,sans-serif;
+  color: #1ecd97;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: transparent;
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+/* line 265, ../sass/_tutorial.scss */
+.enjoyhint_btn:hover {
+  color: white;
+  background: #1ecd97;
+}
+/* line 270, ../sass/_tutorial.scss */
+.enjoyhint_btn:active {
+  border: 2px solid #21e0a3;
+  background: #21e0a3;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/* line 283, ../sass/_tutorial.scss */
+#kinetic_container,
+.enjoyhint_canvas,
+.enjoyhint_svg_wrapper,
+.enjoyhint_svg_wrapper svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* line 292, ../sass/_tutorial.scss */
+.enjoyhint div.canvas-container {
+  position: absolute;
+}
+
+/* line 296, ../sass/_tutorial.scss */
+.enjoyhint_canvas {
+  z-index: 100;
+  pointer-events: none;
+}
+
+/* line 301, ../sass/_tutorial.scss */
+#kinetic_container {
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
+
+/* line 307, ../sass/_tutorial.scss */
+.enjoyhint_svg_wrapper {
+  top: 0;
+  left: 0;
+  z-index: 100;
+  -webkit-transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+/* line 315, ../sass/_tutorial.scss */
+.enjoyhint_svg_wrapper svg {
+  top: 0;
+  left: 0;
+}
+
+/* line 322, ../sass/_tutorial.scss */
+.enjoyhint_svg_transparent
+.enjoy_hint_label,
+.enjoyhint_svg_transparent
+.enjoyhint_svg_wrapper {
+  opacity: 0;
+}
+
+/* line 329, ../sass/_tutorial.scss */
+.enjoy_hint_label {
+  position: absolute;
+  color: #fff;
+  z-index: 107;
+  font-size: 22px;
+  font-family: 'Kavivanar', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  display: inline-block;
+  min-width: 200px;
+  text-align: center;
+  max-width: 80%;
+}
+
+/* line 344, ../sass/_tutorial.scss */
+div.kineticjs-content {
+  position: absolute !important;
+}
+
+/* line 348, ../sass/_tutorial.scss */
+.enjoyhint_skip_btn {
+  position: fixed;
 }
 
 /* line 1, ../sass/_index.scss */
@@ -10298,34 +10607,51 @@ circle#popcorncircle {
 }
 
 /* ========================================================================== */
-/* line 223, ../sass/_original_main.scss */
+/* line 221, ../sass/_original_main.scss */
+.tr__chapter__header {
+  margin: auto;
+  max-width: 80em;
+}
+
+/* line 226, ../sass/_original_main.scss */
+.tr__chapter__headline {
+  font-size: 3em;
+  margin-top: 0;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* line 234, ../sass/_original_main.scss */
 .tr__chapter__section {
   margin: auto;
   max-width: 80em;
 }
 
-/* line 228, ../sass/_original_main.scss */
+/* line 239, ../sass/_original_main.scss */
 .tr__textwrap {
   display: inline-block;
 }
 
-/* line 233, ../sass/_original_main.scss */
+/* line 244, ../sass/_original_main.scss */
 .tr__textwrap--full {
   display: block;
   width: 100%;
 }
 
-/* line 238, ../sass/_original_main.scss */
+/* line 249, ../sass/_original_main.scss */
 .tr__imgwrap {
   display: inline-block;
   margin: 0;
 }
-/* line 243, ../sass/_original_main.scss */
+/* line 254, ../sass/_original_main.scss */
 .tr__imgwrap img {
   width: 100%;
 }
 
-/* line 248, ../sass/_original_main.scss */
+/* line 259, ../sass/_original_main.scss */
 .tr__btnwrap {
   width: 100%;
   display: inline-block;
@@ -10333,7 +10659,7 @@ circle#popcorncircle {
 }
 
 /* ========================================================================== */
-/* line 258, ../sass/_original_main.scss */
+/* line 269, ../sass/_original_main.scss */
 .tr__acbtn {
   color: #ffffff;
   font-size: 25px;
@@ -10348,18 +10674,18 @@ circle#popcorncircle {
   z-index: 3;
   position: fixed;
 }
-/* line 272, ../sass/_original_main.scss */
+/* line 283, ../sass/_original_main.scss */
 .tr__acbtn.info {
   top: 20px;
   right: 85px;
 }
-/* line 277, ../sass/_original_main.scss */
+/* line 288, ../sass/_original_main.scss */
 .tr__acbtn.restart {
   right: 20px;
   top: 20px;
 }
 
-/* line 283, ../sass/_original_main.scss */
+/* line 294, ../sass/_original_main.scss */
 .ripple {
   position: absolute;
   left: 0;
@@ -10379,7 +10705,7 @@ circle#popcorncircle {
 }
 
 /* ========================================================================== */
-/* line 306, ../sass/_original_main.scss */
+/* line 317, ../sass/_original_main.scss */
 .tr__quote {
   width: 100%;
   margin: 0 auto;
@@ -10387,7 +10713,7 @@ circle#popcorncircle {
   padding: 0 150px;
 }
 
-/* line 313, ../sass/_original_main.scss */
+/* line 324, ../sass/_original_main.scss */
 .tr__quote__para {
   color: #ffffff;
   font-size: 30px;
@@ -10398,14 +10724,14 @@ circle#popcorncircle {
 }
 
 /* ========================================================================== */
-/* line 331, ../sass/_original_main.scss */
+/* line 336, ../sass/_original_main.scss */
 .tr__polaroid__link {
   display: block;
   z-index: 1;
   position: relative;
 }
 
-/* line 337, ../sass/_original_main.scss */
+/* line 342, ../sass/_original_main.scss */
 .tr__polaroid {
   width: 350px;
   height: 400px;
@@ -10419,7 +10745,7 @@ circle#popcorncircle {
   left: 0;
   clear: both;
 }
-/* line 350, ../sass/_original_main.scss */
+/* line 355, ../sass/_original_main.scss */
 .tr__polaroid.flash {
   -webkit-animation: fade-in 3s ease-in;
   -moz-animation: fade-in 3s ease-in;
@@ -10430,7 +10756,7 @@ circle#popcorncircle {
   -o-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 361, ../sass/_original_main.scss */
+/* line 366, ../sass/_original_main.scss */
 .tr__polaroid.left {
   margin: 30px 50px 30px -20px;
   -webkit-transform: rotate(-3deg);
@@ -10440,7 +10766,7 @@ circle#popcorncircle {
   transform: rotate(-3deg);
   box-shadow: -8px 13px 20px 0 #000000;
 }
-/* line 371, ../sass/_original_main.scss */
+/* line 376, ../sass/_original_main.scss */
 .tr__polaroid.right {
   margin: 30px -20px 30px 50px;
   -webkit-transform: rotate(3deg);
@@ -10450,13 +10776,13 @@ circle#popcorncircle {
   transform: rotate(3deg);
   float: right;
 }
-/* line 382, ../sass/_original_main.scss */
+/* line 387, ../sass/_original_main.scss */
 .tr__polaroid img {
   width: 100%;
 }
 
 /* ========================================================================== */
-/* line 392, ../sass/_original_main.scss */
+/* line 397, ../sass/_original_main.scss */
 .tr__movie__wrapper {
   background-color: #212121;
   height: 500px;
@@ -10464,7 +10790,7 @@ circle#popcorncircle {
   margin: auto;
 }
 
-/* line 399, ../sass/_original_main.scss */
+/* line 404, ../sass/_original_main.scss */
 .tr__movie__box {
   width: 100%;
   height: 100%;
@@ -10473,7 +10799,7 @@ circle#popcorncircle {
   overflow: hidden;
 }
 
-/* line 407, ../sass/_original_main.scss */
+/* line 412, ../sass/_original_main.scss */
 .tr__movie__boxes {
   width: 100%;
   height: 40px;
@@ -10481,7 +10807,7 @@ circle#popcorncircle {
   text-align: center;
 }
 
-/* line 414, ../sass/_original_main.scss */
+/* line 419, ../sass/_original_main.scss */
 .tr__movie__small_box {
   background-color: #ffffff;
   display: inline-block;
@@ -10490,7 +10816,7 @@ circle#popcorncircle {
   margin: 10px 10.5px 10px 10.5px;
 }
 
-/* line 422, ../sass/_original_main.scss */
+/* line 427, ../sass/_original_main.scss */
 .tr__movie__center_box {
   width: 100%;
   height: calc(100% - 80px);
@@ -10506,7 +10832,7 @@ circle#popcorncircle {
   -o-animation: load 1s linear;
   animation: load 1s linear;
 }
-/* line 437, ../sass/_original_main.scss */
+/* line 442, ../sass/_original_main.scss */
 .tr__movie__center_box:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -10515,11 +10841,11 @@ circle#popcorncircle {
   transform: scale(1.05);
   opacity: 0.75;
 }
-/* line 446, ../sass/_original_main.scss */
+/* line 451, ../sass/_original_main.scss */
 .tr__movie__center_box.carkiss__yes {
   background: url(/img/story/carkiss_yes_preset.jpg) center center no-repeat;
 }
-/* line 450, ../sass/_original_main.scss */
+/* line 455, ../sass/_original_main.scss */
 .tr__movie__center_box.carkiss__no {
   background: url(http://via.placeholder.com/500x281?text=Carkiss_no_preset) center center no-repeat;
 }
