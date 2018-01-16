@@ -67,10 +67,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="435.90509"
+     inkscape:cx="215.18676"
      inkscape:cy="224.49218"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1706"
+     inkscape:current-layer="text3734"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1018"
@@ -89,7 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -508,23 +508,44 @@
           </g>
         </g>
       </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.28475571px;line-height:1.25;font-family:'Beauty and the Beast';-inkscape-font-specification:'Beauty and the Beast';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3779662"
-         x="168.78635"
-         y="-329.79828"
-         id="text3734"
-         transform="matrix(0.97498713,-0.1527866,-0.14861338,-1.0023659,0,0)"><tspan
-           sodipodi:role="line"
-           id="tspan3732"
-           x="168.78635"
-           y="-329.79828"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.28475571px;font-family:'SP Marker Font';-inkscape-font-specification:'SP Marker Font';fill:#ffffff;stroke-width:0.3779662">Hello !</tspan></text>
       <g
-         aria-label="my name's JC and I'll help you
-learn a little bit more about
-the page. Just press start 
-when you're ready !"
+         aria-label="Hello !"
+         transform="matrix(0.97498713,-0.1527866,-0.14861338,-1.0023659,0,0)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.28475571px;line-height:1.25;font-family:'Beauty and the Beast';-inkscape-font-specification:'Beauty and the Beast';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3779662"
+         id="text3734">
+        <path
+           d="m 190.99262,-359.55178 c -0.14514,-0.18142 -3.44705,0.0726 -3.44705,0.0726 0,0 -0.61685,0.4717 -0.68942,0.7257 -0.2177,0.58055 -0.14513,7.69236 -0.25399,11.10313 -2.35851,0.39913 -7.72865,1.05226 -14.00591,0.29028 0.10885,-3.91875 0.43541,-11.24827 0.18142,-11.46598 -0.32656,-0.29028 -3.77362,0.0726 -3.99132,0.4717 -0.18143,0.43542 -0.254,7.98264 -0.39914,10.99428 -0.14513,3.01163 0.18143,18.54151 0.32657,18.54151 0.14514,0 4.17274,0 4.31788,-0.58056 0.10886,-0.43541 -0.21771,-9.28889 -0.36284,-13.53421 1.70538,0.18142 4.46302,0.36285 6.96667,0.18142 2.53993,-0.18142 4.93473,-0.25399 6.71268,-0.50798 -0.10886,5.76927 0.68941,13.89706 0.79826,14.9856 0.54427,0.43542 3.91876,0.0726 4.10018,-0.4717 -0.39913,-0.83455 -0.10885,-30.62433 -0.25399,-30.80576 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.28475571px;font-family:'SP Marker Font';-inkscape-font-specification:'SP Marker Font';fill:#ffffff;stroke-width:0.3779662"
+           id="path2828"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 202.63152,-351.93198 c 5.37014,3.01163 1.23368,10.01459 -0.68941,10.01459 -1.08854,0 -2.21337,-1.08854 -2.97535,-2.03194 0.79826,-5.0073 2.90278,-8.52692 3.66476,-7.98265 z m 5.98698,13.86078 c -0.90712,4.2816 -2.75764,5.11615 -3.51962,5.11615 -0.72569,0 -6.13212,-0.0363 -6.4224,-6.49497 0.43542,0 0.9434,-0.0726 1.56024,-0.18143 6.05956,-1.08854 8.67206,-6.45868 9.14376,-7.8375 0.4717,-1.37883 2.53994,-7.54723 -4.82587,-7.54723 -7.32952,0 -10.30487,11.46598 -10.30487,14.47761 0,3.04792 1.05226,9.90574 7.91008,9.90574 6.85782,0 10.01459,-5.51528 10.15973,-6.67639 0.14514,-1.16112 -0.68941,-1.30625 -3.70105,-0.76198 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.28475571px;font-family:'SP Marker Font';-inkscape-font-specification:'SP Marker Font';fill:#ffffff;stroke-width:0.3779662"
+           id="path2830"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 215.72011,-360.9306 c 0,0.61684 -0.79827,30.00749 -0.79827,30.11635 0,0.32656 4.28161,0.0363 4.46303,0 0.4717,-0.14514 1.16111,-29.42694 0.32656,-29.97121 -0.25399,-0.14514 -3.99132,-0.7257 -3.99132,-0.14514 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.28475571px;font-family:'SP Marker Font';-inkscape-font-specification:'SP Marker Font';fill:#ffffff;stroke-width:0.3779662"
+           id="path2832"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 224.93304,-360.9306 c 0,0.61684 -0.79827,30.00749 -0.79827,30.11635 0,0.32656 4.2816,0.0363 4.46303,0 0.4717,-0.14514 1.16111,-29.42694 0.32656,-29.97121 -0.25399,-0.14514 -3.99132,-0.7257 -3.99132,-0.14514 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.28475571px;font-family:'SP Marker Font';-inkscape-font-specification:'SP Marker Font';fill:#ffffff;stroke-width:0.3779662"
+           id="path2834"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 238.10101,-332.44707 c -0.76198,0.18143 -3.84619,-0.79826 -2.57622,-10.704 0.58055,-4.89844 2.72135,-7.00296 4.68073,-7.87379 1.45139,1.6691 3.70105,4.71702 3.66476,9.79688 -0.10885,7.07553 -5.0073,8.56321 -5.76927,8.78091 z m 4.20903,-20.9363 c -0.50799,0 -1.23369,0 -1.9231,0.14514 -0.29027,-0.0726 -0.68941,-0.0726 -1.26996,0 -2.28594,0.25399 -3.59219,0.4717 -5.18872,3.41077 -1.59653,2.90278 -3.70105,7.32952 -2.90278,12.40938 0.76198,5.07987 3.44705,7.07553 7.54723,7.07553 4.06389,0 9.7606,-4.24532 9.7606,-10.84914 0,-6.60383 -3.84619,-11.68369 -6.02327,-12.19168 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.28475571px;font-family:'SP Marker Font';-inkscape-font-specification:'SP Marker Font';fill:#ffffff;stroke-width:0.3779662"
+           id="path2836"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 265.32307,-332.73734 c 0.10886,-0.18143 0.29028,-0.79827 4.10018,-0.58056 0.21771,0 0.32656,3.01163 0.25399,3.15677 -0.0726,0.14514 -0.36285,0.254 -0.54427,0.32657 -0.21771,0.0363 -3.30191,-0.0363 -3.77361,-0.54427 -0.10886,-0.39914 -0.18143,-2.17709 -0.0363,-2.35851 z m 4.13646,-27.39499 c -0.61684,0.2177 -3.70104,0.32656 -3.91875,0.61684 0.14514,1.16111 -0.79826,20.75488 -0.76198,21.22658 0.0726,0.4717 0.83455,1.01597 1.30625,1.23368 0.50799,0.21771 3.12049,0.0726 3.30191,-0.61684 0.14514,-2.46736 0.54428,-22.6054 0.0726,-22.46026 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.28475571px;font-family:'SP Marker Font';-inkscape-font-specification:'SP Marker Font';fill:#ffffff;stroke-width:0.3779662"
+           id="path2838"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         aria-label="my name's JC and I'll help you learn a little bit more about the page. Just press start  when you're ready !"
          transform="matrix(0.97622308,-0.14420394,-0.14026515,-1.0036366,-33.523652,34.137017)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.11864853px;line-height:1.25;font-family:'Titillium Web';-inkscape-font-specification:'Titillium Web';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3779662"
          id="text3738">
@@ -970,7 +991,7 @@ when you're ready !"
              height="1297.0359"
              x="149.50258"
              y="-368.46548" /></flowRegion><flowPara
-           id="flowPara3752"></flowPara></flowRoot>      <text
+           id="flowPara3752" /></flowRoot>      <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.11864853px;line-height:1.25;font-family:'Titillium Web';-inkscape-font-specification:'Titillium Web';letter-spacing:0px;word-spacing:0px;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37796623"
          x="152.70219"
