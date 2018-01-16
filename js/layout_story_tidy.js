@@ -613,12 +613,12 @@
         'introduction': {
             'text': "" +
                 "<div class=\"tr__introductionblock\">" +
-                "<h1 class=\"tr__introductionblock__headline\">Welcome!</h1>" +
-                "<p class=\"tr__introductionblock__para\">" +
-                "Get ready to start reading the teaser in pressing the Start button. If you would like a short introduction how to navigate this page choose the Tutorial button. <br/> Have fun!" +
-                "</p>" +
-                "<a class=\"squiffy-link first\" id=\"tutorial\" role=\"link\" tabindex=\"0\">TUTORIAL</a>" +
-                "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">START</a>" +
+                //"<h1 class=\"tr__introductionblock__headline\">Welcome!</h1>" +
+                //"<p class=\"tr__introductionblock__para\">" +
+                //"Get ready to start reading the teaser in pressing the Start button. If you would like a short introduction how to navigate this page choose the Tutorial button. <br/> Have fun!" +
+                //"</p>" +
+                //"<a class=\"squiffy-link first\" id=\"tutorial\" role=\"link\" tabindex=\"0\">TUTORIAL</a>" +
+                "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">START TEASER</a>" +
                 "</div>"
         },
         'start': {
