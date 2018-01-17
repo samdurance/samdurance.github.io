@@ -7,7 +7,7 @@
 
 .tr__tutorial__header__logo {
     margin: 50px auto;
-    
+
     img {
         margin: 0 auto;
         width: 65%;
@@ -23,7 +23,7 @@
 }
 
 .tr__tutorial__jaffa {
-    
+
     .jc {
         width: 70%;
         float: right;
@@ -31,15 +31,15 @@
 }
 
 .tr__tutorial__bubble {
-    
+
     img {
-    width: 80%;
-    margin-top: -5%;
+        width: 80%;
+        margin-top: -5%;
     }
 }
 
 .tr__tutorial__btn {
-     position: absolute;
+    position: absolute;
     left: 15%;
     top: -15%;
     cursor: pointer;
@@ -158,7 +158,7 @@
         color:rgba(255,255,255,1);
         background:#1ecd97;
     }
-    
+
     &:active {
         border:2px solid rgba(33,224,163,1);
         background:rgba(33,224,163,1);
@@ -177,7 +177,6 @@
     box-sizing:content-box;
     width:.3em;
     height:.3em;
-    border:none;
     -webkit-border-radius:1em;
     border-radius:1em;
     font:400 8em/normal Arial,Helvetica,sans-serif;
@@ -206,7 +205,7 @@
         -webkit-transform:rotateZ(-45deg);
         transform:rotateZ(-45deg);
     }
-    
+
     &:before {
         -webkit-box-sizing:content-box;
         width:73%;
@@ -271,17 +270,17 @@
     transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
 
     &:hover {
-           color:rgba(255,255,255,1);
-    background:#1ecd97;
+        color:rgba(255,255,255,1);
+        background:#1ecd97;
     }
-    
+
     &:active {
-            border:2px solid rgba(33,224,163,1);
-    background:rgba(33,224,163,1);
-    -webkit-transition:none;
-    -moz-transition:none;
-    -o-transition:none;
-    transition:none;
+        border:2px solid rgba(33,224,163,1);
+        background:rgba(33,224,163,1);
+        -webkit-transition:none;
+        -moz-transition:none;
+        -o-transition:none;
+        transition:none;
     }
 
 }
@@ -319,15 +318,15 @@
     -webkit-transition:opacity .4s cubic-bezier(.42,0,.58,1);
     -moz-transition:opacity .4s cubic-bezier(.42,0,.58,1);
     transition:opacity .4s cubic-bezier(.42,0,.58,1);
-    
+
     svg {
-          top:0;
-    left:0;
+        top:0;
+        left:0;
     }
 }
 
 
-.enjoyhint_svg_transparent 
+.enjoyhint_svg_transparent
 .enjoy_hint_label,
 .enjoyhint_svg_transparent
 .enjoyhint_svg_wrapper{
@@ -355,4 +354,10 @@ div.kineticjs-content{
 
 .enjoyhint_skip_btn{
     position:fixed;
+}
+
+.enjoyhint_quit {
+    @extend .enjoyhint_next_btn;
+    width: auto;
+    padding: 0 10px;
 }

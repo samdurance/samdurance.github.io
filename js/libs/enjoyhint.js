@@ -492,7 +492,7 @@ var EnjoyHint = function (_options) {
                     disable_events_element: 'enjoyhint_disable_events',
                     btn: 'enjoyhint_btn',
                     skip_btn: 'enjoyhint_skip_btn',
-                    close_btn: 'enjoyhint_close_btn',
+                    close_btn: 'enjoyhint_quit',
                     next_btn: 'enjoyhint_next_btn',
                     main_canvas: 'enjoyhint_canvas',
                     main_svg: 'enjoyhint_svg',
@@ -579,7 +579,7 @@ var EnjoyHint = function (_options) {
                     that.options.onNextClick();
                 });
 
-                that.$close_btn = $('<div>', {'class': that.cl.close_btn}).appendTo(that.enjoyhint).html('').click(function (e) {
+                that.$close_btn = $('<div>', {'class': that.cl.close_btn}).appendTo(that.enjoyhint).html('Quit Tutorial').click(function (e) {
 
                     that.hide();
                     that.options.onSkipClick();
@@ -1290,7 +1290,7 @@ var EnjoyHint = function (_options) {
                     });
 
                     that.$close_btn.css({
-                        right : 10,
+                        left : 10,
                         top: 10
                     });
 
