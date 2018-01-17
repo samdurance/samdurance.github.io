@@ -1,6 +1,8 @@
-.tr__tutorial__header {
+.tr__tutorial__header,
+.tr__tutorial__footer {
     background: $tutoblue;
     padding: 20px 0;
+    height: 100vh;
 }
 
 .tr__tutorial__header__logo {
@@ -13,11 +15,11 @@
 }
 
 .tr__tutorial__header__title {
-    position: relative;
+    font-size: 3em;
+    margin-top: 50px;
+    @include kavi;
+    text-transform: uppercase;
     color: $white;
-    font-size: 40px;
-    line-height: 50px;
-    margin: 0 auto;
 }
 
 .tr__tutorial__jaffa {
@@ -44,9 +46,15 @@
     z-index: 15;
 }
 
+.tr__tutorial__moviebox {
+    margin: 30px -20px 30px 50px;
+    float: right;
+    display: inline-block;
+}
 
-
-
+.tr__tutorial__polaroid {
+    @extend .tr__polaroid;
+}
 
 
 
