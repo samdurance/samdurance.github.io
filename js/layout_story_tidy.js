@@ -749,72 +749,75 @@
                 "</div>" +
                 "</article>" +
                 "<article id=\"cb02\" class=\"tr__contentblock\">" +
-                "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"img/story/carkiss_yes.gif\">" +
-                "<div class=\"tr__movie__wrapper\">" +
-                "<div class=\"tr__movie__box\">" +
-                "<div class=\"tr__movie__boxes\">" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
+
+                "<div class=\"tr__contentblock__wrapper\">" +
+
+                        "<section class=\"tr__chapter__section\">" +
+
+                        "<div class=\"tr__textwrap\">" +
+
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"You should’ve dressed more warmly.\" When Sam only scoffed, I added, \"Or do you want your mother to tend to you while you’re ill in bed?\" Sam’s exaggerated, disgusted face made me chuckle." +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"I’ll be fine. You can keep me warm though if you’re worried.\" While she gave me a tired but persistent smirk, I gave the driver a worried glance. \"Just some friendly cuddling,\" she added. \"It was a stupid idea not to sit together.\"" +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"It was your idea,\" I reminded her." +
+                            "</p>" +
+
+                               "<a class=\"tr__moviebox__link\" href=\"#\" data-featherlight=\"img/story/carkiss_yes.gif\">" +
+                            "<div class=\"tr__movie__wrapper right\">" +
+                            "<div class=\"tr__movie__box\">" +
+                            "<div class=\"tr__movie__boxes\">" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "</div>" +
+                            "<div class=\"tr__movie__center_box carkiss__yes\"></div>" +
+                            "<div class=\"tr__movie__boxes\">" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "</div>" +
+                            "</div>" +
+                            "</div>" +
+                            "</a>" +
+
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"Well, in theory it was a good one.\" She grinned half-heartedly before pointing at the front seat with a shrug. \"He’s just the driver. And when we arrive, we’ll just sit apart again. Seriously, we’re going to spend an entire week with my parents. I really need some good cuddles now.\"" +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "Sighing, I turned to her with a resigned smile. With swift movements belying her tired look, Sam opened her seat belt and re-belted up in the middle of the back seat. She snuggled into me as we locked arms. I preferred it that way as well. Sam made me feel a kind of warmth the car heater couldn’t provide. I relaxed into her until Sam’s smug smirk caught my attention." +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"What?\"" +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"Loved the stupid grin you just had,\" she chuckled, now sporting one herself. My eyes were still rolling at her, when her face fell and she put her head back on my shoulder. \"I really wanna kiss you right now,\" she muttered." +
+                            "</p>" +
+
+                            "{Carkiss more}" +
+                        "</div>" +
+                        "</section>" +
                 "</div>" +
-                "<div class=\"tr__movie__center_box carkiss__yes\"></div>" +
-                "<div class=\"tr__movie__boxes\">" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "</div>" +
-                "</div>" +
-                "</div>" +
-                "</a>" +
-                "</div>" +
-                "<div class=\"tr__contentblock__wrapper tr__textwrap right\">" +
-                "<header class=\"slideInUp\"></header>" +
-                "<section>" +
+
                 
-              
-                "<p class=\"tr__para slideInUp slideInUp2\">" +
-                "\"Sam, no.\"" +
-                "</p>" +   
-                "<p class=\"tr__para slideInUp slideInUp3\">" +
-                "\"Sam, yes.\"" +
-                "</p>" +  
-                "<p class=\"tr__para slideInUp slideInUp4\">" +
-                "...." +
-                "</p>" + 
-            
-            
-                "{Carkiss more}" +
-                "</section>" +
-                "</div>" +
+
                 "</article>",
             'attributes': ["carkiss"],
             'passages': {},
@@ -837,58 +840,76 @@
                 "</section>" +
                 "</div>" +
                 "</article>" +
-                "<article id=\"cb02\" class=\"tr__contentblock\">" +
-                "<div class=\"tr__imgwrap slideInUp slideInUp5\">" +
-                "<a href=\"#\" data-featherlight=\"http://via.placeholder.com/500x281?text=Carkiss_no_gif\">" +
-                "<div class=\"tr__movie__wrapper\">" +
-                "<div class=\"tr__movie__box\">" +
-                "<div class=\"tr__movie__boxes\">" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "</div>" +
-                "<div class=\"tr__movie__center_box carkiss__no\"></div>" +
-                "<div class=\"tr__movie__boxes\">" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "</div>" +
-                "</div>" +
-                "</div>" +
-                "</a>" +
-                "</div>" +
-                "<div class=\"tr__contentblock__wrapper tr__textwrap right\">" +
-                "<header class=\"slideInUp\"></header>" +
-                "<section>" +
 
+            "<article id=\"cb02\" class=\"tr__contentblock\">" +
+
+
+                 "<div class=\"tr__contentblock__wrapper\">" +
+
+                        "<section class=\"tr__chapter__section\">" +
+
+                        "<div class=\"tr__textwrap\">" +
                 
-                "<p class=\"tr__para slideInUp slideInUp2\">" +
-                "\"Sam, stick to the plan.\"" +
-                "</p>" +   
-                "<p class=\"tr__para slideInUp slideInUp3\">" +
-                "\"Stupid plan,\" she muttered, putting her head back on my shoulder." +
-                "</p>" +  
-                "<p class=\"tr__para slideInUp slideInUp4\">" +
-                "...." +
-                "</p>" + 
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"You should’ve dressed more warmly.\" When Sam only scoffed, I added, \"Or do you want your mother to tend to you while you’re ill in bed?\" Sam’s exaggerated, disgusted face made me chuckle." +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"I’ll be fine. You can keep me warm though if you’re worried.\" While she gave me a tired but persistent smirk, I gave the driver a worried glance. \"Just some friendly cuddling,\" she added. \"It was a stupid idea not to sit together.\"" +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"It was your idea,\" I reminded her." +
+                            "</p>" +
+
+                               "<a class=\"tr__moviebox__link\" href=\"#\" data-featherlight=\"http://via.placeholder.com/500x281?text=Carkiss_no_gif\">" +
+                            "<div class=\"tr__movie__wrapper right\">" +
+                            "<div class=\"tr__movie__box\">" +
+                            "<div class=\"tr__movie__boxes\">" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "</div>" +
+                            "<div class=\"tr__movie__center_box carkiss__no\"></div>" +
+                            "<div class=\"tr__movie__boxes\">" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "<span class=\"tr__movie__small_box\"></span>" +
+                            "</div>" +
+                            "</div>" +
+                            "</div>" +
+                            "</a>" +
+
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"Well, in theory it was a good one.\" She grinned half-heartedly before pointing at the front seat with a shrug. \"He’s just the driver. And when we arrive, we’ll just sit apart again. Seriously, we’re going to spend an entire week with my parents. I really need some good cuddles now.\"" +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "Sighing, I turned to her with a resigned smile. With swift movements belying her tired look, Sam opened her seat belt and re-belted up in the middle of the back seat. She snuggled into me as we locked arms. I preferred it that way as well. Sam made me feel a kind of warmth the car heater couldn’t provide. I relaxed into her until Sam’s smug smirk caught my attention." +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"What?\"" +
+                            "</p>" +
+                            "<p class=\"tr__para slideInUp slideInUp5\">" +
+                            "\"Loved the stupid grin you just had,\" she chuckled, now sporting one herself. My eyes were still rolling at her, when her face fell and she put her head back on my shoulder. \"I really wanna kiss you right now,\" she muttered." +
+                            "</p>" +
             
-                "{Carkiss more}" +
-                "</section>" +
+                            "{Carkiss more}" +
+                        "</div>" +
+                        "</section>" +
                 "</div>" +
+
                 "</article>",
             'passages': {},
         },
