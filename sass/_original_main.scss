@@ -35,23 +35,23 @@
     z-index: 1;
     opacity: 1;
 
-    &:before {
-        content: "";
-        width: 100%;
-        box-shadow: inset 0 22px 20px 0 $anthrazit;
-        height: 100px;
-        display: block;
-    }
-
-    &:after {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 100px;
-        display: block;
-        content: "";
-        box-shadow: inset 0 -22px 20px 0 $anthrazit;
-    }
+    //&:before {
+    //    content: "";
+    //    width: 100%;
+    //    box-shadow: inset 0 22px 20px 0 $anthrazit;
+    //    height: 100px;
+    //    display: block;
+    //}
+    //
+    //&:after {
+    //    position: absolute;
+    //    bottom: 0;
+    //    width: 100%;
+    //    height: 100px;
+    //    display: block;
+    //    content: "";
+    //    box-shadow: inset 0 -22px 20px 0 $anthrazit;
+    //}
 }
 
 .tr__bookcover {
@@ -130,12 +130,12 @@
 
 .tr__slide01__bcg {
     @extend .tr__bcg;
-    background: $darkgreyish;
+    //background: $darkgreyish;
 }
 
 .tr__slide02__bcg {
     @extend .tr__bcg;
-    background-image: url(https://media.giphy.com/media/ps9NJxDQb0pWw/giphy.gif);
+    //background-image: url(https://media.giphy.com/media/ps9NJxDQb0pWw/giphy.gif);
 }
 
 
@@ -150,7 +150,8 @@
     }
 
     &.qt {
-        height: 500px;
+        height: 400px;
+        overflow: visible;
     }
 }
 

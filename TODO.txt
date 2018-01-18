@@ -66,3 +66,28 @@ https://css-tricks.com/snippets/jquery/image-preloader/
 
 Modal
 https://tympanus.net/codrops/2013/06/25/nifty-modal-window-effects/
+
+
+
+
+
+
+headline
+#FFFFFF  // #3c4858
+
+para
+#8492a6 // #8492a6
+
+#1F2D3C  // #FFFFFF
+#273443  // #EFF2F7
+#3C4857  // #E0E6ED
+
+
+
+
+https://static-2.gumroad.com/res/gumroad/9243244721926/asset_previews/1f99dc46ef7d81cbdcc0935b897cd77f/retina/Website_20Template.png
+#9B5329 oä headline
+#E5B868 to #EC914F gradient
+#1A191F bg
+
+https://coolors.co/9b5329-e5b868-ec914f-1a191f-ffffff

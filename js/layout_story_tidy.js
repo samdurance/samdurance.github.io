@@ -732,7 +732,7 @@
         },
         'Carkiss yes': {
             'text': "" +
-                "<article id=\"slide01\" class=\"tr__slide tr__slide01 qt\">" +
+                "<article id=\"slide01\" class=\"tr__slide tr__slide01 qt angled-both-left-right\">" +
                 "<div class=\"tr__slide01__bcg\"></div>" +
                 "<div class=\"tr__slide01__wrapper\">" +
                 "<section>" +
@@ -821,7 +821,7 @@
         },
         'Carkiss no': {
             'text': "" +
-                "<article id=\"slide01\" class=\"tr__slide tr__slide01 qt\">" +
+                "<article id=\"slide01\" class=\"tr__slide tr__slide01 qt angled-both-right-left\">" +
                 "<div class=\"tr__slide01__bcg\"></div>" +
                 "<div class=\"tr__slide01__wrapper\">" +
                 "<section>" +
@@ -853,23 +853,9 @@
                 "<span class=\"tr__movie__small_box\"></span>" +
                 "<span class=\"tr__movie__small_box\"></span>" +
                 "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
                 "</div>" +
                 "<div class=\"tr__movie__center_box carkiss__no\"></div>" +
                 "<div class=\"tr__movie__boxes\">" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
-                "<span class=\"tr__movie__small_box\"></span>" +
                 "<span class=\"tr__movie__small_box\"></span>" +
                 "<span class=\"tr__movie__small_box\"></span>" +
                 "<span class=\"tr__movie__small_box\"></span>" +
