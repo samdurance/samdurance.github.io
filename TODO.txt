@@ -35,7 +35,10 @@ https://codepen.io/hadarweiss/pen/WvEXeK
 https://codepen.io/georgemarts/pen/JdNKBL
 https://codepen.io/andytran/pen/YGyQRY
 https://codepen.io/maridlcrmn/pen/oXdKvm?depth=everything&order=popularity&page=3&q=toggle+menu&show_forks=false
+https://codepen.io/hmache/pen/QNmENp?limit=all&page=11&q=toggle+button
+https://codepen.io/xhepigerta/pen/grLadW
 
+https://codepen.io/F_Guiffrey/pen/qjamEN
 
 
 Font
