@@ -95,3 +95,56 @@
     @include tilli-bold;
     z-index: 2;
 }
+
+
+// Theme Toggle Switch
+/* ========================================================================== */
+
+.tr__themeswitch {
+    width: 60px;
+    padding: 3px;
+    position: fixed;
+    top: 40px;
+    right: 150px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 540px;
+    -moz-border-radius: 540px;
+    border-radius: 540px;
+    cursor: pointer;
+    background: rgba(112, 147, 212, 0.44);
+    border: 3px solid rgba(0, 0, 0, 0.4);
+
+    &.dark {
+        background: #ffb463;
+        border: 3px solid rgba(0, 0, 0, 0.4);
+    }
+}
+
+.tr__themeswitch__toggle {
+    width: 20px;
+    height: 20px;
+    background: rgba(69, 98, 136, 0.38);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    position:relative;
+    left:0;
+    -webkit-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    -moz-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    -ms-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    -o-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+
+
+    .dark & {
+        left: 32px;
+        background: $orange;
+    }
+}

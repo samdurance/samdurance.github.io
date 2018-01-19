@@ -43,3 +43,8 @@ enjoyhint_instance.set(enjoyhint_script_steps);
 $('#starttuto').on('click', function (e) {
     enjoyhint_instance.run();
 });
+
+
+$(".tr__themeswitch").on("click", function () {
+   $(this).toggleClass('dark');
+});

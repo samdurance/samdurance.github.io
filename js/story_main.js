@@ -85,32 +85,3 @@ function notify(thumb, msg) {
     });
 
 };
-
-
-
-// Instance the tour
-var tour = new Tour({
-    storage: false,
-    debug: true
-});
-
-tour.addSteps([
-    {
-        element: "#tutop1",
-        title: "title1",
-        content: "content1"
-    },
-    {
-        element: "#tutop2",
-        title: "title2",
-        content: "content2"
-    }
-  ]);
-
-$(document).on('click', '#tutorial', function (e) {
-    $('#tuto').fadeIn('slow');
-    // Start the tour
-    if (!tour.start()) {
-        tour.restart();
-    }
-});

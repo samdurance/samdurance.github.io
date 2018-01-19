@@ -30,6 +30,14 @@ Dummystuff
 https://codepen.io/derekjp/pen/bpoRVK?q=diagonal%20background&order=popularity&depth=everything&show_forks=false
 
 
+Navigation
+https://codepen.io/hadarweiss/pen/WvEXeK
+https://codepen.io/georgemarts/pen/JdNKBL
+https://codepen.io/andytran/pen/YGyQRY
+https://codepen.io/maridlcrmn/pen/oXdKvm?depth=everything&order=popularity&page=3&q=toggle+menu&show_forks=false
+
+
+
 Font
 https://www.dafont.com/tomb-raider2.font?
 
@@ -91,3 +99,10 @@ https://static-2.gumroad.com/res/gumroad/9243244721926/asset_previews/1f99dc46ef
 #1A191F bg
 
 https://coolors.co/9b5329-e5b868-ec914f-1a191f-ffffff
+
+
+
+//Sam Colorscheme???
+http://www.colourlovers.com/palette/85900/Midnight_Sex
+https://color.hailpixel.com/#111625,341931,571B3C,7A1E48,9D2053
+https://coolors.co/111625-341931-571B3C-7A1E48-9D2053
