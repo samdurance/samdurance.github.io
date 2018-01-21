@@ -70,6 +70,7 @@
 
         var disableLink = function (link) {
             link.addClass('invisible');
+            link.siblings('.tr__question').addClass('invisible');
             link.attr('tabindex', -1);
         }
 
@@ -613,12 +614,10 @@
         'introduction': {
             'text': "" +
                 "<div class=\"tr__introductionblock\">" +
-                //"<h1 class=\"tr__introductionblock__headline\">Welcome!</h1>" +
-                //"<p class=\"tr__introductionblock__para\">" +
-                //"Get ready to start reading the teaser in pressing the Start button. If you would like a short introduction how to navigate this page choose the Tutorial button. <br/> Have fun!" +
-                //"</p>" +
-                //"<a class=\"squiffy-link first\" id=\"tutorial\" role=\"link\" tabindex=\"0\">TUTORIAL</a>" +
-                "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">START TEASER</a>" +
+                "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">Start Teaser</a>" +
+                "<p class=\"tr__introductionblock__para\">" +
+                "written by deberzer <br> illustrated by burritorat" +
+                "</p>" +
                 "</div>"
         },
         'start': {
@@ -626,7 +625,7 @@
                 "<article id=\"cb01\" class=\"tr__contentblock is-active\">" +
 
             "<header class=\"tr__chapter__header slideInUp\">" +
-            "<h1 class=\"tr__headline--large tr__chapter__headline typewriter animate\">Chapter 1: The Arrival</h1>" +
+            "<h1 class=\"tr__headline--large tr__chapter__headline typewriter animate\">Chapter 1: Arrival</h1>" +
             "</header>" +
 
             "<div class=\"tr__contentblock__wrapper\">" +
@@ -634,90 +633,128 @@
                 "<section class=\"tr__chapter__section\">" +
 
                  "<div class=\"tr__textwrap\">" +
-                    "<p class=\"tr__para slideInUp slideInUp2\">" +
-                    "My arm twitched with the need to reach out for Sam’s hand for comfort, but she was soundly sleeping on the other side of the back seat. I didn’t know how she’d managed to nap again in the car after already sleeping through the entire twelve hours flight. I was a tad jealous actually. The jet lag affected me as well, but I was too worked up to rest." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "There’s an old Japanese proverb about parents that…" +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp3\">" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "No, I couldn’t actually think of one. I couldn’t think about much at that moment, other than the fact that we were heading to meet and spend an entire week with Sam’s parents in their residence near Tokyo." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "My arm twitched with the need to reach for Sam’s hand for comfort, but she was soundly asleep on the other side of the back seat. I didn’t know how she’d managed to nap again in the car after having already slept through the entire twelve hour flight. I was a tad jealous, actually. The jet lag affected me as well, but I was too worked up to rest." +
+                    "</p>" +
+
+                    "<p class=\"tr__para slideInUp \">" +
                     "I looked out of the side window at the grey sky and the white landscape that had been covered in fresh snow. With the snowfall having died down, it seemed like we were the only thing moving amidst the frozen countryside. It was a peaceful scenery. A cold and peaceful scenery." +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp4\">" +
-                    "\"Why is there a swimsuit in my bag?\" I murmured and ran a sleeve over the breath-clouded window. Sam’s snoring stopped. Her leather jacket rustled as she stirred." +
-                    "</p>" +
-
-
                  
-                    "<a class=\"tr__polaroid__link slideInUp slideInUp5\" href=\"#\" data-featherlight=\"img/story/lara_landscape.jpg\">" +
+            
+                    "<a class=\"tr__polaroid__link slideInUp \" href=\"#\" data-featherlight=\"img/story/lara_landscape.jpg\">" +
                     "<div class=\"tr__polaroid left\">" +
                     "<img src=\"img/story/lara_landscape_pola.jpg\" class=\"img-responsive\" />" +
                     "</div>" +
                     "</a>" +
 
 
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"Jacuzzi,\" she groaned dozily like a zombie. Her eyes were still closed." +
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Why is there a swimsuit in my bag?” I murmured and ran a sleeve over the breath-clouded window. Sam’s snoring stopped. Her leather jacket rustled as she stirred." +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"Right.\" I didn't see the appeal yet in going for a bath in the freezing cold. Sam slapped my leg." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Jacuzzi,” she groaned, zombie-like. Her eyes were still closed." +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"Right,\" she imitated (aped?) me, which came out more as a long yawn. \"You’ll see.\" She pulled her open jacket close, wrapped her arms around herself, and rolled over to find a position in which she could sleep on." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Right.” I didn't see the appeal yet in going for a bath in the freezing cold." +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "I looked at her with raised brows and felt a cold chill run over my skin. Against my protests, the short leather jacket was all she’d put on over her jumper. I probably looked like the marshmallow man next to her, but at least I’d been comfortably warm when we’d left the plane—unlike her. It was actually colder in Japan than back in London. Fortunately, the car Sam’s parents had sent to pick us up was heated." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "Sam gave my leg a lazy slap. “Right,” she said, imitating my speech. It came out more as a long yawn. “You’ll see.” She pulled her jacket close, wrapped her arms around herself, and rolled over to find a position in which she could sleep." +
                     "</p>" +
 
-
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"You should’ve dressed more warmly.\" When Sam only scoffed, I added, \"Or do you want your mother to tend to you while you’re ill in bed?\" Sam’s exaggerated, disgusted face made me chuckle." +
+                    "<p class=\"tr__para slideInUp \">" +
+                    "I looked at her with raised brows and felt a cold chill run over my skin. Against my protests, the short leather jacket was all she’d put on over her jumper. I probably looked like the marshmallow man next to her, but at least I’d been comfortably warm when we’d left the plane — unlike her. It was actually colder in Japan than back in London. Fortunately, the car Sam’s parents had sent to pick us up was warm." +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"I’ll be fine. You can keep me warm though if you’re worried.\" While she gave me a tired but persistent smirk, I gave the driver a worried glance. \"Just some friendly cuddling,\" she added. \"It was a stupid idea not to sit together.\"" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“You should’ve dressed more warmly.” When Sam only scoffed, I added, “Or do you want your mother to tend to you while you’re ill in bed?” Sam’s exaggerated, disgusted face made me chuckle." +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"It was your idea,\" I reminded her." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“I’ll be fine. You can keep me warm though if you’re worried.” While she gave me a tired but persistent smirk, I gave the driver a worried glance. “Just some friendly cuddling,” she said. “It was a stupid idea not to sit together.”" +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"Well, in theory it was a good one.\" She grinned half-heartedly before pointing at the front seat with a shrug. \"He’s just the driver. And when we arrive, we’ll just sit apart again. Seriously, we’re going to spend an entire week with my parents. I really need some good cuddles now.\"" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“It was your idea,” I reminded her." +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Well, in theory it was a good one.” She grinned half-heartedly before pointing at the front seat with a shrug. “He’s just the driver. And when we arrive, we’ll simply sit apart again. Seriously, we’re going to spend an entire week with my parents. I really need some good cuddles now.”" +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
                     "Sighing, I turned to her with a resigned smile. With swift movements belying her tired look, Sam opened her seat belt and re-belted up in the middle of the back seat. She snuggled into me as we locked arms. I preferred it that way as well. Sam made me feel a kind of warmth the car heater couldn’t provide. I relaxed into her until Sam’s smug smirk caught my attention." +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"What?\"" +
-                    "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"Loved the stupid grin you just had,\" she chuckled, now sporting one herself. My eyes were still rolling at her, when her face fell and she put her head back on my shoulder. \"I really wanna kiss you right now,\" she muttered." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“What?”" +
                     "</p>" +
             
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Loved the stupid grin you just had,” she chuckled, now sporting one herself. I was about to roll my eyes at her, but then her face fell and she put her head back on my shoulder. “I really wanna kiss you right now,” she muttered." +
+                    "</p>" +
             
-                 "<a class=\"tr__polaroid__link slideInUp slideInUp5\" href=\"#\" data-featherlight=\"img/story/carsnuggle.jpg\">" +
-                    "<div class=\"tr__polaroid right\">" +
-                    "<img src=\"img/story/carsnuggle_pola.jpg\" class=\"img-responsive\" />" +
-                    "</div>" +
-                    "</a>" +
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“<i>You</i> said it’s better if your parents don’t know yet that we’re...”" +
+                    "</p>" +
             
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"<i>You</i> said it’s better if your parents don’t know yet that we’re...\"" +
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“I know, I know,” she sighed. “It is for the better. They’ll take you apart and then put you through the meat grinder if I tell them you’re my girlfr—”" +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"I know, I know,\" she sighed. \"It is for the better. They’ll take you apart and then put you through the meat grinder if I tell them you’re my girlfriend. The words girlfriend and boyfriend instantly raise red flags for them. I mean, I don’t blame them, I guess. Had I been my daughter, I would’ve kicked me out way sooner than they did.\"" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "My hand was over her mouth in an instant. “Psst,” I said, glancing at the driver again." +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"You were young and daft,\" I said jokingly and gave her a squeeze. Snorting, she slapped my leg again." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "Sam plucked my hand off her face. “Dude! You’re too paranoid. He probably doesn’t even understand us. Don’t make me more nervous than I already am.”" +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "\"And now… I’m just older.\" She pulled a disgusted face. I had to chuckle but also admit I was proud of her that she was able to reflect on herself like that. To say her youth had been wild would be far from an exaggeration, but she’d grown quite a lot in the three years since we’d first met—as a person and on me." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "It was true that he’d only spoken in Japanese with Sam when he’d picked us up, but still... “I’m just… careful.”" +
                     "</p>" +
-                    "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "Sam was smiling at me again. \"So, considering how much we’ll have to hold back in the next days, we really should we make out now.\" Her smile had turned into a grin. \"Just ignore the driver,\" she said and leant in wanting to give me a kiss." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Just. The. Driver,” she said pointedly and looked at me as if her words were meant to reassure me. “Anyways. I was saying the words girlfriend and boyfriend instantly raise red flags for my parents. I mean, I don’t blame them, I guess. Had I been my daughter, I would’ve kicked me out way sooner than they did.”" +
                     "</p>" +
-                     "<p class=\"tr__para slideInUp slideInUp5\">" +
-                    "Hesitating for a moment, I held her back and glanced at the front seats again." +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“You were young and daft,” I said jokingly and gave her a squeeze." +
                     "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "Snorting, she slapped my leg again. “And now… I’m just older.” She pulled a disgusted face." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "I had to chuckle but also admit I was proud of her that she was able to reflect on herself like that. To say her youth had been wild would be far from an exaggeration, but she’d grown quite a lot in the three years since we’d first met — as a person and on me." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "Sam was smiling at me again. “So, considering how much we’ll have to hold back in the next days, we should totally make out now.” Her smile had turned into a grin. “Just ignore the driver,” she said and leant in." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "Hesitating for a moment, I held her back and took another, nervous look at the front seat." +
+                    "</p>" +
+        
 
-                    "<div class=\"tr__btnwrap slideInUp slideInUp4\">" +
-                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Carkiss yes</a>" +
-                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">Carkiss no</a>" +
+                    "<div class=\"tr__btnwrap slideInUp \">" +
+                    "<h2 class=\"tr__question\"><span class=\"fa fa-map-signs tr__icon\"></span>Kiss the girl?</h2>"+
+                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Yes</a>" +
+                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">No</a>" +
                     "</div>" +
 
                   "</div>" +
@@ -733,21 +770,22 @@
         'Carkiss yes': {
             'text': "" +
                 "<article id=\"slide01\" class=\"tr__slide tr__slide01 qt angled-both-left-right\">" +
-                "<div class=\"tr__slide01__bcg\"></div>" +
+                
+            "<div class=\"tr__slide01__bcg\"></div>" +
                 "<div class=\"tr__slide01__wrapper\">" +
                 "<section>" +
                 "<blockquote class=\"tr__quote\">" +
                 "<p class=\"tr__quote__para\">" +
                 "<span class=\"fa fa-quote-left\"></span>" +
-                " Alice was beginning to get very tired of sitting by her sister on the bank, and of" +
-                "having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no" +
-                "pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations? '" +
+                "A quick kiss surely wouldn’t hurt. Maybe Sam was right. It was impossible to resist her hopeful look, anyway." +
                 "<span class=\"fa fa-quote-right\"></span>" +
                 "</p>" +
                 "</blockquote>" +
                 "</section>" +
                 "</div>" +
+            
                 "</article>" +
+            
                 "<article id=\"cb02\" class=\"tr__contentblock\">" +
 
                 "<div class=\"tr__contentblock__wrapper\">" +
@@ -756,15 +794,34 @@
 
                         "<div class=\"tr__textwrap\">" +
 
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"You should’ve dressed more warmly.\" When Sam only scoffed, I added, \"Or do you want your mother to tend to you while you’re ill in bed?\" Sam’s exaggerated, disgusted face made me chuckle." +
-                            "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"I’ll be fine. You can keep me warm though if you’re worried.\" While she gave me a tired but persistent smirk, I gave the driver a worried glance. \"Just some friendly cuddling,\" she added. \"It was a stupid idea not to sit together.\"" +
-                            "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"It was your idea,\" I reminded her." +
-                            "</p>" +
+                        "<p class=\"tr__para slideInUp \">" +
+                        "My eyes focused on Sam and her soft lips." +
+                        "</p>" +
+
+                        "<p class=\"tr__para slideInUp \">" +
+                        "Her face lit up, probably because I had some easily to read look on my face." +
+                        "</p>" +
+
+                        "<p class=\"tr__para slideInUp \">" +
+                        "Our lips met and, for a moment, I forgot my nervousness about the upcoming week." +
+                        "</p>" +
+
+                        "<p class=\"tr__para slideInUp \">" +
+                        "We’d been together for almost three years, and even the briefest moments of intimacy with Sam still gave me fuzzy feelings." +
+                        "</p>" +
+
+                        "<p class=\"tr__para slideInUp \">" +
+                        "The happy sigh I couldn’t hold back made Sam press herself more into me and the kiss." +
+                        "</p>" +
+
+                        "<p class=\"tr__para slideInUp \">" +
+                        "“Sam,” I murmured and she reluctantly broke away." +
+                        "</p>" +
+
+                        "<p class=\"tr__para slideInUp \">" +
+                        "“Okay, okay.” Looking quite pleased, she made herself comfortable again." +
+                        "</p>" +
+        
 
                                "<a class=\"tr__moviebox__link\" href=\"#\" data-featherlight=\"img/story/carkiss_yes.gif\">" +
                             "<div class=\"tr__movie__wrapper right\">" +
@@ -797,19 +854,7 @@
                             "</div>" +
                             "</div>" +
                             "</a>" +
-
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"Well, in theory it was a good one.\" She grinned half-heartedly before pointing at the front seat with a shrug. \"He’s just the driver. And when we arrive, we’ll just sit apart again. Seriously, we’re going to spend an entire week with my parents. I really need some good cuddles now.\"" +
-                            "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "Sighing, I turned to her with a resigned smile. With swift movements belying her tired look, Sam opened her seat belt and re-belted up in the middle of the back seat. She snuggled into me as we locked arms. I preferred it that way as well. Sam made me feel a kind of warmth the car heater couldn’t provide. I relaxed into her until Sam’s smug smirk caught my attention." +
-                            "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"What?\"" +
-                            "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"Loved the stupid grin you just had,\" she chuckled, now sporting one herself. My eyes were still rolling at her, when her face fell and she put her head back on my shoulder. \"I really wanna kiss you right now,\" she muttered." +
-                            "</p>" +
+                
 
                             "{Carkiss more}" +
                         "</div>" +
@@ -831,9 +876,7 @@
                 "<blockquote class=\"tr__quote\">" +
                 "<p class=\"tr__quote__para\">" +
                 "<span class=\"fa fa-quote-left\"></span>" +
-                " Alice was beginning to get very tired of sitting by her sister on the bank, and of" +
-                "having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no" +
-                "pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations? '" +
+                "There was too much at stake. The impression Sam had given of her mother was that she’d interrogate the driver later whether anything had happened." +
                 "<span class=\"fa fa-quote-right\"></span>" +
                 "</p>" +
                 "</blockquote>" +
@@ -850,15 +893,52 @@
 
                         "<div class=\"tr__textwrap\">" +
                 
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"You should’ve dressed more warmly.\" When Sam only scoffed, I added, \"Or do you want your mother to tend to you while you’re ill in bed?\" Sam’s exaggerated, disgusted face made me chuckle." +
+                          
+                            "<p class=\"tr__para slideInUp \">" +
+                            "“Sam, please. Stick to the plan,” I said in a low tone and tried to dodge her advances by pressing myself against the door." +
                             "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"I’ll be fine. You can keep me warm though if you’re worried.\" While she gave me a tired but persistent smirk, I gave the driver a worried glance. \"Just some friendly cuddling,\" she added. \"It was a stupid idea not to sit together.\"" +
+            
+                            "<p class=\"tr__para slideInUp \">" +
+                            "“Stupid plan,” she muttered and looked like she was going to put her head back on my shoulder." +
                             "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"It was your idea,\" I reminded her." +
+            
+                            "<p class=\"tr__para slideInUp \">" +
+                            "She froze, flashed a mischievous smirk, and then latched onto my exposed neck." +
                             "</p>" +
+            
+                            "<p class=\"tr__para slideInUp \">" +
+                            "“Sam, no!” She’d caught me off-guard." +
+                            "</p>" +
+            
+                            "<p class=\"tr__para slideInUp \">" +
+                            "“Sam, yes,” she murmured against me." +
+                            "</p>" +
+
+                            "<p class=\"tr__para slideInUp \">" +
+                            "I tried to push her away as she kissed my sensitive skin, but that just made her bite onto my neck more firmly. A shiver ran down my spine." +
+                            "</p>" +
+            
+                            "<p class=\"tr__para slideInUp \">" +
+                            "It was only when I surrendered to the pleasure and stopped struggling that she stopped giggling and mauling me." +
+                            "</p>" +
+            
+                            "<p class=\"tr__para slideInUp \">" +
+                            "“Mmh,” she made with a broad smile." +
+                            "</p>" +
+            
+                            "<p class=\"tr__para slideInUp \">" +
+                            "“Are you done?” My voice was shaky." +
+                            "</p>" +
+            
+                            "<p class=\"tr__para slideInUp \">" +
+                            "“It’ll do for now.” Snickering, she made herself comfortable again while I composed myself." +
+                            "</p>" +
+            
+                            "<p class=\"tr__para slideInUp \">" +
+                            "Hoping that Sam hadn’t foiled our plans, I at least took comfort in her looking happy." +
+                            "</p>" +
+            
+            
 
                                "<a class=\"tr__moviebox__link\" href=\"#\" data-featherlight=\"http://via.placeholder.com/500x281?text=Carkiss_no_gif\">" +
                             "<div class=\"tr__movie__wrapper right\">" +
@@ -891,19 +971,6 @@
                             "</div>" +
                             "</div>" +
                             "</a>" +
-
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"Well, in theory it was a good one.\" She grinned half-heartedly before pointing at the front seat with a shrug. \"He’s just the driver. And when we arrive, we’ll just sit apart again. Seriously, we’re going to spend an entire week with my parents. I really need some good cuddles now.\"" +
-                            "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "Sighing, I turned to her with a resigned smile. With swift movements belying her tired look, Sam opened her seat belt and re-belted up in the middle of the back seat. She snuggled into me as we locked arms. I preferred it that way as well. Sam made me feel a kind of warmth the car heater couldn’t provide. I relaxed into her until Sam’s smug smirk caught my attention." +
-                            "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"What?\"" +
-                            "</p>" +
-                            "<p class=\"tr__para slideInUp slideInUp5\">" +
-                            "\"Loved the stupid grin you just had,\" she chuckled, now sporting one herself. My eyes were still rolling at her, when her face fell and she put her head back on my shoulder. \"I really wanna kiss you right now,\" she muttered." +
-                            "</p>" +
             
                             "{Carkiss more}" +
                         "</div>" +
@@ -915,54 +982,218 @@
         },
         'Carkiss more': {
             'text': "" +
-                "<p class=\"tr__para slideInUp slideInUp2\">" +
-                "\"Anyway,\" she continued, \"we really have to make my parents like you before we let them know about us. So, behave yourself!” She gave me an intense look and waved her finger at me. I scoffed, to which Sam poked my well-padded shoulder. \"I’m serious. Like—\"" +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp3\">" +
-                "\"I always behave myself.\" My head heated up a tad from Sam’s accusing tone. I was short of adding ‘unlike you’." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp4\">" +
-                "\"Like—don’t interrupt anyone.\" Sam’s smug look made me sigh. Slumping, I mentally braced myself for what I knew I was in for now that I’d accidentally proven her point.  \"Especially not my mom,\" she begun. \"But neither Dad, really. And, no,\" she rose her finger at me again, \"that doesn’t mean you get to keep quiet. Make conversation. Show some interest. Mom’s a sucker for compliments, but don’t overdo it, or I’ll throw up.\" Sam paused to shudder. \"Ask questions. Dad has all this old stuff standing around. Maybe you can whip out your archeological super powers and you can bond over that and become best buddies. But don’t. Break. Anything.\" Sam had put on her serious face for that. Rolling my eyes, I turned to look out the window with warm cheeks." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"Are you listening?\"" +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"Yeah, yeah.\"" +
-                "</p>" + 
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"Lara…\" Sam waited until I looked at her again. \"This is important. It’s important to me.\"" +
-                "</p>" +                
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"I know,\" I sighed." +
-                "</p>" + 
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "\"I want them to take you serious. To take us serious. This is on me that we have to deal with this but, please, just help me here.\" She gave me a pleading look that made me wanting to tell her that it wasn’t going to be the end of everything should it go south, but I had my own reasons why that week with her parents was important." +
-                "</p>" +
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "Seemingly placated, Sam put her head back on my shoulder." +
-                "</p>" +            
-                "<p class=\"tr__para slideInUp slideInUp5\">" +
-                "..................." +
-                "</p>" +                
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“I’m so glad you came with me,” she said." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“But, of course.” I gave her another gentle squeeze." +
+                    "</p>" +
+                    
+                    "<p class=\"tr__para slideInUp \">" +
+                    "She glanced at me with a heart-warming smile before her expression became serious again. “We really have to make my parents like you before we let them know about us. So, behave yourself!” She gave me an intense look and waved her finger at me. I scoffed, and Sam poked my well-padded shoulder in response. “I’m serious. Like—“" +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“I always behave myself.” My head heated up a tad from Sam’s accusing tone. I was short of adding ‘unlike you’." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Like — don’t interrupt anyone.” Sam’s smug look made me sigh. Slumping, I mentally braced myself for what I knew I was in for now that I’d accidentally proven her point." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Especially not my mom,” she began. “But neither Dad, really. And, no,” she rose her finger at me again, “that doesn’t mean you get to keep quiet. Make conversation. Show some interest. Mom’s a sucker for compliments, but don’t overdo it, or I’ll throw up.” Sam paused to shudder. “Ask questions. Dad has all this old stuff standing around. Maybe you can whip out your archeological super powers and you can bond over that and become best buddies. But don’t. Break. Anything.” Sam had put on her serious face for that." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "Rolling my eyes, I turned to look out the window with warm cheeks." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“It’s mostly Mom, really. You’ll have to be extra careful with her. Are you listening?”" +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Yeah, yeah.”" +
+                    "</p>" +            
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Lara…” She waited until I looked at her again. “This is important. It’s important to me.”" +
+                    "</p>" +            
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“I know,” I sighed." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“I want them to take you serious. To take us serious. This is on me that we have to deal with this but, please, just help me here.” She gave me a pleading look." +
+                    "</p>" +
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "“I will. Don’t worry. I’ll give my best.”" +
+                    "</p>" +           
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "Sam raised an eyebrow at me. “We’re so doomed.”" +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "I scoffed at her while my hand sneaked under her jacket and pinched her ticklish side." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“I was joking!” she squealed and giggled, throwing up her hands to yield." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“But I wasn’t,” I told her after she’d calmed down. “I promise I’ll do my best.”" +
+                    "</p>" +
+            
+            
+            
+                    "<a class=\"tr__polaroid__link slideInUp slideInUp5\" href=\"#\" data-featherlight=\"img/story/carsnuggle.jpg\">" +
+                    "<div class=\"tr__polaroid left\">" +
+                    "<img src=\"img/story/carsnuggle_pola.jpg\" class=\"img-responsive\" />" +
+                    "</div>" +
+                    "</a>" +
+            
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Thanks, sweetie.” Seemingly placated, Sam put her head back on my shoulder and cuddled into me. She’d been quite on edge because of the visit to her parents. I wanted to tell her that it wasn’t going to be the end of anything should it go south, but I had my own reasons why that week was important." +
+                    "</p>" +
+      
+                    "<p class=\"tr__para slideInUp \">" +
+                    "Besides, we’d been through thick and thin in those past college years, always coming through and growing closer, I thought as I cradled the girl in my arms. How bad could be a week with Sam’s parents?" +
+                    "</p>" +          
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Oh,” she piped up from my shoulder, pulling me out of my thoughts, “and for the sake of everything that is holy, please don’t touch the chopsticks during dinner. I still have nightmares from the last time you tried to use them.” She clung to my arm with a look of horror on her face." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "I groaned at her reaction, but my head noticeably heated up. “So,” I said and quickly changed the topic, “are you sure your parents don’t know about us?”" +
+                    "</p>" +          
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Why should they?”" +
+                    "</p>" +
+      
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Well, weren’t you quite persistent about bringing me with you?”" +
+                    "</p>" +          
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“They know you’re my roomie and best friend. Should be fine. I hope.”" +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“What about all the pictures you post of us?”" +
+                    "</p>" +             
+            
+                      "<p class=\"tr__para slideInUp \">" +
+                    "Sam shrugged. “Most of the ones I put online are kinda ambiguous, I guess?” Ignoring my incredulous glance, she continued, “Besides, with how busy they are, their feeds must be clustered. I mean, you know Dad’s a media mogul and Mom and her model agency? And I think her fashion label is gonna release a new collection soon-ish. I’m sure they have way better things to do than to look at my crap. They never really cared about what I did, anyway.”" +
+                    "</p>" +
+      
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Oh, Sam…” I wanted to say something comforting, but she just shrugged again." +
+                    "</p>" +          
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“I haven’t seen them for more than a day at a time since I started college. And now an entire week. I just hope…” As she trailed off and took a deep breath, her hand sneaked onto my thigh to stroke it slowly." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“We’ll be fine. We’ve survived worse.”" +
+                    "</p>" + 
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "“You say that now,” Sam chuckled and then exhaled at length. “It’s gonna suck acting all gal pal-ish until I’m sure they like you. Oh!” Something caught her attention. She looked past me out the window as the car slowed down to turn into a pathway. “Guess we can start practicing.”" +
+                    "</p>" +          
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "As we drove up a hill, a bright light could be seen in the distance through trees lining the road. It almost looked as if something was on fire. I gave Sam a worried glance." +
+                    "</p>" +
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "She groaned. “Dad and his Christmas lights. I’m surprised Mom hasn’t made him take them down yet. Anyway,” she said and pecked my cheek, “see you on the other side. Good luck.”" +
+                    "</p>" +   
+            
+            
+                    "{if not carkiss:<p class=\"tr__para slideInUp \">" +
+                    "She was about to change seats but noticed something on my neck that made her halt. Staring at me, she pulled her lips between her teeth so as to not laugh." +
+                    "</p>" +
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "“What?” I reflexively turned my head as if I’d be able to look at my own neck." +
+                    "</p>" +   
+            
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“You may or may not have a hickey there.” Sam grinned while I had a light panic attack. “Don’t worry,” she said and readjusted my scarf. “I’ll cover it up with some make-up later. Just, ugh, hide it for now.”" +
+                    "</p>" +   
+            
+                         
+                    "<p class=\"tr__para slideInUp \">" +
+                    "“Great,” I muttered, fiddling with the collar of my jacket." +
+                    "</p>}" +   
+            
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "Sam unbuckled and took place on the other side of the backseat again." +
+                    "</p>" + 
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "Leaving the tree-lined pathway behind, a modern, yet still traditionally Japanese looking, two-storeyed residence came into view whose front was plastered with rows of Christmas lights in all kinds of colours. We pulled up to a garage door and came to a halt next to a glowing reindeer figure." +
+                    "</p>" +         
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "Sam looked at me nervously and said,  “Love you.” It sounded like a farewell as if some catastrophe was about to happen. I knew she was exaggerating, but it still made me more nervous." +
+                    "</p>" + 
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "By the time the driver got out of his seat and opened the door for me, Sam had already left the car. When she joined my side, the driver bowed before us." +
+                    "</p>" +              
+            
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "“Welcome to the Nishimura residence,” he said in perfect English. “I’ll be your personal assistant for your stay. If there is anything you need, please let me know. If you’d like, please go inside while I bring your luggage to your rooms.” With that, he excused himself and got to work at the trunk." +
+                    "</p>" + 
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "Sam and I stared at each other." +
+                    "</p>" +        
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "“So much for ‘just the driver’,” I whispered with a twinge of panic." +
+                    "</p>" + 
+            
+                     "<p class=\"tr__para slideInUp \">" +
+                    "“Oops.”" +
+                    "</p>" +              
+            
             
             
                 "<div class=\"tr__btnwrap slideInUp slideInUp4\">" +
-                "<a class=\"squiffy-link link-section\" data-section=\"thanks\" role=\"link\" tabindex=\"0\">TBC</a>" +
+                "<a class=\"squiffy-link link-section first\" data-section=\"thanks\" role=\"link\" tabindex=\"0\">To be continued</a>" +
                 "</div>",
             'passages': {},
         },
         'thanks': {
             'text': "" +
-               "<article id=\"slide02\" class=\"tr__slide tr__slide01 qt\">" +
+                "<article id=\"slide02\" class=\"tr__slide tr__slide02 qt angled-both-right-left\">" +
                 "<div class=\"tr__slide01__bcg\"></div>" +
                 "<div class=\"tr__slide01__wrapper\">" +
                 "<section>" +
-                "<blockquote class=\"tr__quote\">" +
-                "<p class=\"tr__quote__para\">" +
-                "Thanks and good buy" +
+               
+               "<p class=\"tr__para slideInUp \">" +
+                "Thank you for checking out the teaser. We hope you enjoyed it and we'll see you again when the final version gets released." +
                 "</p>" +
-                "</blockquote>" +
+            
+            
+             "<p class=\"tr__para slideInUp \">" +
+            "We'd appreciate feedback, even if it's just to report a bug. Let us know what you think, what you liked and didn't liked so further versions can be edited to your needs. Just contact either one of us on Tumblr or Twitter." +
+             "</p>" +
+               
                 "</section>" +
                 "</div>" +
                 "</article>",

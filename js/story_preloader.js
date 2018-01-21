@@ -35,7 +35,7 @@ $(window).load(function () {
 
     preloader();
 
-    preloadPictures(["/img/story/carkiss_no.jpg", "/img/story/carkiss_yes.jpg", "/img/story/carkiss_yes.gif", "/img/story/carkiss_yes_preset.jpg", "/img/story/carsnuggle.jpg", "/img/story/carsnuggle_pola.jpg", "/img/story/lara_landscape_pola.jpg", "/img/story/lara_landscape.jpg"], function () {
+    preloadPictures(["/img/story/carkiss_no_notify.jpg", "/img/story/carkiss_yes_notify.jpg", "/img/story/carkiss_no_preset.jpg", "/img/story/carkiss_yes_preset.jpg", "/img/story/carsnuggle.jpg", "/img/story/carsnuggle_pola.jpg", "/img/story/lara_landscape_pola.jpg", "/img/story/lara_landscape.jpg"], function () {
 
         initSM();
         initSMheader();

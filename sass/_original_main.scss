@@ -107,10 +107,12 @@
 
 .tr__introductionblock__para {
     color: $white;
-    font-size: 24px;
-    line-height: 27px;
-    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 30px;
     @include tilli-bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 
     @media (max-width: $screen-tablet) {
         font-size: 18px;
@@ -256,7 +258,14 @@
 .tr__btnwrap {
     width: 100%;
     display: inline-block;
-    margin-top: 20px;
+}
+
+.tr__question {
+    margin-bottom: 20px;
+    
+    .tr__icon {
+        margin-right: 15px;
+    }
 }
 
 
@@ -417,6 +426,11 @@
     }
 }
 
+.tr__moviebox__link {
+    position: relative;
+    z-index: 1;
+}
+
 .tr__movie__box {
     width: 100%;
     height: 100%;
@@ -469,7 +483,7 @@
     }
 
     &.carkiss__no {
-        background: url(http://via.placeholder.com/500x281?text=Carkiss_no_preset) center center no-repeat;
+        background: url(/img/story/carkiss_no_preset.jpg) center center no-repeat;
     }
 
     &.tutorial {

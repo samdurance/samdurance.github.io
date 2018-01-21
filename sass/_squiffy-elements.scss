@@ -2,20 +2,25 @@
     color: $white;
     font-size: 18px;
     padding: 10px;
-    border: 1px solid $white;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+    border: 3px solid $white;
+    -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     background: transparent;
     @include tilli-bold;
     margin-right: 15px;
     cursor: pointer;
     text-transform: uppercase;
+    display:inline-block;
+    min-width: 130px;
+    text-align: center;
+    letter-spacing: 2px;
 
     &:hover {
         text-decoration: none;
         color: $anthrazit;
         background: $white;
+        box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.3);
     }
 
     &.invisible {
@@ -60,11 +65,11 @@
     width: 100%;
     z-index: 3;
     height: auto !important;
-    bottom: 10%;
+    bottom: 0;
     position: absolute;
 
     a {
-        margin: 0 15px;
+        margin: 0 0 30px;
         font-size: 20px;
     }
 }

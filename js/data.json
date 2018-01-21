@@ -2,14 +2,14 @@
     "Carkiss no": {
         "popup": {
             "content": "Sam will remember this.",
-            "thumb": "/img/story/carkiss_no.jpg"
+            "thumb": "/img/story/carkiss_no_notify.jpg"
         }
     },
  
     "Carkiss yes": {
         "popup": {
             "content": "Sam appreciates this.",
-            "thumb": "/img/story/carkiss_yes.jpg"
+            "thumb": "/img/story/carkiss_yes_notify.jpg"
         }
     }
 }
