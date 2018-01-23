@@ -615,9 +615,9 @@
             'text': "" +
                 "<div class=\"tr__introductionblock\">" +
                 "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">Start Teaser</a>" +
-                "<p class=\"tr__introductionblock__para\">" +
-                "written by deberzer <br> illustrated by burritorat" +
-                "</p>" +
+                //"<p class=\"tr__introductionblock__para\">" +
+                //"written by deberzer <br> illustrated by burritorat" +
+                //"</p>" +
                 "</div>"
         },
         'start': {

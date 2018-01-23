@@ -101,25 +101,23 @@
 /* ========================================================================== */
 
 .tr__themeswitch {
-    width: 60px;
+    width: 50px;
     padding: 3px;
-    position: fixed;
-    top: 20px;
-    right: 15px;
+    position: absolute;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    -webkit-border-radius: 540px;
-    -moz-border-radius: 540px;
-    border-radius: 540px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
     cursor: pointer;
     background: transparent;
-    border: 3px solid $lara_highlight;
+    border: 2px solid $lara_highlight;
 
     .dark & {
-        border: 3px solid $sam_highlight;
+        border: 2px solid $sam_highlight;
     }
 }
 
@@ -130,8 +128,8 @@
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-    position:relative;
-    left:0;
+    position: relative;
+    left: 0;
     -webkit-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
     -moz-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
     -ms-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
@@ -143,7 +141,7 @@
 
 
     .dark & {
-        left: 32px;
+        left: 20px;
         background: $sam_highlight;
     }
 }
@@ -152,10 +150,25 @@
 // Story Menu
 /* ========================================================================== */
 
-.tr__menu{
-    position: fixed;
-    border: 2px solid $lara_highlight;
+.tr__menubar {
+    position: relative;
+    top: 20px;
     width: 50px;
+    float: right;
+    right: 15px;
+    z-index: 3;
+    text-align: center;
+
+    &.affix {
+        position: fixed;
+    }
+}
+
+
+.tr__menu {
+    position: absolute;
+    border: 2px solid $lara_highlight;
+    width: 46px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -164,9 +177,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 60px;
-    right: 20px;
     overflow: hidden;
+    top: 35px;
+    right: 2px;
 
     .dark & {
         border: 2px solid $sam_highlight;
@@ -174,73 +187,95 @@
 }
 
 .tr__menu--closed {
-    height: 50px;
+    height: 46px;
 }
 
 .tr__menu--open {
-    height: 300px;
+    height: 235px;
 }
 
 .tr__menu__btn {
-    transition: 0.3s transform ease-in-out, 0.3s opacity ease-in-out;;
+    transition: 0.3s transform ease-in-out, 0.3s opacity ease-in-out;
     cursor: pointer;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 2em;
-    height: 2em;
-    left: 10px;
-    top: 10px;
-    opacity: 1;
+    width: 100%;
+    height: 100%;
 
-    &:hover {
-        opacity: 0.6;
-    }
 
     span {
-        width: 100%;
-        height: 4px;
-        background-color: $lara_highlight;
-        border-radius: 20%;
 
+        display: block;
+        height: 4px;
+        background: $lara_highlight;
+        width: 30px;
+        left: 6px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        position: absolute;
+
+        &:nth-child(1) {
+            top: 11px;
+
+            .tr__menu--open & {
+                top: 25px;
+                -webkit-transform: rotateZ(45deg);
+                transform: rotateZ(45deg);
+            }
+        }
+        
+        &:nth-child(2) {
+            top: 20px;
+
+            .tr__menu--open & {
+                background: transparent;
+            }
+        }
+        
+        &:nth-child(3) {
+            top: 29px;
+
+            .tr__menu--open & {
+                 top: 25px;
+                -webkit-transform: rotateZ(-45deg);
+                transform: rotateZ(-45deg);
+            }
+        }
+        
         .dark & {
             background-color: $sam_highlight;
         }
-    }
-
-    .tr__menu--open & {
-        transform-origin: center;
-        transform: rotate(90deg);
     }
 }
 
 
 
-.tr__menu__tools{
+.tr__menu__tools {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    height: 60%;
+    height: 55%;
     justify-content: space-between;
     transition: 0.3s margin ease-in-out;
 }
 
 
-.tr__menu__tools--hidden{
+.tr__menu__tools--hidden {
     margin-top: 400px;
     z-index: -100;
 }
 
-.tr__menu__tools--visible{
-    margin-top: 15%;
+.tr__menu__tools--visible {
+    margin-top: 22%;
     z-index: 100;
 }
 
 .tr__menu__tools__link {
     color: $lara_highlight;
-    font-size: 22px;
+    font-size: 29px;
     background: transparent;
     border: 0;
 
@@ -254,6 +289,26 @@
 
     &:hover {
         color: $lara_text;
+
+        .tr__menu__tools__label {
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+            transform: translateX(0);
+            opacity: 1;
+            visibility: visible;
+        }
     }
 }
 
+.tr__menu__tools__label {
+    display: block;
+    opacity: 0.5;
+    visibility: hidden;
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+    -webkit-transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+    transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+}

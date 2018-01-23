@@ -1,7 +1,12 @@
 $(document).ready(function () {
-    //initSM();
-
-    // $('#squiffy').squiffy('restart');
+    
+    
+    $('.tr__menubar').affix({
+    offset: {     
+      top: $('.tr__menubar').offset().top
+      //bottom: ($('footer').outerHeight(true) + $('.application').outerHeight(true)) + 40
+    }
+});
 });
 
 
@@ -13,10 +18,7 @@ $(document).on('click', '#start', function (e) {
 });
 
 
-$(".tr__acbtn").on("click", function () {
-    $(this).children(".ripple").addClass("rippling");
-    $('.squiffy-section').addClass('blur');
-});
+
 
 
 jQuery(function ($) {
@@ -66,7 +68,7 @@ $(document).on('click', '.squiffy-link', function (e) {
 
     var section = $(this).attr('data-section');
 
-    if (!$(this).hasClass('first') || !$(this).hasClass('last')) {
+    if (! $(this).hasClass('first') || $(this).hasClass('last')) {
 
         $.ajax({
             type: 'GET',

@@ -27,42 +27,42 @@
 </head>
 
 <body class="tr__story">
-<!--[if lt IE 8]>
+    <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="tr__lightbox tr__lightbox--infobox" id="infobox">
-    <h2>Tutorial</h2>
-    <p>Learn how to navigate Family Matters.</p>
+    <div class="tr__lightbox tr__lightbox--infobox" id="infobox">
+        <h2>Tutorial</h2>
+        <p>Learn how to navigate Family Matters.</p>
 
-    <div class="tr__lightbox__btn__wrapper">
-        <a class="tr__lightbox__btn alert" href="/tutorial">Start</a>
-        <button class="tr__lightbox__btn featherlight-close">Cancel</button>
-    </div>
-</div>
-
-<div class="tr__lightbox tr__lightbox--restartbox" id="restartbox">
-    <h2>Restart Story</h2>
-    <p>Are you sure you want to restart the story?</p>
-    <p>All progress and decisions you've made so far will be lost. You will have to start over again.</p>
-
-    <div class="tr__lightbox__btn__wrapper">
-        <button class="tr__lightbox__btn alert" id="restart" tabindex="0">Restart</button>
-        <button class="tr__lightbox__btn featherlight-close">Cancel</button>
-    </div>
-</div>
-
-
-<div class="tr__story__inner">
-
-    <div class="tr__preload__overlay">
-        <div class="tr__preload__logo">
-            <img src="/img/logo_w.svg" alt="Family Matters Logo" />
+        <div class="tr__lightbox__btn__wrapper">
+            <a class="tr__lightbox__btn alert" href="/tutorial">Start</a>
+            <button class="tr__lightbox__btn featherlight-close">Cancel</button>
         </div>
+    </div>
 
-        <div class="tr__preload__loader ip-loader">
-            <div class="tr__preload__loader__inner">
-                <svg class="animated fadeIn" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 354.461 354.461" style="enable-background:new 0 0 354.461 354.461;" xml:space="preserve">
+    <div class="tr__lightbox tr__lightbox--restartbox" id="restartbox">
+        <h2>Restart Story</h2>
+        <p>Are you sure you want to restart the story?</p>
+        <p>All progress and decisions you've made so far will be lost. You will have to start over again.</p>
+
+        <div class="tr__lightbox__btn__wrapper">
+            <button class="tr__lightbox__btn alert" id="restart" tabindex="0">Restart</button>
+            <button class="tr__lightbox__btn featherlight-close">Cancel</button>
+        </div>
+    </div>
+
+
+    <div class="tr__story__inner">
+
+        <div class="tr__preload__overlay">
+            <div class="tr__preload__logo">
+                <img src="/img/logo_w.svg" alt="Family Matters Logo" />
+            </div>
+
+            <div class="tr__preload__loader ip-loader">
+                <div class="tr__preload__loader__inner">
+                    <svg class="animated fadeIn" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 354.461 354.461" style="enable-background:new 0 0 354.461 354.461;" xml:space="preserve">
 <g id="XMLID_484_">
 
 	<circle id="popcorncircle" class="firstcirle" cx="260.426" cy="22.695" r="22.695"/>
@@ -140,21 +140,25 @@
 	<path id="XMLID_515_" style="fill:#D14F4E;" d="M295.424,159.361c-2.49-22.257-21.497-39.711-44.39-39.711h0
 		c-22.893,0-41.9,17.454-44.39,39.711h-0.285v4.964v59.567v130.569h69.495l19.856-190.136v-4.964H295.424z"/>
 </svg>
+                </div>
+                <p class="tr__preload__loader__para">preparing popcorn...</p>
             </div>
-            <p class="tr__preload__loader__para">preparing popcorn...</p>
-        </div>
-    </div>
-
-
-    <div class="tr__main__container">
-
-        <div id="intro" class="tr__bookcover">
-            <div class="tr__bookcover__overlay"></div>
-            <div class="tr__bookcover__bcg"></div>
-            <header class="tr__bookcover__wrapper"></header>
         </div>
 
-        <!--<nav class="trs__nav">
+
+        <div class="tr__main__container">
+
+            <div id="intro" class="tr__bookcover">
+                <div class="tr__bookcover__overlay"></div>
+                <div class="tr__bookcover__bcg"></div>
+                <header class="tr__bookcover__wrapper">
+                    <p class="tr__bookcover__para">
+                        written by deberzer <br> illustrated by burritorat
+                    </p>
+                </header>
+            </div>
+
+            <!--<nav class="trs__nav">
         <ul class="trs__nav__list">
             <li class="trs__nav__list__item">
                 <a class="trs__nav__link active" href="#ch1">
@@ -189,67 +193,73 @@
         </ul>
     </nav>-->
 
-        <div class="tr__squiffy__container">
-
-
-            <div class="tr__themeswitch">
-                <div class="tr__themeswitch__toggle"></div>
-            </div>
-
-            <div class="tr__menu tr__menu--closed">
+            <div class="tr__squiffy__container">
 
 
 
-                <div class="tr__menu__btn">
-                    <span> </span>
-                    <span> </span>
-                    <span> </span>
-                </div>
 
-                <div class="tr__menu__tools tr__menu__tools--hidden">
-                    <a class="tr__menu__tools__link" href="/">
+                <!--<div class="tr__squiffy__header">-->
+                <!--<button class="tr__acbtn info fa fa-question" data-url="#infobox">-->
+                <!--<div class="ripple"></div>-->
+                <!--</button>-->
+
+                <!--<button class="tr__acbtn restart fa fa-refresh" data-url="#restartbox">-->
+                <!--<div class="ripple"></div>-->
+                <!--</button>-->
+                <!--</div>-->
+
+
+                <div id="squiffy">
+
+                    <div class="tr__menubar">
+
+                        <div class="tr__themeswitch">
+                            <div class="tr__themeswitch__toggle"></div>
+                        </div>
+
+                        <div class="tr__menu tr__menu--closed">
+
+
+
+                            <div class="tr__menu__btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="tr__menu__tools tr__menu__tools--hidden">
+                                <a class="tr__menu__tools__link" href="/">
                         <span class="fa fa-home tr__icon"></span>
                     </a>
 
-                    <button class="tr__menu__tools__link" data-url="#infobox">
+                                <a class="tr__menu__tools__link" href="/tutorial.html">
                         <span class="fa fa-question-circle-o tr__icon"></span>
-                    </button>
+                    </a>
 
-                    <button class="tr__menu__tools__link" data-url="#restartbox">
+                                <button class="tr__menu__tools__link tr__acbtn" data-url="#restartbox">
                         <span class="fa fa-refresh tr__icon"></span>
                     </button>
 
-                    <a class="tr__menu__tools__link" href="#">
+                    <!--            <a class="tr__menu__tools__link" href="#">
                         <span class="fa fa-map-signs tr__icon"></span>
                     </a>
 
-                    <a class="tr__menu__tools__link" href="#">
+                                <a class="tr__menu__tools__link" href="#">
                         <span class="fa fa-trophy tr__icon"></span>
-                    </a>
+                    </a>-->
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-
-            <!--<div class="tr__squiffy__header">-->
-            <!--<button class="tr__acbtn info fa fa-question" data-url="#infobox">-->
-            <!--<div class="ripple"></div>-->
-            <!--</button>-->
-
-            <!--<button class="tr__acbtn restart fa fa-refresh" data-url="#restartbox">-->
-            <!--<div class="ripple"></div>-->
-            <!--</button>-->
-            <!--</div>-->
-
-
-            <div id="squiffy"></div>
         </div>
-
     </div>
-</div>
 
 
 
-<svg width="0" height="0" style="position:absolute">
+    <svg width="0" height="0" style="position:absolute">
     <filter id="blur2px">
         <feGaussianBlur in="SourceGraphic" stdDeviation="2"></feGaussianBlur>
     </filter>
@@ -257,29 +267,23 @@
 
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
-<script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
 
-</script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script type="application/javascript" src="js/libs/bootstrap-notify.min.js"></script>
+    <script type="application/javascript" src="//cdn.rawgit.com/twbs/bootstrap/v3.3.7/js/affix.js"></script>
+    <script type="application/javascript" src="//cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" charset="utf-8"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script type="application/javascript" src="js/layout_story_tidy.js" charset="UTF-8"></script>
 
-<script type="application/javascript" src="js/libs/bootstrap-notify.min.js"></script>
-<script type="application/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/js/bootstrap-tour.min.js"></script>
-<script type="application/javascript" src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" charset="utf-8"></script>
-
-<script type="application/javascript" src="js/layout_story_tidy.js" charset="UTF-8"></script>
-
-<script src="js/scrollmagic_main.js"></script>
-<script src="js/story_preloader.js"></script>
-<script src="js/story_main.js"></script>
+    <script src="js/scrollmagic_main.js"></script>
+    <script src="js/story_preloader.js"></script>
+    <script src="js/story_main.js"></script>
 
 </body>
 
