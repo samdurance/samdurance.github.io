@@ -16,7 +16,11 @@
     margin-top: 0;
     @include tilli-bold;
     text-transform: uppercase;
-    color: $white;
+    color: $lara_text;
+
+    .dark & {
+        color: $sam_text;
+    }
 }
 
 .tr__para {
@@ -143,9 +147,13 @@
 
 
 .tr__slide {
-    color: $white;
+    color: $lara_text;
     position: relative;
     overflow: hidden;
+
+    .dark & {
+        color: $sam_text;
+    }
 
     &.fs {
         height: 100vh;
@@ -191,9 +199,14 @@
 /* =Content Block */
 
 .tr__contentblock {
-    background-color: $greyish;
-    color: transparentize($white, .1);
+    background-color: $lara_background;
+    color: $lara_text;
     padding: 90px 50px;
+
+    .dark & {
+        background-color: $sam_background;
+        color: $sam_text;
+    }
 
     .no-touch & {
 
@@ -262,7 +275,7 @@
 
 .tr__question {
     margin-bottom: 20px;
-    
+
     .tr__icon {
         margin-right: 15px;
     }
@@ -328,10 +341,14 @@
 }
 
 .tr__quote__para {
-    color: $white;
+    color: $lara_highlight;
     font-size: 30px;
     line-height: 40px;
     @include tilli-normal-italic;
+
+    .dark & {
+        color: $sam_highlight;
+    }
 }
 
 

@@ -38,18 +38,18 @@
 }
 
 @mixin keyframes($name) {
-  @-webkit-keyframes #{$name} { @content; }
-  @-moz-keyframes #{$name} { @content; }
-  @-ms-keyframes #{$name} { @content; }
-  @keyframes #{$name} { @content; } 
+    @-webkit-keyframes #{$name} { @content; }
+    @-moz-keyframes #{$name} { @content; }
+    @-ms-keyframes #{$name} { @content; }
+    @keyframes #{$name} { @content; }
 }
 
 
 
-@mixin angle-edge($pos-top:null, $angle-top:null, $pos-btm:null, $angle-btm:null){
+@mixin angle-edge($color, $pos-top:null, $angle-top:null, $pos-btm:null, $angle-btm:null){
     width: 100%;
     position: relative;
-    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: $color;
     &:before,
     &:after{
         content: '';
@@ -93,27 +93,37 @@
     }
 }
 
-.angled-top-left{
-	@include angle-edge($pos-top: topleft, $angle-top: 3deg);
-}
-.angled-top-right{
-	@include angle-edge($pos-top: topright, $angle-top: 3deg);
-}
-.angled-bottom-left{
-	@include angle-edge($pos-btm: bottomleft, $angle-btm: 3deg);
-}
-.angled-bottom-right{
-	@include angle-edge($pos-btm: bottomright, $angle-btm: 3deg);
-}
-.angled-both-left{
-	@include angle-edge(topleft, 3deg, bottomleft, 3deg);
-}
-.angled-both-right{
-	@include angle-edge(topright, 3deg, bottomright, 3deg);
-}
+//.angled-top-left{
+//	@include angle-edge($pos-top: topleft, $angle-top: 3deg);
+//}
+//.angled-top-right{
+//	@include angle-edge($pos-top: topright, $angle-top: 3deg);
+//}
+//.angled-bottom-left{
+//	@include angle-edge($pos-btm: bottomleft, $angle-btm: 3deg);
+//}
+//.angled-bottom-right{
+//	@include angle-edge($pos-btm: bottomright, $angle-btm: 3deg);
+//}
+//.angled-both-left{
+//	@include angle-edge(topleft, 3deg, bottomleft, 3deg);
+//}
+//.angled-both-right{
+//	@include angle-edge(topright, 3deg, bottomright, 3deg);
+//}
+
 .angled-both-left-right{
-	@include angle-edge(topleft, 3deg, bottomright, 3deg);
+    @include angle-edge($lara_quote, topleft, 3deg, bottomright, 3deg);
+
+    .dark & {
+        @include angle-edge($sam_quote, topleft, 3deg, bottomright, 3deg);
+    }
 }
+
 .angled-both-right-left{
-	@include angle-edge(topright, 3deg, bottomleft, 3deg);
+    @include angle-edge($lara_quote, topright, 3deg, bottomleft, 3deg);
+
+    .dark & {
+        @include angle-edge($sam_quote, topright, 3deg, bottomleft, 3deg);
+    }
 }

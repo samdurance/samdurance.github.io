@@ -43,12 +43,30 @@ $('.tr__acbtn').featherlight({
 });
 
 
+var Menu = {
+    body: $('.tr__menu'),
+    button: $('.tr__menu__btn'),
+    tools: $('.tr__menu__tools')
+};
+
+Menu.button.click(function () {
+    Menu.body.toggleClass('tr__menu--closed');
+    Menu.body.toggleClass('tr__menu--open');
+    Menu.tools.toggleClass('tr__menu__tools--visible');
+    Menu.tools.toggleClass('tr__menu__tools--hidden');
+});
+
+$(".tr__themeswitch").on("click", function () {
+   $('body').toggleClass('dark');
+});
+
+
 $(document).on('click', '.squiffy-link', function (e) {
     initSM();
 
     var section = $(this).attr('data-section');
 
-    if (!$(this).hasClass('first')) {
+    if (!$(this).hasClass('first') || !$(this).hasClass('last')) {
 
         $.ajax({
             type: 'GET',

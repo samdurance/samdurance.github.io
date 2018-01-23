@@ -1,8 +1,8 @@
 .squiffy-link {
-    color: $white;
+    color: $lara_text;
     font-size: 18px;
     padding: 10px;
-    border: 3px solid $white;
+    border: 3px solid $lara_text;
     -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
@@ -16,10 +16,33 @@
     text-align: center;
     letter-spacing: 2px;
 
+    .dark & {
+        color: $sam_text;
+        border: 3px solid $sam_text;
+
+        &:hover {
+            text-decoration: none;
+            color: $sam_background;
+            background: $sam_text;
+            box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.3);
+        }
+    }
+
+    &.first {
+        color: $white;
+        border: 3px solid $white;
+
+        &:hover {
+            background: $white;
+            color: $black;
+            border: 3px solid $white;
+        }
+    }
+
     &:hover {
         text-decoration: none;
-        color: $anthrazit;
-        background: $white;
+        color: $lara_background;
+        background: $lara_text;
         box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.3);
     }
 

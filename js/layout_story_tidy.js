@@ -625,7 +625,7 @@
                 "<article id=\"cb01\" class=\"tr__contentblock is-active\">" +
 
             "<header class=\"tr__chapter__header slideInUp\">" +
-            "<h1 class=\"tr__headline--large tr__chapter__headline typewriter animate\">Chapter 1: Arrival</h1>" +
+            "<h1 class=\"tr__headline--large tr__chapter__headline\">Chapter 1: Arrival</h1>" +
             "</header>" +
 
             "<div class=\"tr__contentblock__wrapper\">" +
@@ -1174,7 +1174,7 @@
             
             
                 "<div class=\"tr__btnwrap slideInUp slideInUp4\">" +
-                "<a class=\"squiffy-link link-section first\" data-section=\"thanks\" role=\"link\" tabindex=\"0\">To be continued</a>" +
+                "<a class=\"squiffy-link link-section last\" data-section=\"thanks\" role=\"link\" tabindex=\"0\">To be continued</a>" +
                 "</div>",
             'passages': {},
         },
