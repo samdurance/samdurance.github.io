@@ -40,9 +40,7 @@
     width: 100%;
     height: 100%;
     z-index: 1;
-    opacity: 1;
-
-    //&:before {
+    opacity: 1; //&:before {
     //    content: "";
     //    width: 100%;
     //    box-shadow: inset 0 22px 20px 0 $anthrazit;
@@ -131,13 +129,11 @@
 
 
 .tr__slide01__bcg {
-    @extend .tr__bcg;
-    //background: $darkgreyish;
+    @extend .tr__bcg; //background: $darkgreyish;
 }
 
 .tr__slide02__bcg {
-    @extend .tr__bcg;
-    //background-image: url(https://media.giphy.com/media/ps9NJxDQb0pWw/giphy.gif);
+    @extend .tr__bcg; //background-image: url(https://media.giphy.com/media/ps9NJxDQb0pWw/giphy.gif);
 }
 
 
@@ -237,8 +233,7 @@
     max-width: 72em;
 }
 
-.tr__chapter__headline {
-}
+.tr__chapter__headline {}
 
 .tr__chapter__section {
     margin: auto;
@@ -246,8 +241,7 @@
 }
 
 .tr__textwrap {
-    display: inline-block;
-    //width: 50%;
+    display: inline-block; //width: 50%;
 }
 
 .tr__textwrap--full {
@@ -256,8 +250,7 @@
 }
 
 .tr__imgwrap {
-    display: inline-block;
-    //width: 50%;
+    display: inline-block; //width: 50%;
     margin: 0;
 
     img {
@@ -271,6 +264,7 @@
 }
 
 .tr__question {
+    @include tilli-semibold;
     margin-bottom: 20px;
 
     .tr__icon {
@@ -324,24 +318,97 @@
 //    transition: .3s all ease;
 //    opacity: 1;
 //}
-
-
-
 /* ========================================================================== */
 
 // Quote Block Stuff //
 .tr__quote {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
-    border: 0;
-    padding: 0 150px;
+    padding: 20px 50px;
+    border: 1px solid $lara_highlight;
+    position: relative;
+
+    .dark & {
+        border: 1px solid $sam_highlight;
+    }
+
+    &:before {
+        content: '\f10d';
+        font-family: 'fontawesome';
+        color: $lara_highlight;
+        font-size: 50px;
+        position: absolute;
+        left: -35px;
+        top: -35px;
+        background: $lara_quote;
+        padding: 15px;
+
+        .dark & {
+            color: $sam_highlight;
+            background: $sam_quote;
+        }
+    }
+
+    &:after {
+        content: '\f10e';
+        font-family: 'fontawesome';
+        color: $lara_highlight;
+        font-size: 50px;
+        position: absolute;
+        right: -35px;
+        bottom: -35px;
+        background: $lara_quote;
+        padding: 15px;
+
+        .dark & {
+            color: $sam_highlight;
+            background: $sam_quote;
+        }
+    }
+}
+
+
+.tr__quote__icon {
+    border: 2px solid $lara_highlight;
+    color: $lara_highlight;
+   font-size: 35px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 100%;
+    left: 20px;
+    z-index: 1;
+    top: -35px;
+    
+    .angled-both-right-left & {
+        right: 20px;
+        left: auto;
+    }
+
+    .dark & {
+        color: $sam_highlight;
+        border: 2px solid $sam_highlight;
+    }
 }
 
 .tr__quote__para {
     color: $lara_highlight;
     font-size: 30px;
     line-height: 40px;
-    @include tilli-normal-italic;
+    @include tilli-bold-italic;
+
+    .thanks & {
+        font-size: 23px;
+        line-height: 33px;
+
+        a {
+            text-decoration: underline;
+            color: $lara_highlight;
+
+            .dark & {
+                color: $sam_highlight;
+            }
+        }
+    }
 
     .dark & {
         color: $sam_highlight;
@@ -352,7 +419,6 @@
 /* ========================================================================== */
 
 // Render Polaroid Stuff //
-
 .tr__polaroid__link {
     display: block;
     z-index: 1;
@@ -501,6 +567,6 @@
     }
 
     &.tutorial {
-        background:url(http://via.placeholder.com/500x281?text=Jaffaaaaaas) center center no-repeat;
+        background: url(http://via.placeholder.com/500x281?text=Jaffaaaaaas) center center no-repeat;
     }
 }

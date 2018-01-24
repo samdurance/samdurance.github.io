@@ -1,12 +1,36 @@
-
 /* ========================================================================== */
-// Lightbox stuff //
 
+// Lightbox stuff //
 .tr__lightbox {
     display: none;
 
     &.featherlight-inner {
         display: block;
+    }
+}
+
+.tr__lightbox__headline {
+    font-size: 30px;
+    line-height: 35px;
+    @include tilli-semibold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+    color: $lara_highlight;
+
+    .dark & {
+        color: $sam_highlight;
+    }
+}
+
+.tr__lightbox__para {
+    color: $lara_highlight;
+    font-size: 22px;
+    line-height: 25px;
+    @include tilli-normal;
+
+    .dark & {
+        color: $sam_highlight;
     }
 }
 
@@ -23,18 +47,15 @@
     margin: 0 15px 20px;
 
     &.alert {
-        background: $dangerred;
+        background: $lara_highlight;
+        color: $lara_text;
         float: right;
-        border: 1px solid $dangerred;
 
-        &:hover {
-            border: 1px solid $white;
+        .dark & {
+            color: $sam_text;
+            background: $sam_highlight;
         }
     }
-}
-
-.featherlight-loading {
-
 }
 
 .featherlight-reset {
@@ -75,12 +96,18 @@
     margin-left: 5%;
     margin-right: 5%;
     max-height: 95%;
-    background: $anthrazit;
+    background: $lara_quote;
     cursor: auto;
     white-space: normal;
+    border-radius: 10px;
+
+    .dark & {
+        background: $sam_quote;
+    }
+
 }
 
-.featherlight-reset-close-icon  {
+.featherlight-reset-close-icon {
     position: absolute;
     z-index: 9999;
     top: 5px;
@@ -101,26 +128,5 @@
         width: 500px;
         height: 250px;
         padding: 0 35px;
-    }
-
-    &.tr__lightbox--infobox {
-        width: 500px;
-        height: 350px;
-    }
-
-    h2 {
-        font-size: 30px;
-        line-height: 35px;
-        color: $white;
-        text-transform: uppercase;
-        text-align: center;
-        margin-bottom: 25px;
-    }
-
-    p {
-        color: $white;
-        font-size: 22px;
-        line-height: 25px;
-        @include tilli-normal;
     }
 }

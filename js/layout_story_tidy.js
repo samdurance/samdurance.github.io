@@ -770,15 +770,13 @@
         'Carkiss yes': {
             'text': "" +
                 "<article id=\"slide01\" class=\"tr__slide tr__slide01 qt angled-both-left-right\">" +
-                
+                "<span class=\"fa fa-map-signs tr__quote__icon\"></span>" +
             "<div class=\"tr__slide01__bcg\"></div>" +
                 "<div class=\"tr__slide01__wrapper\">" +
                 "<section>" +
                 "<blockquote class=\"tr__quote\">" +
                 "<p class=\"tr__quote__para\">" +
-                "<span class=\"fa fa-quote-left\"></span>" +
                 "A quick kiss surely wouldn’t hurt. Maybe Sam was right. It was impossible to resist her hopeful look, anyway." +
-                "<span class=\"fa fa-quote-right\"></span>" +
                 "</p>" +
                 "</blockquote>" +
                 "</section>" +
@@ -870,15 +868,13 @@
         'Carkiss no': {
             'text': "" +
                 "<article id=\"slide01\" class=\"tr__slide tr__slide01 qt angled-both-right-left\">" +
+            "<span class=\"fa fa-map-signs tr__quote__icon\"></span>" +
                 "<div class=\"tr__slide01__bcg\"></div>" +
                 "<div class=\"tr__slide01__wrapper\">" +
                 "<section>" +
                 "<blockquote class=\"tr__quote\">" +
                 "<p class=\"tr__quote__para\">" +
-                "<span class=\"fa fa-quote-left\"></span>" +
-                "There was too much at stake. The impression Sam had given of her mother was that she’d interrogate the driver later whether anything had happened." +
-                "<span class=\"fa fa-quote-right\"></span>" +
-                "</p>" +
+                "There was too much at stake. The impression Sam had given of her mother was that she’d interrogate the driver later whether anything had happened." + 
                 "</blockquote>" +
                 "</section>" +
                 "</div>" +
@@ -1184,15 +1180,18 @@
                 "<div class=\"tr__slide01__bcg\"></div>" +
                 "<div class=\"tr__slide01__wrapper\">" +
                 "<section>" +
-               
-               "<p class=\"tr__para slideInUp \">" +
+                "<blockquote class=\"tr__quote thanks\">" +
+                "<p class=\"tr__quote__para\">" +
                 "Thank you for checking out the teaser. We hope you enjoyed it and we'll see you again when the final version gets released." +
                 "</p>" +
-            
-            
-             "<p class=\"tr__para slideInUp \">" +
-            "We'd appreciate feedback, even if it's just to report a bug. Let us know what you think, what you liked and didn't liked so further versions can be edited to your needs. Just contact either one of us on Tumblr or Twitter." +
-             "</p>" +
+                "<p class=\"tr__quote__para\">" +
+                "We'd appreciate feedback, even if it's just to report a bug. Let us know what you think, which features you like or don't like. Maybe you also have some awesome ideas how to enhance the experience with “Family Matters”." +
+                "</p>" +
+                "<p class=\"tr__quote__para\">" +
+                "Just use the <a href=\"https://ssendurance.github.io/#contact\" target=\"_blank\">JaffaBox</a> or contact us on <a href=\"http://burritorat.tumblr.com/\" target=\"_blank\">Tumblr</a> (burritorat) or <a href=\"https://twitter.com/deberzer\" target=\"_blank\">Twitter</a> (deberzer)." +
+                "</p>" +
+                "</blockquote>" +
+               
                
                 "</section>" +
                 "</div>" +

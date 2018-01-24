@@ -11,17 +11,19 @@
     margin-right: 15px;
     cursor: pointer;
     text-transform: uppercase;
-    display:inline-block;
+    display: inline-block;
     min-width: 130px;
     text-align: center;
     letter-spacing: 2px;
-    
+
 
     .dark & {
         color: $sam_text;
         border: 3px solid $sam_text;
 
-        &:hover {
+        &:hover,
+        &:focus {
+            outline: 0;
             text-decoration: none;
             color: $sam_background;
             background: $sam_text;
@@ -33,14 +35,18 @@
         color: $white;
         border: 3px solid $white;
 
-        &:hover {
+        &:hover,
+        &:focus {
+            outline: 0;
             background: $white;
             color: $black;
             border: 3px solid $white;
         }
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
+        outline: 0;
         text-decoration: none;
         color: $lara_background;
         background: $lara_text;
@@ -72,7 +78,7 @@
     width: 50px;
     font-size: 25px;
     padding: 11px 13px;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
 
     &:hover {
         color: $white;
@@ -97,4 +103,3 @@
         font-size: 20px;
     }
 }
-

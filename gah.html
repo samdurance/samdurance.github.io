@@ -31,20 +31,11 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-    <div class="tr__lightbox tr__lightbox--infobox" id="infobox">
-        <h2>Tutorial</h2>
-        <p>Learn how to navigate Family Matters.</p>
-
-        <div class="tr__lightbox__btn__wrapper">
-            <a class="tr__lightbox__btn alert" href="/tutorial">Start</a>
-            <button class="tr__lightbox__btn featherlight-close">Cancel</button>
-        </div>
-    </div>
 
     <div class="tr__lightbox tr__lightbox--restartbox" id="restartbox">
-        <h2>Restart Story</h2>
-        <p>Are you sure you want to restart the story?</p>
-        <p>All progress and decisions you've made so far will be lost. You will have to start over again.</p>
+        <h2 class="tr__lightbox__headline">Restart Story</h2>
+        <p class="tr__lightbox__para">Are you sure you want to restart the story?</p>
+        <p class="tr__lightbox__para">All progress and decisions you've made so far will be lost. You will have to start over again.</p>
 
         <div class="tr__lightbox__btn__wrapper">
             <button class="tr__lightbox__btn alert" id="restart" tabindex="0">Restart</button>
@@ -62,8 +53,8 @@
 
             <div class="tr__preload__loader ip-loader">
                 <div class="tr__preload__loader__inner">
-                    <svg class="animated fadeIn" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 354.461 354.461" style="enable-background:new 0 0 354.461 354.461;" xml:space="preserve">
-<g id="XMLID_484_">
+<svg class="animated fadeIn" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 354.461 354.461" style="enable-background:new 0 0 354.461 354.461;" xml:space="preserve">
+                    <g id="XMLID_484_">
 
 	<circle id="popcorncircle" class="firstcirle" cx="260.426" cy="22.695" r="22.695"/>
 
@@ -158,95 +149,36 @@
                 </header>
             </div>
 
-            <!--<nav class="trs__nav">
-        <ul class="trs__nav__list">
-            <li class="trs__nav__list__item">
-                <a class="trs__nav__link active" href="#ch1">
-                    <span class="trs__nav__dot"></span>
-                    <span class="trs__nav__label">Kapitel 1</span>
-                </a>
-            </li>
-            <li class="trs__nav__list__item">
-                <a class="trs__nav__link" href="#ch2">
-                    <span class="trs__nav__dot"></span>
-                    <span class="trs__nav__label">Kapitel 2</span>
-                </a>
-            </li>
-            <li class="trs__nav__list__item">
-                <a class="trs__nav__link" href="#ch3">
-                    <span class="trs__nav__dot"></span>
-                    <span class="trs__nav__label">Kapitel 3</span>
-                </a>
-            </li>
-            <li class="trs__nav__list__item">
-                <a class="trs__nav__link"href="#ch4">
-                    <span class="trs__nav__dot"></span>
-                    <span class="trs__nav__label">Kapitel 4</span>
-                </a>
-            </li>
-            <li class="trs__nav__list__item">
-                <a class="trs__nav__link" href="#ch5">
-                    <span class="trs__nav__dot"></span>
-                    <span class="trs__nav__label">Epilog</span>
-                </a>
-            </li>
-        </ul>
-    </nav>-->
-
             <div class="tr__squiffy__container">
-
-
-
-
-                <!--<div class="tr__squiffy__header">-->
-                <!--<button class="tr__acbtn info fa fa-question" data-url="#infobox">-->
-                <!--<div class="ripple"></div>-->
-                <!--</button>-->
-
-                <!--<button class="tr__acbtn restart fa fa-refresh" data-url="#restartbox">-->
-                <!--<div class="ripple"></div>-->
-                <!--</button>-->
-                <!--</div>-->
 
 
                 <div id="squiffy">
 
                     <div class="tr__menubar">
 
-                        <div class="tr__themeswitch">
+                        <div class="tr__themeswitch" title="Switch theme">
                             <div class="tr__themeswitch__toggle"></div>
                         </div>
 
                         <div class="tr__menu tr__menu--closed">
-
-
-
-                            <div class="tr__menu__btn">
+                            <div class="tr__menu__btn" title="Menu">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                             </div>
-
                             <div class="tr__menu__tools tr__menu__tools--hidden">
-                                <a class="tr__menu__tools__link" href="/">
-                        <span class="fa fa-home tr__icon"></span>
-                    </a>
+                                <a class="tr__menu__tools__link" href="/" title="Home">
+                                    <span class="fa fa-home tr__icon"></span>
+                                </a>
 
-                                <a class="tr__menu__tools__link" href="/tutorial.html">
-                        <span class="fa fa-question-circle-o tr__icon"></span>
-                    </a>
+                                <a class="tr__menu__tools__link" href="/tutorial.html" title="Tutorial">
+                                    <span class="fa fa-question-circle-o tr__icon"></span>
+                                </a>
 
-                                <button class="tr__menu__tools__link tr__acbtn" data-url="#restartbox">
-                        <span class="fa fa-refresh tr__icon"></span>
-                    </button>
+                                <button class="tr__menu__tools__link tr__acbtn" data-url="#restartbox" title="Restart story">
+                                    <span class="fa fa-refresh tr__icon"></span>
+                                </button>
 
-                    <!--            <a class="tr__menu__tools__link" href="#">
-                        <span class="fa fa-map-signs tr__icon"></span>
-                    </a>
-
-                                <a class="tr__menu__tools__link" href="#">
-                        <span class="fa fa-trophy tr__icon"></span>
-                    </a>-->
                             </div>
                         </div>
                     </div>
@@ -263,7 +195,7 @@
     <filter id="blur2px">
         <feGaussianBlur in="SourceGraphic" stdDeviation="2"></feGaussianBlur>
     </filter>
-</svg>
+    </svg>
 
 
 
