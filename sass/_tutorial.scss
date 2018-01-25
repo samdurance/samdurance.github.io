@@ -21,7 +21,7 @@
 .tr__tutorial__header__title {
     font-size: 3em;
     margin-top: 50px;
-    @include kavi;
+    @include tilli-semibold;
     text-transform: uppercase;
     color: $white;
 }
@@ -62,16 +62,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
+// Enjoyhint Styles
+/* ========================================================================== */
 
 .enjoyhint{
     position:fixed;
@@ -101,7 +93,7 @@
     -webkit-box-sizing:content-box;
     width:100px;
     height:40px;
-    @include kavi;
+    @include tilli-semibold;
     cursor:pointer;
     margin:0 auto;
     letter-spacing:1px;
@@ -121,15 +113,18 @@
 .enjoyhint_next_btn{
     position:absolute;
     box-sizing:content-box;
-    border:2px solid $white;
-    -webkit-border-radius:40px;
-    border-radius:40px;
+    border:3px solid $white;
+    -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     color:$white;
     background:rgba(0,0,0,0);
     -webkit-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
     -moz-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
     -o-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
     transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
+    font-size: 22px;
+    padding: 5px 10px 0;
 
     &:hover {
         color:$white;
@@ -137,7 +132,7 @@
     }
 
     &:active {
-        border:2px solid $white;
+        border:3px solid $white;
         background:$white;
         -webkit-transition:none;
         -moz-transition:none;
@@ -148,15 +143,18 @@
 
 .enjoyhint_skip_btn{
     box-sizing:content-box;
-    border:2px solid $white;
-    -webkit-border-radius:40px;
-    border-radius:40px;
+    border: 3px solid $white;
+    -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     color: $white;
     background:rgba(0,0,0,0);
     -webkit-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
     -moz-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
     -o-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
     transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
+    font-size: 22px;
+    padding: 5px 10px 0;
 
     &:hover {
         color:rgba(255,255,255,1);
@@ -164,7 +162,7 @@
     }
 
     &:active {
-        border:2px solid $white;
+        border: 3px solid $white;
         background: $white;
         -webkit-transition:none;
         -moz-transition:none;
@@ -173,7 +171,6 @@
     }
 }
 
-
 .enjoyhint_close_btn{
     display:inline-block;
     position:absolute;
@@ -181,12 +178,13 @@
     box-sizing:content-box;
     width:.3em;
     height:.3em;
-    -webkit-border-radius:1em;
-    border-radius:1em;
-    @include kavi;
+    -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    @include tilli-semibold;
     color:rgba(0,0,0,1);
     background:rgba(0,0,0,0);
-    border:2px solid $white;
+    border: 3px solid $white;
 
     &:after {
         -webkit-box-sizing:content-box;
@@ -194,8 +192,8 @@
         height:2px;
         position:absolute;
         content:"";
-        border:none;
-        @include kavi;
+        border: none;
+        @include tilli-semibold;
         color:rgba(0,0,0,1);
         background: $white;
         text-shadow:none;
@@ -216,8 +214,8 @@
         height:2px;
         position:absolute;
         content:"";
-        border:none;
-        @include kavi;
+        border: none;
+        @include tilli-semibold;
         color:rgba(0,0,0,1);
         background: $white;
         text-shadow:none;
@@ -239,7 +237,7 @@
     }
 
     &:active {
-        border: 2px solid $white;
+        border: 3px solid $white;
         background: $white;
         -webkit-transition: none;
         -moz-transition: none;
@@ -247,8 +245,6 @@
         transition: none;
     }
 }
-
-
 
 .enjoyhint_btn{
     -webkit-box-sizing:content-box;
@@ -258,10 +254,11 @@
     height:40px;
     cursor:pointer;
     margin:0 auto;
-    border:2px solid $white;
-    -webkit-border-radius:40px;
-    border-radius:40px;
-    @include kavi;
+    border: 3px solid $white;
+    -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    @include tilli-semibold;
     color: $white;
     text-align:center;
     -o-text-overflow:clip;
@@ -279,7 +276,7 @@
     }
 
     &:active {
-        border:2px solid $white;
+        border: 3px solid $white;
         background:$white;
         -webkit-transition:none;
         -moz-transition:none;
@@ -288,8 +285,6 @@
     }
 
 }
-
-
 
 #kinetic_container,
 .enjoyhint_canvas,
@@ -329,7 +324,6 @@
     }
 }
 
-
 .enjoyhint_svg_transparent
 .enjoy_hint_label,
 .enjoyhint_svg_transparent
@@ -342,7 +336,7 @@
     color: $white;
     z-index:107;
     font-size:22px;
-    @include kavi;
+    @include tilli-semibold;
     -webkit-transition:opacity .4s cubic-bezier(.42,0,.58,1);
     -moz-transition:opacity .4s cubic-bezier(.42,0,.58,1);
     transition:opacity .4s cubic-bezier(.42,0,.58,1);
@@ -363,5 +357,4 @@ div.kineticjs-content{
 .enjoyhint_quit {
     @extend .enjoyhint_next_btn;
     width: auto;
-    padding: 0 10px;
 }

@@ -2,27 +2,27 @@ var enjoyhint_instance = new EnjoyHint({});
 
 var enjoyhint_script_steps = [
     {
-        "next .tr__chapter__headline": 'Here you see the title of the current chapter.',
+        "next .tr__chapter__headline": "Here you see the title of the current chapter.",
         showSkip: false
     },
     {
-        "click .tr__themeswitch": 'Themeswitch'
+        "click .tr__themeswitch": "This is the switch to change colorthemes. Depending if you'd rather read on a light background or dark background, you can adjust it any time.",
     },
     {
-        "click .tr__menu": 'Menubutton',
+        "click .tr__menu": "This is the menu button. Click it!",
         showSkip: false
     },
     {
-        "next .home": 'Home Button',
+        "next .home": "Here you can return to the index page.",
         showSkip: false,
         timeout: 1000
     },
     {
-        "next .tuto": 'Tuto Button',
+        "next .tuto": "This button will lead you to the tutorial page.",
         showSkip: false
     },
     {
-        "next .story": 'Story Button',
+        "next .story": "If you're stuck or want to restart the story, you click here.",
         showSkip: false
     },
     {
@@ -44,7 +44,7 @@ var enjoyhint_script_steps = [
         margin: 15
     },
     {
-        "next .tr__tutorial__footer": 'Dat wars erstmal und tschö mit ö',
+        "next .tr__tutorial__footer": "This is everything you need to know for now. Have fun reading the teaser!",
         showSkip: false,
         nextButton: {className: '', text:'Close'}
     }

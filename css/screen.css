@@ -9774,9 +9774,9 @@ button.close {
 .tr__tutorial__header__title {
   font-size: 3em;
   margin-top: 50px;
-  font-family: 'Kavivanar', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -9809,7 +9809,8 @@ button.close {
   display: inline-block;
 }
 
-/* line 76, ../sass/_tutorial.scss */
+/* ========================================================================== */
+/* line 68, ../sass/_tutorial.scss */
 .enjoyhint {
   position: fixed;
   width: 100%;
@@ -9821,12 +9822,12 @@ button.close {
   overflow: hidden;
 }
 
-/* line 87, ../sass/_tutorial.scss */
+/* line 79, ../sass/_tutorial.scss */
 .enjoyhint_hide {
   display: none;
 }
 
-/* line 91, ../sass/_tutorial.scss */
+/* line 83, ../sass/_tutorial.scss */
 .enjoyhint_disable_events {
   position: absolute;
   width: 2000px;
@@ -9835,22 +9836,22 @@ button.close {
   pointer-events: all;
 }
 
-/* line 99, ../sass/_tutorial.scss */
+/* line 91, ../sass/_tutorial.scss */
 .enjoyhint_next_btn, .enjoyhint_quit,
 .enjoyhint_skip_btn {
   -webkit-box-sizing: content-box;
   width: 100px;
   height: 40px;
-  font-family: 'Kavivanar', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   cursor: pointer;
   margin: 0 auto;
   letter-spacing: 1px;
   text-align: center;
 }
 
-/* line 111, ../sass/_tutorial.scss */
+/* line 103, ../sass/_tutorial.scss */
 .enjoyhint_close_btn,
 .enjoyhint_next_btn,
 .enjoyhint_quit,
@@ -9862,28 +9863,31 @@ button.close {
   -moz-box-sizing: content-box;
 }
 
-/* line 121, ../sass/_tutorial.scss */
+/* line 113, ../sass/_tutorial.scss */
 .enjoyhint_next_btn, .enjoyhint_quit {
   position: absolute;
   box-sizing: content-box;
-  border: 2px solid #ffffff;
-  -webkit-border-radius: 40px;
-  border-radius: 40px;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   color: #ffffff;
   background: transparent;
   -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  font-size: 22px;
+  padding: 5px 10px 0;
 }
-/* line 134, ../sass/_tutorial.scss */
+/* line 129, ../sass/_tutorial.scss */
 .enjoyhint_next_btn:hover, .enjoyhint_quit:hover {
   color: #ffffff;
   background: #ffffff;
 }
-/* line 139, ../sass/_tutorial.scss */
+/* line 134, ../sass/_tutorial.scss */
 .enjoyhint_next_btn:active, .enjoyhint_quit:active {
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
   background: #ffffff;
   -webkit-transition: none;
   -moz-transition: none;
@@ -9891,27 +9895,30 @@ button.close {
   transition: none;
 }
 
-/* line 149, ../sass/_tutorial.scss */
+/* line 144, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn {
   box-sizing: content-box;
-  border: 2px solid #ffffff;
-  -webkit-border-radius: 40px;
-  border-radius: 40px;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   color: #ffffff;
   background: transparent;
   -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  font-size: 22px;
+  padding: 5px 10px 0;
 }
-/* line 161, ../sass/_tutorial.scss */
+/* line 159, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn:hover {
   color: white;
   background: #1ecd97;
 }
-/* line 166, ../sass/_tutorial.scss */
+/* line 164, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn:active {
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
   background: #ffffff;
   -webkit-transition: none;
   -moz-transition: none;
@@ -9919,7 +9926,7 @@ button.close {
   transition: none;
 }
 
-/* line 177, ../sass/_tutorial.scss */
+/* line 174, ../sass/_tutorial.scss */
 .enjoyhint_close_btn {
   display: inline-block;
   position: absolute;
@@ -9927,16 +9934,17 @@ button.close {
   box-sizing: content-box;
   width: .3em;
   height: .3em;
-  -webkit-border-radius: 1em;
-  border-radius: 1em;
-  font-family: 'Kavivanar', Helvetica, Helvetica Neue, Arial, sans-serif;
+  -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
   background: transparent;
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
 }
-/* line 191, ../sass/_tutorial.scss */
+/* line 189, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:after {
   -webkit-box-sizing: content-box;
   width: 73%;
@@ -9944,9 +9952,9 @@ button.close {
   position: absolute;
   content: "";
   border: none;
-  font-family: 'Kavivanar', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
   background: #ffffff;
   text-shadow: none;
@@ -9960,7 +9968,7 @@ button.close {
   -webkit-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
 }
-/* line 213, ../sass/_tutorial.scss */
+/* line 211, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:before {
   -webkit-box-sizing: content-box;
   width: 73%;
@@ -9968,9 +9976,9 @@ button.close {
   position: absolute;
   content: "";
   border: none;
-  font-family: 'Kavivanar', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
   background: #ffffff;
   text-shadow: none;
@@ -9984,15 +9992,15 @@ button.close {
   -webkit-transform: rotateZ(45deg);
   transform: rotateZ(45deg);
 }
-/* line 235, ../sass/_tutorial.scss */
+/* line 233, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:hover {
   color: white;
   background: #ffffff;
   cursor: pointer;
 }
-/* line 241, ../sass/_tutorial.scss */
+/* line 239, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:active {
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
   background: #ffffff;
   -webkit-transition: none;
   -moz-transition: none;
@@ -10000,7 +10008,7 @@ button.close {
   transition: none;
 }
 
-/* line 253, ../sass/_tutorial.scss */
+/* line 249, ../sass/_tutorial.scss */
 .enjoyhint_btn {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -10009,12 +10017,13 @@ button.close {
   height: 40px;
   cursor: pointer;
   margin: 0 auto;
-  border: 2px solid #ffffff;
-  -webkit-border-radius: 40px;
-  border-radius: 40px;
-  font-family: 'Kavivanar', Helvetica, Helvetica Neue, Arial, sans-serif;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   color: #ffffff;
   text-align: center;
   -o-text-overflow: clip;
@@ -10026,14 +10035,14 @@ button.close {
   -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
 }
-/* line 276, ../sass/_tutorial.scss */
+/* line 273, ../sass/_tutorial.scss */
 .enjoyhint_btn:hover {
   color: #ffffff;
   background: #ffffff;
 }
-/* line 281, ../sass/_tutorial.scss */
+/* line 278, ../sass/_tutorial.scss */
 .enjoyhint_btn:active {
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
   background: #ffffff;
   -webkit-transition: none;
   -moz-transition: none;
@@ -10041,7 +10050,7 @@ button.close {
   transition: none;
 }
 
-/* line 294, ../sass/_tutorial.scss */
+/* line 289, ../sass/_tutorial.scss */
 #kinetic_container,
 .enjoyhint_canvas,
 .enjoyhint_svg_wrapper,
@@ -10051,25 +10060,25 @@ button.close {
   position: absolute;
 }
 
-/* line 303, ../sass/_tutorial.scss */
+/* line 298, ../sass/_tutorial.scss */
 .enjoyhint div.canvas-container {
   position: absolute;
 }
 
-/* line 307, ../sass/_tutorial.scss */
+/* line 302, ../sass/_tutorial.scss */
 .enjoyhint_canvas {
   z-index: 100;
   pointer-events: none;
 }
 
-/* line 312, ../sass/_tutorial.scss */
+/* line 307, ../sass/_tutorial.scss */
 #kinetic_container {
   pointer-events: none;
   top: 0;
   left: 0;
 }
 
-/* line 318, ../sass/_tutorial.scss */
+/* line 313, ../sass/_tutorial.scss */
 .enjoyhint_svg_wrapper {
   top: 0;
   left: 0;
@@ -10078,13 +10087,13 @@ button.close {
   -moz-transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
-/* line 326, ../sass/_tutorial.scss */
+/* line 321, ../sass/_tutorial.scss */
 .enjoyhint_svg_wrapper svg {
   top: 0;
   left: 0;
 }
 
-/* line 333, ../sass/_tutorial.scss */
+/* line 327, ../sass/_tutorial.scss */
 .enjoyhint_svg_transparent
 .enjoy_hint_label,
 .enjoyhint_svg_transparent
@@ -10092,15 +10101,15 @@ button.close {
   opacity: 0;
 }
 
-/* line 340, ../sass/_tutorial.scss */
+/* line 334, ../sass/_tutorial.scss */
 .enjoy_hint_label {
   position: absolute;
   color: #ffffff;
   z-index: 107;
   font-size: 22px;
-  font-family: 'Kavivanar', Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-family: 'Titillium Web', Helvetica, Helvetica Neue, Arial, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   -webkit-transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   -moz-transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
@@ -10110,20 +10119,19 @@ button.close {
   max-width: 80%;
 }
 
-/* line 355, ../sass/_tutorial.scss */
+/* line 349, ../sass/_tutorial.scss */
 div.kineticjs-content {
   position: absolute !important;
 }
 
-/* line 359, ../sass/_tutorial.scss */
+/* line 353, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn {
   position: fixed;
 }
 
-/* line 363, ../sass/_tutorial.scss */
+/* line 357, ../sass/_tutorial.scss */
 .enjoyhint_quit {
   width: auto;
-  padding: 0 10px;
 }
 
 /* line 1, ../sass/_index.scss */
