@@ -1,9 +1,23 @@
-# Tutorial
-# Infobtn leading to Tutorial
-# styling lightbox
-# responsiveness everything
-# colorscheme
-# gifcontainer styling
+#***Story**#
+Gifs reduce, embed
+Preloader performance
+Responsive
+Footer Copyright
+
+
+#**Tutorial***#
+Themeswitch possible????
+Js script update
+Texte tuto
+Bubble JC yay
+Responsive
+Footer Copyright
+
+
+#**Index**#
+New
+Responsive
+Footer Copyright
 
 
 https://tympanus.net/codrops/

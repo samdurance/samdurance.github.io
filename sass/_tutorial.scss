@@ -1,8 +1,12 @@
 .tr__tutorial__header,
 .tr__tutorial__footer {
-    background: $tutoblue;
+    background: $lara_quote;
     padding: 20px 0;
     height: 100vh;
+
+    .dark & {
+        background: $sam_quote;
+    }
 }
 
 .tr__tutorial__header__logo {
@@ -97,7 +101,7 @@
     -webkit-box-sizing:content-box;
     width:100px;
     height:40px;
-    font:normal normal normal 17px/40px "Advent Pro",Helvetica,sans-serif;
+    @include kavi;
     cursor:pointer;
     margin:0 auto;
     letter-spacing:1px;
@@ -117,10 +121,10 @@
 .enjoyhint_next_btn{
     position:absolute;
     box-sizing:content-box;
-    border:2px solid #1ecd97;
+    border:2px solid $white;
     -webkit-border-radius:40px;
     border-radius:40px;
-    color:#1ecd97;
+    color:$white;
     background:rgba(0,0,0,0);
     -webkit-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
     -moz-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
@@ -128,13 +132,13 @@
     transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
 
     &:hover {
-        color:rgba(255,255,255,1);
-        background:#1ecd97;
+        color:$white;
+        background:$white;
     }
 
     &:active {
-        border:2px solid rgba(33,224,163,1);
-        background:rgba(33,224,163,1);
+        border:2px solid $white;
+        background:$white;
         -webkit-transition:none;
         -moz-transition:none;
         -o-transition:none;
@@ -144,10 +148,10 @@
 
 .enjoyhint_skip_btn{
     box-sizing:content-box;
-    border:2px solid #1ecd97;
+    border:2px solid $white;
     -webkit-border-radius:40px;
     border-radius:40px;
-    color:#1ecd97;
+    color: $white;
     background:rgba(0,0,0,0);
     -webkit-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
     -moz-transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
@@ -160,8 +164,8 @@
     }
 
     &:active {
-        border:2px solid rgba(33,224,163,1);
-        background:rgba(33,224,163,1);
+        border:2px solid $white;
+        background: $white;
         -webkit-transition:none;
         -moz-transition:none;
         -o-transition:none;
@@ -179,10 +183,10 @@
     height:.3em;
     -webkit-border-radius:1em;
     border-radius:1em;
-    font:400 8em/normal Arial,Helvetica,sans-serif;
+    @include kavi;
     color:rgba(0,0,0,1);
     background:rgba(0,0,0,0);
-    border:2px solid rgba(33,224,163,1);
+    border:2px solid $white;
 
     &:after {
         -webkit-box-sizing:content-box;
@@ -191,9 +195,9 @@
         position:absolute;
         content:"";
         border:none;
-        font:400 100%/normal Arial,Helvetica,sans-serif;
+        @include kavi;
         color:rgba(0,0,0,1);
-        background:#fff;
+        background: $white;
         text-shadow:none;
         -o-text-overflow:clip;
         text-overflow:clip;
@@ -213,9 +217,9 @@
         position:absolute;
         content:"";
         border:none;
-        font:400 100%/normal Arial,Helvetica,sans-serif;
+        @include kavi;
         color:rgba(0,0,0,1);
-        background:#fff;
+        background: $white;
         text-shadow:none;
         -o-text-overflow:clip;
         text-overflow:clip;
@@ -230,13 +234,13 @@
 
     &:hover {
         color:rgba(255,255,255,1);
-        background:#1ecd97;
+        background: $white;
         cursor:pointer;
     }
 
     &:active {
-        border: 2px solid rgba(33, 224, 163, 1);
-        background: rgba(33, 224, 163, 1);
+        border: 2px solid $white;
+        background: $white;
         -webkit-transition: none;
         -moz-transition: none;
         -o-transition: none;
@@ -254,11 +258,11 @@
     height:40px;
     cursor:pointer;
     margin:0 auto;
-    border:2px solid #1ecd97;
+    border:2px solid $white;
     -webkit-border-radius:40px;
     border-radius:40px;
-    font:normal normal normal 17px/40px "Advent Pro",Helvetica,sans-serif;
-    color:#1ecd97;
+    @include kavi;
+    color: $white;
     text-align:center;
     -o-text-overflow:clip;
     text-overflow:clip;
@@ -270,13 +274,13 @@
     transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
 
     &:hover {
-        color:rgba(255,255,255,1);
-        background:#1ecd97;
+        color:$white;
+        background: $white;
     }
 
     &:active {
-        border:2px solid rgba(33,224,163,1);
-        background:rgba(33,224,163,1);
+        border:2px solid $white;
+        background:$white;
         -webkit-transition:none;
         -moz-transition:none;
         -o-transition:none;
@@ -335,7 +339,7 @@
 
 .enjoy_hint_label{
     position:absolute;
-    color:#fff;
+    color: $white;
     z-index:107;
     font-size:22px;
     @include kavi;

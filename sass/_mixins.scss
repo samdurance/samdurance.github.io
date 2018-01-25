@@ -99,24 +99,53 @@
     }
 }
 
-//.angled-top-left{
-//	@include angle-edge($pos-top: topleft, $angle-top: 3deg);
-//}
-//.angled-top-right{
-//	@include angle-edge($pos-top: topright, $angle-top: 3deg);
-//}
-//.angled-bottom-left{
-//	@include angle-edge($pos-btm: bottomleft, $angle-btm: 3deg);
-//}
-//.angled-bottom-right{
-//	@include angle-edge($pos-btm: bottomright, $angle-btm: 3deg);
-//}
-//.angled-both-left{
-//	@include angle-edge(topleft, 3deg, bottomleft, 3deg);
-//}
-//.angled-both-right{
-//	@include angle-edge(topright, 3deg, bottomright, 3deg);
-//}
+.angled-top-left{
+    @include angle-edge($lara_quote, $pos-top: topleft, $angle-top: 3deg);
+
+    .dark & {
+        @include angle-edge($sam_quote, $pos-top: topleft, $angle-top: 3deg);
+    }
+}
+
+.angled-top-right{
+    @include angle-edge($lara_quote, $pos-top: topright, $angle-top: 3deg);
+
+    .dark & {
+        @include angle-edge($sam_quote, $pos-top: topright, $angle-top: 3deg);
+    }
+}
+
+.angled-bottom-left{
+    @include angle-edge($lara_quote, $pos-btm: bottomleft, $angle-btm: 3deg);
+
+    .dark & {
+        @include angle-edge($sam_quote, $pos-btm: bottomleft, $angle-btm: 3deg);
+    }
+}
+
+.angled-bottom-right{
+    @include angle-edge($lara_quote, $pos-btm: bottomright, $angle-btm: 3deg);
+
+    .dark & {
+        @include angle-edge($sam_quote, $pos-btm: bottomright, $angle-btm: 3deg);
+    }
+}
+
+.angled-both-left{
+    @include angle-edge($lara_quote, topleft, 3deg, bottomleft, 3deg);
+
+    .dark & {
+        @include angle-edge($sam_quote, topleft, 3deg, bottomleft, 3deg);
+    }
+}
+
+.angled-both-right{
+    @include angle-edge($lara_quote, topright, 3deg, bottomright, 3deg);
+
+    .dark & {
+        @include angle-edge($sam_quote, topright, 3deg, bottomright, 3deg);
+    }
+}
 
 .angled-both-left-right{
     @include angle-edge($lara_quote, topleft, 3deg, bottomright, 3deg);
