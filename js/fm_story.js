@@ -18,6 +18,7 @@ var preloadPictures = function (pictureUrls, callback) {
     for (i = 0, j = pictureUrls.length; i < j; i++) {
         (function (img, src) {
             img.onload = function () {
+                console.log(img, src);
                 if (++loaded == pictureUrls.length && callback) {
                     callback();
                 }
@@ -25,8 +26,12 @@ var preloadPictures = function (pictureUrls, callback) {
 
             // Use the following callback methods to debug
             // in case of an unexpected behavior.
-            img.onerror = function () {};
-            img.onabort = function () {};
+            img.onerror = function () {
+                alert('error loading images');
+            };
+            img.onabort = function () {
+                alert('abort loading images');
+            };
 
             img.src = src;
         }(new Image(), pictureUrls[i]));
@@ -38,7 +43,7 @@ $(window).load(function () {
 
     preloader();
 
-    preloadPictures(["/img/story/carkiss_no_notify.jpg", "/img/story/carkiss_yes_notify.jpg", "/img/story/carkiss_no_preset.jpg", "/img/story/carkiss_yes_preset.jpg", "/img/story/carsnuggle.jpg", "/img/story/carsnuggle_pola.jpg", "/img/story/lara_landscape_pola.jpg", "/img/story/lara_landscape.jpg"], function () {
+    preloadPictures(["/img/story/carkiss_no_notify.jpg", "/img/story/carkiss_yes_notify.jpg", "/img/story/carkiss_no_preset.jpg", "/img/story/carkiss_yes_preset.jpg", "/img/story/carsnuggle.jpg", "/img/story/carsnuggle_pola.jpg", "/img/story/lara_landscape_pola.jpg", "/img/story/lara_landscape.jpg", "/img/story/carkiss_yes.gif", "/img/story/carkiss_no.gif"], function () {
 
         initSM();
         initSMheader();
@@ -84,7 +89,7 @@ $(document).on('click', '.squiffy-link', function (e) {
 
     var section = $(this).attr('data-section');
 
-    if (! $(this).hasClass('first') || $(this).hasClass('last')) {
+    if (!$(this).hasClass('first') || $(this).hasClass('last')) {
 
         $.ajax({
             type: 'GET',
@@ -112,7 +117,14 @@ function notify(thumb, msg) {
     }, {
         type: 'minimalist',
         delay: 5000,
-        offset: 20,
+        placement: {
+            from: "top",
+            align: "center"
+        },
+        offset: {
+            x: 0,
+            y: 20
+        },
         icon_type: 'image',
         template: '<div data-notify="container" class="col-xs-11 col-sm-3 alert alert-{0}" role="alert">' +
             '<img data-notify="icon" class="img-circle pull-left">' +

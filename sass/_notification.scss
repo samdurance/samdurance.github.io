@@ -1,7 +1,17 @@
 .alert-minimalist {
-    background-color: $anthrazit;
-    color: $white;
+    background-color: $lara_quote;
+    border: 3px solid $lara_highlight;
+    -webkit-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    -moz-border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    color: $lara_highlight;
     padding: 10px;
+    box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.3);
+
+    .dark & {
+        background-color: $sam_quote;
+        border: 3px solid $sam_highlight;
+    }
 
     > [data-notify="icon"] {
         height: 50px;
@@ -10,21 +20,25 @@
 
 
     > [data-notify="title"] {
-        color: $white;
+        color: $lara_highlight;
         display: block;
         margin-bottom: 5px;
+
+        .dark & {
+            color: $sam_highlight;
+        }
     }
 
     > [data-notify="message"] {
         font-size: 20px;
         line-height: 22px;
-        @include tilli-normal;
-        color: $white;
+        @include tilli-semibold;
+        color: $lara_highlight;
         margin-top: 10px;
         float: left;
+
+        .dark & {
+            color: $sam_highlight;
+        }
     }
 }
-
-
-
-

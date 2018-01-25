@@ -79,7 +79,7 @@ $(document).ready(function () {
 
 
     //BacktoTop btn
-    var back_to_top_button = ['<a href="#top" class="back-to-top">' +
+    /*var back_to_top_button = ['<a href="#top" class="back-to-top">' +
     '<span class="fa fa-chevron-circle-up"></span></a>'].join("");
     $("body").append(back_to_top_button)
 
@@ -100,7 +100,7 @@ $(document).ready(function () {
             }, 800);
             return false;
         });
-    });
+    });*/
 
 });
 

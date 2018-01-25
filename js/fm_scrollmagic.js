@@ -16,7 +16,6 @@ if (!Modernizr.touch) {
 
 
     function initSM () {
-        console.log('initSM');
         // SCENE 1
         // create scenes for each of the headers
         headers.forEach(function (header, index) {
@@ -93,7 +92,6 @@ if (!Modernizr.touch) {
     // move bcg container when intro gets out of the the view
 
     function initSMheader () {
-        console.log('SMheader');
         var introTl = new TimelineMax();
 
         introTl

@@ -936,7 +936,7 @@
             
             
 
-                               "<a class=\"tr__moviebox__link\" href=\"#\" data-featherlight=\"http://via.placeholder.com/500x281?text=Carkiss_no_gif\">" +
+                               "<a class=\"tr__moviebox__link\" href=\"#\" data-featherlight=\"img/story/carkiss_no.gif\">" +
                             "<div class=\"tr__movie__wrapper right\">" +
                             "<div class=\"tr__movie__box\">" +
                             "<div class=\"tr__movie__boxes\">" +
