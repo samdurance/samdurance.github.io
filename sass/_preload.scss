@@ -6,7 +6,7 @@
   width: 100%;
   height: 100%;
   background: $anthrazit;
-background-image: url(/img/dl.png);
+  //background-image: url(/img/dl.png);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 
@@ -91,7 +91,7 @@ circle#popcorncircle {
 
   img {
     margin: 0 auto;
-      width: 65%;
+    width: 65%;
   }
 
   .loading & {

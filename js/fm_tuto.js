@@ -6,7 +6,8 @@ var enjoyhint_script_steps = [
         showSkip: false
     },
     {
-        "click .tr__themeswitch": "This is the switch to change colorthemes. Depending if you'd rather read on a light background or dark background, you can adjust it any time.",
+        "next .tr__themeswitch": "This is the switch to change colorthemes. Depending if you'd rather read on a light background or dark background, you can adjust it any time.",
+        showSkip: false
     },
     {
         "click .tr__menu": "This is the menu button. Click it!",
@@ -31,6 +32,11 @@ var enjoyhint_script_steps = [
         margin: 15
     },
     {
+        "next .tr__movie__wrapper": 'Moviebox alike elements can also be clicked.',
+        showSkip: false,
+        margin: 15
+    },
+    {
         "next .tr__question": 'For every decision there will be a question. Think careful.',
         showSkip: false
     },
@@ -38,11 +44,7 @@ var enjoyhint_script_steps = [
         "next .link-section": 'Those are the decision buttons.',
         showSkip: false
     },
-    {
-        "next .tr__movie__wrapper": 'Moviebox alike elements can also be clicked.',
-        showSkip: false,
-        margin: 15
-    },
+
     {
         "next .tr__tutorial__footer": "This is everything you need to know for now. Have fun reading the teaser!",
         showSkip: false,

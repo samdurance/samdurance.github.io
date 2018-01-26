@@ -127,7 +127,7 @@
     padding: 5px 10px 0;
 
     &:hover {
-        color:$white;
+        color:$black;
         background:$white;
     }
 
@@ -157,8 +157,8 @@
     padding: 5px 10px 0;
 
     &:hover {
-        color:rgba(255,255,255,1);
-        background:#1ecd97;
+        color: $black;
+        background: $white;
     }
 
     &:active {
@@ -271,7 +271,7 @@
     transition:background-color .3s cubic-bezier(0,0,0,0),color .3s cubic-bezier(0,0,0,0),width .3s cubic-bezier(0,0,0,0),border-width .3s cubic-bezier(0,0,0,0),border-color .3s cubic-bezier(0,0,0,0);
 
     &:hover {
-        color:$white;
+        color:$black;
         background: $white;
     }
 
