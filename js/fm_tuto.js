@@ -1,4 +1,12 @@
-var enjoyhint_instance = new EnjoyHint({});
+var enjoyhint_instance = new EnjoyHint({
+      onEnd:function(){
+    $('html, body').animate({ 
+   scrollTop: $(document).height()-$(window).height()}, 
+   1400, 
+   "easeOutQuint"
+);
+  }
+});
 
 var enjoyhint_script_steps = [
     {
@@ -43,13 +51,13 @@ var enjoyhint_script_steps = [
     {
         "next .link-section": 'Those are the decision buttons.',
         showSkip: false
-    },
-
-    {
-        "next .tr__tutorial__footer": "This is everything you need to know for now. Have fun reading the teaser!",
-        showSkip: false,
-        nextButton: {className: '', text:'Close'}
     }
+
+//    {
+//        "next .tr__tutorial__footer": "This is everything you need to know for now. Have fun reading the teaser!",
+//        showSkip: false,
+//        nextButton: {className: '', text:'Close'}
+//    }
 
 ];
 
