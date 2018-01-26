@@ -1,4 +1,21 @@
-.tr__tutorial__header,
+.tr__tutorial__header {
+    background: $lara_quote;
+    padding: 20px 0;
+    height: 100vh;
+    text-align: center;
+
+    .dark & {
+        background: $sam_quote;
+    }
+
+    &:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+}
+
 .tr__tutorial__footer {
     background: $lara_quote;
     padding: 20px 0;
@@ -9,8 +26,14 @@
     }
 }
 
+.tr__tutorial__header__inner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
 .tr__tutorial__header__logo {
-    margin: 50px auto;
+    margin: 0 auto 80px;
 
     img {
         margin: 0 auto;
@@ -43,11 +66,7 @@
 }
 
 .tr__tutorial__btn {
-    position: absolute;
-    left: 15%;
-    top: -15%;
-    cursor: pointer;
-    z-index: 15;
+    margin-top: 35px;
 }
 
 .tr__tutorial__moviebox {

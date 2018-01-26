@@ -1,8 +1,9 @@
 #***Story**#
-Gifs reduce, embed
-Preloader performance
+Gifs mobile ausnahme
+Preloader performance mobile check
 Responsive
 Footer Copyright
+Buttons GA tracken
 
 
 #**Tutorial***#

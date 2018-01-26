@@ -36,15 +36,15 @@
 
 .tr__btn--white {
     @extend .squiffy-link;
-    color: $white;
-    border: 3px solid $white;
+    color: $white !important;
+    border: 3px solid $white !important;
 
     &:hover,
     &:focus {
         outline: 0;
-        background: $white;
-        color: $black;
-        border: 3px solid $white;
+        background: $white !important;
+        color: $black !important;
+        border: 3px solid $white !important;
     }
 }
 
