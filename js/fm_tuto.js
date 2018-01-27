@@ -14,7 +14,7 @@ var enjoyhint_script_steps = [
         showSkip: false
     },
     {
-        "next .tr__themeswitch": "This is the switch to change colorthemes. Depending if you'd rather read on a light background or dark background, you can adjust it any time.",
+        "next .tr__themeswitch": "This is the switch to change colorthemes.<br> Depending if you'd rather read on a light background or dark background, you can adjust it any time.",
         showSkip: false
     },
     {
@@ -50,15 +50,9 @@ var enjoyhint_script_steps = [
     },
     {
         "next .link-section": 'Those are the decision buttons.',
-        showSkip: false
+        showSkip: false,
+        nextButton: {className: '', text:'Close'}
     }
-
-//    {
-//        "next .tr__tutorial__footer": "This is everything you need to know for now. Have fun reading the teaser!",
-//        showSkip: false,
-//        nextButton: {className: '', text:'Close'}
-//    }
-
 ];
 
 enjoyhint_instance.set(enjoyhint_script_steps);

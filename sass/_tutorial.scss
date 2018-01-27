@@ -10,11 +10,13 @@
         background: $sam_quote;
     }
 
-    &:before {
-        content: '';
-        display: inline-block;
-        height: 100%;
-        vertical-align: middle;
+    @media (min-width: $screen-phone) {
+        &:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
     }
 }
 
@@ -28,9 +30,17 @@
 .tr__tutorial__header__logo {
     margin: 0 auto 80px;
 
+    @media (max-width: $screen-phone) {
+        margin: 0 auto 15px;
+    }
+
     img {
         margin: 0 auto;
         width: 65%;
+
+        @media (max-width: $screen-phone) {
+            width: auto;
+        }
     }
 }
 
@@ -41,21 +51,43 @@
 }
 
 .tr__tutorial__header__title {
-    font-size: 3em;
+    font-size: 42px;
+    line-height: 45px;
     margin-top: 50px;
     @include tilli-semibold;
     text-transform: uppercase;
     color: $white;
+
+    @media (min-width: 321px) and (max-width: $screen-phone) {
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
+    @media (max-width: 320px) {
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
 }
 
 .tr__tutorial__jaffa {
 
     .jc {
         float: right;
+        @media (max-width: $screen-phone) {
+            float: left;
+            width: 75%;
+        }
 
         .tr__tutorial__footer & {
             float: left;
             width: 75%;
+            
+            @media (max-width: $screen-phone) {
+            float: right;
+            }
         }
     }
 }
@@ -72,8 +104,26 @@
     }
 }
 
+.tr__tutorial__bubble--mobile {
+    width: 85%;
+    float: right;
+    margin-bottom: 15px;
+    
+    .tr__tutorial__footer & {
+    float: left;
+    }
+}
+
 .tr__tutorial__btn {
     margin: 50px 0;
+
+    @media (max-width: $screen-phone) {
+        margin: 0;
+        
+         .tr__tutorial__footer & {
+        margin-top: 20px;
+        }
+    }
 }
 
 .tr__tutorial__sourcelink {
@@ -91,13 +141,17 @@
 }
 
 .tr__tutorial__credit {
-        position: absolute;
+    position: absolute;
     right: -45px;
     bottom: 7%;
     transform: rotate(-90deg);
     transform-origin: bottom left;
-    color: rgba(255,255,255,0.3);
+    color: rgba(255, 255, 255, 0.3);
     font-size: 13px;
+    
+     @media (max-width: $screen-phone) {
+       bottom: 15%;
+    }
 }
 
 

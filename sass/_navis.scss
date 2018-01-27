@@ -127,6 +127,10 @@
     .dark & {
         border: 2px solid $sam_highlight;
     }
+    
+    @media (max-width: $screen-phone) {
+        background: rgba(0,0,0,0.4);
+    }
 }
 
 .tr__themeswitch__toggle {
@@ -191,6 +195,10 @@
 
     .dark & {
         border: 2px solid $sam_highlight;
+    }
+    
+     @media (max-width: $screen-phone) {
+        background: rgba(0,0,0,0.4);
     }
 }
 

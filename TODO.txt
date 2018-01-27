@@ -1,24 +1,22 @@
 #***Story**#
 Gifs mobile ausnahme
-Preloader performance mobile check
+Preloader performance mobile check --> SMinit function
 Responsive
 Footer Copyright
 Buttons GA tracken
 
 
 #**Tutorial***#
-Themeswitch possible????
-Js script update
 Texte tuto
-Bubble JC yay
 Responsive
-Footer Copyright
+Copyright lightbox
 
 
 #**Index**#
 New
 Responsive
 Footer Copyright
+Jaffabar update
 
 
 https://www.toptal.com/designers/subtlepatterns/
