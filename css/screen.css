@@ -9925,18 +9925,14 @@ button.close {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  color: #e5a87a;
+  color: #212121;
 }
 /* line 134, ../sass/_tutorial.scss */
-.dark .tr__tutorial__sourcelink {
-  color: #7A4A60;
-}
-/* line 138, ../sass/_tutorial.scss */
 .tr__tutorial__sourcelink:hover {
-  color: #ffffff;
+  color: #212121;
 }
 
-/* line 143, ../sass/_tutorial.scss */
+/* line 139, ../sass/_tutorial.scss */
 .tr__tutorial__credit {
   position: absolute;
   right: -45px;
@@ -9947,14 +9943,14 @@ button.close {
   font-size: 13px;
 }
 @media (max-width: 480px) {
-  /* line 143, ../sass/_tutorial.scss */
+  /* line 139, ../sass/_tutorial.scss */
   .tr__tutorial__credit {
     bottom: 15%;
   }
 }
 
 /* ========================================================================== */
-/* line 161, ../sass/_tutorial.scss */
+/* line 157, ../sass/_tutorial.scss */
 .enjoyhint {
   position: fixed;
   width: 100%;
@@ -9966,12 +9962,12 @@ button.close {
   overflow: hidden;
 }
 
-/* line 172, ../sass/_tutorial.scss */
+/* line 168, ../sass/_tutorial.scss */
 .enjoyhint_hide {
   display: none;
 }
 
-/* line 176, ../sass/_tutorial.scss */
+/* line 172, ../sass/_tutorial.scss */
 .enjoyhint_disable_events {
   position: absolute;
   width: 2000px;
@@ -9980,7 +9976,7 @@ button.close {
   pointer-events: all;
 }
 
-/* line 184, ../sass/_tutorial.scss */
+/* line 180, ../sass/_tutorial.scss */
 .enjoyhint_next_btn, .enjoyhint_quit,
 .enjoyhint_skip_btn {
   -webkit-box-sizing: content-box;
@@ -9995,7 +9991,7 @@ button.close {
   text-align: center;
 }
 
-/* line 196, ../sass/_tutorial.scss */
+/* line 192, ../sass/_tutorial.scss */
 .enjoyhint_close_btn,
 .enjoyhint_next_btn,
 .enjoyhint_quit,
@@ -10007,7 +10003,7 @@ button.close {
   -moz-box-sizing: content-box;
 }
 
-/* line 206, ../sass/_tutorial.scss */
+/* line 202, ../sass/_tutorial.scss */
 .enjoyhint_next_btn, .enjoyhint_quit {
   position: absolute;
   box-sizing: content-box;
@@ -10024,12 +10020,12 @@ button.close {
   font-size: 22px;
   padding: 5px 10px 0;
 }
-/* line 222, ../sass/_tutorial.scss */
+/* line 218, ../sass/_tutorial.scss */
 .enjoyhint_next_btn:hover, .enjoyhint_quit:hover {
   color: #000000;
   background: #ffffff;
 }
-/* line 227, ../sass/_tutorial.scss */
+/* line 223, ../sass/_tutorial.scss */
 .enjoyhint_next_btn:active, .enjoyhint_quit:active {
   border: 3px solid #ffffff;
   background: #ffffff;
@@ -10039,7 +10035,7 @@ button.close {
   transition: none;
 }
 
-/* line 237, ../sass/_tutorial.scss */
+/* line 233, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn {
   box-sizing: content-box;
   border: 3px solid #ffffff;
@@ -10055,12 +10051,12 @@ button.close {
   font-size: 22px;
   padding: 5px 10px 0;
 }
-/* line 252, ../sass/_tutorial.scss */
+/* line 248, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn:hover {
   color: #000000;
   background: #ffffff;
 }
-/* line 257, ../sass/_tutorial.scss */
+/* line 253, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn:active {
   border: 3px solid #ffffff;
   background: #ffffff;
@@ -10070,7 +10066,7 @@ button.close {
   transition: none;
 }
 
-/* line 267, ../sass/_tutorial.scss */
+/* line 263, ../sass/_tutorial.scss */
 .enjoyhint_close_btn {
   display: inline-block;
   position: absolute;
@@ -10088,7 +10084,7 @@ button.close {
   background: transparent;
   border: 3px solid #ffffff;
 }
-/* line 282, ../sass/_tutorial.scss */
+/* line 278, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:after {
   -webkit-box-sizing: content-box;
   width: 73%;
@@ -10112,7 +10108,7 @@ button.close {
   -webkit-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
 }
-/* line 304, ../sass/_tutorial.scss */
+/* line 300, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:before {
   -webkit-box-sizing: content-box;
   width: 73%;
@@ -10136,13 +10132,13 @@ button.close {
   -webkit-transform: rotateZ(45deg);
   transform: rotateZ(45deg);
 }
-/* line 326, ../sass/_tutorial.scss */
+/* line 322, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:hover {
   color: white;
   background: #ffffff;
   cursor: pointer;
 }
-/* line 332, ../sass/_tutorial.scss */
+/* line 328, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:active {
   border: 3px solid #ffffff;
   background: #ffffff;
@@ -10152,7 +10148,7 @@ button.close {
   transition: none;
 }
 
-/* line 342, ../sass/_tutorial.scss */
+/* line 338, ../sass/_tutorial.scss */
 .enjoyhint_btn {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -10179,12 +10175,12 @@ button.close {
   -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
 }
-/* line 366, ../sass/_tutorial.scss */
+/* line 362, ../sass/_tutorial.scss */
 .enjoyhint_btn:hover {
   color: #000000;
   background: #ffffff;
 }
-/* line 371, ../sass/_tutorial.scss */
+/* line 367, ../sass/_tutorial.scss */
 .enjoyhint_btn:active {
   border: 3px solid #ffffff;
   background: #ffffff;
@@ -10194,7 +10190,7 @@ button.close {
   transition: none;
 }
 
-/* line 382, ../sass/_tutorial.scss */
+/* line 378, ../sass/_tutorial.scss */
 #kinetic_container,
 .enjoyhint_canvas,
 .enjoyhint_svg_wrapper,
@@ -10204,25 +10200,25 @@ button.close {
   position: absolute;
 }
 
-/* line 391, ../sass/_tutorial.scss */
+/* line 387, ../sass/_tutorial.scss */
 .enjoyhint div.canvas-container {
   position: absolute;
 }
 
-/* line 395, ../sass/_tutorial.scss */
+/* line 391, ../sass/_tutorial.scss */
 .enjoyhint_canvas {
   z-index: 100;
   pointer-events: none;
 }
 
-/* line 400, ../sass/_tutorial.scss */
+/* line 396, ../sass/_tutorial.scss */
 #kinetic_container {
   pointer-events: none;
   top: 0;
   left: 0;
 }
 
-/* line 406, ../sass/_tutorial.scss */
+/* line 402, ../sass/_tutorial.scss */
 .enjoyhint_svg_wrapper {
   top: 0;
   left: 0;
@@ -10231,19 +10227,19 @@ button.close {
   -moz-transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
-/* line 414, ../sass/_tutorial.scss */
+/* line 410, ../sass/_tutorial.scss */
 .enjoyhint_svg_wrapper svg {
   top: 0;
   left: 0;
 }
 
-/* line 420, ../sass/_tutorial.scss */
+/* line 416, ../sass/_tutorial.scss */
 .enjoyhint_svg_transparent .enjoy_hint_label,
 .enjoyhint_svg_transparent .enjoyhint_svg_wrapper {
   opacity: 0;
 }
 
-/* line 425, ../sass/_tutorial.scss */
+/* line 421, ../sass/_tutorial.scss */
 .enjoy_hint_label {
   position: absolute;
   color: #ffffff;
@@ -10261,17 +10257,17 @@ button.close {
   max-width: 80%;
 }
 
-/* line 440, ../sass/_tutorial.scss */
+/* line 436, ../sass/_tutorial.scss */
 div.kineticjs-content {
   position: absolute !important;
 }
 
-/* line 444, ../sass/_tutorial.scss */
+/* line 440, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn {
   position: fixed;
 }
 
-/* line 448, ../sass/_tutorial.scss */
+/* line 444, ../sass/_tutorial.scss */
 .enjoyhint_quit {
   width: auto;
 }
@@ -10714,6 +10710,7 @@ div.kineticjs-content {
   width: 100%;
   height: 100%;
   background: #212121;
+  background-image: url(/img/dl.png);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -10807,13 +10804,19 @@ circle#popcorncircle {
   margin: 0 auto;
   width: 65%;
 }
-/* line 97, ../sass/_preload.scss */
+@media (max-width: 768px) {
+  /* line 92, ../sass/_preload.scss */
+  .tr__preload__logo img {
+    width: 90%;
+  }
+}
+/* line 101, ../sass/_preload.scss */
 .loading .tr__preload__logo {
   opacity: 1;
   -webkit-animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
   animation: animInitialHeader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
 }
-/* line 103, ../sass/_preload.scss */
+/* line 107, ../sass/_preload.scss */
 .loaded .tr__preload__logo {
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
@@ -10822,7 +10825,7 @@ circle#popcorncircle {
   opacity: 1;
 }
 
-/* line 113, ../sass/_preload.scss */
+/* line 117, ../sass/_preload.scss */
 .tr__main__container {
   overflow: hidden;
   margin: 0 auto;
@@ -11351,7 +11354,7 @@ circle#popcorncircle {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   /* line 132, ../sass/_original_main.scss */
   .tr__bookcover__para {
     font-size: 18px;

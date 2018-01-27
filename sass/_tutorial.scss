@@ -129,14 +129,10 @@
 .tr__tutorial__sourcelink {
     @include tilli-normal;
     font-size: 22px;
-    color: $lara_highlight;
-
-    .dark & {
-        color: $sam_highlight;
-    }
+    color: $anthrazit;
 
     &:hover {
-        color: $white;
+        color: $anthrazit;
     }
 }
 

@@ -45,8 +45,10 @@ $(window).load(function () {
 
     preloadPictures(["/img/story/carkiss_no_notify.jpg", "/img/story/carkiss_yes_notify.jpg", "/img/story/carkiss_no_preset.jpg", "/img/story/carkiss_yes_preset.jpg", "/img/story/carsnuggle.jpg", "/img/story/carsnuggle_pola.jpg", "/img/story/lara_landscape_pola.jpg", "/img/story/lara_landscape.jpg", "/img/story/carkiss_yes.gif", "/img/story/carkiss_no.gif"], function () {
 
-        initSM();
-        initSMheader();
+        if (!Modernizr.touch) {
+            initSM();
+            initSMheader();
+        }
 
         setTimeout(function () {
             $('.tr__preload__loader__inner, .tr__preload__loader__para').fadeOut(1000);

@@ -14,7 +14,7 @@ var enjoyhint_script_steps = [
         showSkip: false
     },
     {
-        "next .tr__themeswitch": "This is the switch to change colorthemes.<br> Depending if you'd rather read on a light background or dark background, you can adjust it any time.",
+        "next .tr__themeswitch": "This is the switch to change color themes, depending on if you'd rather read on a light or dark background.<br>You can adjust it at any time.",
         showSkip: false
     },
     {
@@ -40,12 +40,12 @@ var enjoyhint_script_steps = [
         margin: 15
     },
     {
-        "next .tr__movie__wrapper": 'Moviebox alike elements can also be clicked.',
+        "next .tr__movie__wrapper": 'Moviebox alike elements can also be clicked.<br>They represent gifs.',
         showSkip: false,
         margin: 15
     },
     {
-        "next .tr__question": 'For every decision there will be a question. Think careful.',
+        "next .tr__question": 'For every decision there will be a question. <br>Think carefully.',
         showSkip: false
     },
     {
