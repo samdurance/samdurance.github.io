@@ -1,15 +1,10 @@
 #***Story**#
-Gifs mobile ausnahme
-Preloader performance mobile check --> SMinit function
-Responsive
-Footer Copyright
+Mobile Logo FM
 Buttons GA tracken
+Copyright footer click?
 
 
 #**Tutorial***#
-Texte tuto
-Responsive
-Copyright lightbox
 
 
 #**Index**#

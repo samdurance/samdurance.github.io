@@ -68,6 +68,7 @@ $(window).load(function () {
 //Start story, switching layout
 $(document).on('click', '#start', function (e) {
     $('.tr__preload__overlay').addClass('layout-switch');
+    $('.tr__story__inner').addClass('started');
 });
 
 

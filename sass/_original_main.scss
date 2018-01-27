@@ -11,6 +11,16 @@
     }
 }
 
+.tr__story__inner {
+    &.started {
+        padding-bottom: 55px;
+
+        @media (max-width: $screen-phone) {
+            padding-bottom: 35px;
+        }
+    }
+}
+
 .tr__headline--large {
     font-size: 42px;
     margin-top: 0;
@@ -21,10 +31,14 @@
     .dark & {
         color: $sam_text;
     }
-    
-     @media (max-width: $screen-phone) {
-         font-size: 30px;
+
+    @media (max-width: $screen-phone) {
+        font-size: 30px;
     }
+}
+
+.tr__headline--inverted {
+    color: $white;
 }
 
 .tr__para {
@@ -32,6 +46,10 @@
     line-height: 1.5;
     margin: 15px 0;
     @include tilli-normal;
+}
+
+.tr__para--inverted {
+    color: $white;
 }
 
 .tr__btn {
@@ -60,6 +78,22 @@
     width: 100%;
     border-top: 1px solid $white;
     padding: 15px 0 10px;
+
+    .tr__story & {
+        border: 0;
+        position: fixed;
+        background: $lara_quote;
+        z-index: -1;
+        text-align: center;
+
+        @media (max-width: $screen-phone) {
+            padding: 10px 0 0;
+        }
+    }
+
+    .tr__story.dark & {
+        background: $sam_quote;
+    }
 }
 
 .tr__copyright__para {
@@ -67,6 +101,10 @@
     @include tilli-semibold;
     font-size: 14px;
     text-transform: uppercase;
+
+    @media (max-width: $screen-phone) {
+        font-size: 10px;
+    }
 
     a {
         color: $white;
@@ -320,6 +358,15 @@
     border: 1px solid $lara_highlight;
     position: relative;
 
+    @media (min-width: $screen-phone) and (max-width: $screen-tablet) {
+        width: 80%;
+    }
+
+    @media (max-width: $screen-phone) {
+        width: 90%;
+          padding: 20px 15px;
+    }
+
     .dark & {
         border: 1px solid $sam_highlight;
     }
@@ -339,6 +386,13 @@
             color: $sam_highlight;
             background: $sam_quote;
         }
+
+        @media (max-width: $screen-phone) {
+            font-size: 30px;
+            left: -10px;
+            top: -45px;
+              padding: 10px;
+        }
     }
 
     &:after {
@@ -356,6 +410,13 @@
             color: $sam_highlight;
             background: $sam_quote;
         }
+
+        @media (max-width: $screen-phone) {
+            font-size: 30px;
+            right: -10px;
+            bottom: -45px;
+              padding: 10px;
+        }
     }
 }
 
@@ -370,6 +431,14 @@
     left: 20px;
     z-index: 1;
     top: -35px;
+
+    @media (min-width: $screen-phone) and (max-width: $screen-tablet) {
+        top: -10px;
+    }
+    
+      @media (max-width: $screen-phone) {
+          top: 0;
+    }
 
     .angled-both-right-left & {
         right: 20px;
@@ -388,9 +457,30 @@
     line-height: 40px;
     @include tilli-bold-italic;
 
+
+    @media (min-width: $screen-phone) and (max-width: $screen-tablet) {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    @media (max-width: $screen-phone) {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
     .thanks & {
         font-size: 23px;
         line-height: 33px;
+
+        @media (min-width: $screen-phone) and (max-width: $screen-tablet) {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        @media (max-width: $screen-phone) {
+            font-size: 16px;
+            line-height: 20px;
+        }
 
         a {
             text-decoration: underline;
@@ -457,6 +547,11 @@
         transform: rotate(-3deg);
         box-shadow: -8px 13px 20px 0 $black;
 
+
+        @media (min-width: $screen-phone) and (max-width: $screen-desktop) {
+            margin: 30px 40px 30px -5px;
+        }
+
         @media (max-width: $screen-phone) {
             margin: 0 0 20px;
             -webkit-transform: rotate(0deg);
@@ -475,6 +570,10 @@
         -o-transform: rotate(3deg);
         transform: rotate(3deg);
         float: right;
+
+        @media (min-width: $screen-phone) and (max-width: $screen-desktop) {
+            margin: 30px -5px 30px 40px;
+        }
 
         @media (max-width: $screen-phone) {
             margin: 0 0 20px;
@@ -507,43 +606,43 @@
     }
 
 
-&.left {
-    margin: 30px 50px 30px -20px;
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    transform: rotate(-3deg);
-    box-shadow: -8px 13px 20px 0 $black;
+    &.left {
+        margin: 30px 50px 30px -20px;
+        -webkit-transform: rotate(-3deg);
+        -moz-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        -o-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+        box-shadow: -8px 13px 20px 0 $black;
 
-    @media (max-width: $screen-phone) {
-        margin: 0 0 20px;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
+        @media (max-width: $screen-phone) {
+            margin: 0 0 20px;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
     }
-}
 
-&.right {
-    margin: 30px -20px 30px 50px;
-    -webkit-transform: rotate(3deg);
-    -moz-transform: rotate(3deg);
-    -ms-transform: rotate(3deg);
-    -o-transform: rotate(3deg);
-    transform: rotate(3deg);
-    float: right;
+    &.right {
+        margin: 30px -20px 30px 50px;
+        -webkit-transform: rotate(3deg);
+        -moz-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+        -o-transform: rotate(3deg);
+        transform: rotate(3deg);
+        float: right;
 
-    @media (max-width: $screen-phone) {
-        margin: 0 0 20px;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
+        @media (max-width: $screen-phone) {
+            margin: 0 0 20px;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
     }
-}
 
 }
 

@@ -14,7 +14,7 @@ var enjoyhint_script_steps = [
         showSkip: false
     },
     {
-        "next .tr__themeswitch": "This is the switch to change color themes, depending on if you'd rather read on a light or dark background.<br>You can adjust it at any time.",
+        "next .tr__themeswitch": "This is the switch to change color themes,<br> depending on if you'd rather read on a light or dark background.<br>You can adjust it at any time.",
         showSkip: false
     },
     {
@@ -31,7 +31,7 @@ var enjoyhint_script_steps = [
         showSkip: false
     },
     {
-        "next .story": "If you're stuck or want to restart the story, you click here.",
+        "next .story": "If you're stuck or want to restart the story, click here.",
         showSkip: false
     },
     {

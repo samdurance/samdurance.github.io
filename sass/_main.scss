@@ -1,0 +1,50 @@
+.tr__index__header__overlay {
+    position: absolute;
+        width: 100%;
+        height:100%;
+        background-image: url(../img/overlay.png);
+        background-attachment: fixed;
+        background-repeat: repeat;
+        background-size: 2px 2px;
+ background-color: rgba(0,0,0,0.1);
+        top: 0;
+        left: 0;
+        z-index: 0;
+
+}
+
+
+
+.tr__index__header{
+ display: table;
+        width: 100%;
+        height: 100vh;
+        padding: 100px 0;
+        text-align: center;
+        color: white;
+            background: url(../img/header.jpg) no-repeat;
+            background-color: black;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+            background-position: center;
+}
+
+.tr__index__header__logo {}
+
+.tr__index__header__para {
+    
+    @import tilli-normal;
+        font-size: 30px;
+    line-height: 35px;
+        margin: 10px 0;
+
+      
+    
+}
+
+
+
+
+.tr__index__update {}

@@ -105,5 +105,10 @@
     a {
         margin: 0 0 30px;
         font-size: 20px;
+        
+          @media (max-width: $screen-phone) {
+              margin: 0;
+              font-size: 18px;
+        }
     }
 }
