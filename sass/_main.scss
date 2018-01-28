@@ -113,6 +113,10 @@
     .tr__index & {
         z-index: 1;
         text-align: center;
+        
+         @media (max-width: $screen-phone) {
+             position: relative;
+        }
     }
 }
 
@@ -121,6 +125,7 @@
     @include tilli-semibold;
     font-size: 14px;
     text-transform: uppercase;
+    margin-bottom: 5px;
 
     @media (max-width: $screen-phone) {
         font-size: 10px;
@@ -141,6 +146,13 @@
     color: $white;
     @include tilli-normal;
     font-size: 11px;
+    max-width: 770px;
+    margin: 0 auto;
+
+    @media (max-width: $screen-phone) {
+        padding: 0 10px 5px;
+        font-size: 9px;
+    }
 }
 
 
@@ -180,6 +192,14 @@
     width: 100%;
     left: 0;
     bottom: 20%;
+
+    img {
+        margin: 0 auto;
+    }
+
+    @media (max-width: $screen-phone) {
+        bottom: 15%;
+    }
 }
 
 .tr__index__header__para {
@@ -187,6 +207,11 @@
     font-size: 30px;
     line-height: 35px;
     margin: 10px 0;
+
+    @media (max-width: $screen-phone) {
+        font-size: 25px;
+        line-height: 30px;
+    }
 }
 
 
@@ -201,10 +226,15 @@
 
     &.first {
         padding: 50px 50px 120px;
+
+
+        @media (max-width: $screen-phone) {
+            padding: 50px 20px;
+        }
     }
 
     @media (max-width: $screen-phone) {
-        padding: 30px 20px;
+        padding: 50px 20px;
     }
 }
 
@@ -216,6 +246,11 @@
 
     &.second {
         height: 700px;
+
+        @media (max-width: $screen-phone) {
+            height: auto;
+            float: left;
+        }
     }
 }
 
@@ -231,13 +266,24 @@
 
     &.second {
         padding: 0 0 90px;
+
+        @media (max-width: $screen-phone) {
+            position: relative;
+            padding: 50px 0 0;
+            top: 0;
+            transform: none;
+        }
     }
 }
 
 .tr__index__section {
     margin: auto;
     max-width: 72em;
-        text-align: center;
+    text-align: center;
+
+    @media (max-width: $screen-phone) {
+        float: left;
+    }
 }
 
 .tr__index__link {
@@ -274,6 +320,11 @@
     font-size: 36px;
     display: block;
     width: 100%;
+
+    @media (max-width: $screen-phone) {
+        bottom: 14px;
+        font-size: 25px;
+    }
 }
 
 .tr__index__progressbar__subline {
@@ -315,9 +366,17 @@
 }
 
 .tr__index__contact__text {
-        margin-top: 90px;
+    margin-top: 90px;
+
+    @media (max-width: $screen-phone) {
+        margin: 0;
+    }
 }
 
 .tr__index__contact__iframe {
     margin-top: 20px;
+
+    @media (max-width: $screen-phone) {
+        margin: 20px 0;
+    }
 }

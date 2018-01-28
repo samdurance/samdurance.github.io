@@ -13,10 +13,14 @@
 
 .tr__story__inner {
     &.started {
-        padding-bottom: 55px;
+        padding-bottom: 75px;
 
-        @media (max-width: $screen-phone) {
-            padding-bottom: 35px;
+        @media (min-widht: 321px) and (max-width: $screen-phone) {
+            padding-bottom: 80px;
+        }
+        
+        @media (max-width: 320px) {
+        padding-bottom: 90px;
         }
     }
 }

@@ -35,6 +35,15 @@
         -o-transform: translateX(0%);
         transform: translateX(0%);
     }
+    
+    @media (max-width: $screen-phone) {
+        border: 0;
+    top: 0;
+    border-radius: 0;
+    height: 100%;
+    padding-right: 0;
+    padding-top: 100px;
+    }
 }
 
 
@@ -49,16 +58,28 @@
     &:hover {
          background: $lara_quote;
     }
+    
+     @media (max-width: $screen-phone) {
+        display: block;
+    width: 100%;
+    margin: 10px 0;
+    }
 }
 
 .tr__index__menu__item__link {
-        padding: 10px 20px;
+        padding: 7px 20px;
     display: block;
     text-decoration: none;
     color: $white;
     @include tilli-semibold;
+    font-size: 18px;
     
-    &:hover {
+     @media (max-width: $screen-phone) {
+         font-size: 20px;
+    }
+    
+    &:hover,
+    &:focus {
     color: $white;
         text-decoration: none;
     }

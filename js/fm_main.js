@@ -1,12 +1,16 @@
 $(document).ready(function () {
 
-    $("#tr__index__menu__toggle").click(function() {
+    $("#tr__index__menu__toggle").click(function (e) {
+        e.preventDefault();
         $('.tr__index__menu-wrapper').toggleClass("open-menu");
     });
+    
+    $("#startstory").click(function (e) {
+e.preventDefault();
+    });
 
-
-     // Global scroll with subnavi
-    var scrollSection = function(hash){
+    // Global scroll with subnavi
+    var scrollSection = function (hash) {
         $('html,body').animate({
             scrollTop: $(hash).offset().top
         }, 1500, 'easeInOutExpo');
@@ -15,7 +19,14 @@ $(document).ready(function () {
     $('.page-scroll').on('click', function (event) {
         event.preventDefault();
         var hash = $(this).attr('href');
-        scrollSection(hash);
+
+        if ($(window).width() < 480) {
+            $('.tr__index__menu-wrapper').removeClass('open-menu');
+            scrollSection(hash);
+        } else {
+
+            scrollSection(hash);
+        }
     });
 
 
@@ -85,19 +96,3 @@ $(document).ready(function () {
     });*/
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

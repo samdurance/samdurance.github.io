@@ -139,14 +139,14 @@
 .tr__tutorial__credit {
     position: absolute;
     right: -45px;
-    bottom: 7%;
+    bottom: 12%;
     transform: rotate(-90deg);
     transform-origin: bottom left;
     color: rgba(255, 255, 255, 0.3);
     font-size: 13px;
     
      @media (max-width: $screen-phone) {
-       bottom: 15%;
+       bottom: 20%;
     }
 }
 
