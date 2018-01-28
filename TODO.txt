@@ -12,9 +12,9 @@ Teaser btn verlinken
 
 
 #**Index**#
-Responsive
-Modal Tuto/Teaser style
+Modal Tuto/Teaser style/responsive
 Start btn rein/verlinken
+$('.tr__menubar').affix ausnahme 
 
 
 https://www.toptal.com/designers/subtlepatterns/
