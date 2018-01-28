@@ -2,14 +2,19 @@
 Mobile Logo FM
 Buttons GA tracken
 Copyright footer click?
+Modal responsive
+TR copyright
 
 
 #**Tutorial***#
+Btn function raus
+"this" page JC bubble
 
 
 #**Index**#
 New
 Responsive
+Modal Tuto/Teaser
 Footer Copyright
 Jaffabar update
 

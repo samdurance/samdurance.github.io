@@ -1,20 +1,28 @@
 // Index Menu
 /* ========================================================================== */
+.tr__index__menu-wrapper {
+    z-index: 2;
+    position: relative;
+}
+
 #tr__index__menu {
     text-transform: uppercase;
-    background: #4D5B65;
+    background: rgba($lara_highlight, 0.8);
     text-align: left;
     width: auto;
     display: inline-block;
     padding: 0;
     margin: 0 auto;
+    border: 3px solid rgba($lara_highlight, 0.8);
+    border-radius: 5px;
     -webkit-transform: translateX(100%);
     -moz-transform: translateX(100%);
     -o-transform: translateX(100%);
     transform: translateX(100%);
     position: fixed;
     right: 0;
-    padding-right: 5em;
+    top: 5%;
+    padding-right: 40px;
     -webkit-transition: all 700ms cubic-bezier(0.46, -0.85, 0, 0.79);
     -moz-transition: all 700ms cubic-bezier(0.46, -0.85, 0, 0.79);
     -o-transition: all 700ms cubic-bezier(0.46, -0.85, 0, 0.79);
@@ -36,31 +44,43 @@
     position: relative;
     float: left;
     text-align: center;
+    min-width: 100px;
+    
+    &:hover {
+         background: $lara_quote;
+    }
 }
 
 .tr__index__menu__item__link {
-    padding: 1em 1.2em;
+        padding: 10px 20px;
     display: block;
     text-decoration: none;
-    color: #333;
+    color: $white;
+    @include tilli-semibold;
+    
+    &:hover {
+    color: $white;
+        text-decoration: none;
+    }
 }
 
 
 #tr__index__menu__toggle {
     position: fixed;
-    padding: 1.1em;
-    color: rgba(0, 0, 0, 0);
+    padding: 12px 10px;
+    color: $white;
     right: 0;
-    height: 20px;
-    width: 30px;
-    background: #D1913C;
+    top: 5%;
+    height: 45px;
+    width: 45px;
+    background: $lara_highlight;
 }
 
 
 .tr__index__menu__icon-bar {
-    background: #fff;
+    background: $white;
     display: block;
-    width: 30px;
+    width: 25px;
     height: 2px;
     border-radius: 1px;
     margin-top: 4px;
@@ -72,7 +92,7 @@
 
     .open-menu & {
         position: absolute;
-        bottom: 26px;
+        bottom: 20px;
 
         &:first-child {
             opacity: 0;

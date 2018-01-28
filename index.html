@@ -1,273 +1,219 @@
 <!DOCTYPE html>
-<html class="tr__index" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:title" content="Family Matters - An interactive S.S. Endurance story" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ssendurance.github.io/" />
-        <meta property="og:image" content="https://ssendurance.github.io/img/og.jpg" />
-        <meta property="og:image:width" content="1280" />
-        <meta property="og:image:height" content="720" />
-        <meta property="og:site_name" content="Family Matters - An interactive S.S. Endurance story" />
-        <meta property="og:description" content="Lara loves her Sam dearly, but can she endure more than one Nishimura at a time? Find out and be part of a fluffy story with your favourite Tomb Raider! " />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta property="og:title" content="Family Matters - An interactive S.S. Endurance story" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ssendurance.github.io/" />
+    <meta property="og:image" content="https://ssendurance.github.io/img/og.jpg" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="720" />
+    <meta property="og:site_name" content="Family Matters - An interactive S.S. Endurance story" />
+    <meta property="og:description" content="Lara loves her Sam dearly, but can she endure more than one Nishimura at a time? Find out and be part of a fluffy story with your favourite Tomb Raider! " />
+    <link rel="shortcut icon" href="img/fav.ico">
+    <title>Family Matters - An interactive S.S. Endurance story</title>
 
-        <link rel="shortcut icon" href="img/fav.ico">
-        <title>Family Matters - An interactive S.S. Endurance story</title>
-        <link type="text/css" rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <script src="js/libs/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
 
-    </head>
+<body class="tr__index">
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" screen_capture_injected="true">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="tr__lightbox tr__lightbox--promptbox" id="promptbox">
+        <h2 class="tr__lightbox__headline">Restart Story</h2>
+        <p class="tr__lightbox__para">Are you sure you want to restart the story?</p>
+        <p class="tr__lightbox__para">All progress and decisions you've made so far will be lost. You will have to start over again.</p>
+
+        <div class="tr__lightbox__btn__wrapper">
+            <button class="tr__lightbox__btn">Tutorial</button>
+            <button class="tr__lightbox__btn ">Teaser</button>
+        </div>
+    </div>
+
+
+    <div class="tr__main__container">
+
+        <div class="tr__index__menu-wrapper">
+            <ul id="tr__index__menu">
+                <li class="tr__index__menu__item">
+                    <a class="tr__index__menu__item__link" href="/">Home</a>
+                </li>
+                <li class="tr__index__menu__item">
+                    <a class="tr__index__menu__item__link page-scroll" href="#about">About</a>
+                </li>
+                <li class="tr__index__menu__item">
+                    <a class="tr__index__menu__item__link page-scroll" href="#teaser">Teaser</a>
+                </li>
+                 <li class="tr__index__menu__item">
+                    <a class="tr__index__menu__item__link page-scroll" href="#update">Update</a>
+                </li>
+                <li class="tr__index__menu__item">
+                    <a class="tr__index__menu__item__link page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="#tr__index__menu" id="tr__index__menu__toggle">
+            <span class="tr__index__menu__icon-bar"></span>
+            <span class="tr__index__menu__icon-bar tr__index__menu__icon-right"></span>
+            <span class="tr__index__menu__icon-bar tr__index__menu__icon-left"></span>
+        </a>
+        </div>
+
+
+        <header class="tr__index__header">
+            <div class="tr__index__header__overlay"></div>
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                        <span class="fa fa-bars"></span>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">
-                        <span class="fa fa-hashtag"></span> Because <span class="light">Sam</span>
-                    </a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="navbar-collapse navbar-right navbar-main-collapse collapse" aria-expanded="false">
-                    <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden active">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li class="">
-                            <a class="page-scroll" href="#update">Update</a>
-                        </li>
-                        <li class="">
-                            <a class="page-scroll" href="#about">About</a>
-                        </li>
-                        <li class="">
-                            <a class="page-scroll" href="#play">Play</a>
-                        </li>
-                        <li class="">
-                            <a class="page-scroll" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
-
-        <!-- Intro Header -->
-        <header class="content-section intro">
-            <div class="content-body">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h1 class="brand-heading">Family Matters</h1>
-                            <h2 class="brand-subline">An interactive S.S. Endurance story</h2>
-                            <p class="intro-text">Be part of a fluffy story with your favourite Tomb Raider </p>
-                            <a href="#update" class="btn btn-circle page-scroll">
-                                <span class="fa fa-angle-double-down animated"></span>
-                            </a>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tr__index__header__inner">
+                        <img class="tr__index__header__logo" src="/img/logo_w.svg" alt="Family Matters Logo" />
+                        <p class="tr__index__header__para">Be part of a fluffy story with your favourite Tomb Raider </p>
                     </div>
                 </div>
-                <div class="gradient"></div>
             </div>
         </header>
 
-        <!-- Update Section -->
-        <section id="update" class="content-section update">
-            <div class="content-body">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h2>Update</h2>
-                            <p>
-                                Here you'll find the most recent updates on <br><strong>Family Matters</strong></p>
-                            
 
-                            <p>We're currently working on a <span class="green">Teaser</span>,<br> which we can hopefully release end of the month.</p>
-                            
-                            <p>Stay tuned and awesome!</p>
-                            
-                            <!--<p>
-                            <strong>Family Matters</strong> is temporary on hold while some other projects are tied up.<br>
-                                 <span class="green">Deberzer</span> is finishing up the second chapter of his awesome Salara fic 
-                                "<a href="https://archiveofourown.org/works/8559826" target="_blank">Worth it</a>" <br>
-                            </p><p>
-                                After that we'll get right back to it, so stay tuned.</p>-->
-                            
-                            
-                            <!--<ul class="update__list">
-                                <li><span class="green">&#9670;</span> Done with the planning <span class="green">&#9670;</span></li>
-                                <li><span class="green">&#9670;</span> Starting on chapter 1 <span class="green">&#9670;</span></li>
-                                <li><span class="green">&#9670;</span> 16 decisions <span class="green">&#9670;</span></li>
-                            </ul>-->
+        <div class="tr__index__contentblock first" id="about">
 
-                        </div>
-                    </div>
-                </div>
-                <div class="progressbar col-lg-12 col-md-12 col-sm-12 col-xs-12" id="trigger">
-                    <div class="progressbar__inner">
-                        <img class="img-responsive box" src="img/jaffabox.png" />
+            <div class="tr__index__section text-center">
 
-                        <div class="reveal visi">
-                            <img class="img-responsive cakes" src="img/jaffacakes.png" />
-                        </div>
-                        <span class="percent visi">35%</span>
-                    </div>
-                    <p class="subline">
-                        Check out the <span class="green">JaffaBar</span> regularly to see the overall process!
-                    </p>
-                    <div class="btn-wrapper">
-                        <a href="#about" class="btn-circle page-scroll">
-                            <span class="fa fa-angle-double-down animated"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="content-section about">
-            <div class="content-body">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h2>About</h2>
-                            <p>
-                                Sam's parents invited their daughter and her <span class="green">best friend</span> to visit them at one of their residences. <br> Lara loves her Sam dearly, but can she endure more than one Nishimura at a time?
-                            </p>
-                            <p>Find out in <strong>Family Matters</strong> - an interactive S.S. Endurance story</p>
-                            <p>
-                                Team <span class="green"><strong>#BecauseSam</strong></span> is a collaboration between 
-                                <a href="http://burritorat.tumblr.com/" target="_blank">burritorat</a> &
-                                <a href="http://deberzer.tumblr.com/" target="_blank">deberzer</a>, <br>
-                                two shippers in a war against canon.
-                            </p>
-                            <div class="btn-wrapper">
-                                <a href="#play" class="btn-circle page-scroll">
-                                    <span class="fa fa-angle-double-down animated"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Story Section -->
-        <section id="play" class="content-section story">
-            <div class="content-body">
-                <div class="overlay"></div>
-                <div class="gradient"></div>
-                <div class="gradient two"></div>
-                <div class="container text-center">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2>Play</h2>
-                        <p>Press Start and begin the interactive journey.<br> Think about your decicions wisely, consequences might wait around the corner!</p>
-                        <div class="btn-wrapper">
-                            <a id="startstory" href="#" class="btn-white" onClick="ga('send', 'event', 'Button', 'klick', 'StoryStart' ,1);">Coming Soon</a>
-                            <a href="#contact" class="btn-circle page-scroll">  
-                                <span class="fa fa-angle-double-down animated"></span>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="content-section contact">
-            <div class="content-body">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <div class="inner-wrapper">
-                                    <h2>Contact</h2>
-                                    <p>Curious? Or just excited to play? <br>
-                                        Leave a message in our JaffaBox or on Tumblr.<br>
-                                        We'll be happy to answer!</p>
-                                    <!--<ul class="list-inline banner-social-buttons">
-                                            <li>
-                                            <a href="#" class="btn-green">
-                                            <i class="fa fa-tumblr fa-fw"></i> <span class="network-name">Tumblr</span>
-                                            </a>
-                                            </li>
-                                            <li>
-                                            <a href="#" class="btn-green">
-                                            <i class="fa fa-book fa-fw"></i> <span class="network-name">AO³</span>
-                                            </a>
-                                            </li>
-                                            <li>
-                                            <a href="#" class="btn-green">
-                                            <i class="fa fa-book fa-fw"></i> <span class="network-name">Fanfiction.net</span>
-                                            </a>
-                                            </li>
-                                            </ul>-->
-                                </div>
-                                <div class="inner-wrapper">
-                                    <h2>Share</h2>
-                                    <p>Know other S.S. Endurance shippers? <br> Make sure to share this page with them!</p>
-                                    <div class="shariff" data-orientation="horizontal" data-services="[&quot;facebook&quot;,&quot;twitter&quot;]"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <iframe src="https://samendurance.ishoutbox.com" width="100%" height="450" frameborder="0" valign="middle" allowtransparency="true"></iframe>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer>
-            <div class="container text-center">
-                <p>
-                    &copy; 2018 #BecauseSam, <a href="http://burritorat.tumblr.com/" target="_blank">burritorat</a> &
-                    <a href="http://deberzer.tumblr.com/" target="_blank">deberzer</a>
+                <h2 class="tr__headline--large">About</h2>
+                <p class="tr__para">
+                    Sam's parents invited their daughter and her best friend to visit them at one of their residences. <br> Lara loves her Sam dearly, but can she endure more than one Nishimura at a time?
+                </p>
+                <p class="tr__para">
+                    Find out in <strong>Family Matters</strong> - an interactive S.S. Endurance story
+                </p>
+                <p class="tr__para">
+                    Team <strong>#BecauseSam</strong> is a collaboration between
+                    <a class="tr__index__link" href="http://burritorat.tumblr.com/" target="_blank">burritorat</a> &
+                    <a class="tr__index__link" href="https://twitter.com/deberzer" target="_blank">deberzer</a>, <br> two shippers in a war against canon.
+                </p>
+                <p class="tr__para">Special thanks to our beta <a class="tr__index__link" href="https://twitter.com/LiteraryMaxims" target="_blank">LiteraryMaxims</a>
                 </p>
             </div>
-        </footer>
-
-        <!-- JS -->
+        </div>
 
 
+        <div class="tr__index__slide angled-both-left-right" id="teaser">
 
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/shariff/1.24.1/shariff.min.js"></script>
-
-        <script type="application/javascript"src="js/fm_main.js"></script>
-
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-88183824-1', 'auto');
-            ga('send', 'pageview');
-
-        </script>
+            <div class="tr__index__slide__wrapper">
+                <div class="tr__index__section">
+                    <h2 class="tr__headline--inverted">Teaser</h2>
+                    <p class="tr__para--inverted">
+                        Press Start and begin the interactive journey.<br> Think about your decicions wisely, consequences might wait around the corner!
+                    </p>
+                    <div class="tr__index__btn-wrapper">
+<!--                        <a href="#" class="tr__btn--white" data-featherlight="#promptbox">Start</a>-->
+                        <!--<a id="startstory" href="#" class="tr__acbtn" data-url="#promptbox" onClick="ga('send', 'event', 'Button', 'klick', 'StoryStart' ,1);">Coming Soon</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
+        <div class="tr__index__contentblock" id="update">
+            <div class="tr__index__section text-center">
+                <h2 class="tr__headline--large">Update</h2>
 
-    </body>
+                <p class="tr__para">
+                    Here you'll find the most recent updates on <br>
+                    <strong>Family Matters</strong>
+                </p>
+                <p class="tr__para">
+                    We're currently working on a <strong>Teaser</strong>,<br> which we can hopefully release end of the month.
+                </p>
+                <p class="tr__para">Stay tuned and awesome!</p>
+
+                <div class="tr__index__progressbar">
+                    <div class="tr__index__progressbar__inner">
+                        <img class="img-responsive box" src="img/jaffabox.png" />
+
+                        <div class="tr__index__progressbar__reveal">
+                            <img class="img-responsive cakes" src="img/jaffacakes.png" />
+                        </div>
+                        <span class="tr__index__progressbar__percent">40%</span>
+                    </div>
+                    <p class="tr__para tr__index__progressbar__subline">
+                        Check out the <strong>JaffaBar</strong> regularly to see the overall process!
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tr__index__slide second angled-top-right" id="contact">
+
+            <div class="tr__index__slide__wrapper second">
+                <div class="tr__index__section">
+
+                    <h2 class="tr__headline--inverted">Contact</h2>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 tr__index__contact__text">
+                        <p class="tr__para--inverted">Curious? Excited to play? Feedback? <br> Leave a message in our JaffaBox, <a class="tr__index__link" href="http://burritorat.tumblr.com/" target="_blank">Tumblr</a> or <a class="tr__index__link" href="https://twitter.com/deberzer" target="_blank">Twitter</a>.<br> We'll be happy to answer!</p>
+                        <p class="tr__para--inverted">Know other S.S. Endurance shippers? <br> Make sure to share this page with them!</p>
+                        <div class="shariff" data-orientation="horizontal" data-services="[&quot;facebook&quot;,&quot;twitter&quot;]"></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 tr__index__contact__iframe">
+                        <iframe src="https://samendurance.ishoutbox.com" width="100%" height="450" frameborder="0" valign="middle" allowtransparency="true"></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tr__copyright">
+                <p class="tr__copyright__para">
+                    &copy; Family Matters, 2018 - #BecauseSam: <a href="http://burritorat.tumblr.com/" target="_blank">burritorat</a> &
+                    <a href="https://twitter.com/deberzer" target="_blank">deberzer</a>
+                </p>
+                <p class="tr__copyright__para--small">All publicly recognizable characters, settings, etc. are the property of their respective owners. The original characters and plot are the property of the author of this story. The author is in no way associated with the owners, creators, or producers of any previously copyrighted material. No copyright infringement is intended.</p>
+            </div>
+
+        </div>
 
 
 
+    </div>
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/shariff/1.24.1/shariff.min.js"></script>
+    <script type="application/javascript" src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" charset="utf-8"></script>
+
+    <script type="application/javascript" src="js/fm_main.js"></script>
+
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-88183824-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+</body>
 
 </html>
