@@ -9496,23 +9496,23 @@ button.close {
 }
 
 /* line 56, ../sass/_lightboxes.scss */
-.tr__ightboxl__btn {
+.tr__lightbox__btn {
   margin: 0 15px 20px;
 }
 /* line 60, ../sass/_lightboxes.scss */
-.tr__ightboxl__btn.alert {
+.tr__lightbox__btn.alert {
   background: #e5a87a;
   color: #111625;
   float: right;
 }
 /* line 65, ../sass/_lightboxes.scss */
-.dark .tr__ightboxl__btn.alert {
+.dark .tr__lightbox__btn.alert {
   color: #ebdac6;
   background: #7A4A60;
 }
 @media (max-width: 480px) {
   /* line 56, ../sass/_lightboxes.scss */
-  .tr__ightboxl__btn {
+  .tr__lightbox__btn {
     margin: 0 !important;
   }
 }
@@ -11948,7 +11948,7 @@ circle#popcorncircle {
 }
 
 /* line 1, ../sass/_squiffy-elements.scss */
-.squiffy-link, .tr__ightboxl__btn, .tr__btn, .tr__btn--white {
+.squiffy-link, .tr__lightbox__btn, .tr__btn, .tr__btn--white {
   color: #111625;
   font-size: 18px;
   padding: 10px;
@@ -11970,17 +11970,17 @@ circle#popcorncircle {
 }
 @media (max-width: 480px) {
   /* line 1, ../sass/_squiffy-elements.scss */
-  .squiffy-link, .tr__ightboxl__btn, .tr__btn, .tr__btn--white {
+  .squiffy-link, .tr__lightbox__btn, .tr__btn, .tr__btn--white {
     min-width: 120px;
   }
 }
 /* line 24, ../sass/_squiffy-elements.scss */
-.dark .squiffy-link, .dark .tr__ightboxl__btn, .dark .tr__btn, .dark .tr__btn--white {
+.dark .squiffy-link, .dark .tr__lightbox__btn, .dark .tr__btn, .dark .tr__btn--white {
   color: #ebdac6;
   border: 3px solid #ebdac6;
 }
 /* line 28, ../sass/_squiffy-elements.scss */
-.dark .squiffy-link:hover, .dark .tr__ightboxl__btn:hover, .dark .tr__btn:hover, .dark .tr__btn--white:hover, .dark .squiffy-link:focus, .dark .tr__ightboxl__btn:focus, .dark .tr__btn:focus, .dark .tr__btn--white:focus {
+.dark .squiffy-link:hover, .dark .tr__lightbox__btn:hover, .dark .tr__btn:hover, .dark .tr__btn--white:hover, .dark .squiffy-link:focus, .dark .tr__lightbox__btn:focus, .dark .tr__btn:focus, .dark .tr__btn--white:focus {
   outline: 0;
   text-decoration: none;
   color: #111625;
@@ -11988,19 +11988,19 @@ circle#popcorncircle {
   box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.3);
 }
 /* line 38, ../sass/_squiffy-elements.scss */
-.squiffy-link.first, .first.tr__ightboxl__btn, .first.tr__btn, .first.tr__btn--white {
+.squiffy-link.first, .first.tr__lightbox__btn, .first.tr__btn, .first.tr__btn--white {
   color: #ffffff;
   border: 3px solid #ffffff;
 }
 /* line 42, ../sass/_squiffy-elements.scss */
-.squiffy-link.first:hover, .first.tr__ightboxl__btn:hover, .first.tr__btn:hover, .first.tr__btn--white:hover, .squiffy-link.first:focus, .first.tr__ightboxl__btn:focus, .first.tr__btn:focus, .first.tr__btn--white:focus {
+.squiffy-link.first:hover, .first.tr__lightbox__btn:hover, .first.tr__btn:hover, .first.tr__btn--white:hover, .squiffy-link.first:focus, .first.tr__lightbox__btn:focus, .first.tr__btn:focus, .first.tr__btn--white:focus {
   outline: 0;
   background: #ffffff;
   color: #000000;
   border: 3px solid #ffffff;
 }
 /* line 51, ../sass/_squiffy-elements.scss */
-.squiffy-link:hover, .tr__ightboxl__btn:hover, .tr__btn:hover, .tr__btn--white:hover, .squiffy-link:focus, .tr__ightboxl__btn:focus, .tr__btn:focus, .tr__btn--white:focus {
+.squiffy-link:hover, .tr__lightbox__btn:hover, .tr__btn:hover, .tr__btn--white:hover, .squiffy-link:focus, .tr__lightbox__btn:focus, .tr__btn:focus, .tr__btn--white:focus {
   outline: 0;
   text-decoration: none;
   color: #ebdac6;
@@ -12008,12 +12008,12 @@ circle#popcorncircle {
   box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.3);
 }
 /* line 60, ../sass/_squiffy-elements.scss */
-.squiffy-link.invisible, .invisible.tr__ightboxl__btn, .invisible.tr__btn, .invisible.tr__btn--white {
+.squiffy-link.invisible, .invisible.tr__lightbox__btn, .invisible.tr__btn, .invisible.tr__btn--white {
   opacity: 0;
 }
 
 /* line 65, ../sass/_squiffy-elements.scss */
-.squiffy-link.disabled, .disabled.tr__ightboxl__btn, .disabled.tr__btn, .disabled.tr__btn--white {
+.squiffy-link.disabled, .disabled.tr__lightbox__btn, .disabled.tr__btn, .disabled.tr__btn--white {
   display: none;
 }
 
