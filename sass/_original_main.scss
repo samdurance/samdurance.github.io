@@ -90,6 +90,12 @@
     }
 }
 
+.tr__bookcover__para--mobile {
+    @extend .tr__bookcover__para;
+    margin: 0 auto 10px;
+    max-width: 250px;
+}
+
 .tr__bookcover__bcg {
     @extend .tr__bcg;
     background-image: url(../img/story/familyfodo_header.jpg);

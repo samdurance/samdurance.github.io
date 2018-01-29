@@ -1,12 +1,10 @@
 #***Story**#
-Mobile Logo FM
 Notifcation mobile chrome
 --Sonntag - Buttons GA tracken
 --Sonntag - gah zu teaser kopieren
 
 
 #**Tutorial***#
-"this" page JC bubble
 minify enjoyhints
 
 

@@ -614,10 +614,8 @@
         'introduction': {
             'text': "" +
                 "<div class=\"tr__introductionblock\">" +
-                "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">Start Teaser</a>" +
-                //"<p class=\"tr__introductionblock__para\">" +
-                //"written by deberzer <br> illustrated by burritorat" +
-                //"</p>" +
+            "<p class=\"tr__bookcover__para--mobile hidden-lg hidden-md hidden-sm\">An interactive S.S.Endurance story</p>" +    
+            "<a class=\"squiffy-link first link-section\" id=\"start\" data-section=\"start\" role=\"link\" tabindex=\"0\">Start Teaser</a>" +
                 "</div>"
         },
         'start': {
