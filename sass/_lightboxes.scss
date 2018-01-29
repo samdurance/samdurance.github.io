@@ -29,6 +29,11 @@
     line-height: 25px;
     @include tilli-normal;
 
+    @media (max-width: $screen-phone) {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
     .dark & {
         color: $sam_highlight;
     }
@@ -40,9 +45,15 @@
     left: 0;
     width: 100%;
     padding: 0 20px;
+
+    @media (max-width: $screen-phone) {
+        position: relative;
+        padding: 0;
+        margin: 30px 0 15px;
+    }
 }
 
-.tr__lightbox__btn {
+.tr__ightboxl__btn {
     @extend .squiffy-link;
     margin: 0 15px 20px;
 
@@ -56,83 +67,116 @@
             background: $sam_highlight;
         }
     }
-}
 
-.featherlight-reset {
-    display: none;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 20;
-    text-align: center;
-    white-space: nowrap;
-    cursor: pointer;
-
-    &:last-of-type {
-        background: rgba($white, .6);
-    }
-
-    &:before {
-        content: '';
-        display: inline-block;
-        height: 100%;
-        vertical-align: middle;
-        text-align: center;
-        white-space: nowrap;
-        cursor: pointer;
+    @media (max-width: $screen-phone) {
+        margin: 0 !important;
     }
 }
 
-.featherlight-reset-content {
-    position: relative;
-    text-align: left;
-    vertical-align: middle;
-    display: inline-block;
-    overflow: auto;
-    padding: 0 25px;
-    border-bottom: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-    max-height: 95%;
-    background: $lara_quote;
-    cursor: auto;
-    white-space: normal;
-    border-radius: 10px;
+.tr__lightbox__link {
+    @include tilli-normal;
+    font-size: 22px;
+    color: $lara_highlight;
+
+    &:hover {
+        color: $lara_text;
+    }
 
     .dark & {
-        background: $sam_quote;
+        color: $sam_highlight;
+
+        &:hover {
+            color: $sam_text;
+        }
     }
-
 }
 
-.featherlight-reset-close-icon {
-    position: absolute;
-    z-index: 9999;
-    top: 5px;
-    right: 10px;
-    line-height: 25px;
-    font-size: 25px;
-    cursor: pointer;
-    text-align: center;
-    color: $white;
-    background: transparent;
-    border: 0;
-    padding: 0;
+
+/* ========================================================================== */
+// Featherlight Overwrites
+
+
+.featherlight-close-icon {
+
+    .sources &,
+    .restart & {
+        position: absolute;
+        z-index: 9999;
+        top: 5px;
+        right: 10px;
+        line-height: 25px;
+        font-size: 25px;
+        cursor: pointer;
+        text-align: center;
+        color: $white;
+        background: transparent;
+        border: 0;
+        padding: 0;
+    }
 }
 
-.featherlight-credit-content {
-background: $lara_quote;
+
+.featherlight-content {
+
+    .sources &,
+    .restart & {
+        position: relative;
+        text-align: left;
+        vertical-align: middle;
+        display: inline-block;
+        overflow: auto;
+        padding: 0 25px;
+        border-bottom: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-height: 95%;
+        background: $lara_quote;
+        cursor: auto;
+        white-space: normal;
+        border-radius: 10px;
+
+        .dark & {
+            background: $sam_quote;
+        }
+
+        @media (max-width: $screen-phone) {
+            width: 100%;
+            margin: 0;
+            max-height: 100%;
+            padding: 0 0 15px;
+        }
+    }
 }
+
 
 .featherlight-inner {
 
-    &.tr__lightbox--restartbox {
+
+    .restart & {
         width: 500px;
         height: 250px;
         padding: 0 35px;
+
+        @media (max-width: $screen-phone) {
+            width: 100%;
+            height: auto;
+        }
     }
-    
-  
+
+
+    .sources & {
+        width: 350px;
+        height: 200px;
+        padding: 0 35px;
+
+        @media (max-width: $screen-phone) {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+.featherlight-credit-content {
+    background: $lara_quote;
 }

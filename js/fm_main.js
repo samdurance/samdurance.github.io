@@ -1,12 +1,13 @@
 $(document).ready(function () {
 
+    //Index Menu toggle
     $("#tr__index__menu__toggle").click(function (e) {
         e.preventDefault();
         $('.tr__index__menu-wrapper').toggleClass("open-menu");
     });
-    
+
     $("#startstory").click(function (e) {
-e.preventDefault();
+        e.preventDefault();
     });
 
     // Global scroll with subnavi
@@ -24,30 +25,31 @@ e.preventDefault();
             $('.tr__index__menu-wrapper').removeClass('open-menu');
             scrollSection(hash);
         } else {
-
             scrollSection(hash);
         }
     });
 
 
     //Affix for Menu story
-    $('.tr__menubar').affix({
-        offset: {
-            top: $('.tr__menubar').offset().top
-        }
-    });
+    if(!$('body').hasClass('tr__index')) {
+        $('.tr__menubar').affix({
+            offset: {
+                top: $('.tr__menubar').offset().top
+            }
+        });
+    }
 
 
     //Lightbox call for reset story
-    $('.tr__acbtn').featherlight({
-        targetAttr: 'data-url',
-        resetCss: true,
-        closeOnEsc: true,
-        closeIcon: '<span class="fa fa-times"></span>',
-        afterClose: function (e) {
-            $('.squiffy-section').removeClass('blur');
-        }
-    });
+    //$('.tr__acbtn').featherlight({
+    //    targetAttr: 'data-url',
+    //    resetCss: true,
+    //    closeOnEsc: true,
+    //    closeIcon: '<span class="fa fa-times"></span>',
+    //    afterClose: function (e) {
+    //        $('.squiffy-section').removeClass('blur');
+    //    }
+    //});
 
 
     //Menu story
@@ -69,30 +71,5 @@ e.preventDefault();
     $(".tr__themeswitch").on("click", function () {
         $('body').toggleClass('dark');
     });
-
-
-    //BacktoTop btn
-    /*var back_to_top_button = ['<a href="#top" class="back-to-top">' +
-    '<span class="fa fa-chevron-circle-up"></span></a>'].join("");
-    $("body").append(back_to_top_button)
-
-    $(".back-to-top").hide();
-
-    $(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) { // Wenn 100 Pixel gescrolled wurde
-                $('.back-to-top').fadeIn();
-            } else {
-                $('.back-to-top').fadeOut();
-            }
-        });
-
-        $('.back-to-top').click(function () { // Klick auf den Button
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
-    });*/
 
 });

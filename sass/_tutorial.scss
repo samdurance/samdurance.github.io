@@ -126,16 +126,6 @@
     }
 }
 
-.tr__tutorial__sourcelink {
-    @include tilli-normal;
-    font-size: 22px;
-    color: $anthrazit;
-
-    &:hover {
-        color: $anthrazit;
-    }
-}
-
 .tr__tutorial__credit {
     position: absolute;
     right: -45px;
@@ -144,6 +134,10 @@
     transform-origin: bottom left;
     color: rgba(255, 255, 255, 0.3);
     font-size: 13px;
+
+     &:hover {
+         color: rgba(255, 255, 255, 0.3);
+     }
     
      @media (max-width: $screen-phone) {
        bottom: 20%;

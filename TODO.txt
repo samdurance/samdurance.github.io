@@ -1,20 +1,19 @@
 #***Story**#
 Mobile Logo FM
-Buttons GA tracken
-Modal responsive
-gah zu teaser kopieren
+Notifcation mobile
+--Sonntag - Buttons GA tracken
+--Sonntag - gah zu teaser kopieren
 
 
 #**Tutorial***#
-Btn function raus
 "this" page JC bubble
-Teaser btn verlinken
+minify enjoyhints
 
 
 #**Index**#
 Modal Tuto/Teaser style/responsive
-Start btn rein/verlinken
-$('.tr__menubar').affix ausnahme 
+--Sonntag - Buttons Modal GA tracken
+--Sonntag - Start btn rein/verlinken
 
 
 https://www.toptal.com/designers/subtlepatterns/
