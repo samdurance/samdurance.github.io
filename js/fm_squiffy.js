@@ -751,8 +751,8 @@
 
                     "<div class=\"tr__btnwrap slideInUp \">" +
                     "<h2 class=\"tr__question\"><span class=\"fa fa-map-signs tr__icon\"></span>Kiss the girl?</h2>"+
-                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\">Yes</a>" +
-                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\">No</a>" +
+                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss yes\" role=\"link\" tabindex=\"0\" onClick=\"ga('send', 'event', 'Decisions', 'click', 'CarkissYes' ,1);\">Yes</a>" +
+                    "<a class=\"squiffy-link link-section\" data-section=\"Carkiss no\" role=\"link\" tabindex=\"0\" onClick=\"ga('send', 'event', 'Decisions', 'click', 'CarkissNo' ,1);\">No</a>" +
                     "</div>" +
 
                   "</div>" +

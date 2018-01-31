@@ -19,10 +19,6 @@ $(document).ready(function(){
             showSkip: false
         },
         {
-            "next .tr__themeswitch": "This is the switch to change color themes,<br> depending on if you'd rather read on a light or dark background.<br>You can adjust it at any time.",
-            showSkip: false
-        },
-        {
             "click .tr__menu": "This is the menu button. Click it!",
             showSkip: false
         },
@@ -33,6 +29,10 @@ $(document).ready(function(){
         },
         {
             "next .tuto": "This button will lead you to the tutorial page.",
+            showSkip: false
+        },
+        {
+            "next .tr__themeswitch": "This is the switch to change color themes,<br> depending on if you'd rather read on a light or dark background.<br>You can adjust it at any time.",
             showSkip: false
         },
         {

@@ -4,10 +4,6 @@ Notifcation mobile chrome
 --Sonntag - gah zu teaser kopieren
 
 
-#**Tutorial***#
-minify enjoyhints
-
-
 #**Index**#
 Modal Tuto/Teaser style/responsive
 --Sonntag - Buttons Modal GA tracken

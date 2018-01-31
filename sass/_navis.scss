@@ -35,14 +35,14 @@
         -o-transform: translateX(0%);
         transform: translateX(0%);
     }
-    
+
     @media (max-width: $screen-phone) {
         border: 0;
-    top: 0;
-    border-radius: 0;
-    height: 100%;
-    padding-right: 0;
-    padding-top: 100px;
+        top: 0;
+        border-radius: 0;
+        height: 100%;
+        padding-right: 0;
+        padding-top: 100px;
     }
 }
 
@@ -54,33 +54,33 @@
     float: left;
     text-align: center;
     min-width: 100px;
-    
+
     &:hover {
-         background: $lara_quote;
+        background: $lara_quote;
     }
-    
-     @media (max-width: $screen-phone) {
+
+    @media (max-width: $screen-phone) {
         display: block;
-    width: 100%;
-    margin: 10px 0;
+        width: 100%;
+        margin: 10px 0;
     }
 }
 
 .tr__index__menu__item__link {
-        padding: 7px 20px;
+    padding: 7px 20px;
     display: block;
     text-decoration: none;
     color: $white;
     @include tilli-semibold;
     font-size: 18px;
-    
-     @media (max-width: $screen-phone) {
-         font-size: 20px;
+
+    @media (max-width: $screen-phone) {
+        font-size: 20px;
     }
-    
+
     &:hover,
     &:focus {
-    color: $white;
+        color: $white;
         text-decoration: none;
     }
 }
@@ -150,53 +150,64 @@
 /* ========================================================================== */
 
 .tr__themeswitch {
-    width: 50px;
-    padding: 3px;
-    position: absolute;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-    cursor: pointer;
-    background: transparent;
-    border: 2px solid $lara_highlight;
 
-    .dark & {
-        border: 2px solid $sam_highlight;
+    &.switch {
+
+        .tr__icon {
+            &:before {
+                content:'\f185';
+                font-family: 'FontAwesome';
+            }
+        }
     }
-    
-    @media (max-width: $screen-phone) {
-        background: rgba(0,0,0,0.4);
-    }
+
+    //width: 50px;
+    //padding: 3px;
+    //position: absolute;
+    //-webkit-transition: all 0.3s;
+    //-moz-transition: all 0.3s;
+    //-ms-transition: all 0.3s;
+    //-o-transition: all 0.3s;
+    //transition: all 0.3s;
+    //-webkit-border-radius: 15px;
+    //-moz-border-radius: 15px;
+    //border-radius: 15px;
+    //cursor: pointer;
+    //background: transparent;
+    //border: 2px solid $lara_highlight;
+    //
+    //.dark & {
+    //    border: 2px solid $sam_highlight;
+    //}
+    //
+    //@media (max-width: $screen-phone) {
+    //    background: rgba(0,0,0,0.4);
+    //}
 }
 
 .tr__themeswitch__toggle {
-    width: 20px;
-    height: 20px;
-    background: $lara_highlight;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    position: relative;
-    left: 0;
-    -webkit-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
-    -moz-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
-    -ms-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
-    -o-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
-    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
-    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
-    -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
-
-
-    .dark & {
-        left: 20px;
-        background: $sam_highlight;
-    }
+    //width: 20px;
+    //height: 20px;
+    //background: $lara_highlight;
+    //-webkit-border-radius: 100%;
+    //-moz-border-radius: 100%;
+    //border-radius: 100%;
+    //position: relative;
+    //left: 0;
+    //-webkit-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    //-moz-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    //-ms-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    //-o-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    //transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    //-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+    //-moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+    //box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+    //
+    //
+    //.dark & {
+    //    left: 20px;
+    //    background: $sam_highlight;
+    //}
 }
 
 
@@ -205,12 +216,17 @@
 
 .tr__menubar {
     position: relative;
-    top: 20px;
+    top: 15px;
     width: 50px;
     float: right;
     right: 15px;
     z-index: 3;
     text-align: center;
+
+    @media (max-width: $screen-phone) {
+        top: 5px;
+        right: 5px;
+    }
 
     &.affix {
         position: fixed;
@@ -231,14 +247,14 @@
     -o-transition: 0.3s border-radius ease-in-out, 0.3s height ease-in-out;
     transition: 0.3s border-radius ease-in-out, 0.3s height ease-in-out;
     overflow: hidden;
-    top: 35px;
-    right: 2px;
+    top: 0px;
+    right: 0px;
 
     .dark & {
         border: 2px solid $sam_highlight;
     }
-    
-     @media (max-width: $screen-phone) {
+
+    @media (max-width: $screen-phone) {
         background: rgba(0,0,0,0.4);
     }
 }
@@ -248,7 +264,7 @@
 }
 
 .tr__menu--open {
-    height: 185px;
+    height: 230px;
 }
 
 .tr__menu__btn {

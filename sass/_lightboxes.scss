@@ -51,6 +51,10 @@
         padding: 0;
         margin: 30px 0 15px;
     }
+
+    .prompt & {
+        padding: 0 35px;
+    }
 }
 
 .tr__lightbox__btn {
@@ -98,6 +102,7 @@
 
 .featherlight-close-icon {
 
+    .prompt &,
     .sources &,
     .restart & {
         position: absolute;
@@ -118,6 +123,7 @@
 
 .featherlight-content {
 
+    .prompt &,
     .sources &,
     .restart & {
         position: relative;
@@ -151,7 +157,6 @@
 
 .featherlight-inner {
 
-
     .restart & {
         width: 500px;
         height: 250px;
@@ -163,7 +168,7 @@
         }
     }
 
-
+    .prompt &,
     .sources & {
         width: 350px;
         height: 200px;

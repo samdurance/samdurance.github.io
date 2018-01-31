@@ -68,7 +68,9 @@ $(document).ready(function () {
 
 
     //Themeswitch story
-    $(".tr__themeswitch").on("click", function () {
+    $(".tr__themeswitch").on("click", function (e) {
+        e.preventDefault();
+        $(this).toggleClass('switch');
         $('body').toggleClass('dark');
     });
 
