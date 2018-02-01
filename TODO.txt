@@ -1,13 +1,11 @@
 #***Story**#
 Notifcation mobile chrome
---Sonntag - Buttons GA tracken
---Sonntag - gah zu teaser kopieren
 
 
 #**Index**#
 Modal Tuto/Teaser style/responsive
---Sonntag - Buttons Modal GA tracken
 --Sonntag - Start btn rein/verlinken
+--Sonntag - OG Updaten
 
 
 https://www.toptal.com/designers/subtlepatterns/
