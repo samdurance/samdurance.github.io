@@ -70,8 +70,12 @@ $(document).ready(function () {
     //Themeswitch story
     $(".tr__themeswitch").on("click", function (e) {
         e.preventDefault();
-        $(this).toggleClass('switch');
-        $('body').toggleClass('dark');
+
+        if(!$(this).hasClass('tr__tutorial__menulink')){
+            $(this).toggleClass('switch');
+            $('body').toggleClass('dark');
+        }
+
     });
 
 });

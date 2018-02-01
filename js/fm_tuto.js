@@ -10,6 +10,10 @@ $(document).ready(function(){
                 1400,
                 "easeOutQuint"
             );
+
+            $('.tr__menu__tools a').each(function(e) {
+                $(this).removeClass('tr__tutorial__menulink');
+            });
         }
     });
 
@@ -66,8 +70,4 @@ $(document).ready(function(){
         enjoyhint_instance.run();
     });
 
-
-    $(".tr__tutorial__menulink").click(function (e) {
-        e.preventDefault();
-    });
 });

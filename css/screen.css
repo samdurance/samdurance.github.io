@@ -9988,8 +9988,13 @@ button.close {
   }
 }
 
+/* line 147, ../sass/_tutorial.scss */
+.tr__tutorial__menulink {
+  pointer-events: none;
+}
+
 /* ========================================================================== */
-/* line 151, ../sass/_tutorial.scss */
+/* line 155, ../sass/_tutorial.scss */
 .enjoyhint {
   position: fixed;
   width: 100%;
@@ -10001,12 +10006,12 @@ button.close {
   overflow: hidden;
 }
 
-/* line 162, ../sass/_tutorial.scss */
+/* line 166, ../sass/_tutorial.scss */
 .enjoyhint_hide {
   display: none;
 }
 
-/* line 166, ../sass/_tutorial.scss */
+/* line 170, ../sass/_tutorial.scss */
 .enjoyhint_disable_events {
   position: absolute;
   width: 2000px;
@@ -10015,7 +10020,7 @@ button.close {
   pointer-events: all;
 }
 
-/* line 174, ../sass/_tutorial.scss */
+/* line 178, ../sass/_tutorial.scss */
 .enjoyhint_next_btn, .enjoyhint_quit,
 .enjoyhint_skip_btn {
   -webkit-box-sizing: content-box;
@@ -10030,7 +10035,7 @@ button.close {
   text-align: center;
 }
 
-/* line 186, ../sass/_tutorial.scss */
+/* line 190, ../sass/_tutorial.scss */
 .enjoyhint_close_btn,
 .enjoyhint_next_btn,
 .enjoyhint_quit,
@@ -10042,7 +10047,7 @@ button.close {
   -moz-box-sizing: content-box;
 }
 
-/* line 196, ../sass/_tutorial.scss */
+/* line 200, ../sass/_tutorial.scss */
 .enjoyhint_next_btn, .enjoyhint_quit {
   position: absolute;
   box-sizing: content-box;
@@ -10059,12 +10064,12 @@ button.close {
   font-size: 22px;
   padding: 5px 10px 0;
 }
-/* line 212, ../sass/_tutorial.scss */
+/* line 216, ../sass/_tutorial.scss */
 .enjoyhint_next_btn:hover, .enjoyhint_quit:hover {
   color: #000000;
   background: #ffffff;
 }
-/* line 217, ../sass/_tutorial.scss */
+/* line 221, ../sass/_tutorial.scss */
 .enjoyhint_next_btn:active, .enjoyhint_quit:active {
   border: 3px solid #ffffff;
   background: #ffffff;
@@ -10074,7 +10079,7 @@ button.close {
   transition: none;
 }
 
-/* line 227, ../sass/_tutorial.scss */
+/* line 231, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn {
   box-sizing: content-box;
   border: 3px solid #ffffff;
@@ -10090,12 +10095,12 @@ button.close {
   font-size: 22px;
   padding: 5px 10px 0;
 }
-/* line 242, ../sass/_tutorial.scss */
+/* line 246, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn:hover {
   color: #000000;
   background: #ffffff;
 }
-/* line 247, ../sass/_tutorial.scss */
+/* line 251, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn:active {
   border: 3px solid #ffffff;
   background: #ffffff;
@@ -10105,7 +10110,7 @@ button.close {
   transition: none;
 }
 
-/* line 257, ../sass/_tutorial.scss */
+/* line 261, ../sass/_tutorial.scss */
 .enjoyhint_close_btn {
   display: inline-block;
   position: absolute;
@@ -10123,7 +10128,7 @@ button.close {
   background: transparent;
   border: 3px solid #ffffff;
 }
-/* line 272, ../sass/_tutorial.scss */
+/* line 276, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:after {
   -webkit-box-sizing: content-box;
   width: 73%;
@@ -10147,7 +10152,7 @@ button.close {
   -webkit-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
 }
-/* line 294, ../sass/_tutorial.scss */
+/* line 298, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:before {
   -webkit-box-sizing: content-box;
   width: 73%;
@@ -10171,13 +10176,13 @@ button.close {
   -webkit-transform: rotateZ(45deg);
   transform: rotateZ(45deg);
 }
-/* line 316, ../sass/_tutorial.scss */
+/* line 320, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:hover {
   color: white;
   background: #ffffff;
   cursor: pointer;
 }
-/* line 322, ../sass/_tutorial.scss */
+/* line 326, ../sass/_tutorial.scss */
 .enjoyhint_close_btn:active {
   border: 3px solid #ffffff;
   background: #ffffff;
@@ -10187,7 +10192,7 @@ button.close {
   transition: none;
 }
 
-/* line 332, ../sass/_tutorial.scss */
+/* line 336, ../sass/_tutorial.scss */
 .enjoyhint_btn {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -10214,12 +10219,12 @@ button.close {
   -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
   transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
 }
-/* line 356, ../sass/_tutorial.scss */
+/* line 360, ../sass/_tutorial.scss */
 .enjoyhint_btn:hover {
   color: #000000;
   background: #ffffff;
 }
-/* line 361, ../sass/_tutorial.scss */
+/* line 365, ../sass/_tutorial.scss */
 .enjoyhint_btn:active {
   border: 3px solid #ffffff;
   background: #ffffff;
@@ -10229,7 +10234,7 @@ button.close {
   transition: none;
 }
 
-/* line 372, ../sass/_tutorial.scss */
+/* line 376, ../sass/_tutorial.scss */
 #kinetic_container,
 .enjoyhint_canvas,
 .enjoyhint_svg_wrapper,
@@ -10239,25 +10244,25 @@ button.close {
   position: absolute;
 }
 
-/* line 381, ../sass/_tutorial.scss */
+/* line 385, ../sass/_tutorial.scss */
 .enjoyhint div.canvas-container {
   position: absolute;
 }
 
-/* line 385, ../sass/_tutorial.scss */
+/* line 389, ../sass/_tutorial.scss */
 .enjoyhint_canvas {
   z-index: 100;
   pointer-events: none;
 }
 
-/* line 390, ../sass/_tutorial.scss */
+/* line 394, ../sass/_tutorial.scss */
 #kinetic_container {
   pointer-events: none;
   top: 0;
   left: 0;
 }
 
-/* line 396, ../sass/_tutorial.scss */
+/* line 400, ../sass/_tutorial.scss */
 .enjoyhint_svg_wrapper {
   top: 0;
   left: 0;
@@ -10266,19 +10271,19 @@ button.close {
   -moz-transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   transition: opacity 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
-/* line 404, ../sass/_tutorial.scss */
+/* line 408, ../sass/_tutorial.scss */
 .enjoyhint_svg_wrapper svg {
   top: 0;
   left: 0;
 }
 
-/* line 410, ../sass/_tutorial.scss */
+/* line 414, ../sass/_tutorial.scss */
 .enjoyhint_svg_transparent .enjoy_hint_label,
 .enjoyhint_svg_transparent .enjoyhint_svg_wrapper {
   opacity: 0;
 }
 
-/* line 415, ../sass/_tutorial.scss */
+/* line 419, ../sass/_tutorial.scss */
 .enjoy_hint_label {
   position: absolute;
   color: #ffffff;
@@ -10296,17 +10301,17 @@ button.close {
   max-width: 80%;
 }
 
-/* line 430, ../sass/_tutorial.scss */
+/* line 434, ../sass/_tutorial.scss */
 div.kineticjs-content {
   position: absolute !important;
 }
 
-/* line 434, ../sass/_tutorial.scss */
+/* line 438, ../sass/_tutorial.scss */
 .enjoyhint_skip_btn {
   position: fixed;
 }
 
-/* line 438, ../sass/_tutorial.scss */
+/* line 442, ../sass/_tutorial.scss */
 .enjoyhint_quit {
   width: auto;
 }
