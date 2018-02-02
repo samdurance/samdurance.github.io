@@ -11276,7 +11276,7 @@ circle#popcorncircle {
 .tr__story__inner.started {
   padding-bottom: 75px;
 }
-@media (min-widht: 321px) and (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px) {
   /* line 15, ../sass/_original_main.scss */
   .tr__story__inner.started {
     padding-bottom: 80px;

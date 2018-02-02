@@ -15,7 +15,7 @@
     &.started {
         padding-bottom: 75px;
 
-        @media (min-widht: 321px) and (max-width: $screen-phone) {
+        @media (min-width: 321px) and (max-width: $screen-phone) {
             padding-bottom: 80px;
         }
         
