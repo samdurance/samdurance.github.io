@@ -21,6 +21,10 @@
     .dark & {
         color: $sam_highlight;
     }
+    
+     .prompt & {
+         color: $white;
+    }
 }
 
 .tr__lightbox__para {
@@ -36,6 +40,10 @@
 
     .dark & {
         color: $sam_highlight;
+    }
+    
+     .prompt & {
+    color: $white;
     }
 }
 
@@ -53,7 +61,8 @@
     }
 
     .prompt & {
-        padding: 0 35px;
+        padding: 0px;
+        text-align: center;
     }
 }
 
